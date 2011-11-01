@@ -1,59 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="OsTicket" basedir="upload">
-
-    <!-- Remove pear install -->
-    <target name="remove-pear">
-        <delete dir="${basedir}/lib"/>
-        <delete>
-            <fileset file="${basedir}/../pear"/>
-            <fileset file="${basedir}/../peardev"/>
-            <fileset file="${basedir}/../pecl"/>
-            <fileset file="${basedir}/../.pearrc"/>
-            <fileset file="${basedir}/../include-path.php"/>
-            <fileset file="${basedir}/../htaccess.dist"/>
-        </delete>
-    </target>
-
-    <!-- Install pear -->
-    <target name="install-pear">
-        <exec executable="./install-local-pear.sh" dir="${basedir}/.." failonerror="true" />
-    </target>
-
-    <!--  Install pear and add all channels and packages -->
-    <target name="prepare-pear">
-	<!-- Install pear -->
-        <antcall target="install-pear"/>
-
-	<!-- Add channels -->
-        <!--<exec executable="./pear" dir="${basedir}">
-            <arg line="channel-discover pear.phpunit.de"/>
-            <arg line="channel-discover pear.symfony-project.com"/>
-        </exec>-->
-
-	<!-- Install packages -->
-        <!--<exec executable="./pear" dir="${basedir}">
-            <arg line="install phpunit/PHPUnit"/>
-        </exec>-->
-
-        <!-- The script is called again to build links for all installed executables -->
-        <antcall target="install-pear"/>
-    </target>
+<project name="OsTicket" basedir=".">
 
     <!--Delete the build folder -->
     <target name="clean">
-        <delete dir="${basedir}/../deploy"/>
+        <delete dir="${basedir}/deploy"/>
     </target>
 
     <!--  Prepare the build folder -->
     <target name="prepare">
-        <mkdir dir="${basedir}/../deploy/osticket"/>
+        <mkdir dir="${basedir}/deploy/osticket"/>
     </target>
 
     <target name="gettext">
         <delete>
-            <fileset file="i18n/files.list"/>
+            <fileset file="upload/i18n/files.list"/>
         </delete>
-        <exec executable="find" output="i18n/files.list">
+        <exec executable="find" output="upload/i18n/files.list">
             <arg line=". -iname '*.php'"/>
         </exec>
         <exec executable="xgettext">
@@ -63,33 +25,23 @@
             --add-comments='TRANS'
             --copyright-holder='Alexandre Haguiar'
             --msgid-bugs-address='alexandrehaguiar@gmail.com'
-            --output='i18n/templates/i18n.pot'
-            -f i18n/files.list"/>
+            --output='upload/i18n/templates/i18n.pot'
+            -f upload/i18n/files.list"/>
         </exec>
         <delete>
-            <fileset file="i18n/files.list"/>
+            <fileset file="upload/i18n/files.list"/>
         </delete>
-    </target>
-
-    <target name="bzrexport">
-        <exec executable="bzr" dir="${basedir}" failonerror="true">
-            <arg line="export ${basedir}/../deploy/osticket"/>
-        </exec>
     </target>
 
     <target name="compress">
         <tstamp>
             <format property="today" pattern="MM-dd-yyyy" locale="en,UK"/>
         </tstamp>
-        <tar destfile="${basedir}/../deploy/osticket.tar"
-             basedir="${basedir}/../deploy/osticket"
-    />
-        <gzip src="${basedir}/../deploy/osticket.tar" destfile="${basedir}/../deploy/osticket-${today}.tar.gz"/>
-        <delete>
-            <fileset file="${basedir}/../deploy/osticket.tar"/>
-        </delete>
+        <exec executable="git" dir="${basedir}" failonerror="true">
+            <arg line="archive --format zip --output ${basedir}/deploy/osticket/osticket-${today}.zip master"/>
+        </exec>
     </target>
 
     <!-- Build default -->
-    <target name="build" depends="clean, prepare, gettext, bzrexport, compress"/>
+    <target name="build" depends="clean, prepare, gettext, compress"/>
 </project>
