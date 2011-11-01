@@ -1,0 +1,5066 @@
+# Italian translation for osticketplus
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the osticketplus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: osticketplus\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-11-23 10:26-0300\n"
+"PO-Revision-Date: 2011-07-12 02:28+0000\n"
+"Last-Translator: Daniele Lolli <Unknown>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-07-13 05:09+0000\n"
+"X-Generator: Launchpad (build 13168)\n"
+
+#: client.inc.php:17 include/ost-config.sample.php:20
+#: include/client/open.inc.php:2 include/client/tickets.inc.php:2
+#: include/client/login.inc.php:2 include/client/viewticket.inc.php:2
+#: include/client/thankyou.inc.php:2 include/staff/myprofile.inc.php:2
+#: include/staff/mypref.inc.php:2 include/ost-config.php:20 secure.inc.php:17
+msgid "Kwaheri rafiki!"
+msgstr "Arrivederci amici!"
+
+#: client.inc.php:37
+msgid "System is offline for an upgrade."
+msgstr "Il sistema &egrave; offline per un aggiornamento"
+
+#: tickets.php:19 include/client/viewticket.inc.php:4
+#: include/staff/staffmembers.inc.php:2 include/staff/newticket.inc.php:2
+#: include/staff/syslogs.inc.php:2 include/staff/attachment.inc.php:2
+#: include/staff/depts.inc.php:2 include/staff/header.inc.php:1
+#: include/staff/api.inc.php:2 include/staff/tickets.inc.php:2
+#: include/staff/editticket.inc.php:2 include/staff/reply.inc.php:2
+#: include/staff/template.inc.php:2 include/staff/banlist.inc.php:2
+#: include/staff/helptopics.inc.php:2 include/staff/email.inc.php:3
+#: include/staff/filters.inc.php:2 include/staff/viewticket.inc.php:4
+#: include/staff/topic.inc.php:2 include/staff/staff.inc.php:2
+#: include/staff/dept.inc.php:2 include/staff/templates.inc.php:2
+#: include/staff/premade.inc.php:3 include/staff/preference.inc.php:2
+#: include/staff/groups.inc.php:2 include/staff/group.inc.php:2
+#: include/staff/emails.inc.php:2 scp/kb.php:17 scp/login.php:59
+#: scp/attachment.php:28
+msgid "Access Denied"
+msgstr "Accesso negato"
+
+#: tickets.php:30 tickets.php:45
+msgid "Access Denied. Possibly invalid ticket ID"
+msgstr "Accesso negato. Forse ticket ID non valido"
+
+#: tickets.php:32
+msgid ""
+"Security violation. Repeated violations will result in your account being "
+"locked."
+msgstr ""
+"Violazione della sicurezza. Ripetute violazioni si tradurranno nel blocco "
+"dell'account."
+
+#: tickets.php:50 include/class.ticket.php:1168 scp/tickets.php:138
+msgid "Message required"
+msgstr "Richiesto messaggio"
+
+#: tickets.php:58
+#, php-format
+msgid "File is too big. Max %s bytes allowed"
+msgstr "File troppo grande. Max %s bytes"
+
+#: tickets.php:67
+msgid "Message Posted Successfully"
+msgstr "Messaggio inserito con successo"
+
+#: tickets.php:69
+msgid "Unable to post the message. Try again"
+msgstr "Impossibile inserire il messaggio. Riprovare di nuovo"
+
+#: tickets.php:72
+msgid "Error(s) occured. Please try again"
+msgstr "Si sono verificati errori. Si prega di riprovare"
+
+#: tickets.php:76 scp/profile.php:121
+msgid "Uknown action"
+msgstr "Azione sconosciuta"
+
+#: main.inc.php:78
+msgid "Error loading settings. Contact admin."
+msgstr ""
+"Errore nel caricamento delle impostazioni. Contattare l'amministratore."
+
+#: main.inc.php:146
+msgid "Unable to connect to the database"
+msgstr "Impossibile connettersi al database"
+
+#: main.inc.php:148
+msgid "Unable to load config info from DB. Get tech support."
+msgstr ""
+"Impossibile caricare le informazioni di configurazione da DB. Chiedere "
+"supporto tecnico."
+
+#: main.inc.php:150
+msgid "Short open tag disabled! - osTicket requires it turned ON."
+msgstr ""
+"Short open tag disabilitati! - osTicket richiede che siano abilitati."
+
+#: main.inc.php:155
+msgid "Fatal Error:"
+msgstr "Errore fatale:"
+
+#: main.inc.php:155
+msgid "Contact system adminstrator."
+msgstr "Contattare l'amministratore del sistema."
+
+#: setup/inc/install.inc.php:34
+msgid "System Language:"
+msgstr "Lingua del sistema"
+
+#: include/class.msgtpl.php:82 include/class.staff.php:256 scp/admin.php:74
+msgid "Internal Error"
+msgstr "Errore interno"
+
+#: include/class.msgtpl.php:83 include/class.ticket.php:1078
+#: include/class.ticket.php:1165
+msgid "Name required"
+msgstr "Inserire un nome"
+
+#: include/class.msgtpl.php:85 include/class.msgtpl.php:87
+#: include/class.msgtpl.php:89 include/class.msgtpl.php:91
+#: include/class.msgtpl.php:93 include/class.msgtpl.php:96
+#: include/class.msgtpl.php:98 include/class.msgtpl.php:100
+#: include/class.msgtpl.php:102 include/class.msgtpl.php:104
+#: include/class.ticket.php:1081 include/class.ticket.php:1167
+msgid "Subject required"
+msgstr "Inserire un oggetto"
+
+#: include/class.msgtpl.php:86 include/class.msgtpl.php:88
+#: include/class.msgtpl.php:90 include/class.msgtpl.php:92
+#: include/class.msgtpl.php:94 include/class.msgtpl.php:97
+#: include/class.msgtpl.php:99 include/class.msgtpl.php:101
+#: include/class.msgtpl.php:103 include/class.msgtpl.php:105
+msgid "Template message required"
+msgstr "Inserire un modello di messaggio"
+
+#: include/class.msgtpl.php:146
+msgid "Unable to update. Internal error occured"
+msgstr "Impossibile aggiornare. Errore interno"
+
+#: include/class.msgtpl.php:172
+msgid "Name already in use"
+msgstr "Nome gi&agrave; in uso"
+
+#: include/class.msgtpl.php:179 scp/admin.php:263
+msgid "Unknown template"
+msgstr "Modello sconosciuto"
+
+#: include/class.msgtpl.php:211
+msgid "Unable to create the template. Internal error occured"
+msgstr "Impossibile creare il modello. Errore interno"
+
+#: include/class.pagenate.php:76
+msgid "Showing"
+msgstr "Elenco"
+
+#: include/mysql.php:64
+msgid "DB Error #"
+msgstr "Errore DB #"
+
+#: include/class.topic.php:111
+msgid "Internal error. Try again"
+msgstr "Errore interno. Provare di nuovo"
+
+#: include/class.topic.php:114
+msgid "Help topic required"
+msgstr "Inserire argomento di aiuto"
+
+#: include/class.topic.php:116
+msgid "Topic is too short. 5 chars minimum"
+msgstr "L'argomento &egrave; troppo corto. Minimo 5 caratteri"
+
+#: include/class.topic.php:122
+msgid "Topic already exists"
+msgstr "L'argomento esiste gi&agrave;"
+
+#: include/class.topic.php:126
+msgid "You must select a department"
+msgstr "Selezionare un dipartimento"
+
+#: include/class.topic.php:129 include/class.email.php:281
+msgid "You must select a priority"
+msgstr "Selezionare una priorit&agrave;"
+
+#: include/class.topic.php:140
+msgid "Unable to update topic. Internal error occured"
+msgstr "Impossibile aggiornare l'argomento. Errore interno"
+
+#: include/class.topic.php:144 scp/admin.php:318
+msgid "Unable to create the topic. Internal error"
+msgstr "Impossibile creare un argomento. Errore interno"
+
+#: include/class.api.php:26
+msgid "API passphrase missing."
+msgstr "API passphrase mancante"
+
+#: include/class.api.php:29
+msgid "Valid IP required"
+msgstr "Richiesto un valido IP"
+
+#: include/class.api.php:31
+msgid "API key for the IP already exists"
+msgstr "La chiave API per questo IP esiste gi&agrave;"
+
+#: include/class.api.php:51
+msgid "Required"
+msgstr "Richiesto"
+
+#: include/class.api.php:53
+msgid "Must be at least 3 words long."
+msgstr "Deve essere lungo almeno 3 parole."
+
+#: include/class.api.php:55
+msgid "Already set"
+msgstr "Gi&agrave; configurato"
+
+#: include/class.config.php:458
+msgid "Helpdesk URl required"
+msgstr "Inserire un helpdesk URl"
+
+#: include/class.config.php:459
+msgid "Helpdesk title required"
+msgstr "Inserire un titolo helpdesk"
+
+#: include/class.config.php:460
+msgid "Default Dept. required"
+msgstr "Inserire il dipartimento predefinito"
+
+#: include/class.config.php:461
+msgid "Default email required"
+msgstr "Inserire l'email predefinita"
+
+#: include/class.config.php:462
+msgid "You must select template."
+msgstr "Selezionare modello"
+
+#: include/class.config.php:463 include/class.config.php:464
+msgid "Enter idle time in minutes"
+msgstr "Inserire il tempo di inattivit&agrave; in minuti"
+
+#: include/class.config.php:465
+msgid "Time format required"
+msgstr "Inserire il formato dell'ora"
+
+#: include/class.config.php:466
+msgid "Date format required"
+msgstr "Inserire il formato della data"
+
+#: include/class.config.php:467
+msgid "Datetime format required"
+msgstr "Inserire il formato di data e ora"
+
+#: include/class.config.php:468
+msgid "Day, Datetime format required"
+msgstr "Inserire il formato di giorno, data e ora"
+
+#: include/class.config.php:469 include/class.staff.php:274
+#: include/class.ticket.php:1166 include/class.email.php:265
+#: scp/profile.php:87
+msgid "Valid email required"
+msgstr "Inserire indirizzo email valido"
+
+#: include/class.config.php:470
+msgid "Enter lock time in minutes"
+msgstr "Inserire il tempo di blocco in minuti"
+
+#: include/class.config.php:484 include/class.config.php:490
+#: include/class.config.php:497
+msgid "No target recipient(s) selected"
+msgstr "Nessun destinatario selezionato"
+
+#: include/class.config.php:501
+msgid "Reply separator required (?)"
+msgstr "Richiesto separatore di risposta (?)"
+
+#: include/class.config.php:505
+msgid "The GD extension required"
+msgstr "Richiesta l'estensione GD"
+
+#: include/class.config.php:507
+msgid "PNG support required for Image Captcha"
+msgstr "Richiesto il supporto PNG per Image Captcha"
+
+#: include/class.config.php:511
+msgid "Email already setup as system email"
+msgstr "E-mail gi&agrave; configurata come e-mail di sistema"
+
+#: include/ost-config.sample.php:25 include/ost-config.php:25
+msgid "Error: Contact system admin."
+msgstr "Errore: contattare l'amministratore di sistema"
+
+#: include/client/open.inc.php:15 include/staff/newticket.inc.php:17
+msgid "Please fill in the form below to open a new ticket."
+msgstr ""
+"Si prega di compilare il modulo sottostante per aprire un nuovo ticket."
+
+#: include/client/open.inc.php:19 include/staff/newticket.inc.php:30
+#: include/staff/editticket.inc.php:47
+msgid "Full Name:"
+msgstr "Nome Completo:"
+
+#: include/client/open.inc.php:31 include/staff/newticket.inc.php:19
+#: include/staff/myprofile.inc.php:25 include/staff/editticket.inc.php:40
+#: include/staff/staff.inc.php:80
+msgid "Email Address:"
+msgstr "Indirizzo e-mail:"
+
+#: include/client/open.inc.php:43 include/staff/newticket.inc.php:37
+#: include/staff/editticket.inc.php:61
+msgid "Telephone:"
+msgstr "Telefono:"
+
+#: include/client/open.inc.php:50 include/staff/newticket.inc.php:151
+#: include/staff/editticket.inc.php:104 include/staff/viewticket.inc.php:119
+#: include/staff/topic.inc.php:29
+msgid "Help Topic:"
+msgstr "Argomento:"
+
+#: include/client/open.inc.php:63
+msgid "General Inquiry"
+msgstr "Richiesta generica"
+
+#: include/client/open.inc.php:70 include/client/viewticket.inc.php:51
+#: include/staff/newticket.inc.php:72 include/staff/editticket.inc.php:54
+#: include/staff/viewticket.inc.php:88
+msgid "Subject:"
+msgstr "Oggetto:"
+
+#: include/client/open.inc.php:77
+msgid "Message:"
+msgstr "Messaggio:"
+
+#: include/client/open.inc.php:87 include/staff/newticket.inc.php:135
+#: include/staff/editticket.inc.php:88 include/staff/viewticket.inc.php:47
+#: include/staff/viewticket.inc.php:187
+msgid "Priority:"
+msgstr "Priorit&agrave;:"
+
+#: include/client/open.inc.php:106 include/staff/newticket.inc.php:101
+msgid "Attachment:"
+msgstr "Allegato:"
+
+#: include/client/open.inc.php:117
+msgid "Captcha Text:"
+msgstr "Testo captcha"
+
+#: include/client/open.inc.php:119
+msgid "Enter the text shown on the image."
+msgstr "Scrivere il testo mostrato nell'immagine."
+
+#: include/client/open.inc.php:128 include/staff/newticket.inc.php:205
+msgid "Submit Ticket"
+msgstr "Inviare il ticket"
+
+#: include/client/open.inc.php:129 include/client/viewticket.inc.php:138
+#: include/staff/newticket.inc.php:206 include/staff/myprofile.inc.php:49
+#: include/staff/editticket.inc.php:136 include/staff/reply.inc.php:64
+#: include/staff/email.inc.php:195 include/staff/viewticket.inc.php:343
+#: include/staff/viewticket.inc.php:385 include/staff/viewticket.inc.php:423
+#: include/staff/viewticket.inc.php:470 include/staff/mypref.inc.php:58
+#: include/staff/topic.inc.php:77 include/staff/staff.inc.php:152
+#: include/staff/dept.inc.php:156 include/staff/smtp.inc.php:71
+#: include/staff/changepasswd.inc.php:31 include/staff/group.inc.php:110
+msgid "Reset"
+msgstr "Reset"
+
+#: include/client/open.inc.php:130 include/client/viewticket.inc.php:139
+#: include/staff/newticket.inc.php:207 include/staff/myprofile.inc.php:50
+#: include/staff/editticket.inc.php:137 include/staff/reply.inc.php:65
+#: include/staff/email.inc.php:196 include/staff/viewticket.inc.php:344
+#: include/staff/viewticket.inc.php:386 include/staff/viewticket.inc.php:424
+#: include/staff/viewticket.inc.php:471 include/staff/mypref.inc.php:59
+#: include/staff/topic.inc.php:78 include/staff/staff.inc.php:153
+#: include/staff/dept.inc.php:157 include/staff/smtp.inc.php:72
+#: include/staff/changepasswd.inc.php:32 include/staff/group.inc.php:111
+msgid "Cancel"
+msgstr "Annullare"
+
+#: include/client/header.inc.php:2
+msgid "osTicket :: Support Ticket System"
+msgstr "osTicket :: Support Ticket System"
+
+#: include/client/header.inc.php:16
+msgid "Support Center"
+msgstr "Support Center"
+
+#: include/client/header.inc.php:17
+msgid "<span>SUPPORT TICKET</span> SYSTEM"
+msgstr "<span>SUPPORT TICKET</span> SYSTEM"
+
+#: include/client/header.inc.php:22 include/staff/header.inc.php:41
+msgid "Log Out"
+msgstr "Uscita"
+
+#: include/client/header.inc.php:23
+msgid "My Tickets"
+msgstr "Propri ticket"
+
+#: include/client/header.inc.php:25
+msgid "Ticket Status"
+msgstr "Stato Ticket"
+
+#: include/client/header.inc.php:27 include/class.ticket.php:1520
+#: scp/tickets.php:464
+msgid "New Ticket"
+msgstr "Nuovo Ticket"
+
+#: include/client/header.inc.php:28
+msgid "Home"
+msgstr "Home"
+
+#: include/client/tickets.inc.php:80
+msgid "View Open"
+msgstr "Aperti"
+
+#: include/client/tickets.inc.php:81
+msgid "View Closed"
+msgstr "Chiusi"
+
+#: include/client/tickets.inc.php:82
+msgid "Refresh"
+msgstr "Aggiornare"
+
+#: include/client/tickets.inc.php:91 include/staff/tickets.inc.php:393
+msgid "Sort By Ticket ID"
+msgstr "Ordinamento per Ticket ID"
+
+#: include/client/tickets.inc.php:91 include/staff/tickets.inc.php:334
+#: include/staff/viewticket.inc.php:31
+msgid "Ticket #"
+msgstr "Ticket #"
+
+#: include/client/tickets.inc.php:93 include/staff/tickets.inc.php:395
+msgid "Sort By Date"
+msgstr "Ordinamento per data"
+
+#: include/client/tickets.inc.php:93 include/staff/groups.inc.php:21
+msgid "Create Date"
+msgstr "Data Creazione"
+
+#: include/client/tickets.inc.php:94 include/staff/staffmembers.inc.php:29
+#: include/staff/helptopics.inc.php:20 include/staff/email.inc.php:100
+#: include/staff/email.inc.php:161 include/staff/templates.inc.php:145
+#: include/staff/premade.inc.php:97
+msgid "Status"
+msgstr "Stato"
+
+#: include/client/tickets.inc.php:95 include/staff/tickets.inc.php:396
+#: include/staff/template.inc.php:36 include/staff/template.inc.php:51
+#: include/staff/template.inc.php:66 include/staff/template.inc.php:82
+#: include/staff/template.inc.php:97 include/staff/template.inc.php:113
+#: include/staff/template.inc.php:126 include/staff/template.inc.php:141
+#: include/staff/template.inc.php:155 include/staff/template.inc.php:168
+#: include/staff/templates.inc.php:142
+msgid "Subject"
+msgstr "Oggetto"
+
+#: include/client/tickets.inc.php:97 include/staff/tickets.inc.php:398
+msgid "Sort By Category"
+msgstr "Ordinamento per categoria"
+
+#: include/client/tickets.inc.php:97 include/staff/tickets.inc.php:398
+#: include/staff/helptopics.inc.php:22 include/staff/dept.inc.php:28
+#: include/staff/templates.inc.php:147 include/staff/emails.inc.php:21
+msgid "Department"
+msgstr "Dipartimento"
+
+#: include/client/tickets.inc.php:98 include/staff/newticket.inc.php:49
+#: include/staff/banlist.inc.php:87 include/staff/filters.inc.php:87
+#: scp/directory.php:82
+msgid "Email"
+msgstr "E-mail"
+
+#: include/client/tickets.inc.php:129
+msgid "NO tickets found."
+msgstr "Nessun ticket trovato"
+
+#: include/client/login.inc.php:16
+msgid ""
+"To view the status of a ticket, provide us with your login details "
+"below.<br/>If this is your first time contacting us or you've lost the "
+"ticket ID, please <a href='open.php'>click here</a> to open a new ticket."
+msgstr ""
+"Per vedere lo stato di un ticket, inserire pi&ugrave; sotto i dati di "
+"login.<br />Se &egrave; il primo contatto o si &egrave; perso il ticket ID, "
+"si prega di <a href='open.php'>premere qu&igrave;</a> per aprire un nuovo "
+"ticket."
+
+#: include/client/login.inc.php:22
+msgid "E-Mail:"
+msgstr "E-Mail:"
+
+#: include/client/login.inc.php:23
+msgid "Ticket ID:"
+msgstr "Ticket ID:"
+
+#: include/client/login.inc.php:24
+msgid "View Status"
+msgstr "Stato"
+
+#: include/client/viewticket.inc.php:15 include/staff/viewticket.inc.php:31
+msgid "Reload"
+msgstr "Ricarica"
+
+#: include/client/viewticket.inc.php:20 include/staff/viewticket.inc.php:331
+#: include/staff/viewticket.inc.php:372
+msgid "Ticket Status:"
+msgstr "Stato ticket:"
+
+#: include/client/viewticket.inc.php:24 include/staff/newticket.inc.php:56
+#: include/staff/viewticket.inc.php:51 include/staff/viewticket.inc.php:403
+#: include/staff/staff.inc.php:45
+msgid "Department:"
+msgstr "Dipartimento:"
+
+#: include/client/viewticket.inc.php:28 include/staff/viewticket.inc.php:55
+msgid "Create Date:"
+msgstr "Data di creazione"
+
+#: include/client/viewticket.inc.php:36 include/staff/viewticket.inc.php:63
+msgid "Name:"
+msgstr "Nome:"
+
+#: include/client/viewticket.inc.php:40 include/staff/banlist.inc.php:71
+#: include/staff/filters.inc.php:71 include/staff/viewticket.inc.php:67
+#: login.php:77 login.php:82 index.php:46
+msgid "Email:"
+msgstr "E-mail:"
+
+#: include/client/viewticket.inc.php:44 include/staff/viewticket.inc.php:78
+msgid "Phone:"
+msgstr "Telefono:"
+
+#: include/client/viewticket.inc.php:61 include/staff/viewticket.inc.php:228
+msgid "Ticket Thread"
+msgstr "Storia ticket"
+
+#: include/client/viewticket.inc.php:120
+msgid "Ticket will be reopened on message post"
+msgstr "Il ticket verr&agrave; riaperto all'invio del messaggio"
+
+#: include/client/viewticket.inc.php:127
+msgid "Enter Message"
+msgstr "Scrivere il messaggio"
+
+#: include/client/viewticket.inc.php:132
+msgid "Attach File"
+msgstr "Allegare file"
+
+#: include/client/viewticket.inc.php:137 include/staff/viewticket.inc.php:282
+#: include/staff/viewticket.inc.php:342
+msgid "Post Reply"
+msgstr "Inviare risposta"
+
+#: include/client/footer.inc.php:3
+msgid "Copyright &copy; osTicket.com. All rights reserved"
+msgstr "Copyright &copy; osTicket.com. Tutti i diritti riservati"
+
+#: include/client/footer.inc.php:5
+msgid "Powered by osTicket"
+msgstr "Powered by osTicket"
+
+#: include/client/thankyou.inc.php:18
+msgid ""
+"Thank you for contacting us.<br>A support ticket request has been created "
+"and a representative will be getting back to you shortly if necessary."
+msgstr ""
+"Grazie per averci contattato.<br />Una richiesta si assistenza (ticket) "
+"&egrave; stata creata e sar&agrave; esaminata prima possibile."
+
+#: include/client/thankyou.inc.php:22
+#, php-format
+msgid ""
+"An email with the ticket number has been sent to <b>%s</b>.You'll need the "
+"ticket number along with your email to view status and progress online."
+msgstr ""
+"Un messaggio di posta elettronica con il numero di ticket (ticket ID) "
+"&egrave; stato spedito a <b>%s</b>. Il numero del ticket assieme "
+"all'indirizzo email sar&agrave; necessario per vedere online lo stato di "
+"avanzamento del ticket."
+
+#: include/client/thankyou.inc.php:25
+msgid ""
+"If you wish to send additional comments or information regarding same issue, "
+"please follow the instructions on the email."
+msgstr ""
+"Se si desidera inviare ulteriori commenti o informazioni relative alla "
+"stessa problematica, si prega di seguire le istruzioni e-mail."
+
+#: include/client/thankyou.inc.php:28
+msgid "Support Team"
+msgstr "Support Team"
+
+#: include/class.validator.php:43
+msgid "Invalid input"
+msgstr "Dato non valido"
+
+#: include/class.validator.php:45
+msgid "No fields setup"
+msgstr "Nessuna configurazione dei campi"
+
+#: include/class.validator.php:109
+msgid "(5 chars min)"
+msgstr "(min. 5 caratteri)"
+
+#: include/class.validator.php:113
+msgid "(3 chars min)"
+msgstr "(min. 3 caratteri)"
+
+#: include/class.validator.php:120
+msgid "(type not set)"
+msgstr "(tipo non configurato)"
+
+#: include/class.staff.php:259
+msgid "First and last name required"
+msgstr "Inserire nome e cognome"
+
+#: include/class.staff.php:262
+msgid "Username required"
+msgstr "Inserire nome utente"
+
+#: include/class.staff.php:270
+msgid "Username already in-use"
+msgstr "Nome utente gi&agrave; in uso"
+
+#: include/class.staff.php:276
+msgid "Already in-use system email"
+msgstr "E-mail di sistema gi&agrave; in uso"
+
+#: include/class.staff.php:279 include/class.staff.php:282
+msgid "Valid number required"
+msgstr "Inserire numero valido"
+
+#: include/class.staff.php:286 include/staff/staff.inc.php:14
+msgid "Temp password required"
+msgstr "Inserire password temporanea"
+
+#: include/class.staff.php:288
+msgid "Password(s) do not match"
+msgstr "Password non corrispondente"
+
+#: include/class.staff.php:290
+msgid "Must be at least 6 characters"
+msgstr "Deve essere di almeno 6 caratteri"
+
+#: include/class.staff.php:294
+msgid "Department required"
+msgstr "Inserire dipartimento"
+
+#: include/class.staff.php:297
+msgid "Group required"
+msgstr "Inserire gruppo"
+
+#: include/class.staff.php:327
+msgid "Unable to update the user. Internal error occured"
+msgstr "Impossibile aggiornare l'utente. Errore interno"
+
+#: include/class.staff.php:333
+msgid "Unable to create user. Internal error"
+msgstr "Impossibile creare l'utente. Errore interno"
+
+#: include/staff/staffmembers.inc.php:16 include/class.nav.php:34
+#: scp/directory.php:20 scp/directory.php:77 scp/admin.php:630
+msgid "Staff Members"
+msgstr "Membri dello staff"
+
+#: include/staff/staffmembers.inc.php:16
+#, php-format
+msgid ""
+"No staff found. <a href='admin.php?t=staff&a=new&dept=%s'>Add New User</a>."
+msgstr ""
+"Trovato nessuno staff. <a href='admin.php?t=staff&a=new&dept=%s'>Aggiungere "
+"nuovo utente</a>."
+
+#: include/staff/staffmembers.inc.php:27
+msgid "Full Name"
+msgstr "Nome completo"
+
+#: include/staff/staffmembers.inc.php:28 include/staff/login.tpl.php:19
+#: include/staff/email.inc.php:84 include/staff/smtp.inc.php:45
+#: scp/login.php:63 scp/login.php:67
+msgid "Username"
+msgstr "Nome utente"
+
+#: include/staff/staffmembers.inc.php:30
+msgid "Group"
+msgstr "Gruppo"
+
+#: include/staff/staffmembers.inc.php:31 include/staff/email.inc.php:69
+#: include/staff/topic.inc.php:68 include/staff/staff.inc.php:52
+#: include/staff/preference.inc.php:74 scp/directory.php:81
+msgid "Dept"
+msgstr "Dipartimento"
+
+#: include/staff/staffmembers.inc.php:32 include/staff/api.inc.php:50
+#: include/staff/templates.inc.php:51
+msgid "Created"
+msgstr "Creato"
+
+#: include/staff/staffmembers.inc.php:33
+msgid "Last Login"
+msgstr "Ultimo Login"
+
+#: include/staff/staffmembers.inc.php:63 include/staff/depts.inc.php:61
+#: include/staff/api.inc.php:85 include/staff/banlist.inc.php:116
+#: include/staff/helptopics.inc.php:52 include/staff/filters.inc.php:116
+#: include/staff/templates.inc.php:85 include/staff/premade.inc.php:130
+#: include/staff/groups.inc.php:49 include/staff/emails.inc.php:55
+msgid "Query returned 0 results"
+msgstr "La ricerca non ha dato risultato"
+
+#: include/staff/staffmembers.inc.php:73 include/staff/depts.inc.php:71
+#: include/staff/tickets.inc.php:455 include/staff/banlist.inc.php:126
+#: include/staff/helptopics.inc.php:62 include/staff/filters.inc.php:126
+#: include/staff/premade.inc.php:138 include/staff/groups.inc.php:58
+#: include/staff/emails.inc.php:65
+msgid "Select:"
+msgstr "Selezione:"
+
+#: include/staff/staffmembers.inc.php:74 include/staff/syslogs.inc.php:96
+#: include/staff/depts.inc.php:72 include/staff/tickets.inc.php:456
+#: include/staff/banlist.inc.php:127 include/staff/helptopics.inc.php:63
+#: include/staff/filters.inc.php:127 include/staff/premade.inc.php:139
+#: include/staff/groups.inc.php:59 include/staff/emails.inc.php:66
+msgid "All"
+msgstr "Tutto"
+
+#: include/staff/staffmembers.inc.php:75 include/staff/depts.inc.php:74
+#: include/staff/tickets.inc.php:458 include/staff/banlist.inc.php:128
+#: include/staff/helptopics.inc.php:65 include/staff/filters.inc.php:128
+#: include/staff/premade.inc.php:140 include/staff/groups.inc.php:60
+#: include/staff/emails.inc.php:68
+msgid "Toggle"
+msgstr "Attiva/Disattiva"
+
+#: include/staff/staffmembers.inc.php:76 include/staff/newticket.inc.php:193
+#: include/staff/depts.inc.php:73 include/staff/tickets.inc.php:457
+#: include/staff/editticket.inc.php:107 include/staff/banlist.inc.php:129
+#: include/staff/helptopics.inc.php:64 include/staff/email.inc.php:131
+#: include/staff/filters.inc.php:129 include/staff/viewticket.inc.php:321
+#: include/staff/smtp.inc.php:39 include/staff/premade.inc.php:141
+#: include/staff/groups.inc.php:61 include/staff/emails.inc.php:67
+msgid "None"
+msgstr "Nessuno"
+
+#: include/staff/staffmembers.inc.php:80 include/staff/api.inc.php:98
+#: include/staff/helptopics.inc.php:70 include/staff/email.inc.php:102
+#: include/staff/email.inc.php:163 include/staff/dept.inc.php:119
+#: include/staff/dept.inc.php:125 include/staff/premade.inc.php:145
+#: include/staff/preference.inc.php:412 include/staff/preference.inc.php:418
+#: include/staff/preference.inc.php:424 include/staff/preference.inc.php:430
+#: include/staff/preference.inc.php:443 include/staff/preference.inc.php:453
+#: include/staff/preference.inc.php:463 include/staff/preference.inc.php:473
+#: include/staff/groups.inc.php:66 scp/staff.inc.php:97
+msgid "Enable"
+msgstr "Attivare"
+
+#: include/staff/staffmembers.inc.php:81
+msgid "Are you sure you want to ENABLE selected user(s)?"
+msgstr "Si &egrave; sicuri di voler ATTIVARE gli utenti selezionati?"
+
+#: include/staff/staffmembers.inc.php:82
+msgid "Lock"
+msgstr "Bloccare"
+
+#: include/staff/staffmembers.inc.php:83
+msgid "Are you sure you want to LOCK selected user(s)?"
+msgstr "Si &egrave; sicuri di voler BLOCCARE gli utenti selezionati?"
+
+#: include/staff/staffmembers.inc.php:84 include/staff/api.inc.php:108
+#: include/staff/tickets.inc.php:494 include/staff/helptopics.inc.php:74
+#: include/staff/premade.inc.php:149 include/staff/groups.inc.php:70
+msgid "Delete"
+msgstr "Eliminare"
+
+#: include/staff/staffmembers.inc.php:85
+msgid "Are you sure you want to DELETE selected user(s)?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE gli utenti selezionati?"
+
+#: include/staff/newticket.inc.php:25
+msgid "Send alert to user."
+msgstr "Spedire un avviso all'utente."
+
+#: include/staff/newticket.inc.php:39 include/staff/myprofile.inc.php:32
+#: include/staff/editticket.inc.php:63
+msgid "Ext"
+msgstr "Prefisso"
+
+#: include/staff/newticket.inc.php:44
+msgid "Ticket Source:"
+msgstr "Fonte del ticket"
+
+#: include/staff/newticket.inc.php:47
+msgid "Select Source"
+msgstr "Seleziona fonte"
+
+#: include/staff/newticket.inc.php:48 scp/directory.php:83
+msgid "Phone"
+msgstr "Telefono"
+
+#: include/staff/newticket.inc.php:50
+msgid "Other"
+msgstr "Altro"
+
+#: include/staff/newticket.inc.php:59 include/staff/email.inc.php:65
+#: include/staff/topic.inc.php:64 include/staff/staff.inc.php:48
+#: scp/tickets.php:106
+msgid "Select Department"
+msgstr "Selezionare dipartimento"
+
+#: include/staff/newticket.inc.php:79
+msgid "Issue Summary:"
+msgstr "Sommario del problema:"
+
+#: include/staff/newticket.inc.php:81
+msgid "Visible to client/customer."
+msgstr "Visibile al cliente."
+
+#: include/staff/newticket.inc.php:87
+msgid "Premade:"
+msgstr "Predefiniti:"
+
+#: include/staff/newticket.inc.php:90
+msgid "Select a premade reply/issue"
+msgstr "Selezionare una risposta predefinita"
+
+#: include/staff/newticket.inc.php:94 include/staff/viewticket.inc.php:303
+msgid "Append"
+msgstr "Aggiungere"
+
+#: include/staff/newticket.inc.php:108 include/staff/editticket.inc.php:126
+msgid "Internal Note:"
+msgstr "Nota interna:"
+
+#: include/staff/newticket.inc.php:110
+msgid "Optional Internal note(s)."
+msgstr "Nota interna opzionale."
+
+#: include/staff/newticket.inc.php:115 include/staff/editticket.inc.php:68
+#: include/staff/viewticket.inc.php:103
+msgid "Due Date:"
+msgstr "Data di scadenza:"
+
+#: include/staff/newticket.inc.php:117
+#, php-format
+msgid "Time is based on your time zone (GM %s)"
+msgstr "L'ora &egrave; basata sul fuso orario locale (GM%s)"
+
+#: include/staff/newticket.inc.php:154 include/staff/dept.inc.php:40
+#: include/staff/dept.inc.php:133 include/staff/preference.inc.php:347
+#: include/staff/preference.inc.php:370 include/staff/preference.inc.php:385
+msgid "Select One"
+msgstr "Selezionare uno"
+
+#: include/staff/newticket.inc.php:168
+msgid "Assign To:"
+msgstr "Assegnare a:"
+
+#: include/staff/newticket.inc.php:171
+msgid "-Assign To Staff-"
+msgstr "-Assegnare a staff-"
+
+#: include/staff/newticket.inc.php:183
+msgid "Send alert to assigned staff."
+msgstr "Spedire avviso al membro dello staff interessato"
+
+#: include/staff/newticket.inc.php:187 include/staff/myprofile.inc.php:43
+#: include/staff/staff.inc.php:98
+msgid "Signature:"
+msgstr "Firma:"
+
+#: include/staff/newticket.inc.php:190
+msgid "none"
+msgstr "nessuno"
+
+#: include/staff/newticket.inc.php:195 include/staff/viewticket.inc.php:323
+msgid "My signature"
+msgstr "Firma personale"
+
+#: include/staff/newticket.inc.php:197
+msgid "Dept Signature (if any)"
+msgstr "Firma dipartimento (se esiste)"
+
+#: include/staff/myprofile.inc.php:5
+msgid "My Profile Info"
+msgstr "Informazioni profilo personale"
+
+#: include/staff/myprofile.inc.php:11 include/staff/staff.inc.php:40
+msgid "Username:"
+msgstr "Utente:"
+
+#: include/staff/myprofile.inc.php:15
+msgid "First Name:"
+msgstr "Nome:"
+
+#: include/staff/myprofile.inc.php:20
+msgid "Last Name:"
+msgstr "Cognome:"
+
+#: include/staff/myprofile.inc.php:30 include/staff/staff.inc.php:85
+msgid "Office Phone:"
+msgstr "Telefono ufficio:"
+
+#: include/staff/myprofile.inc.php:38
+msgid "Cell Phone:"
+msgstr "Cellulare:"
+
+#: include/staff/myprofile.inc.php:48
+msgid "Save"
+msgstr "Salvare"
+
+#: include/staff/syslogs.inc.php:13 include/staff/syslogs.inc.php:97
+msgid "Errors"
+msgstr "Errori"
+
+#: include/staff/syslogs.inc.php:17 include/staff/syslogs.inc.php:98
+msgid "Warnings"
+msgstr "Avvertimenti"
+
+#: include/staff/syslogs.inc.php:21
+msgid "Debug logs"
+msgstr "Log di debug"
+
+#: include/staff/syslogs.inc.php:26
+msgid "All logs"
+msgstr "Tutti i log"
+
+#: include/staff/syslogs.inc.php:40
+msgid "Entered date span is invalid. Selection ignored."
+msgstr ""
+"L'intervallo di tempo inserito no &egrave; valido. Selezione ignorata."
+
+#: include/staff/syslogs.inc.php:80 scp/admin.php:565
+msgid "System Logs"
+msgstr "Log di sistema"
+
+#: include/staff/syslogs.inc.php:85 include/staff/tickets.inc.php:308
+msgid "Date Span:"
+msgstr "Intervallo di tempo:"
+
+#: include/staff/syslogs.inc.php:86 include/staff/tickets.inc.php:309
+#: include/staff/tickets.inc.php:401
+msgid "From"
+msgstr "Da"
+
+#: include/staff/syslogs.inc.php:94 include/staff/tickets.inc.php:320
+msgid "Type:"
+msgstr "Tipo:"
+
+#: include/staff/syslogs.inc.php:99
+msgid "Debug"
+msgstr "Debug"
+
+#: include/staff/syslogs.inc.php:102
+msgid "Go!"
+msgstr "Invia!"
+
+#: include/staff/syslogs.inc.php:141 include/staff/tickets.inc.php:445
+msgid "Query returned 0 results."
+msgstr "La ricerca non ha dato risultati."
+
+#: include/staff/syslogs.inc.php:149 include/staff/tickets.inc.php:460
+#: include/staff/banlist.inc.php:130 include/staff/filters.inc.php:130
+#: include/staff/premade.inc.php:142
+msgid "page:"
+msgstr "pagina:"
+
+#: include/staff/attachment.inc.php:13
+msgid "Attachments Settings"
+msgstr "Impostazione Allegati"
+
+#: include/staff/attachment.inc.php:17
+msgid ""
+"Before enabling attachments make sure you understand the security settings "
+"and issues related to file uploads."
+msgstr ""
+"Prima di abilitare gli allegati, sincerarsi di aver compreso le impostazioni "
+"di sicurezza e i problemi relativi al caricamento dei file."
+
+#: include/staff/attachment.inc.php:20 include/staff/attachment.inc.php:22
+msgid "Allow Attachments"
+msgstr "Permettere Allegati"
+
+#: include/staff/attachment.inc.php:23
+msgid "Global Setting"
+msgstr "Impostazione generale"
+
+#: include/staff/attachment.inc.php:28
+msgid "Emailed Attachments:"
+msgstr "Allegati E-mail:"
+
+#: include/staff/attachment.inc.php:30
+msgid "Accept emailed files"
+msgstr "Accettare file per e-mail"
+
+#: include/staff/attachment.inc.php:35
+msgid "Online Attachments:"
+msgstr "Allegati Online:"
+
+#: include/staff/attachment.inc.php:38
+msgid "Allow online attachments upload"
+msgstr "Permettere caricamento allegati online"
+
+#: include/staff/attachment.inc.php:40
+msgid "Authenticated users Only."
+msgstr "Solo utenti autenticati."
+
+#: include/staff/attachment.inc.php:40
+msgid "User must be logged in to upload files"
+msgstr "L'utente deve essersi autenticato per caricare file"
+
+#: include/staff/attachment.inc.php:45
+msgid "Staff Response Files:"
+msgstr "File di risposta dello staff:"
+
+#: include/staff/attachment.inc.php:47
+msgid "Email attachments to the user"
+msgstr "Spedire allegati all'utente"
+
+#: include/staff/attachment.inc.php:51
+msgid "Maximum File Size:"
+msgstr "Massima dimensione dei file:"
+
+#: include/staff/attachment.inc.php:53
+msgid "bytes"
+msgstr "byte"
+
+#: include/staff/attachment.inc.php:58
+msgid "Attachment Folder:"
+msgstr "Cartella Allegati:"
+
+#: include/staff/attachment.inc.php:60
+msgid "Web user (e.g apache) must have write access to the folder."
+msgstr ""
+"Utenti web (p.e. Apache) devono avere accesso in scrittura alla cartella."
+
+#: include/staff/attachment.inc.php:68
+msgid "Accepted File Types:"
+msgstr "Tipi di file accettati:"
+
+#: include/staff/attachment.inc.php:70
+msgid ""
+"Enter file extensions allowed separated by a comma. e.g <i>.doc, .pdf, </i>"
+msgstr ""
+"Inserire le estensioni dei file separate da virgole. Per esempio <i>.doc, "
+".pdf, </i>"
+
+#: include/staff/attachment.inc.php:71
+msgid ""
+"To accept all files enter wildcard <b><i>.*</i></b>&nbsp;&nbsp;i.e dotStar "
+"(NOT recommended)."
+msgstr ""
+"Per accettare tutti i file, inserire il carattere jolly "
+"<b><i>.*</i></b>&nbsp;&nbsp; asterisco (NON raccomandato)."
+
+#: include/staff/attachment.inc.php:78 include/staff/template.inc.php:181
+#: include/staff/preference.inc.php:493
+msgid "Save Changes"
+msgstr "Salvare modifiche"
+
+#: include/staff/attachment.inc.php:79 include/staff/template.inc.php:182
+#: include/staff/preference.inc.php:494
+msgid "Reset Changes"
+msgstr "Annullare modifiche"
+
+#: include/staff/depts.inc.php:11 include/class.nav.php:35 scp/admin.php:673
+msgid "Departments"
+msgstr "Dipartimenti"
+
+#: include/staff/depts.inc.php:19
+msgid "Dept. Name"
+msgstr "Nome dip."
+
+#: include/staff/depts.inc.php:20
+msgid "Type"
+msgstr "Tipo"
+
+#: include/staff/depts.inc.php:21
+msgid "Users"
+msgstr "Utenti"
+
+#: include/staff/depts.inc.php:22
+msgid "Primary Outgoing Email"
+msgstr "E-mail in uscita primaria"
+
+#: include/staff/depts.inc.php:23
+msgid "Manager"
+msgstr "Manager"
+
+#: include/staff/depts.inc.php:79
+msgid "Make Public"
+msgstr "Rendere Pubblico"
+
+#: include/staff/depts.inc.php:80
+msgid "Are you sure you want to make selected depts(s) public?"
+msgstr ""
+"Si &egrave; sicuri di voler rendere pubblici i dipartimenti selezionati?"
+
+#: include/staff/depts.inc.php:81
+msgid "Make Private"
+msgstr "Rendere Privato"
+
+#: include/staff/depts.inc.php:82
+msgid "Are you sure you want to make selected depts(s) private?"
+msgstr ""
+"Si &egrave; sicuri di voler rendere i dipartimenti selezionati privati?"
+
+#: include/staff/depts.inc.php:83
+msgid "Delete Dept(s)"
+msgstr "Eliminare dipartimenti"
+
+#: include/staff/depts.inc.php:84
+msgid "Are you sure you want to DELETE selected depts(s)?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE i dipartimenti selezionati?"
+
+#: include/staff/header.inc.php:34
+msgid "Welcome back"
+msgstr "Bentornato"
+
+#: include/staff/header.inc.php:37
+msgid "Admin Panel"
+msgstr "Pannello amministrazione"
+
+#: include/staff/header.inc.php:39
+msgid "Staff Panel"
+msgstr "Pannello staff"
+
+#: include/staff/header.inc.php:41 include/staff/header.inc.php:51
+msgid "My Preference"
+msgstr "Preferenze personali"
+
+#: include/staff/header.inc.php:51 include/class.nav.php:42
+msgid "My Account"
+msgstr "Account personale"
+
+#: include/staff/login.tpl.php:1 include/staff/viewticket.inc.php:3
+msgid "Invalid path"
+msgstr "Percorso non valido"
+
+#: include/staff/login.tpl.php:5
+msgid "osTicket:: SCP Login"
+msgstr "osTicket:: SCP Login"
+
+#: include/staff/login.tpl.php:13
+msgid "osTicket Staff Control Panel"
+msgstr "Pannello di controllo staff di osTicket"
+
+#: include/staff/login.tpl.php:20 include/staff/email.inc.php:89
+#: include/staff/smtp.inc.php:50
+msgid "Password"
+msgstr "Password"
+
+#: include/staff/login.tpl.php:21
+msgid "Login"
+msgstr "Accesso"
+
+#: include/staff/login.tpl.php:25
+msgid ""
+"Copyright &copy; <a href=\"http://www.osticket.com\" "
+"target=\"_blank\">osTicket.com</a>"
+msgstr ""
+"Copyright &copy; <a href=\"http://www.osticket.com\" "
+"target=\"_blank\">osTicket.com</a>"
+
+#: include/staff/api.inc.php:46
+msgid "API Key"
+msgstr "Chiave API"
+
+#: include/staff/api.inc.php:47 include/staff/reply.inc.php:36
+#: include/staff/helptopics.inc.php:42 include/staff/staff.inc.php:124
+msgid "Active"
+msgstr "Attivo"
+
+#: include/staff/api.inc.php:48
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#: include/staff/api.inc.php:50 include/staff/banlist.inc.php:90
+#: include/staff/filters.inc.php:90 include/staff/templates.inc.php:50
+msgid "Sort By Create Date"
+msgstr "Ordinamento per Data Creazione"
+
+#: include/staff/api.inc.php:85 include/staff/banlist.inc.php:116
+#: include/staff/filters.inc.php:116 include/staff/templates.inc.php:85
+msgid "Index list"
+msgstr "Elenco completo"
+
+#: include/staff/api.inc.php:99
+msgid "Are you sure you want to ENABLE selected keys?"
+msgstr "Si &egrave; sicuri di voler ATTIVARE le chiavi selezionate?"
+
+#: include/staff/api.inc.php:104 include/staff/helptopics.inc.php:72
+#: include/staff/email.inc.php:103 include/staff/email.inc.php:164
+#: include/staff/dept.inc.php:120 include/staff/dept.inc.php:126
+#: include/staff/premade.inc.php:147 include/staff/preference.inc.php:413
+#: include/staff/preference.inc.php:419 include/staff/preference.inc.php:425
+#: include/staff/preference.inc.php:431 include/staff/preference.inc.php:444
+#: include/staff/preference.inc.php:454 include/staff/preference.inc.php:464
+#: include/staff/preference.inc.php:474 include/staff/groups.inc.php:68
+msgid "Disable"
+msgstr "Disattivare"
+
+#: include/staff/api.inc.php:105
+msgid "Are you sure you want to DISABLE selected keys?"
+msgstr "Si &egrave; sicuri di voler DISATTIVARE le chiavi selezionate?"
+
+#: include/staff/api.inc.php:109
+msgid "Are you sure you want to DELETE selected keys?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE le chiavi selezionate?"
+
+#: include/staff/api.inc.php:118
+msgid "Add New IP"
+msgstr "Aggiungere nuovo IP"
+
+#: include/staff/api.inc.php:121
+msgid "Add a new IP address."
+msgstr "Aggiungere nuovo indirizzo IP."
+
+#: include/staff/api.inc.php:128 include/staff/banlist.inc.php:73
+#: include/staff/filters.inc.php:73 include/staff/templates.inc.php:125
+msgid "Add"
+msgstr "Aggiungere"
+
+#: include/staff/api.inc.php:132
+msgid "API Passphrase"
+msgstr "Passphrase API"
+
+#: include/staff/api.inc.php:135
+msgid ""
+"Passphrase must be at least 3 words. Required to generate the api keys."
+msgstr ""
+"La passphrase deve errere di almeno 3 parole. E' richiesta per generare le "
+"chiavi API."
+
+#: include/staff/api.inc.php:139
+msgid "Phrase:"
+msgstr "Frase:"
+
+#: include/staff/api.inc.php:142 include/staff/reply.inc.php:63
+#: include/staff/email.inc.php:194 include/staff/viewticket.inc.php:384
+#: include/staff/mypref.inc.php:57 include/staff/topic.inc.php:76
+#: include/staff/staff.inc.php:151 include/staff/dept.inc.php:155
+#: include/staff/smtp.inc.php:70 include/staff/changepasswd.inc.php:30
+#: include/staff/group.inc.php:109
+msgid "Submit"
+msgstr "Inviare"
+
+#: include/staff/api.inc.php:145
+msgid ""
+"Please note that changing the passprase does NOT invalidate existing keys. "
+"To regerate a key you need to delete and readd it."
+msgstr ""
+"Notare che cambiare la passphrase NON invalida le chiavi esistenti. Per "
+"rigenerare una chiave, bisogna eliminarla e reinserirla."
+
+#: include/staff/tickets.inc.php:20 include/staff/banlist.inc.php:10
+#: include/staff/premade.inc.php:12
+msgid "Search term must be more than 3 chars"
+msgstr "Il termine di ricerca deve avere almeno 3 caratteri"
+
+#: include/staff/tickets.inc.php:38
+msgid "Overdue Tickets"
+msgstr "Ticket scaduti"
+
+#: include/staff/tickets.inc.php:47 include/staff/tickets.inc.php:60
+#: scp/tickets.php:440
+msgid "Answered Tickets"
+msgstr "Ticket con risposta"
+
+#: include/staff/tickets.inc.php:63 scp/tickets.php:460
+msgid "Closed Tickets"
+msgstr "Ticket chiusi"
+
+#: include/staff/tickets.inc.php:266 include/staff/tickets.inc.php:279
+#: include/staff/banlist.inc.php:61 include/staff/filters.inc.php:61
+msgid "Query:"
+msgstr "Ricerca:"
+
+#: include/staff/tickets.inc.php:268 include/staff/tickets.inc.php:354
+#: include/staff/banlist.inc.php:63 include/staff/filters.inc.php:63
+msgid "Search"
+msgstr "Cercare"
+
+#: include/staff/tickets.inc.php:269
+msgid "Advanced"
+msgstr "Modalit&agrave; avanzata"
+
+#: include/staff/tickets.inc.php:280
+msgid "Dept:"
+msgstr "Dip.:"
+
+#: include/staff/tickets.inc.php:281 include/staff/reply.inc.php:44
+#: include/staff/premade.inc.php:74
+msgid "All Departments"
+msgstr "Tutti i dipartimenti"
+
+#: include/staff/tickets.inc.php:296
+msgid "Status is:"
+msgstr "Stato:"
+
+#: include/staff/tickets.inc.php:299
+msgid "Any status"
+msgstr "Nessun stato"
+
+#: include/staff/tickets.inc.php:300 scp/tickets.php:86
+msgid "Open"
+msgstr "Aprire"
+
+#: include/staff/tickets.inc.php:301 include/staff/tickets.inc.php:479
+msgid "Overdue"
+msgstr "Scaduto"
+
+#: include/staff/tickets.inc.php:302 scp/tickets.php:86
+msgid "Closed"
+msgstr "Chiuso"
+
+#: include/staff/tickets.inc.php:312
+msgid "to"
+msgstr "a"
+
+#: include/staff/tickets.inc.php:323
+msgid "Scan"
+msgstr "Scan"
+
+#: include/staff/tickets.inc.php:324
+msgid "Fulltext"
+msgstr "Fulltext"
+
+#: include/staff/tickets.inc.php:329
+msgid "Sort by:"
+msgstr "Ordinare per:"
+
+#: include/staff/tickets.inc.php:335 include/staff/tickets.inc.php:400
+#: include/staff/helptopics.inc.php:23 include/staff/templates.inc.php:146
+#: include/staff/emails.inc.php:22
+msgid "Priority"
+msgstr "Priorit&agrave;"
+
+#: include/staff/tickets.inc.php:336 include/staff/tickets.inc.php:395
+msgid "Date"
+msgstr "Data"
+
+#: include/staff/tickets.inc.php:337
+msgid "Dept."
+msgstr "Dip."
+
+#: include/staff/tickets.inc.php:340
+msgid "Descending"
+msgstr "Decrescente"
+
+#: include/staff/tickets.inc.php:341
+msgid "Ascending"
+msgstr "Crescente"
+
+#: include/staff/tickets.inc.php:344
+msgid "Results Per Page:"
+msgstr "Risultati per pagina:"
+
+#: include/staff/tickets.inc.php:355
+msgid "Basic"
+msgstr "Modalit&agrave; base"
+
+#: include/staff/tickets.inc.php:393
+msgid "Ticket"
+msgstr "Ticket"
+
+#: include/staff/tickets.inc.php:400
+msgid "Sort By Priority"
+msgstr "Ordinamento per priorit&agrave;"
+
+#: include/staff/tickets.inc.php:431
+msgid "Ticket:"
+msgstr "Ticket:"
+
+#: include/staff/tickets.inc.php:471 include/staff/tickets.inc.php:489
+msgid "Reopen"
+msgstr "Riaprire"
+
+#: include/staff/tickets.inc.php:472 include/staff/tickets.inc.php:490
+msgid "Are you sure you want to reopen selected tickets?"
+msgstr "Si &egrave; sicuri di voler riaprire i ticket selezionati?"
+
+#: include/staff/tickets.inc.php:480
+msgid "Are you sure you want to mark selected tickets overdue/stale?"
+msgstr ""
+"Si &egrave; sicuri di voler marcare i ticket selezionati come scaduti?"
+
+#: include/staff/tickets.inc.php:481 include/staff/tickets.inc.php:487
+#: include/staff/viewticket.inc.php:177
+msgid "Close"
+msgstr "Chiudere"
+
+#: include/staff/tickets.inc.php:482 include/staff/tickets.inc.php:488
+msgid "Are you sure you want to close selected tickets?"
+msgstr "Si &egrave; sicuri di voler chiudere i ticket selezionati?"
+
+#: include/staff/tickets.inc.php:495
+msgid "Are you sure you want to DELETE selected tickets?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE i ticket selezionati?"
+
+#: include/staff/editticket.inc.php:4
+msgid "Access Denied. Perm error."
+msgstr "Accesso rifiutato. Errore permanente"
+
+#: include/staff/editticket.inc.php:38
+msgid "Update Ticket #"
+msgstr "Aggiornare Ticket #"
+
+#: include/staff/editticket.inc.php:38
+msgid "View Ticket"
+msgstr "Visualizzare Ticket"
+
+#: include/staff/editticket.inc.php:70
+#, php-format
+msgid "Time is based on your time zone GM %s"
+msgstr "Il tempo &egrave; basato sul fuso orario locale GM %s"
+
+#: include/staff/editticket.inc.php:109
+msgid "(deleted)"
+msgstr "(eliminato)"
+
+#: include/staff/editticket.inc.php:120
+msgid "(optional)"
+msgstr "(opzionale)"
+
+#: include/staff/editticket.inc.php:128
+msgid "Reasons for the edit."
+msgstr "Ragione della modifica."
+
+#: include/staff/editticket.inc.php:135
+msgid "Update Ticket"
+msgstr "Aggiornare ticket"
+
+#: include/staff/reply.inc.php:5
+msgid "Edit Premade Reply"
+msgstr "Modificare la risposta predefinita"
+
+#: include/staff/reply.inc.php:8
+msgid "Add New Premade Reply"
+msgstr "Aggiungere una nuova risposta predefinita"
+
+#: include/staff/reply.inc.php:34 include/staff/viewticket.inc.php:43
+msgid "Status:"
+msgstr "Stato:"
+
+#: include/staff/reply.inc.php:37
+msgid "Inative"
+msgstr "Inattivo"
+
+#: include/staff/reply.inc.php:41
+msgid "Category:"
+msgstr "Categoria:"
+
+#: include/staff/reply.inc.php:42
+msgid "Department under which the 'answer' will be made available."
+msgstr "Dipartimento in cui la 'risposta' sar&agrave; resa disponibile."
+
+#: include/staff/reply.inc.php:55
+msgid "Answer:"
+msgstr "Risposta:"
+
+#: include/staff/reply.inc.php:56
+msgid "Premade Reply - Ticket's base variables are supported."
+msgstr "Risposta predefinita - Sono supportate le variabili base dei Ticket."
+
+#: include/staff/template.inc.php:5 include/staff/templates.inc.php:35
+#: scp/admin.php:574
+msgid "Email Templates"
+msgstr "Modelli di e-mail"
+
+#: include/staff/template.inc.php:13
+msgid "Template Info"
+msgstr "Informazioni modello"
+
+#: include/staff/template.inc.php:14
+msgid "Last updated on"
+msgstr "Ultimo aggiornamento il"
+
+#: include/staff/template.inc.php:16 include/staff/templates.inc.php:47
+#: scp/directory.php:80
+msgid "Name"
+msgstr "Nome"
+
+#: include/staff/template.inc.php:22
+msgid "Internal notes:"
+msgstr "Note interne:"
+
+#: include/staff/template.inc.php:23
+msgid "Administrative notes"
+msgstr "Note amministrative"
+
+#: include/staff/template.inc.php:28
+msgid "User"
+msgstr "Utente"
+
+#: include/staff/template.inc.php:30
+msgid "New Ticket Autoresponse"
+msgstr "Nuovo autorisponditore ticket"
+
+#: include/staff/template.inc.php:32
+msgid "Autoresponse sent to user on new ticket if enabled."
+msgstr ""
+"Risposta automatica inviata all'utente per nuovo ticket, se abilitata."
+
+#: include/staff/template.inc.php:33
+msgid ""
+"Meant to give the user the ticket ID which can be used to check the status "
+"online."
+msgstr ""
+"Lo scopo &egrave; di dare all'utente il ticket ID che pu&ograve; essere "
+"utilizzato per controllare lo stato online."
+
+#: include/staff/template.inc.php:42 include/staff/template.inc.php:57
+#: include/staff/template.inc.php:72 include/staff/template.inc.php:88
+#: include/staff/template.inc.php:103 include/staff/template.inc.php:119
+#: include/staff/template.inc.php:132 include/staff/template.inc.php:147
+#: include/staff/template.inc.php:161 include/staff/template.inc.php:174
+msgid "Message Body:"
+msgstr "Corpo del messaggio:"
+
+#: include/staff/template.inc.php:46
+msgid "New Message Autoresponse"
+msgstr "Nuovo messaggio di risposta automatica"
+
+#: include/staff/template.inc.php:48
+msgid ""
+"Confirmation sent to user when a new message is appended to an existing "
+"ticket. (email and web replies)"
+msgstr ""
+"Conferma inviata all'utente quando un nuovo messaggio &egrave; accodato ad "
+"un ticket esistente. (Risposte e-mail e web)"
+
+#: include/staff/template.inc.php:61
+msgid "New Ticket Notice"
+msgstr "Avviso nuovo ticket"
+
+#: include/staff/template.inc.php:63
+msgid ""
+"Notice sent to user, if enabled, on new ticket <b>created by staff</b> on "
+"their behalf."
+msgstr ""
+"Avviso inoltrato all'utente, se attivato, di un nuovo ticket <b>creato dallo "
+"staff</b> per suo conto."
+
+#: include/staff/template.inc.php:76
+msgid "Over Ticket limit Notice"
+msgstr "Avviso di limite ticket"
+
+#: include/staff/template.inc.php:78
+msgid ""
+"A one time notice sent when user has reached the max allowed open tickets "
+"defined in preferences."
+msgstr ""
+"Un avviso unico inviato quando l'utente ha raggiunto il massimo consentito "
+"di ticket aperti definito nelle preferenze."
+
+#: include/staff/template.inc.php:79
+msgid "Admin email gets alert each time a support ticket request is denied."
+msgstr ""
+"L'amministratore ottiene avviso per e-mail ogni volta che viene negata una "
+"richiesta di assistenza."
+
+#: include/staff/template.inc.php:92
+msgid "Ticket Response/Reply"
+msgstr "Risposta ticket"
+
+#: include/staff/template.inc.php:94
+msgid ""
+"Message template used when responding to a ticket or simply alerting the "
+"user about a response/answer availability."
+msgstr ""
+"Modello di messaggio usato per rispondere ad un ticket o per avvertire "
+"l'utente della presenza di una risposta."
+
+#: include/staff/template.inc.php:108 include/staff/staff.inc.php:132
+#: include/class.nav.php:34
+msgid "Staff"
+msgstr "Staff"
+
+#: include/staff/template.inc.php:110
+msgid "New Ticket Alert"
+msgstr "Avviso nuovo ticket"
+
+#: include/staff/template.inc.php:111
+msgid "Alert sent to staff ( if enabled) on new ticket."
+msgstr "Avviso di nuovo ticket spedito allo staff (se attivato)"
+
+#: include/staff/template.inc.php:123
+msgid "New Message Alert"
+msgstr "Avviso di nuovo messaggio"
+
+#: include/staff/template.inc.php:124
+msgid ""
+"Alert sent to staff ( if enabled) when user replies to an existing ticket."
+msgstr ""
+"Avviso spedito allo staff (se attivato) quando l'utente risponde ad un "
+"ticket esistente."
+
+#: include/staff/template.inc.php:138
+msgid "New Internal Note Alert"
+msgstr "Avviso di nuova nota interna"
+
+#: include/staff/template.inc.php:139
+msgid ""
+"Alert sent to selected staff ( if enabled) when an internal note is appended "
+"to a ticket."
+msgstr ""
+"Avviso spedito allo staff (se attivato) quando &egrave; aggiunta una nota "
+"interna ad un ticket."
+
+#: include/staff/template.inc.php:152
+msgid "Ticket Assigned Alert/Notice"
+msgstr "Avviso di assegnazione ticket"
+
+#: include/staff/template.inc.php:153
+msgid "Alert sent to staff on ticket assignment."
+msgstr "Avviso di assegnazione ticket spedito allo staff"
+
+#: include/staff/template.inc.php:165
+msgid "Overdue/Stale Ticket Alert/Notice"
+msgstr "Avviso di ticket scaduto"
+
+#: include/staff/template.inc.php:166
+msgid "Alert sent to staff on stale or overdue tickets."
+msgstr "Avviso di ticket scaduto spedito allo staff"
+
+#: include/staff/template.inc.php:183
+msgid "Cancel Edit"
+msgstr "Annullare modifiche"
+
+#: include/staff/banlist.inc.php:53 include/staff/filters.inc.php:53
+#: include/staff/premade.inc.php:54
+msgid "Search Results"
+msgstr "Risultati Ricerca"
+
+#: include/staff/banlist.inc.php:53 include/staff/filters.inc.php:53
+msgid "Banned Email Addresses"
+msgstr "Indirizzi e-mail bloccati"
+
+#: include/staff/banlist.inc.php:87 include/staff/filters.inc.php:87
+msgid "Sort by email"
+msgstr "Ordinamento per e-mail"
+
+#: include/staff/banlist.inc.php:88 include/staff/filters.inc.php:88
+msgid "Submitter"
+msgstr "Inviato da"
+
+#: include/staff/banlist.inc.php:90 include/staff/filters.inc.php:90
+msgid "Date Added"
+msgstr "Data aggiunta"
+
+#: include/staff/banlist.inc.php:136
+msgid "Remove From List"
+msgstr "Eliminare dalla lista"
+
+#: include/staff/banlist.inc.php:137
+msgid "Are you sure you want to REMOVE selected email from ban list?"
+msgstr ""
+"Si &egrave; sicuri di voler ELIMINARE gli indirizzi e-mail dalla lista dei "
+"bloccati?"
+
+#: include/staff/helptopics.inc.php:10 include/class.nav.php:33
+#: scp/admin.php:612
+msgid "Help Topics"
+msgstr "Argomenti di aiuto"
+
+#: include/staff/helptopics.inc.php:19
+msgid "Help Topic"
+msgstr "Argomento di aiuto"
+
+#: include/staff/helptopics.inc.php:21 include/staff/emails.inc.php:20
+msgid "AutoResp."
+msgstr "Autorisp."
+
+#: include/staff/helptopics.inc.php:24 include/staff/premade.inc.php:100
+#: include/staff/groups.inc.php:22 include/staff/emails.inc.php:23
+msgid "Last Updated"
+msgstr "Ultimo aggiornamento"
+
+#: include/staff/helptopics.inc.php:42
+msgid "<b>Disabled</b>"
+msgstr "<b>Disabilitato</b>"
+
+#: include/staff/helptopics.inc.php:43 include/staff/email.inc.php:184
+#: include/staff/smtp.inc.php:22 include/staff/group.inc.php:61
+#: include/staff/group.inc.php:68 include/staff/group.inc.php:75
+#: include/staff/group.inc.php:82 include/staff/group.inc.php:89
+#: include/staff/group.inc.php:96 include/staff/group.inc.php:103
+msgid "No"
+msgstr "No"
+
+#: include/staff/helptopics.inc.php:43
+msgid "<b>Yes</b>"
+msgstr "<b>Si</b>"
+
+#: include/staff/helptopics.inc.php:71
+msgid "Are you sure you want to make selected services active?"
+msgstr "Si &egrave; sicuri di voler attivare i servizi selezionati?"
+
+#: include/staff/helptopics.inc.php:73
+msgid "Are you sure you want to DISABLE selected services?"
+msgstr "Si &egrave; sicuri di voler DISATTIVARE i servizi selezionati?"
+
+#: include/staff/helptopics.inc.php:75
+msgid "Are you sure you want to DELETE selected services?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE i servizi selezionati?"
+
+#: include/staff/email.inc.php:2 include/staff/smtp.inc.php:2
+msgid "Habari/Jambo rafiki? "
+msgstr "Come va amici? "
+
+#: include/staff/email.inc.php:7
+msgid "Edit Email"
+msgstr "Modificare e-mail"
+
+#: include/staff/email.inc.php:15
+msgid "New Email"
+msgstr "Nuova e-mail"
+
+#: include/staff/email.inc.php:34
+msgid "Email Info"
+msgstr "E-mail info"
+
+#: include/staff/email.inc.php:36
+msgid ""
+"Settings are mainly for emailed tickets. For online/web tickets see help "
+"topics."
+msgstr ""
+"La configurazione &egrave; principalmente per ticket inviati per e-mail. Per "
+"ticket via web vedere gli argomenti ticket."
+
+#: include/staff/email.inc.php:38 include/staff/smtp.inc.php:55
+#: include/staff/emails.inc.php:19
+msgid "Email Address"
+msgstr "Indirizzo e-mail"
+
+#: include/staff/email.inc.php:43 include/staff/smtp.inc.php:61
+msgid "Email Name:"
+msgstr "Nome e-mail:"
+
+#: include/staff/email.inc.php:46 include/staff/smtp.inc.php:64
+msgid "Optional email's FROM name."
+msgstr "Nome mittente e-mail opzionale."
+
+#: include/staff/email.inc.php:49
+msgid "New Ticket Priority"
+msgstr "Nuova priorit&agrave; ticket"
+
+#: include/staff/email.inc.php:52 include/staff/topic.inc.php:50
+msgid "Select Priority"
+msgstr "Selezionare priorit&agrave;"
+
+#: include/staff/email.inc.php:62
+msgid "New Ticket Dept."
+msgstr "Nuovo dipartimento ticket"
+
+#: include/staff/email.inc.php:75
+msgid "Auto Response"
+msgstr "Risposta automatica"
+
+#: include/staff/email.inc.php:77
+msgid "<b>Disable</b> autoresponse for this email."
+msgstr "<b>Disattiva</b> la risposta automatica per questa e-mail."
+
+#: include/staff/email.inc.php:78
+msgid "Overwrite Dept setting"
+msgstr "Sovrascrivere impostazioni dipartimento"
+
+#: include/staff/email.inc.php:82
+msgid ""
+"<b>Login info (optional)</b>: Required when IMAP/POP and/or SMTP are enabled."
+msgstr ""
+"<b>Informazioni di login (optionali)</b>: richieste se sono attivati "
+"IMAP/POP e/o SMTP."
+
+#: include/staff/email.inc.php:95
+msgid "Mail Account (Optional)"
+msgstr "Account e-mail (opzionale)"
+
+#: include/staff/email.inc.php:97
+msgid ""
+"Setting for fetching incoming emails. Mail fetching must be enabled with "
+"autocron active or external cron setup."
+msgstr ""
+"Impostazione per il ritiro dei messaggi di posta elettronica in arrivo. "
+"Ritirare la posta deve essere abilitato con autocron attivo o "
+"l'installazione di cron esterno."
+
+#: include/staff/email.inc.php:98
+msgid ""
+"Please be patient, the system will try to login to mail server to validate "
+"the entered login info."
+msgstr ""
+"Un attimo di pazienza, il sistema tenter&agrave; di accedere al server di "
+"posta per convalidare le informazioni di login."
+
+#: include/staff/email.inc.php:107
+msgid "Host"
+msgstr "Host"
+
+#: include/staff/email.inc.php:112
+msgid "Port"
+msgstr "Porta"
+
+#: include/staff/email.inc.php:117
+msgid "Protocol"
+msgstr "Protocollo"
+
+#: include/staff/email.inc.php:120
+msgid "Select"
+msgstr "Selezionare"
+
+#: include/staff/email.inc.php:121
+msgid "POP"
+msgstr "POP"
+
+#: include/staff/email.inc.php:122
+msgid "IMAP"
+msgstr "IMAP"
+
+#: include/staff/email.inc.php:128 include/staff/email.inc.php:188
+#: include/staff/smtp.inc.php:36
+msgid "Encryption"
+msgstr "Crittografia"
+
+#: include/staff/email.inc.php:133
+msgid "SSL"
+msgstr "SSL"
+
+#: include/staff/email.inc.php:137
+msgid "Fetch Frequency"
+msgstr "Frequenza di ritiro"
+
+#: include/staff/email.inc.php:139
+msgid "Delay intervals in minutes"
+msgstr "Intervallo di ritardo in minuti"
+
+#: include/staff/email.inc.php:143
+msgid "Maximum Emails Per Fetch"
+msgstr "Max numero di e-mail per ritiro"
+
+#: include/staff/email.inc.php:145
+msgid "Maximum emails to process per fetch."
+msgstr "Max numero di e-mail da elaborare per ritiro."
+
+#: include/staff/email.inc.php:149
+msgid "Delete Messages"
+msgstr "Cancella i messaggi"
+
+#: include/staff/email.inc.php:152
+msgid "Delete fetched message(s) (<i>recommended when using POP</i>)"
+msgstr "Elimina i messaggi ritirati (<i>raccomandato se si usa POP</i>)"
+
+#: include/staff/email.inc.php:156
+msgid "SMTP Settings (Optional)"
+msgstr "Impostazioni SMTP (opzionali)"
+
+#: include/staff/email.inc.php:158
+msgid ""
+"When enabled the <b>email account</b> will use SMTP server instead of "
+"internal PHP mail() function for outgoing emails.<br>"
+msgstr ""
+"Quando &egrave; attivato l'<b>account e-mail</b> utilizzer&agrave; il server "
+"SMTP al posto della funzione PHP mail() interna per email in uscita.<br />"
+
+#: include/staff/email.inc.php:159 include/staff/smtp.inc.php:18
+msgid ""
+"Please be patient, the system will try to login to SMTP server to validate "
+"the entered login info."
+msgstr ""
+"Un attimo di pazienza, il sistema tenter&agrave; di accedere al server SMTP "
+"per convalidare le informazioni di login."
+
+#: include/staff/email.inc.php:168 include/staff/smtp.inc.php:26
+msgid "SMTP Host"
+msgstr "Host SMTP"
+
+#: include/staff/email.inc.php:173 include/staff/smtp.inc.php:31
+msgid "SMTP Port"
+msgstr "Porta SMTP"
+
+#: include/staff/email.inc.php:178
+msgid "Authentication Required?"
+msgstr "Richiedere autenticazione?"
+
+#: include/staff/email.inc.php:182 include/staff/smtp.inc.php:21
+#: include/staff/group.inc.php:60 include/staff/group.inc.php:67
+#: include/staff/group.inc.php:74 include/staff/group.inc.php:81
+#: include/staff/group.inc.php:88 include/staff/group.inc.php:95
+#: include/staff/group.inc.php:102
+msgid "Yes"
+msgstr "Si"
+
+#: include/staff/email.inc.php:189
+msgid ""
+"Best available authentication method is auto-selected based on what the "
+"sever supports."
+msgstr ""
+"Il miglior metodo di autenticazione &egrave; selezionato automaticamente "
+"sulla base di ci&ograve; che supporta il server."
+
+#: include/staff/filters.inc.php:64
+msgid "(Add)"
+msgstr "(Aggiungere)"
+
+#: include/staff/filters.inc.php:74
+msgid "(Search)"
+msgstr "(Cercare)"
+
+#: include/staff/viewticket.inc.php:10
+msgid "Unable to obtain a lock on the ticket"
+msgstr "Impossibile ottenere un blocco del ticket"
+
+#: include/staff/viewticket.inc.php:19
+#, php-format
+msgid "Ticket is assigned to %s"
+msgstr "Ticket assegnato a %s"
+
+#: include/staff/viewticket.inc.php:21
+msgid "This ticket is currently locked by another staff member!"
+msgstr ""
+"Questo ticket &egrave; attualmente bloccato da un altro membro dello staff!"
+
+#: include/staff/viewticket.inc.php:23
+msgid "Email is in banlist! Must be removed before any reply/response"
+msgstr ""
+"L'indirizzo e-mail &egrave; bloccato! Deve essere sbloccato prima di "
+"qualunque risposta"
+
+#: include/staff/viewticket.inc.php:25
+msgid "Marked overdue!"
+msgstr "Marcato come scaduto!"
+
+#: include/staff/viewticket.inc.php:35
+msgid "Edit Ticket"
+msgstr "Modificare ticket"
+
+#: include/staff/viewticket.inc.php:71
+#, php-format
+msgid "Related Tickets"
+msgstr "Ticket correlati"
+
+#: include/staff/viewticket.inc.php:82
+msgid "Source:"
+msgstr "Origine:"
+
+#: include/staff/viewticket.inc.php:93
+msgid "Assigned Staff:"
+msgstr "Assegnato a:"
+
+#: include/staff/viewticket.inc.php:97
+msgid "Last Response:"
+msgstr "Ultima risposta:"
+
+#: include/staff/viewticket.inc.php:109
+msgid "Close Date:"
+msgstr "Data chiusura:"
+
+#: include/staff/viewticket.inc.php:127
+msgid "IP Address:"
+msgstr "Indirizzo IP:"
+
+#: include/staff/viewticket.inc.php:130
+msgid "Last Message:"
+msgstr "Ultimo messaggio"
+
+#: include/staff/viewticket.inc.php:154
+msgid "Action:"
+msgstr "Azione:"
+
+#: include/staff/viewticket.inc.php:157
+msgid "Select Action"
+msgstr "Selezionare azione"
+
+#: include/staff/viewticket.inc.php:158
+msgid "Change Priority"
+msgstr "Cambiare priorit&agrave;"
+
+#: include/staff/viewticket.inc.php:160
+msgid "Mark Overdue"
+msgstr "Marcare come scaduto"
+
+#: include/staff/viewticket.inc.php:163
+msgid "Release (unassign)"
+msgstr "Rilasciar (togliere assegnazione)"
+
+#: include/staff/viewticket.inc.php:169 include/staff/viewticket.inc.php:376
+msgid "Close Ticket"
+msgstr "Chiudere ticket"
+
+#: include/staff/viewticket.inc.php:171 include/staff/viewticket.inc.php:378
+msgid "Reopen Ticket"
+msgstr "Riaprire ticket"
+
+#: include/staff/viewticket.inc.php:177
+msgid "Ban Email"
+msgstr "Bloccare e-mail"
+
+#: include/staff/viewticket.inc.php:179
+msgid "Un-Ban Email"
+msgstr "Sbloccare e-mail"
+
+#: include/staff/viewticket.inc.php:184
+msgid "Delete Ticket"
+msgstr "Eliminare ticket"
+
+#: include/staff/viewticket.inc.php:189
+msgid "-Unchanged-"
+msgstr "-Inalterato-"
+
+#: include/staff/viewticket.inc.php:198 include/staff/premade.inc.php:84
+msgid "GO"
+msgstr "Invia"
+
+#: include/staff/viewticket.inc.php:212
+msgid "Internal Notes"
+msgstr "Note interne"
+
+#: include/staff/viewticket.inc.php:217
+msgid "posted by"
+msgstr "inviato da"
+
+#: include/staff/viewticket.inc.php:296
+msgid "Canned Response:"
+msgstr "Risposta aggiunta:"
+
+#: include/staff/viewticket.inc.php:299
+msgid "Select a premade reply"
+msgstr "Selezionare risposta predefinita"
+
+#: include/staff/viewticket.inc.php:309
+msgid "Attach File:"
+msgstr "Allegare file"
+
+#: include/staff/viewticket.inc.php:320
+msgid "Append Signature:"
+msgstr "Aggiungere firma:"
+
+#: include/staff/viewticket.inc.php:326
+msgid "Dept Signature"
+msgstr "Firma del dipartimento"
+
+#: include/staff/viewticket.inc.php:335
+msgid "Close on Reply"
+msgstr "Chiudere alla risposta"
+
+#: include/staff/viewticket.inc.php:337
+msgid "Reopen on Reply"
+msgstr "Riaprire alla risposta"
+
+#: include/staff/viewticket.inc.php:351
+msgid "Post Internal Note"
+msgstr "Inviare nota interna"
+
+#: include/staff/viewticket.inc.php:357
+msgid "Note Title:"
+msgstr "Titolo nota:"
+
+#: include/staff/viewticket.inc.php:362
+msgid "Enter note content."
+msgstr "Scrivere contenuto della nota."
+
+#: include/staff/viewticket.inc.php:396
+msgid "Dept. Transfer"
+msgstr "Trasferimento dip."
+
+#: include/staff/viewticket.inc.php:405
+msgid "-Select Target Dept.-"
+msgstr "-Selezionare dip.-"
+
+#: include/staff/viewticket.inc.php:416
+msgid "Comments/Reasons for the transfer. &nbsp;(<i>Internal note</i>)"
+msgstr "Commento/ragione del trasferimento. &nbsp;(<i>Nota interna</i>)"
+
+#: include/staff/viewticket.inc.php:422
+msgid "Transfer"
+msgstr "Trasferimento"
+
+#: include/staff/viewticket.inc.php:437
+msgid "Re Assign Ticket"
+msgstr "Riassegnare ticket"
+
+#: include/staff/viewticket.inc.php:437
+msgid "Assign to Staff"
+msgstr "Assegnare a staff"
+
+#: include/staff/viewticket.inc.php:443
+msgid "Staff Member:"
+msgstr "Membro dello staff:"
+
+#: include/staff/viewticket.inc.php:445
+msgid "-Select Staff Member.-"
+msgstr "-Selezionare membro staff.-"
+
+#: include/staff/viewticket.inc.php:462
+msgid "Comments/message for assignee. &nbsp;(<i>Saved as internal note</i>)"
+msgstr ""
+"Commento/messaggio per l'assegnazione. &nbsp;(<i>Salvato come nota "
+"interna</i>)"
+
+#: include/staff/viewticket.inc.php:469
+msgid "Assign"
+msgstr "Assegnare"
+
+#: include/staff/mypref.inc.php:4
+msgid "My Preferences"
+msgstr "Preferenze personali"
+
+#: include/staff/mypref.inc.php:10
+msgid "Maximum Page size:"
+msgstr "Massime dimensioni pagina:"
+
+#: include/staff/mypref.inc.php:18
+msgid "Tickets/items per page."
+msgstr "Tickets/item per pagina."
+
+#: include/staff/mypref.inc.php:22
+msgid "Auto Refresh Rate:"
+msgstr "Frequenza di autoaggiornamento:"
+
+#: include/staff/mypref.inc.php:25
+msgid ""
+"in Mins. (<i>Tickets page refresh rate in minutes. Enter 0 to disable</i>)"
+msgstr ""
+"in Min. (<i>Frequenza di aggiornamento della pagina in minuti. Inserire 0 "
+"per disabilitare</i>)"
+
+#: include/staff/mypref.inc.php:29
+msgid "Preferred Timezone:"
+msgstr "Fuso orario preferito:"
+
+#: include/staff/mypref.inc.php:46
+msgid "Daylight Savings:"
+msgstr "Ora legale:"
+
+#: include/staff/mypref.inc.php:48
+msgid "Observe daylight saving"
+msgstr "Rispettare l'ora legale"
+
+#: include/staff/mypref.inc.php:51
+msgid "Current Time:"
+msgstr "Ora corrente:"
+
+#: include/staff/topic.inc.php:6
+msgid "Edit Topic"
+msgstr "Modificare argomento"
+
+#: include/staff/topic.inc.php:10
+msgid "New Help Topic"
+msgstr "Nuovo argomento"
+
+#: include/staff/topic.inc.php:26
+msgid "Disabling auto response will overwrite dept settings."
+msgstr ""
+"La disattivazione della risposta automatica sovrascriver&agrave le "
+"impostazioni di dipartiemnto."
+
+#: include/staff/topic.inc.php:33
+msgid "Topic Status"
+msgstr "Stato argomento"
+
+#: include/staff/topic.inc.php:35 include/staff/group.inc.php:37
+msgid "Enabled"
+msgstr "Attivato"
+
+#: include/staff/topic.inc.php:36 include/staff/group.inc.php:38
+msgid "Disabled"
+msgstr "Disattivato"
+
+#: include/staff/topic.inc.php:40
+msgid "Auto Response:"
+msgstr "Risposta automatica:"
+
+#: include/staff/topic.inc.php:43
+msgid ""
+"<b>Disable</b> autoresponse for this topic.   (<i>Overwrite Dept setting</i>)"
+msgstr ""
+"<b>Disattiva</b>la risposta automatica per questo argomento. (<i>Sovrascrivi "
+"le impostazioni di dip.</i>)"
+
+#: include/staff/topic.inc.php:47
+msgid "New Ticket Priority:"
+msgstr "Nuova Priorit&agrave; ticket:"
+
+#: include/staff/topic.inc.php:61
+msgid "New Ticket Department:"
+msgstr "Nuovo dipartimento ticket:"
+
+#: include/staff/staff.inc.php:8
+#, php-format
+msgid "Update: %s %s"
+msgstr "Aggionamento:%s %s"
+
+#: include/staff/staff.inc.php:10
+msgid "To reset the password enter a new one below"
+msgstr "Per reimpostare la password inserirne una nuova pi&ugrave; sotto"
+
+#: include/staff/staff.inc.php:13
+msgid "New Staff Member"
+msgstr "Nuovo membro dello staff"
+
+#: include/staff/staff.inc.php:37
+msgid "User Account"
+msgstr "Account utente"
+
+#: include/staff/staff.inc.php:38
+msgid "Account information"
+msgstr "Informazioni sul profilo utente"
+
+#: include/staff/staff.inc.php:59
+msgid "User Group:"
+msgstr "Gruppo utente"
+
+#: include/staff/staff.inc.php:62
+msgid "Select Group"
+msgstr "Selezionare gruppo"
+
+#: include/staff/staff.inc.php:73
+msgid "Name (First,Last):"
+msgstr "Nome (nome, cognome):"
+
+#: include/staff/staff.inc.php:92
+msgid "Mobile Phone:"
+msgstr "Cellulare:"
+
+#: include/staff/staff.inc.php:102
+msgid "Password:"
+msgstr "Password:"
+
+#: include/staff/staff.inc.php:109
+msgid "Password (confirm):"
+msgstr "Parola d'accesso (confermare):"
+
+#: include/staff/staff.inc.php:114
+msgid "Forced Password Change:"
+msgstr "Forzare il cambio password:"
+
+#: include/staff/staff.inc.php:116
+msgid "Require a change of password in the next login"
+msgstr "Richiedere cambio password al prossimo login"
+
+#: include/staff/staff.inc.php:118
+msgid "Account Permission, status &amp; Settings"
+msgstr "Permessi account, stato &amp; impostazioni"
+
+#: include/staff/staff.inc.php:120
+msgid ""
+"Staff's permission is also based on the assigned group. <b>Admin is not "
+"restricted by group settings.</b>"
+msgstr ""
+"I permessi per lo staff sono basati anche sul gruppo assegnato. <b>Admin non "
+"&egrave; limitato dalle impostazioni di gruppo</b>"
+
+#: include/staff/staff.inc.php:122
+msgid "Account Status"
+msgstr "Stato Account"
+
+#: include/staff/staff.inc.php:125
+msgid "Locked"
+msgstr "Bloccato"
+
+#: include/staff/staff.inc.php:129
+msgid "Account Type"
+msgstr "Tipo di account"
+
+#: include/staff/staff.inc.php:131
+msgid "Admin"
+msgstr "Amministratore"
+
+#: include/staff/staff.inc.php:136
+msgid "Directory Listing"
+msgstr "Elenco Directory"
+
+#: include/staff/staff.inc.php:138
+msgid "Show the user on staff's directory"
+msgstr "Mostra l'utente della directory dello staff"
+
+#: include/staff/staff.inc.php:141
+msgid "Vacation Mode"
+msgstr "Modo inattivo"
+
+#: include/staff/staff.inc.php:144
+msgid "Staff on vacation mode."
+msgstr "Staff in modalit&agrave; inattiva"
+
+#: include/staff/staff.inc.php:144
+msgid "No ticket assignment or Alerts"
+msgstr "Nessuna assegnazione di ticket o invio messaggi"
+
+#: include/staff/dept.inc.php:6
+msgid "Update Department"
+msgstr "Aggiornare dipartimento"
+
+#: include/staff/dept.inc.php:10
+msgid "New Department"
+msgstr "Nuovo dipartimento"
+
+#: include/staff/dept.inc.php:29
+msgid ""
+"Dept depends on email &amp; help topics settings for incoming tickets."
+msgstr ""
+"Il dipartimento dipende dalla configurazione di e-mail &amp; argomento per i "
+"ticket in ingresso."
+
+#: include/staff/dept.inc.php:30
+msgid "Dept Name:"
+msgstr "Nome dip."
+
+#: include/staff/dept.inc.php:37
+msgid "Dept Email:"
+msgstr "E-mail dip."
+
+#: include/staff/dept.inc.php:59
+msgid "Dep Manager:"
+msgstr "Manager dip."
+
+#: include/staff/dept.inc.php:63
+msgid "-------None-------"
+msgstr "----Nessuno----"
+
+#: include/staff/dept.inc.php:64
+msgid "Select Manager (optional)"
+msgstr "Selezionare manager (opzionale)"
+
+#: include/staff/dept.inc.php:72
+msgid "No Users (Add Users)"
+msgstr "Nessun utente (Aggiungere utente)"
+
+#: include/staff/dept.inc.php:79
+msgid "Dept Type"
+msgstr "Tipo dip."
+
+#: include/staff/dept.inc.php:81
+msgid "Public"
+msgstr "Pubblico"
+
+#: include/staff/dept.inc.php:82
+msgid "Private (Hidden)"
+msgstr "Privato (nascosto)"
+
+#: include/staff/dept.inc.php:87
+msgid "Dept Signature:"
+msgstr "Firma dipartimento:"
+
+#: include/staff/dept.inc.php:89
+msgid "Required when Dept is public"
+msgstr "Richiesto se il dip. &egrave; pubblico"
+
+#: include/staff/dept.inc.php:93
+msgid ""
+"can be appended to responses.&nbsp;(available as a choice for public "
+"departments)"
+msgstr ""
+"pu&ograve; essere aggiunto alle risposte. (disponibile come scelta per "
+"dipartimenti pubblici)"
+
+#: include/staff/dept.inc.php:96
+msgid "Email Templates:"
+msgstr "Modelli e-mail:"
+
+#: include/staff/dept.inc.php:99
+msgid "Select Template"
+msgstr "Seleziona Modello"
+
+#: include/staff/dept.inc.php:100
+msgid "System Default"
+msgstr "Predefinito di sistema"
+
+#: include/staff/dept.inc.php:109
+msgid "Used for outgoing emails,alerts and notices to user and staff."
+msgstr ""
+"Usato per posta in uscita, messaggi e note interne ad utenti e staff."
+
+#: include/staff/dept.inc.php:112
+msgid "Autoresponders"
+msgstr "Autorisponditore"
+
+#: include/staff/dept.inc.php:114
+msgid ""
+"Global auto-response settings in preference section must be enabled for Dept "
+"'Enable' setting to take effect."
+msgstr ""
+"Per avere effetto, le impostazioni della risposta automatica devono essere "
+"abilitate anche nelle impostazioni generali."
+
+#: include/staff/dept.inc.php:117 include/staff/preference.inc.php:410
+msgid "New Ticket:"
+msgstr "Nuovo ticket:"
+
+#: include/staff/dept.inc.php:123 include/staff/preference.inc.php:422
+msgid "New Message:"
+msgstr "Nuovo messaggio:"
+
+#: include/staff/dept.inc.php:130
+msgid "Auto Response Email:"
+msgstr "E-mail risposta automatica:"
+
+#: include/staff/dept.inc.php:134
+msgid "Dept Email (above)"
+msgstr "E-mail dip. (sopra)"
+
+#: include/staff/dept.inc.php:149
+msgid "Email address used to send auto-responses, if enabled."
+msgstr ""
+"Indirizzo di posta usato per spedire risposte automatiche, se attivate."
+
+#: include/staff/templates.inc.php:47
+msgid "Sort by name"
+msgstr "Ordinamento per nome"
+
+#: include/staff/templates.inc.php:48
+msgid "In-Use"
+msgstr "In uso"
+
+#: include/staff/templates.inc.php:50
+msgid "Last Update"
+msgstr "Ultimo aggiornamento"
+
+#: include/staff/templates.inc.php:95
+msgid "Delete Template(s)"
+msgstr "Eliminare modello"
+
+#: include/staff/templates.inc.php:96
+msgid "Are you sure you want to DELETE selected template(s)?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE i modelli selezionati?"
+
+#: include/staff/templates.inc.php:105
+msgid "Add New Template"
+msgstr "Agiungere nuovo modello"
+
+#: include/staff/templates.inc.php:108
+msgid ""
+"To add a new template - select existing template and edit it thereafter."
+msgstr ""
+"Per aggiungere un nuovo modello - selezionare modello esistente e "
+"modificarlo successivamente."
+
+#: include/staff/templates.inc.php:117
+msgid "Select Template to Copy"
+msgstr "Selezionare un modello da copiare"
+
+#: include/staff/templates.inc.php:129
+msgid "Variables"
+msgstr "Variabili"
+
+#: include/staff/templates.inc.php:132
+msgid ""
+"Variables are used on email templates as placeholders. Please note that non-"
+"base variables depends on the context in question."
+msgstr ""
+"Le variabili sono usate nei modelli della posta come segnaposto. Notare che "
+"le variabili non base dipendono dal contesto."
+
+#: include/staff/templates.inc.php:134
+msgid "Base Variables"
+msgstr "Variabili base"
+
+#: include/staff/templates.inc.php:134
+msgid "Other Variables"
+msgstr "Altre variabili"
+
+#: include/staff/templates.inc.php:138
+msgid "Ticket ID (internal ID)"
+msgstr "Ticket ID (ID interno)"
+
+#: include/staff/templates.inc.php:139
+msgid "Ticket number (external ID)"
+msgstr "Numero Ticket (ID esterno)"
+
+#: include/staff/templates.inc.php:140
+msgid "Email address"
+msgstr "Indirizzo e-mail"
+
+#: include/staff/templates.inc.php:141
+msgid "Full name"
+msgstr "Nome completo"
+
+#: include/staff/templates.inc.php:143
+msgid "Help topic (web only)"
+msgstr "Argomenti (solo web)"
+
+#: include/staff/templates.inc.php:144
+msgid "Phone number | ext"
+msgstr "Numero telefonico | prefisso"
+
+#: include/staff/templates.inc.php:148
+msgid "Assigned staff (if any)"
+msgstr "Staff di assegnazione (se esiste)"
+
+#: include/staff/templates.inc.php:149
+msgid "Date created"
+msgstr "Data creazione"
+
+#: include/staff/templates.inc.php:150
+msgid "Due date"
+msgstr "Data scadenza"
+
+#: include/staff/templates.inc.php:151
+msgid "Date closed"
+msgstr "Data chiusura"
+
+#: include/staff/templates.inc.php:156
+msgid "Message (incoming)"
+msgstr "Messaggio (in ingresso)"
+
+#: include/staff/templates.inc.php:157
+msgid "Response (outgoing)"
+msgstr "Risposta (in uscita)"
+
+#: include/staff/templates.inc.php:158
+msgid "Internal note"
+msgstr "Nota interna"
+
+#: include/staff/templates.inc.php:159
+msgid "Staff's name (alert/notices)"
+msgstr "Nome staff (avvisi)"
+
+#: include/staff/templates.inc.php:160
+msgid "Assigned staff"
+msgstr "Staff di assegnazione"
+
+#: include/staff/templates.inc.php:161
+msgid "Staff assigning the ticket"
+msgstr "Staff che ha assegnato il ticket"
+
+#: include/staff/templates.inc.php:162
+msgid "osTicket's base url (FQDN)"
+msgstr "URL di base di osTicket (FQDN)"
+
+#: include/staff/smtp.inc.php:14
+msgid "SMTP Server Setting (Optional)"
+msgstr "Impostazioni server SMTP (opzionali)"
+
+#: include/staff/smtp.inc.php:16
+msgid ""
+"When enabled the system will use an SMTP server rather than the internal PHP "
+"mail() function for outgoing emails."
+msgstr ""
+"Quando attivato il sistema usa un server SMTP piuttosto che la funzione PHP "
+"mail() per la posta elettronica in uscita."
+
+#: include/staff/smtp.inc.php:17
+msgid ""
+"Leave the username and password empty of the SMTP server doesn't require "
+"authentication"
+msgstr ""
+"Lasciare vuoti nome utente e password del server SMTP per non richiedere "
+"autenticazione"
+
+#: include/staff/smtp.inc.php:19
+msgid "Enable SMTP"
+msgstr "Attivare SMTP"
+
+#: include/staff/smtp.inc.php:41
+msgid "TLS (secure)"
+msgstr "TLS (sicuro)"
+
+#: include/staff/premade.inc.php:54
+msgid "Premade/Canned Replies"
+msgstr "Risposte predefinite/aggiunte"
+
+#: include/staff/premade.inc.php:71
+msgid "Search for:"
+msgstr "Ricerca:"
+
+#: include/staff/premade.inc.php:72
+msgid "category"
+msgstr "categoria"
+
+#: include/staff/premade.inc.php:96
+msgid "Sort By Title"
+msgstr "Ordinamento per titolo"
+
+#: include/staff/premade.inc.php:96
+msgid "Reply Title"
+msgstr "Titolo risposta"
+
+#: include/staff/premade.inc.php:98
+msgid "Category/Dept"
+msgstr "Categoria/Dipartimento"
+
+#: include/staff/premade.inc.php:100
+msgid "Sort By Update Date"
+msgstr "Ordinamento per data aggiornamento"
+
+#: include/staff/premade.inc.php:146
+msgid "Are you sure you want to ENABLE selected entries?"
+msgstr "Si &egrave; sicuri di voler ATTIVARE le voci selezionate?"
+
+#: include/staff/premade.inc.php:148
+msgid "Are you sure you want to DISABLE selected entries?"
+msgstr "Si &egrave; sicuri di voler DISATTIVARE le voci selezionate?"
+
+#: include/staff/premade.inc.php:150
+msgid "Are you sure you want to DELETE selected entries?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE le voci selezionate?"
+
+#: include/staff/footer.inc.php:4
+#, php-format
+msgid ""
+"Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;All Rights Reserved."
+msgstr ""
+"Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;Tutti i diritti riservati."
+
+#: include/staff/preference.inc.php:9
+msgid "You need to setup upload dir."
+msgstr "E' necessario impostare la cartella di upload."
+
+#: include/staff/preference.inc.php:12
+msgid "*Attachments Disabled."
+msgstr "*Allegati disattivati."
+
+#: include/staff/preference.inc.php:14
+msgid "<br>*Attachments Disabled."
+msgstr "<br />*Allegati disattivati."
+
+#: include/staff/preference.inc.php:18
+msgid "GD required for captcha to work"
+msgstr "Captcha richiede la libreria GD per funzionare"
+
+#: include/staff/preference.inc.php:23
+msgid "Possible errors detected, please check the warnings below"
+msgstr ""
+"Rilevati possibili errori, si prega di consultare le avvertenze di seguito"
+
+#: include/staff/preference.inc.php:29
+msgid "System Preferences and Settings"
+msgstr "Impostazioni e preferenze di sistema"
+
+#: include/staff/preference.inc.php:35
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: include/staff/preference.inc.php:37
+msgid ""
+"Offline mode will disable client interface and <b>only</b> allow <b>super "
+"admins</b> to login to Staff Control Panel"
+msgstr ""
+"La modalit&agrave; offline disabilita l'interfaccia cliente e permette <b> "
+"solo </ b> a <b> super amministratori </ b> di accedere al Pannello di "
+"Controllo Staff"
+
+#: include/staff/preference.inc.php:39
+msgid "Helpdesk Status"
+msgstr "Stato Helpdesk"
+
+#: include/staff/preference.inc.php:41
+msgid "Online"
+msgstr "Online"
+
+#: include/staff/preference.inc.php:41
+msgid "(Active)"
+msgstr "(Attivo)"
+
+#: include/staff/preference.inc.php:42
+msgid "Offline"
+msgstr "Offline"
+
+#: include/staff/preference.inc.php:42
+msgid "(Inactive)"
+msgstr "(Inattivo)"
+
+#: include/staff/preference.inc.php:43
+msgid "osTicket offline"
+msgstr "osTicket offline"
+
+#: include/staff/preference.inc.php:46
+msgid "Helpdesk URL:"
+msgstr "Helpdesk URL:"
+
+#: include/staff/preference.inc.php:51
+msgid "Helpdesk Name/Title:"
+msgstr "Helpdesk nome/titolo:"
+
+#: include/staff/preference.inc.php:54
+msgid "Default Email Templates:"
+msgstr "Modello predefinito e-mail:"
+
+#: include/staff/preference.inc.php:57
+msgid "Select Default Template"
+msgstr "Selezionare modello predefinito"
+
+#: include/staff/preference.inc.php:67
+msgid "Default Department:"
+msgstr "Dipartimento predefinito:"
+
+#: include/staff/preference.inc.php:70
+msgid "Select Default Dept"
+msgstr "Selezionare dip. predefinito"
+
+#: include/staff/preference.inc.php:80
+msgid "Default Page Size:"
+msgstr "Dimensione pagina predefinita"
+
+#: include/staff/preference.inc.php:93
+msgid "System Log Level:"
+msgstr "Livello di system log:"
+
+#: include/staff/preference.inc.php:96
+msgid "None (Disable Logger)"
+msgstr "Nessuno (log disabilitati)"
+
+#: include/staff/preference.inc.php:97
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: include/staff/preference.inc.php:98
+msgid "WARN"
+msgstr "AVVISI"
+
+#: include/staff/preference.inc.php:99
+msgid "ERROR"
+msgstr "ERRORE"
+
+#: include/staff/preference.inc.php:101
+msgid "Purge logs after"
+msgstr "Elimina logs dopo"
+
+#: include/staff/preference.inc.php:103
+msgid "None (Disable)"
+msgstr "Nessuno (Disabilitato)"
+
+#: include/staff/preference.inc.php:107
+msgid "Months"
+msgstr "Mesi"
+
+#: include/staff/preference.inc.php:107
+msgid "Month"
+msgstr "Mese"
+
+#: include/staff/preference.inc.php:113
+msgid "Staff Excessive Logins:"
+msgstr "Login eccessivi staff:"
+
+#: include/staff/preference.inc.php:121 include/staff/preference.inc.php:154
+msgid "attempt(s) allowed"
+msgstr "tentativi permessi"
+
+#: include/staff/preference.inc.php:122 include/staff/preference.inc.php:155
+msgid "before a"
+msgstr "prima di"
+
+#: include/staff/preference.inc.php:129 include/staff/preference.inc.php:162
+msgid "min. timeout (penalty in minutes)"
+msgstr "min. di timeout (attesa in minuti)"
+
+#: include/staff/preference.inc.php:132
+msgid "Staff Session Timeout:"
+msgstr "Timeout sessione staff"
+
+#: include/staff/preference.inc.php:135
+msgid "Staff's max Idle time in minutes. Enter 0 to disable timeout"
+msgstr ""
+"Max tempo inattivit&agrave; per staff in minuti. Inserire 0 per disattivare"
+
+#: include/staff/preference.inc.php:138
+msgid "Bind Staff Session to IP:"
+msgstr "Collegare la sessione dello staff all'IP:"
+
+#: include/staff/preference.inc.php:141
+msgid "Bind staff's session to login IP."
+msgstr "Collegare la sessione dello staff all'IP di login."
+
+#: include/staff/preference.inc.php:145
+msgid "Client Excessive Logins:"
+msgstr "Eccessivi login di utente"
+
+#: include/staff/preference.inc.php:166
+msgid "Client Session Timeout:"
+msgstr "Timeout sessione utenti:"
+
+#: include/staff/preference.inc.php:169
+msgid "Client's max Idle time in minutes. Enter 0 to disable timeout"
+msgstr ""
+"Max. tempo di inattivit&agrave; per utente in minuti. Inserire 0 per "
+"disattivare"
+
+#: include/staff/preference.inc.php:172
+msgid "Clickable URLs:"
+msgstr "URL cliccabili:"
+
+#: include/staff/preference.inc.php:175
+msgid "Make URLs clickable"
+msgstr "Rendere cliccabili URL"
+
+#: include/staff/preference.inc.php:178
+msgid "Enable Auto Cron:"
+msgstr "Abilitare auto cron:"
+
+#: include/staff/preference.inc.php:181
+msgid "Enable cron call on staff's activity"
+msgstr "Attivare le chiamate cron per la attivit&agrave; dello staff"
+
+#: include/staff/preference.inc.php:187
+msgid "Date &amp; Time"
+msgstr "Data &amp; Ora"
+
+#: include/staff/preference.inc.php:189
+msgid ""
+"Please refer to <a href=\"http://php.net/date\" target=\"_blank\">PHP "
+"Manual</a> for supported parameters."
+msgstr ""
+"Fare riferimento al <a href=\"http://php.net/date\" "
+"target=\"_blank\">manuale PHP</a> per i parametri supportati."
+
+#: include/staff/preference.inc.php:191
+msgid "Time Format:"
+msgstr "Formato ora"
+
+#: include/staff/preference.inc.php:197
+msgid "Date Format:"
+msgstr "Formato data:"
+
+#: include/staff/preference.inc.php:203
+msgid "Date &amp; Time Format:"
+msgstr "Formato data &amp ora:"
+
+#: include/staff/preference.inc.php:209
+msgid "Day, Date &amp; Time Format:"
+msgstr "Formato giorno, data &amp; ora:"
+
+#: include/staff/preference.inc.php:215
+msgid "Default Timezone:"
+msgstr "Fuso orario predefinito:"
+
+#: include/staff/preference.inc.php:233
+msgid "Daylight Saving:"
+msgstr "Ora legale:"
+
+#: include/staff/preference.inc.php:235
+msgid "Observe daylight savings"
+msgstr "Rispettare l'ora legale"
+
+#: include/staff/preference.inc.php:241
+msgid "Ticket Options &amp; Settings"
+msgstr "Opzioni &amp; impostazioni ticket"
+
+#: include/staff/preference.inc.php:242
+msgid "If enabled ticket lock get auto-renewed on form activity."
+msgstr ""
+"Se attivato, il blocco ticket si rinnova automaticamente durante "
+"l'attivit&agrave;."
+
+#: include/staff/preference.inc.php:243
+msgid "Ticket IDs:"
+msgstr "ID ticket:"
+
+#: include/staff/preference.inc.php:245
+msgid "Sequential"
+msgstr "Sequenziale"
+
+#: include/staff/preference.inc.php:246
+msgid "Random  (recommended)"
+msgstr "Casuale (raccomandato)"
+
+#: include/staff/preference.inc.php:249
+msgid "Ticket Priority:"
+msgstr "Priorit&agrave; ticket:"
+
+#: include/staff/preference.inc.php:258
+msgid "Default priority"
+msgstr "Priorit&agrave; indefinita"
+
+#: include/staff/preference.inc.php:260
+msgid "Allow user to overwrite/set priority (new web tickets)"
+msgstr ""
+"Permettere all'utente di sovrascrivere/impostare la priorit&agrave; (nuovi "
+"ticket da web)"
+
+#: include/staff/preference.inc.php:262
+msgid "Use email priority when available (new emailed tickets)"
+msgstr ""
+"Usare la priorit&agrave; e-mail quando possibile (nuovi ticket per e-mail)"
+
+#: include/staff/preference.inc.php:266
+msgid "Maximum <b>Open</b> Tickets:"
+msgstr "Numero max. ticket <b>aperti</b>"
+
+#: include/staff/preference.inc.php:269
+msgid ""
+"per email. (<i>Helps with spam and flood control. Enter 0 for unlimited</i>)"
+msgstr ""
+"per email. (<i>Aiuta per il controllo del flusso e dello spam. Inserire 0 "
+"per non avere limiti</i>)"
+
+#: include/staff/preference.inc.php:272
+msgid "Auto-Lock Time:"
+msgstr "Tempo di auto- bloccaggio:"
+
+#: include/staff/preference.inc.php:276
+msgid ""
+"(<i>Minutes to lock a ticket on activity. Enter 0 to disable locking</i>)"
+msgstr ""
+"(<i>Minuti di blocco di un ticket. Inserire 0 per disattivare il "
+"bloccaggio</i>)"
+
+#: include/staff/preference.inc.php:279
+msgid "Ticket Grace Period:"
+msgstr "Tempo di lavoro di un ticket:"
+
+#: include/staff/preference.inc.php:282
+msgid ""
+"(<i>Hours before ticket is marked overdue. Enter 0 to disable aging.</i>)"
+msgstr ""
+"(<i>Ore prima che il ticket scada. Inserire 0 per disabilitare la "
+"scadenza.</i>)"
+
+#: include/staff/preference.inc.php:285
+msgid "Reopened Tickets:"
+msgstr "Ticket riaperti:"
+
+#: include/staff/preference.inc.php:288
+msgid ""
+"Auto-assign reopened tickets to last respondent 'available'. (<i> 3 months "
+"limit</i>)"
+msgstr ""
+"Riassegnare automaticamente i ticket riaperti a chi aveva inviato l'ultima "
+"risposta. (<i>limite a 3 mesi</i>)"
+
+#: include/staff/preference.inc.php:291
+msgid "Assigned Tickets:"
+msgstr "Ticket assegnati:"
+
+#: include/staff/preference.inc.php:294
+msgid "Show assigned tickets on open queue."
+msgstr "Mostrare i ticket assegnati nell'elenco ticket aperti"
+
+#: include/staff/preference.inc.php:297
+msgid "Answered Tickets:"
+msgstr "Ticket con risposta:"
+
+#: include/staff/preference.inc.php:300
+msgid "Show answered tickets on open queue."
+msgstr "Mostrare i ticket con risposta nella lista ticket aperti."
+
+#: include/staff/preference.inc.php:303
+msgid "Ticket Activity Log:"
+msgstr "Log. attivit&agrave; ticket:"
+
+#: include/staff/preference.inc.php:306
+msgid "Log ticket's activity as internal notes."
+msgstr "Registra la attivit&agrave; ticket come nota interna."
+
+#: include/staff/preference.inc.php:309
+msgid "Staff Identity:"
+msgstr "Identit&agrave; staff:"
+
+#: include/staff/preference.inc.php:312
+msgid "Hide staff's name on responses."
+msgstr "Nascondere il nome dello staff nelle risposte."
+
+#: include/staff/preference.inc.php:315
+msgid "Human Verification:"
+msgstr "Verifica umana:"
+
+#: include/staff/preference.inc.php:322
+msgid "Enable captcha on new web tickets."
+msgstr "Abilitare captcha sui nuovi ticket dal web."
+
+#: include/staff/preference.inc.php:328 include/class.nav.php:32
+msgid "Email Settings"
+msgstr "Impostazioni E-mail"
+
+#: include/staff/preference.inc.php:329
+msgid "Note that global settings can be disabled at dept/email level."
+msgstr ""
+"Notare che le impostazioni generali possono essere disabilitate a livello di "
+"dipartimento/e-mail."
+
+#: include/staff/preference.inc.php:330
+msgid "Incoming Emails"
+msgstr "E-mail in ingresso"
+
+#: include/staff/preference.inc.php:331
+msgid ""
+"For mail fetcher (POP/IMAP) to work you must set a cron job or simply enable "
+"auto-cron"
+msgstr ""
+"Per far funzionare il protocollo POP/IMAP impostare un cron job o "
+"semplicemente attivare auto-cron"
+
+#: include/staff/preference.inc.php:332
+msgid "Enable POP/IMAP email fetch"
+msgstr "Attivare protocollo e-mail POP/IMAP"
+
+#: include/staff/preference.inc.php:333
+msgid "Global setting which can be disabled at email level"
+msgstr ""
+"Le impostazioni generali possono essere disabilitate a livello di "
+"impostazioni e-mail"
+
+#: include/staff/preference.inc.php:334
+msgid "Enable email piping"
+msgstr "Attiva e-mail piping"
+
+#: include/staff/preference.inc.php:335
+msgid "You pipe we accept policy"
+msgstr "You pipe we accept policy"
+
+#: include/staff/preference.inc.php:337
+msgid "Strip quoted reply (<i>depends on the tag below</i>)"
+msgstr "Togliere risposte quotate (<i>dipende dai tag sottodefiniti</i>)"
+
+#: include/staff/preference.inc.php:338
+msgid "Reply Separator Tag"
+msgstr "Tag separazione risposta"
+
+#: include/staff/preference.inc.php:342
+msgid "Outgoing Emails"
+msgstr "Posta in uscita"
+
+#: include/staff/preference.inc.php:344
+msgid "Default Email:"
+msgstr "E-mail predefinita:"
+
+#: include/staff/preference.inc.php:344
+msgid "Only applies to outgoing emails with no SMTP settings."
+msgstr "Applicabile solo a posta in uscita senza impostazioni SMTP."
+
+#: include/staff/preference.inc.php:348
+msgid "None: Use PHP mail function"
+msgstr "Nessuna: usare funzioni mail di PHP"
+
+#: include/staff/preference.inc.php:363
+msgid "Allow spoofing (No Overwrite)."
+msgstr "Consentire spoofing (No sovrascrittura)."
+
+#: include/staff/preference.inc.php:367
+msgid "Default System Email:"
+msgstr "E-mail predefinita di sistema:"
+
+#: include/staff/preference.inc.php:382
+msgid "Default Alert Email:"
+msgstr "E-mail di avviso predefinita:"
+
+#: include/staff/preference.inc.php:386
+msgid "Use Default System Email (above)"
+msgstr "Usare la e-mail predefinita di sistema (sopra)"
+
+#: include/staff/preference.inc.php:397
+msgid "Used to send out alerts and notices to staff."
+msgstr "Usata per inviare avvisi allo staff."
+
+#: include/staff/preference.inc.php:400
+msgid "System Admin Email Address:"
+msgstr "Indirizzo e-mail amministratore di sistema"
+
+#: include/staff/preference.inc.php:408
+msgid "Autoresponders &nbsp;(Global Setting)"
+msgstr "Risposte automatiche (Impostazioni generali)"
+
+#: include/staff/preference.inc.php:409
+msgid "This is global setting which can be disabled at department level."
+msgstr ""
+"Queste sono impostazioni generali che possono essere disattivate a livello "
+"di dipartimento."
+
+#: include/staff/preference.inc.php:411
+msgid ""
+"Autoresponse includes the ticket ID required to check status of the ticket"
+msgstr ""
+"La risposta automatica include il ticket ID richiesto per controllare lo "
+"stato del ticket"
+
+#: include/staff/preference.inc.php:416
+msgid "New Ticket by Staff:"
+msgstr "Nuovo ticket da staff:"
+
+#: include/staff/preference.inc.php:417
+msgid ""
+"Notice sent when staff creates a ticket on behalf of the user (Staff can "
+"disable)"
+msgstr ""
+"Avviso spedito quando un membro dello staff crea un ticket per conto di un "
+"utente (disattivabile dallo staff)"
+
+#: include/staff/preference.inc.php:423
+msgid "Message appended to an existing ticket confirmation"
+msgstr "Messaggio aggiunto ad una conferma ticket esistente"
+
+#: include/staff/preference.inc.php:428
+msgid "Overlimit notice:"
+msgstr "Avviso superamento limite:"
+
+#: include/staff/preference.inc.php:429
+msgid ""
+"Ticket denied notice sent <b>only once</b> on limit violation to the user."
+msgstr ""
+"Avviso di ticket rifiutato inviato <b>una sola volta</b> all'utente per "
+"superamento del limite."
+
+#: include/staff/preference.inc.php:432
+msgid "<b>Note:</b> Admin gets alerts on ALL denials by default."
+msgstr ""
+"<b>Nota:</b> Gli amministratori ricevono comunque avvisi PER OGNI rifiuto."
+
+#: include/staff/preference.inc.php:437
+msgid "Alerts &amp; Notices"
+msgstr "Avvisi &amp; segnalazioni"
+
+#: include/staff/preference.inc.php:439
+msgid ""
+"Notices sent to user use 'No Reply Email' whereas alerts to staff use 'Alert "
+"Email' set above as FROM address respectively."
+msgstr ""
+"Gli avvisi spediti agli utenti usano 'No Replay Email', mentre quelli per lo "
+"staff usano 'Alert Email' impostato sopra come campo mittente."
+
+#: include/staff/preference.inc.php:441
+msgid "New Ticket Alert:"
+msgstr "Avviso di nuovo ticket:"
+
+#: include/staff/preference.inc.php:445 include/staff/preference.inc.php:455
+#: include/staff/preference.inc.php:465
+msgid "Select recipients"
+msgstr "Selezionare i destinatari"
+
+#: include/staff/preference.inc.php:446
+msgid "Admin Email"
+msgstr "E-mail amministratore"
+
+#: include/staff/preference.inc.php:447 include/staff/preference.inc.php:477
+msgid "Department Manager"
+msgstr "Manager di dipartimento"
+
+#: include/staff/preference.inc.php:448 include/staff/preference.inc.php:478
+msgid "Department Members (spammy)"
+msgstr "Membri del dipartimento (possibile spam)"
+
+#: include/staff/preference.inc.php:451
+msgid "New Message Alert:"
+msgstr "Avviso di nuovo messaggio:"
+
+#: include/staff/preference.inc.php:456 include/staff/preference.inc.php:466
+msgid "Last Respondent"
+msgstr "Ultimo a rispondere"
+
+#: include/staff/preference.inc.php:457 include/staff/preference.inc.php:467
+#: include/staff/preference.inc.php:476
+msgid "Assigned Staff"
+msgstr "Staff assegnato"
+
+#: include/staff/preference.inc.php:458 include/staff/preference.inc.php:468
+msgid "Department Manager (spammy)"
+msgstr "Manager di dipartimento (possibile spam)"
+
+#: include/staff/preference.inc.php:461
+msgid "New Internal Note Alert:"
+msgstr "Avviso di nuova nota interna"
+
+#: include/staff/preference.inc.php:471
+msgid "Overdue Ticket Alert:"
+msgstr "Avviso di ticket scaduto:"
+
+#: include/staff/preference.inc.php:475
+msgid ""
+"Admin Email gets an alert by default. Select additional recipients below"
+msgstr ""
+"Gli amministratori ricevono comunque un avviso. Selezionare sotto ulteriori "
+"destinatari"
+
+#: include/staff/preference.inc.php:481
+msgid "System Errors:"
+msgstr "Errori di sistema:"
+
+#: include/staff/preference.inc.php:482
+msgid "Enabled errors are sent to admin email set above"
+msgstr ""
+"Errori di attivazione sono spediti alla e-mail dell'amministratore impostata "
+"sotto"
+
+#: include/staff/preference.inc.php:483
+msgid "System Errors"
+msgstr "Errori di sistema"
+
+#: include/staff/preference.inc.php:484
+msgid "SQL errors"
+msgstr "Errori SQL"
+
+#: include/staff/preference.inc.php:485
+msgid "Excessive Login attempts"
+msgstr "Troppi tentativi di login"
+
+#: include/staff/changepasswd.inc.php:5 scp/profile.php:135
+msgid "Change Password"
+msgstr "Cambio password"
+
+#: include/staff/changepasswd.inc.php:11
+msgid "Current Password:"
+msgstr "Password corrente:"
+
+#: include/staff/changepasswd.inc.php:17
+msgid "New Password:"
+msgstr "Nuova password:"
+
+#: include/staff/changepasswd.inc.php:23
+msgid "Verify Password:"
+msgstr "Verifica password:"
+
+#: include/staff/groups.inc.php:18
+msgid "Group Name"
+msgstr "Nome gruppo"
+
+#: include/staff/groups.inc.php:19
+msgid "Group Status"
+msgstr "Stato gruppo"
+
+#: include/staff/groups.inc.php:20
+msgid "Members"
+msgstr "Membri"
+
+#: include/staff/groups.inc.php:67
+msgid "Are you sure you want to ENABLE selected group(s)"
+msgstr "Si &egrave; sicuri di voler ATTIVARE i gruppi selezionati?"
+
+#: include/staff/groups.inc.php:69
+msgid "Are you sure you want to DISABLE selected group(s)"
+msgstr "Si &egrave; sicuri di voler DISATTIVARE i gruppi selezionati?"
+
+#: include/staff/groups.inc.php:71
+msgid "Are you sure you want to DELETE selected group(s)"
+msgstr "Si &egrave; sicuri di voler ELIMINARE i gruppi selezionati?"
+
+#: include/staff/group.inc.php:6
+#, php-format
+msgid "Edit Group: %s"
+msgstr "Modificare gruppi: %s"
+
+#: include/staff/group.inc.php:9 scp/admin.php:633
+msgid "Add New Group"
+msgstr "Aggiungere nuovo gruppo"
+
+#: include/staff/group.inc.php:26
+msgid ""
+"Group permissions set below applies cross all group members, but don't apply "
+"to adminstrators and Dept. managers in some cases."
+msgstr ""
+"I permessi dei gruppi impostati sopra si applicano a tutti i membri dei "
+"gruppi, ma non agli amministratori ed in alcuni casi ai manager di "
+"dipartimento."
+
+#: include/staff/group.inc.php:28
+msgid "Group Name:"
+msgstr "Nome gruppo:"
+
+#: include/staff/group.inc.php:35
+msgid "Group Status:"
+msgstr "Stato gruppo:"
+
+#: include/staff/group.inc.php:42
+msgid "Dept Access"
+msgstr "Accesso dip."
+
+#: include/staff/group.inc.php:43
+msgid ""
+"Select departments group members are allowed to access in addition to thier "
+"own department."
+msgstr ""
+"Selezionare i dipartimenti ai quali i membri del gruppo hanno il permesso di "
+"accedere, oltre al loro dipartimento."
+
+#: include/staff/group.inc.php:54
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+#: include/staff/group.inc.php:55
+msgid "Select None"
+msgstr "Seleziona nessuno"
+
+#: include/staff/group.inc.php:58
+msgid "Can <b>Create</b> Tickets"
+msgstr "Pu&ograve; <b>creare</b> ticket"
+
+#: include/staff/group.inc.php:62
+msgid "Ability to open tickets on behalf of users!"
+msgstr "Possibilit&agrave; di aprire un ticket per conto dell'utente!"
+
+#: include/staff/group.inc.php:65
+msgid "Can <b>Edit</b> Tickets"
+msgstr "Pu&ograve; <b>modificare</b> ticket"
+
+#: include/staff/group.inc.php:69
+msgid ""
+"Ability to edit tickets. Admins & Dept managers are allowed by default."
+msgstr ""
+"Possibilit&agrave; di modificare i ticket. Amministratori e manager comunque "
+"sono abilitati."
+
+#: include/staff/group.inc.php:72
+msgid "Can <b>Close</b> Tickets"
+msgstr "Pu&ograve; <b>chiudere</b> ticket"
+
+#: include/staff/group.inc.php:76
+msgid ""
+"<b>Mass Close Only:</b> Staff can still close one ticket at a time when set "
+"to No"
+msgstr ""
+"<b>Solo chiusura multipla</b>: membri dello staff possono comunque chiudere "
+"un ticket per volta anche se impostato su No"
+
+#: include/staff/group.inc.php:79
+msgid "Can <b>Transfer</b> Tickets"
+msgstr "Pu&ograve; <b>trasferire</b> ticket"
+
+#: include/staff/group.inc.php:83
+msgid "Ability to transfer tickets from one dept to another."
+msgstr ""
+"Possibilit&agrave; di trasferire ticket da un dipartimento all'altro."
+
+#: include/staff/group.inc.php:86
+msgid "Can <b>Delete</b> Tickets"
+msgstr "Pu&ograve; <b>eliminare</b> ticket"
+
+#: include/staff/group.inc.php:90
+msgid "Deleted tickets can't be recovered!"
+msgstr "I ticket eliminati sono irrecuperabili!"
+
+#: include/staff/group.inc.php:93
+msgid "Can Ban Emails"
+msgstr "Pu&ograve; bloccare e-mail"
+
+#: include/staff/group.inc.php:97
+msgid "Ability to add/remove emails from banlist via tickets interface."
+msgstr ""
+"Permesso di aggiungere/rimuovere indirizzi e-mail dalla lista dei bloccati "
+"dall'interfaccia ticket"
+
+#: include/staff/group.inc.php:100
+msgid "Can Manage Premade"
+msgstr "Pu&ograve; gestire risp. predefinite"
+
+#: include/staff/group.inc.php:104
+msgid "Ability to add/update/disable/delete premade responses."
+msgstr ""
+"Permesso di aggiungere/modificare/disattivare/eliminare risposte predefinite."
+
+#: include/staff/emails.inc.php:10 include/class.nav.php:32
+msgid "Emails"
+msgstr "E-mail"
+
+#: include/staff/emails.inc.php:73
+msgid "Delete Selected Emails"
+msgstr "Elimina e-mail selezionate"
+
+#: include/staff/emails.inc.php:74
+msgid "Are you sure you want to DELETE selected emails?"
+msgstr "Si &egrave; sicuri di voler ELIMINARE le e-mail selezionate?"
+
+#: include/class.ticket.php:574 include/class.ticket.php:669
+#: include/class.ticket.php:712 include/class.ticket.php:861
+#: include/class.ticket.php:1378 include/class.ticket.php:1428
+msgid "Template Fetch Error"
+msgstr "Errore nel recupero modello"
+
+#: include/class.ticket.php:574
+msgid "Unable to fetch 'assigned' alert template #"
+msgstr "Impossibile recuperare il modello di avviso 'assegnato' #"
+
+#: include/class.ticket.php:577
+msgid "Ticket assigned"
+msgstr "Ticket assegnato"
+
+#: include/class.ticket.php:579
+#, php-format
+msgid "Ticket Assigned to %s"
+msgstr "Ticket assegnato a %s"
+
+#: include/class.ticket.php:669
+msgid "Unable to fetch 'new message' auto response template #"
+msgstr ""
+"Impossibile recuperare il modello di risposta automatica 'nuovo messaggio' #"
+
+#: include/class.ticket.php:712
+msgid "Unable to fetch 'new message' alert template #"
+msgstr "Impossibile recuperare il modello di avviso 'nuovo messaggio' #"
+
+#: include/class.ticket.php:790
+#, php-format
+msgid ""
+"Problems fetching response template for ticket# %s  Possible config error - "
+"template # %s"
+msgstr ""
+"Problemi nel recuperare il modello per il ticket# %s. Forse errore di "
+"configurazione - modello # %s"
+
+#: include/class.ticket.php:791 include/class.ticket.php:1503
+msgid "System Error"
+msgstr "Errore di sistema"
+
+#: include/class.ticket.php:861
+msgid "Unable to fetch 'new note' alert template #"
+msgstr "Impossibile recuperare il modello di avviso 'nuova nota' #"
+
+#: include/class.ticket.php:1079
+msgid "Email is required"
+msgstr "Richiesto indirizzo e-mail"
+
+#: include/class.ticket.php:1080
+msgid "Reason for the update required"
+msgstr "Richiesto motivo dell'aggiornamento"
+
+#: include/class.ticket.php:1082
+msgid "Invalid Selection"
+msgstr "Selezione non valida"
+
+#: include/class.ticket.php:1083 include/class.ticket.php:1178
+msgid "Invalid Priority"
+msgstr "Priorit&agrave; non valida"
+
+#: include/class.ticket.php:1084 include/class.ticket.php:1179
+msgid "Valid phone # required"
+msgstr "Richiesto valido numero telefonico"
+
+#: include/class.ticket.php:1085 include/class.ticket.php:1174
+msgid "Invalid date - must be MM/DD/YY"
+msgstr "Data non valida - deve essere in formato MM/DD/YY"
+
+#: include/class.ticket.php:1095
+msgid "Duedate can NOT be set on a closed ticket"
+msgstr ""
+"La data di scadenza NON pu&ograve; essere impostata in un ticket chiuso"
+
+#: include/class.ticket.php:1097 include/class.ticket.php:1206
+msgid "Select time"
+msgstr "Selezionare tempo"
+
+#: include/class.ticket.php:1099 include/class.ticket.php:1208
+msgid "Invalid duedate"
+msgstr "Data scadenza non valida"
+
+#: include/class.ticket.php:1101 include/class.ticket.php:1210
+msgid "Due date must be in the future"
+msgstr "La data di scadenza deve essere nel futuro"
+
+#: include/class.ticket.php:1107 include/class.ticket.php:1198
+msgid "Invalid phone ext."
+msgstr "Prefisso non valido"
+
+#: include/class.ticket.php:1109 include/class.ticket.php:1200
+msgid "Phone number required"
+msgstr "Richiesto numero telefonico"
+
+#: include/class.ticket.php:1170
+msgid "Select help topic"
+msgstr "Selezionare argomento"
+
+#: include/class.ticket.php:1172
+msgid "Dept. required"
+msgstr "Richiesto dip."
+
+#: include/class.ticket.php:1173
+msgid "Indicate source"
+msgstr "Indicare fonte"
+
+#: include/class.ticket.php:1176
+msgid "Email unknown"
+msgstr "E-mail sconosciuta"
+
+#: include/class.ticket.php:1189
+msgid "Ticket denied"
+msgstr "Ticket rifiutato"
+
+#: include/class.ticket.php:1189
+msgid "Banned email - "
+msgstr "E-mail bloccata - "
+
+#: include/class.ticket.php:1193
+msgid "Email mismatch."
+msgstr "E-mail errata"
+
+#: include/class.ticket.php:1216 scp/tickets.php:71
+msgid "Invalid file type"
+msgstr "Tipo di file non valido"
+
+#: include/class.ticket.php:1218
+msgid "File is too big. Max"
+msgstr "File troppo grande. Max"
+
+#: include/class.ticket.php:1218
+msgid "bytes allowed"
+msgstr "Byte permessi"
+
+#: include/class.ticket.php:1226
+msgid "You've reached the maximum open tickets allowed."
+msgstr "Si &egrave; raggiunto il massimo numero di ticket permessi."
+
+#: include/class.ticket.php:1252
+#, php-format
+msgid ""
+"Support ticket request denied for %s\\nOpen ticket: %s\\nMax Allowed: %s\\n\\"
+"nNotice only sent once"
+msgstr ""
+"Richiesta di supporto rifiutata per %s\\n ticket aperti: %s\\nmax. permessi: "
+"%s\\n\\navviso spedito una sola volta"
+
+#: include/class.ticket.php:1253
+msgid "Overlimit Notice"
+msgstr "Avviso superamento limite"
+
+#: include/class.ticket.php:1378
+msgid "Unable to fetch autoresponse template #"
+msgstr "Impossibile recuperare il modello di risposta automatica #"
+
+#: include/class.ticket.php:1428
+msgid "Unable to fetch 'new ticket' alert template #"
+msgstr "Impossibile recuperare il modello di avviso 'nuovo ticket' #"
+
+#: include/class.ticket.php:1440
+msgid "Permission denied"
+msgstr "Pemesso negato"
+
+#: include/class.ticket.php:1443
+msgid "Summary of the issue required"
+msgstr "Richiesto sommario della questione"
+
+#: include/class.ticket.php:1445
+msgid "Invalid source - "
+msgstr "Fonte non valida - "
+
+#: include/class.ticket.php:1448
+msgid "Ticket created by staff"
+msgstr "Ticket creato da staff"
+
+#: include/class.ticket.php:1502
+msgid "Problems fetching response template for ticket#"
+msgstr "Problemi nel recuperare il modello di risposta per ticket #"
+
+#: include/class.ticket.php:1502
+msgid "Possible config error - template #"
+msgstr "Possibile errore di configurazione - modello #"
+
+#: include/class.ticket.php:1514
+msgid "Internal error - message/response post error."
+msgstr "Errore interno - errore invio avviso/comunicazione."
+
+#: include/class.ticket.php:1522
+msgid "New Ticket by Staff"
+msgstr "Nuovo ticket da staff"
+
+#: include/class.ticket.php:1522
+msgid "Ticket created by staff -"
+msgstr "Ticket creato da staff -"
+
+#: include/class.ticket.php:1526 scp/tickets.php:406
+msgid "Unable to create the ticket. Correct the error(s) and try again"
+msgstr "Impossibile creare il ticket. Correggere gli errori e riprovare"
+
+#: include/class.ticket.php:1553 scp/tickets.php:278 scp/tickets.php:376
+msgid "Ticket Marked Overdue"
+msgstr "Ticket scaduto"
+
+#: include/class.ticket.php:1553
+msgid "Ticket flagged as overdue by the system."
+msgstr "Ticket marcato come scaduto dal sistema."
+
+#: include/class.dept.php:208
+msgid "Missing or invalid Dept ID"
+msgstr "Dip. ID mancante o non valido"
+
+#: include/class.dept.php:211
+msgid "Dept email required"
+msgstr "Richiesta e-mail del dip."
+
+#: include/class.dept.php:214
+msgid "Template required"
+msgstr "Richiesto modello"
+
+#: include/class.dept.php:217
+msgid "Dept name required"
+msgstr "Richiesto nome del Dip."
+
+#: include/class.dept.php:219
+msgid "Dept name must be at least 4 chars."
+msgstr "Il nome del dipartimento deve essere di almeno 4 caratteri."
+
+#: include/class.dept.php:226
+msgid "Department already exist"
+msgstr "Il dipartimento esiste gi&agrave;"
+
+#: include/class.dept.php:230
+msgid "Signature required"
+msgstr "Firma richiesta"
+
+#: include/class.dept.php:233
+msgid "Default department can not be private"
+msgstr "Il dipartimento predefinito non pu&ograve; essere privato"
+
+#: include/class.dept.php:252
+msgid "Unable to update "
+msgstr "Impossibile aggiornare "
+
+#: include/class.dept.php:252
+msgid " Dept. Error occured"
+msgstr " Errore sul dipartimento"
+
+#: include/class.dept.php:258
+msgid "Unable to create department. Internal error"
+msgstr "Impossibile creare dipartimento. Errore interno"
+
+#: include/class.nav.php:30
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: include/class.nav.php:30
+msgid "Admin Dashboard"
+msgstr "Admin Dashboard"
+
+#: include/class.nav.php:31
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: include/class.nav.php:31
+msgid "System Settings"
+msgstr "Impostazioni di sistema"
+
+#: include/class.nav.php:37
+msgid "Tickets"
+msgstr "Ticket"
+
+#: include/class.nav.php:37
+msgid "Ticket Queue"
+msgstr "Lista ticket"
+
+#: include/class.nav.php:39
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: include/class.nav.php:39
+msgid "Knowledge Base: Premade"
+msgstr "Knowledge Base: risposte predefinite"
+
+#: include/class.nav.php:41
+msgid "Directory"
+msgstr "Directory"
+
+#: include/class.nav.php:41
+msgid "Staff Directory"
+msgstr "Staff Directory"
+
+#: include/class.nav.php:42 scp/profile.php:133
+msgid "My Profile"
+msgstr "Profilo personale"
+
+#: include/class.group.php:34 scp/kb.php:39
+msgid "Missing or invalid group ID"
+msgstr "ID gruppo mancante o non valido"
+
+#: include/class.group.php:37
+msgid "Group name required"
+msgstr "Nome del gruppo richiesto"
+
+#: include/class.group.php:39
+msgid "Group name must be at least 5 chars."
+msgstr "Il nome del gruppo deve essere di almeno 5 caratteri"
+
+#: include/class.group.php:46
+msgid "Group name already exists"
+msgstr "Il nome del gruppo esiste gi&agrave;"
+
+#: include/class.group.php:65
+msgid "Internal error occured"
+msgstr "Errore interno"
+
+#: include/class.group.php:71
+msgid "Unable to create the group. Internal error"
+msgstr "Impossibile creare il gruppo. Errore interno"
+
+#: include/class.email.php:262
+msgid "Internal error."
+msgstr "Errore interno."
+
+#: include/class.email.php:267
+msgid "Email already exits"
+msgstr "L'e-mail esiste gi&agrave;"
+
+#: include/class.email.php:269
+msgid "Email already used as admin email!"
+msgstr "L'e-mail &egrave; gi&agrave; usata per l'amministrazione!"
+
+#: include/class.email.php:273
+msgid "Email in-use by a staff member"
+msgstr "E-mail in uso da un membro dello staff"
+
+#: include/class.email.php:278
+msgid "You must select a Dept."
+msgstr "Selezionare un dipartimento."
+
+#: include/class.email.php:285
+msgid "Username missing"
+msgstr "Nome utente mancante"
+
+#: include/class.email.php:288
+msgid "Password required"
+msgstr "Password necessaria"
+
+#: include/class.email.php:294
+msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
+msgstr "IMAP non esistente. Il PHP deve essere compilato con IMAP abilitato."
+
+#: include/class.email.php:296 include/class.email.php:310
+msgid "Host name required"
+msgstr "Richiesto il nome dell'host"
+
+#: include/class.email.php:298 include/class.email.php:312
+msgid "Port required"
+msgstr "Porta richiesta"
+
+#: include/class.email.php:300
+msgid "Select protocol"
+msgstr "Selezionare protocollo"
+
+#: include/class.email.php:302
+msgid "Fetch interval required"
+msgstr "Intervallo di recupero richiesto"
+
+#: include/class.email.php:304
+msgid "Maximum emails required"
+msgstr "Richiesto numero max. e-mail"
+
+#: include/class.email.php:321
+msgid "Another department using host/username combination."
+msgstr "UN altro dipartimento sta usando la combiazione host/nome utente."
+
+#: include/class.email.php:330
+#, php-format
+msgid "Invalid login. Check %s settings"
+msgstr "Login non valido. Controllare impostazioni %s"
+
+#: include/class.email.php:348
+msgid "Unable to login. Check SMTP settings."
+msgstr "Impossibile effettuare il login. Controllare impostazioni SMTP."
+
+#: include/class.email.php:380
+msgid "Unable to update email. Internal error occured"
+msgstr "Impossibile aggiornare e-mail. Errore interno"
+
+#: include/class.email.php:384 scp/admin.php:213
+msgid "Unable to add email. Internal error"
+msgstr "Impossibile aggiungere e-mail. Errore interno"
+
+#: include/class.email.php:390
+msgid "Error(s) Occured. Try again"
+msgstr "Errore. Riprovare"
+
+#: scp/autocron.php:39
+#, php-format
+msgid "cron job executed [%s]"
+msgstr "Eseguito processo cron [%s]"
+
+#: scp/tickets.php:26
+msgid "Unknown ticket ID#"
+msgstr "Ticket ID# sconosciuto"
+
+#: scp/tickets.php:28
+msgid "Access denied. Contact admin if you believe this is in error"
+msgstr "Accesso negato. Contattare l'amministratore se lo ritenete un errore"
+
+#: scp/tickets.php:37
+msgid ""
+"Access denied. You are not allowed to edit this ticket. Contact admin if you "
+"believe this is in error"
+msgstr ""
+"Accesso negato. Non si &egrave; autorizzati a modificare questo ticket. "
+"Contattare l'amministratore se lo ritenete un errore"
+
+#: scp/tickets.php:54
+msgid "Missing message ID"
+msgstr "Manca ID messaggio"
+
+#: scp/tickets.php:55
+msgid "Response message required"
+msgstr "Richiesto messaggio di risposta"
+
+#: scp/tickets.php:62
+msgid "Action Denied. Ticket is locked by someone else!"
+msgstr "Azione impossibile. Il ticket &egrave; bloccato da qualcun altro!"
+
+#: scp/tickets.php:67
+msgid "Invalid attachment"
+msgstr "Allegato non valido"
+
+#: scp/tickets.php:69
+msgid "upload dir invalid. Contact admin."
+msgstr "Cartella di upload non valida. Contattare l'amministratore."
+
+#: scp/tickets.php:76
+msgid "Email is in banlist. Must be removed to reply"
+msgstr ""
+"L'indirizzo e-mail &egrave; nella lista dei bloccati. Deve esservi tolto "
+"prima di rispondere"
+
+#: scp/tickets.php:80
+msgid "Response Posted Successfully"
+msgstr "Risposta inviata"
+
+#: scp/tickets.php:85
+#, php-format
+msgid "%s %s the ticket on reply"
+msgstr "%s %s the ticket on reply"
+
+#: scp/tickets.php:85
+msgid "reopened"
+msgstr "riaperto"
+
+#: scp/tickets.php:85 scp/tickets.php:179
+msgid "closed"
+msgstr "chiuso"
+
+#: scp/tickets.php:86
+#, php-format
+msgid "Ticket status changed to %s"
+msgstr "Stato del ticket cambiato a %s"
+
+#: scp/tickets.php:101
+msgid "Unable to post the response."
+msgstr "Impossibile inviare la risposta."
+
+#: scp/tickets.php:107
+msgid "Note/Message required"
+msgstr "Nota/messaggio richiesto"
+
+#: scp/tickets.php:114
+msgid "Ticket already in the Dept."
+msgstr "Ticket gi&agrave; del dipartimento."
+
+#: scp/tickets.php:117
+msgid "Action Denied. You are not allowed to transfer tickets."
+msgstr "Azione impossibile. Non si ha il permesso di trasferire ticket."
+
+#: scp/tickets.php:123
+#, php-format
+msgid "Dept. Transfer from %s to %s"
+msgstr "Trasferimento di dipartimento da %s a %s"
+
+#: scp/tickets.php:125
+#, php-format
+msgid "Ticket transfered sucessfully to %s Dept."
+msgstr "Ticket trasferito al dip. %s"
+
+#: scp/tickets.php:132
+msgid "Unable to complete the transfer"
+msgstr "Impossibile completare il trasferimento"
+
+#: scp/tickets.php:137
+msgid "Select assignee"
+msgstr "Selezionare l'assegnatario"
+
+#: scp/tickets.php:145 scp/tickets.php:151
+msgid "Ticket already assigned to the staff."
+msgstr "Ticket gi&agrave; assegnato allo staff"
+
+#: scp/tickets.php:154
+msgid ""
+"Ticket already assigned. You do not have permission to re-assign assigned "
+"tickets"
+msgstr ""
+"Ticket gi&agrave; assegnato. Non si ha il permesso di riassegnare ticket."
+
+#: scp/tickets.php:158
+msgid "Ticket Assigned to"
+msgstr "Ticket assegnato a"
+
+#: scp/tickets.php:158
+msgid "staff"
+msgstr "staff"
+
+#: scp/tickets.php:164
+msgid "Unable to assign the ticket"
+msgstr "Impossibile assegnare ticket"
+
+#: scp/tickets.php:169
+msgid "Title required"
+msgstr "Titolo richiesto"
+
+#: scp/tickets.php:170
+msgid "Note message required"
+msgstr "Messaggio di nota richiesto"
+
+#: scp/tickets.php:176
+msgid "Internal note posted"
+msgstr "Nota interna inviata"
+
+#: scp/tickets.php:179 scp/tickets.php:245 scp/tickets.php:275
+msgid "and status set to"
+msgstr "e stato impostato a"
+
+#: scp/tickets.php:179
+msgid "open"
+msgstr "aprire"
+
+#: scp/tickets.php:186
+msgid "Error(s) occured. Unable to post the note."
+msgstr "Errore. Impossibile inviare la nota."
+
+#: scp/tickets.php:192
+msgid "Perm. Denied. You are not allowed to edit tickets"
+msgstr "Permesso negato. Non si ha il permesso di modificare ticket"
+
+#: scp/tickets.php:194
+msgid "Ticket updated successfully"
+msgstr "Ticket aggiornato"
+
+#: scp/tickets.php:197
+msgid "Error(s) occured! Try again."
+msgstr "Errori. Riprovare."
+
+#: scp/tickets.php:205
+msgid "Perm. Denied. You are not allowed to change ticket's priority"
+msgstr ""
+"Permesso negato. Non si ha il permesso di modificare la priorit&agrave; dei "
+"ticket"
+
+#: scp/tickets.php:207
+msgid "You must select priority"
+msgstr "Selezionare la priorit&agrave;"
+
+#: scp/tickets.php:211
+msgid "Priority Changed Successfully"
+msgstr "Priorit&agrave; cambiata"
+
+#: scp/tickets.php:213
+#, php-format
+msgid "Ticket priority set to \"%s\" by %s"
+msgstr "Priorit&agrave; ticket impostata a \"%s\" da %s"
+
+#: scp/tickets.php:214
+msgid "Priority Changed"
+msgstr "priorit&agrave; cambiata"
+
+#: scp/tickets.php:216
+msgid "Problems changing priority. Try again"
+msgstr "Problemi nel cambio priorit&agrave;. Riprovare"
+
+#: scp/tickets.php:222
+msgid "Perm. Denied. You are not allowed to close tickets."
+msgstr "Permesso negato. Non si ha il permesso di chiudere ticket."
+
+#: scp/tickets.php:225
+#, php-format
+msgid "Ticket #%s status set to CLOSED"
+msgstr "Stato ticket #%s impostato a CHIUSO"
+
+#: scp/tickets.php:226
+#, php-format
+msgid "Ticket closed without response by %s"
+msgstr "Ticket chiuso senza risposta da %s"
+
+#: scp/tickets.php:227 scp/tickets.php:291 scp/tickets.php:364
+msgid "Ticket Closed"
+msgstr "Ticket chiuso"
+
+#: scp/tickets.php:230
+msgid "Problems closing the ticket. Try again"
+msgstr "Problemi nella chiusura ticket. Riprovare"
+
+#: scp/tickets.php:237
+msgid "Perm. Denied. You are not allowed to reopen tickets."
+msgstr "Permesso negato. Non si ha l'autorizzazione ad riaprire ticket."
+
+#: scp/tickets.php:240
+msgid "Ticket status set to OPEN"
+msgstr "Stato ticket impostato ad APERTO"
+
+#: scp/tickets.php:241
+msgid "Ticket reopened (without comments)"
+msgstr "Ticket riaperto (senza commenti)"
+
+#: scp/tickets.php:248 scp/tickets.php:353
+msgid "Ticket Reopened"
+msgstr "Ticket riaperto"
+
+#: scp/tickets.php:250
+msgid "Problems reopening the ticket. Try again"
+msgstr "Problemi nel riaprire il ticket. Riprovare."
+
+#: scp/tickets.php:256
+msgid "Ticket is not assigned!"
+msgstr "Il ticket non &egrave; assegnato!"
+
+#: scp/tickets.php:258
+#, php-format
+msgid "Ticket released (unassigned) from %s by %s"
+msgstr "Ticket rilasciato (non assegnato) da %s a %s"
+
+#: scp/tickets.php:260
+msgid "Ticket unassigned"
+msgstr "Ticket non assegnato"
+
+#: scp/tickets.php:262
+msgid "Problems releasing the ticket. Try again"
+msgstr "Problemi nel rilasciare il ticket. Riprovare"
+
+#: scp/tickets.php:267
+msgid "Perm. Denied. You are not allowed to flag tickets overdue"
+msgstr ""
+"Permesso negato. Non si ha l'autorizzazione a marcare un ticket come scaduto"
+
+#: scp/tickets.php:270
+msgid "Ticket flagged as overdue"
+msgstr "Ticket marcato come scaduto"
+
+#: scp/tickets.php:280
+msgid "Problems marking the the ticket overdue. Try again"
+msgstr "Problemi nel marcare il ticket come scaduto. Riprovare"
+
+#: scp/tickets.php:286
+msgid "Perm. Denied. You are not allowed to ban emails"
+msgstr "Permesso negato. Non si ha l'autorizzazione a bloccare e-mail"
+
+#: scp/tickets.php:288
+#, php-format
+msgid "Email (%s) added to banlist"
+msgstr "E-mail (%s) aggiunte alla lista indirizzi bloccati"
+
+#: scp/tickets.php:290
+msgid "& ticket status set to closed"
+msgstr "& stato ticket impostato a chiuso"
+
+#: scp/tickets.php:295
+msgid "Unable to add the email to banlist"
+msgstr "Impossibile aggiungere l'indirizzo e-mail alla lista dei bloccati"
+
+#: scp/tickets.php:300
+msgid "Perm. Denied. You are not allowed to remove emails from banlist."
+msgstr ""
+"Permesso negato. Non si ha l'autorizzazione a togliere indirizzi e-mail "
+"dalla lista dei bloccati."
+
+#: scp/tickets.php:302
+msgid "Email removed from banlist"
+msgstr "E-mail rimossa dalla lista indirizzi bloccati"
+
+#: scp/tickets.php:304
+msgid "Unable to remove the email from banlist. Try again."
+msgstr "Impossibile sbloccare l'e-mail. Ritentare."
+
+#: scp/tickets.php:309
+msgid "Perm. Denied. You are not allowed to DELETE tickets!!"
+msgstr "Permesso negato. Non si ha l'autorizzazione ad ELIMINARE ticket!!"
+
+#: scp/tickets.php:313
+msgid "Ticket Deleted Forever"
+msgstr "Ticket eliminato definitivamente"
+
+#: scp/tickets.php:316
+msgid "Problems deleting the ticket. Try again"
+msgstr "Problemi nella cancellazione del ticket. Riprovare"
+
+#: scp/tickets.php:321
+msgid "You must select action to perform"
+msgstr "Selezionare azione da attuare"
+
+#: scp/tickets.php:325 scp/kb.php:96 scp/admin.php:295
+msgid "Unknown action"
+msgstr "Azione sconosciuta"
+
+#: scp/tickets.php:334
+msgid ""
+"You do not have permission to mass manage tickets. Contact admin for such "
+"access"
+msgstr ""
+"Non si ha il permesso di gestire pi&ugrave; ticket allo stesso tempo. "
+"Contattare l'amministratore per l'autorizzzazione"
+
+#: scp/tickets.php:336
+msgid "No tickets selected. You must select at least one ticket."
+msgstr "Nessun ticket selezionato. Selezionare almeno un ticket."
+
+#: scp/tickets.php:338
+msgid "You do not have permission to close/reopen tickets"
+msgstr ""
+"Permesso negato. Non si ha l'autorizzazione a chiudere/riaprire ticket."
+
+#: scp/tickets.php:340
+msgid "You do not have permission to delete tickets"
+msgstr "Non si ha il permesso di eliminare ticket"
+
+#: scp/tickets.php:342
+msgid "You must select at least one ticket"
+msgstr "Selezionare almeno un ticket"
+
+#: scp/tickets.php:348
+msgid "Ticket reopened by"
+msgstr "Ticket riaperto da"
+
+#: scp/tickets.php:356 scp/tickets.php:367 scp/tickets.php:379
+#: scp/tickets.php:387
+msgid "of"
+msgstr "di"
+
+#: scp/tickets.php:356
+msgid "selected tickets reopened"
+msgstr "ticket selezionati riaperti"
+
+#: scp/tickets.php:359
+msgid "Ticket closed without response by"
+msgstr "Ticket chiuso senza risposta da"
+
+#: scp/tickets.php:367
+msgid "selected tickets closed"
+msgstr "ticket selezionati chiusi"
+
+#: scp/tickets.php:370
+msgid "Ticket flagged as overdue by"
+msgstr "Ticket marcato come scaduto da"
+
+#: scp/tickets.php:379
+msgid "selected tickets marked overdue"
+msgstr "ticket selezionati marcati scaduti"
+
+#: scp/tickets.php:387
+msgid "selected tickets deleted"
+msgstr "ticket selezionati eliminati"
+
+#: scp/tickets.php:396
+msgid "Ticket created successfully"
+msgstr "Ticket creato"
+
+#: scp/tickets.php:433
+#, php-format
+msgid "Open (%s)"
+msgstr "Aperti (%s)"
+
+#: scp/tickets.php:434 scp/tickets.php:437
+msgid "Open Tickets"
+msgstr "Ticket aperti"
+
+#: scp/tickets.php:437
+#, php-format
+msgid "Open Tickets (%s)"
+msgstr "Ticket aperti (%s)"
+
+#: scp/tickets.php:439
+#, php-format
+msgid "Answered (%s)"
+msgstr "Con risposta (%s)"
+
+#: scp/tickets.php:446
+msgid "assigned to you!"
+msgstr "assegnato a te!"
+
+#: scp/tickets.php:448
+#, php-format
+msgid "My Tickets (%s)"
+msgstr "Ticket personali (%s)"
+
+#: scp/tickets.php:448
+msgid "Assigned Tickets"
+msgstr "Ticket assegnati"
+
+#: scp/tickets.php:453
+#, php-format
+msgid "Overdue (%s)"
+msgstr "Scaduti (%s)"
+
+#: scp/tickets.php:453
+msgid "Stale Tickets"
+msgstr "Ticket obsoleti"
+
+#: scp/tickets.php:457
+msgid "overdue tickets!"
+msgstr "ticket scaduti!"
+
+#: scp/profile.php:21
+msgid "Internal Error. Action Denied"
+msgstr "Errore interno. Azione impossibile"
+
+#: scp/profile.php:28
+msgid "Invalid auto refresh value."
+msgstr "Valore di autoaggiornamento non valido."
+
+#: scp/profile.php:43
+msgid "Preference Updated Successfully"
+msgstr "Preferenze aggiornate"
+
+#: scp/profile.php:45
+msgid "Preference update error."
+msgstr "Errore aggiornamento preferenze"
+
+#: scp/profile.php:51
+msgid "Current password required"
+msgstr "Richiesta password corrente"
+
+#: scp/profile.php:53
+msgid "New password required"
+msgstr "Richiesta nuova password"
+
+#: scp/profile.php:55
+msgid "Must be atleast 6 characters"
+msgstr "Deve essere di almeno 6 caratteri"
+
+#: scp/profile.php:57
+msgid "Confirm new password"
+msgstr "Conferma nuova password"
+
+#: scp/profile.php:60
+msgid "Valid password required"
+msgstr "Richiesta password valida"
+
+#: scp/profile.php:62
+msgid "New password(s) don't match"
+msgstr "La nuova password non corrisponde"
+
+#: scp/profile.php:64
+msgid "New password is same as old password"
+msgstr "La nuova password &egrave; identica alla vecchia"
+
+#: scp/profile.php:72
+msgid "Password Changed Successfully"
+msgstr "Password cambiata"
+
+#: scp/profile.php:74
+msgid "Unable to complete password change. Internal error."
+msgstr "Impossibile cambiare la password. Errore interno."
+
+#: scp/profile.php:81
+msgid "First name required"
+msgstr "Nome richiesto"
+
+#: scp/profile.php:84
+msgid "Last name required"
+msgstr "Cognome richiesto"
+
+#: scp/profile.php:90 scp/profile.php:93
+msgid "Enter a valid number"
+msgstr "Insarire un numero valido"
+
+#: scp/profile.php:97
+msgid "Invalid ext."
+msgstr "Prefisso non valido"
+
+#: scp/profile.php:112
+msgid "Profile Updated Successfully"
+msgstr "Profilo aggiornato"
+
+#: scp/profile.php:114
+msgid "Error(s) occured. Profile NOT updated"
+msgstr "Errori. Profilo NON aggiornato"
+
+#: scp/profile.php:117
+msgid "Error(s) below occured. Try again"
+msgstr "Si sono verificati errori. Riprovare"
+
+#: scp/profile.php:134 scp/admin.php:547
+msgid "Preferences"
+msgstr "Impostazioni"
+
+#: scp/profile.php:138
+msgid ""
+"Welcome back! You are listed as 'on vacation' Please let admin or your "
+"manager know that you are back."
+msgstr ""
+"Bentornato! Siete elencato come 'in vacanza'. Prego avvisare "
+"l'amministratore o il vostro manager del rientro."
+
+#: scp/profile.php:158
+msgid "You must change your password to continue."
+msgstr "&Egrave; necessario cambiare la password per proseguire."
+
+#: scp/directory.php:64
+msgid "All Department"
+msgstr "Tuti i dipartimenti"
+
+#: scp/directory.php:84
+msgid "Mobile"
+msgstr "Cellulare"
+
+#: scp/directory.php:106
+msgid "Problems displaying directory"
+msgstr "Problemi nel mostrare la directory"
+
+#: scp/kb.php:27
+msgid "Unknown ID#"
+msgstr "ID sconosciuto"
+
+#: scp/kb.php:42
+msgid "Title/subject required"
+msgstr "Titolo/oggetto richiesti"
+
+#: scp/kb.php:45
+msgid "Reply required"
+msgstr "Risposta richiesta"
+
+#: scp/kb.php:55
+msgid "Unable to create the reply. Internal error"
+msgstr "Impossibile creare la risposta. Errore interno"
+
+#: scp/kb.php:61
+msgid "Premade reply updated"
+msgstr "Aggiornata la risposta predefinita"
+
+#: scp/kb.php:65
+msgid "Internal update error occured. Try again"
+msgstr "Errore interno. Riprovare"
+
+#: scp/kb.php:68
+msgid "Title already exists!"
+msgstr "Il titolo esiste gi&agrave;!"
+
+#: scp/kb.php:70
+msgid "Error(s) occured. Try again"
+msgstr "Errori. Riprovare"
+
+#: scp/kb.php:75
+msgid "You must select at least one item"
+msgstr "Selezionare almeno un item"
+
+#: scp/kb.php:92
+msgid "Error occured. Try again"
+msgstr "Errori. Riprovare"
+
+#: scp/kb.php:106
+msgid "Premade Replies"
+msgstr "Risposte predefinite"
+
+#: scp/kb.php:107
+msgid "New Premade Reply"
+msgstr "Nuova risposta predefinita"
+
+#: scp/admin.php:27
+#, php-format
+msgid "The script is version %s while the database is version %s."
+msgstr ""
+"Il programma &egrave; in versione %s, mentre il database &grave; in versione "
+"%s."
+
+#: scp/admin.php:29
+msgid ""
+"Possibly caused by incomplete <a href=\"../setup/upgrade.php\">upgrade</a>."
+msgstr ""
+"Probabilmente causato da <a href=\"../setup/upgrade.php\">upgrade</a> "
+"incompleto."
+
+#: scp/admin.php:34
+msgid ""
+"Please take a minute to delete <strong>setup/install</strong> directory for "
+"security reasons."
+msgstr ""
+"Si prega di cancellare la cartella <strong>setup/install</strong> per "
+"ragioni di sicurezza."
+
+#: scp/admin.php:42
+#, php-format
+msgid ""
+"Please change permission of config file (%s) to remove write access. e.g "
+"<i>chmod 644 %s</i>"
+msgstr ""
+"Si prega di cambiare i permessi del file di configurazione (%s), togliendo "
+"la possibilit&agrave; di scrittura. Per esempio, <i>chmod 664 %s</i>"
+
+#: scp/admin.php:48
+msgid "Please consider turning off register globals if possible"
+msgstr "Se possibile, mettere ad OFF la variabile register globals"
+
+#: scp/admin.php:71
+msgid "Preferences Updated Successfully"
+msgstr "Impostazioni aggiornate"
+
+#: scp/admin.php:84
+msgid "Directory must be valid and writeable"
+msgstr "La cartella deve essere valida e scrivibile"
+
+#: scp/admin.php:86
+msgid "Invalid upload dir"
+msgstr "Cartella di upload non valida"
+
+#: scp/admin.php:88
+msgid "The 'file_uploads' directive is disabled in php.ini"
+msgstr "La direttiva 'file_uploads' &egrave; disabilitata in php.ini"
+
+#: scp/admin.php:92
+msgid "Maximum file size required"
+msgstr "Richiesta dimensione massima file"
+
+#: scp/admin.php:95
+msgid "Allowed file extentions required"
+msgstr "Richieste estensioni dei file permesse"
+
+#: scp/admin.php:110
+msgid "Attachments settings updated"
+msgstr "Aggiornate impostazioni degli allegati"
+
+#: scp/admin.php:112
+msgid "Update error!"
+msgstr "Errore di aggiornamento!"
+
+#: scp/admin.php:115
+msgid "Error occured. See error messages below."
+msgstr "Si sono verificati errori. Vedere messaggi seguenti."
+
+#: scp/admin.php:123
+#, php-format
+msgid "Key created successfully for %s"
+msgstr "Chiave creata per %s"
+
+#: scp/admin.php:125
+msgid "Error adding the IP. Try again"
+msgstr "Errore aggiungendo l'IP. Riprovare"
+
+#: scp/admin.php:129
+msgid "API passphrase updated successfully"
+msgstr "Aggiornata la API passphrase"
+
+#: scp/admin.php:131
+msgid "Error updating passphrase. Try again"
+msgstr "Errore nell'aggiornamento della passphrase. Riprovare"
+
+#: scp/admin.php:135
+msgid "You must select at least one entry to process"
+msgstr "Selezionare almeno una voce su cui operare"
+
+#: scp/admin.php:143
+#, php-format
+msgid "%s of %s selected key(s) updated"
+msgstr "%s di %s voci selezionate aggiornate"
+
+#: scp/admin.php:145
+msgid "Unable to delete selected keys."
+msgstr "Impossibile eliminare le chiavi selezionate."
+
+#: scp/admin.php:150
+#, php-format
+msgid "%s of %s selected key(s) deleted"
+msgstr "%s di %s voci selezionate eliminate"
+
+#: scp/admin.php:152
+msgid "Unable to delete selected key(s). Try again"
+msgstr "Impossibile eliminare le chiavi selezionate. Riprovare"
+
+#: scp/admin.php:155 scp/admin.php:237 scp/admin.php:290
+msgid "Unknown command"
+msgstr "Comando sconosciuto"
+
+#: scp/admin.php:160
+#, php-format
+msgid "Unknown action %s"
+msgstr "Azione %s sconosciuta"
+
+#: scp/admin.php:168
+msgid "Please enter a valid email."
+msgstr "Inserire e-mail valida"
+
+#: scp/admin.php:170
+msgid "Email already banned"
+msgstr "E-mail gi&agrave; bloccata"
+
+#: scp/admin.php:173
+msgid "Email added to banlist"
+msgstr "E-mail bloccata"
+
+#: scp/admin.php:175
+msgid "Unable to add email to banlist. Try again"
+msgstr "Impossibile bloccare l'e-mail. Ritentare."
+
+#: scp/admin.php:180
+msgid "You must select at least one email"
+msgstr "Selezionare almeno una e-mail"
+
+#: scp/admin.php:185
+#, php-format
+msgid "%s of %s selected emails removed from banlist"
+msgstr "%s di %s e-mail selezionate sono state sbloccate"
+
+#: scp/admin.php:187
+msgid "Unable to make remove selected emails. Try again."
+msgstr "Impossibile eliminare le e-mail selezionate. Riprovare"
+
+#: scp/admin.php:191
+msgid "Uknown banlist command!"
+msgstr "Comando di blocco e-mail sconosciuto!"
+
+#: scp/admin.php:202
+msgid "Email updated successfully"
+msgstr "E-mail aggiornata"
+
+#: scp/admin.php:204
+msgid "Error updating email"
+msgstr "Errore nell'aggiornamento e-mail"
+
+#: scp/admin.php:206 scp/admin.php:311 scp/admin.php:412 scp/admin.php:469
+msgid "Internal error"
+msgstr "Errore interno"
+
+#: scp/admin.php:211
+msgid "Email added successfully"
+msgstr "E-mail aggiunta"
+
+#: scp/admin.php:217
+msgid "You must select at least one email to process"
+msgstr "Selezionare almeno un e-mail da processare"
+
+#: scp/admin.php:224
+msgid ""
+"One or more of the selected emails is being used by a Dept. Remove "
+"association first."
+msgstr ""
+"Una o pi&ugrave; degli indirizzi selezionati &egrave; usato da un dip. Prima "
+"rimuovere l'associazione."
+
+#: scp/admin.php:232
+#, php-format
+msgid "%s of %s selected email(s) deleted"
+msgstr "%s di %s e-mail selezionate eliminate"
+
+#: scp/admin.php:234
+msgid "Unable to delete selected email(s)."
+msgstr "Impossibile eliminare le e-mail selezionate."
+
+#: scp/admin.php:242 scp/admin.php:348
+msgid "Unknown topic action!"
+msgstr "Azione sugli argomenti sconosciuta!"
+
+#: scp/admin.php:252
+msgid "Template created successfully"
+msgstr "Modello creato"
+
+#: scp/admin.php:254
+msgid "Error creating the template - try again"
+msgstr "Errore nel creare il modello - riprovare"
+
+#: scp/admin.php:265
+msgid "Template updated successfully"
+msgstr "Modello aggiornato"
+
+#: scp/admin.php:267
+msgid "Error updating the template. Try again"
+msgstr "Errore nell'aggiornare il modello. Riprovare"
+
+#: scp/admin.php:273
+msgid "You must select at least one template"
+msgstr "Selezionare almeno un modello"
+
+#: scp/admin.php:275
+msgid "You can not delete default template"
+msgstr "Non si pu&ograve; eliminare il modello predefinito"
+
+#: scp/admin.php:282
+msgid ""
+"One or more of the selected templates is being used by a Dept. Remove "
+"association first."
+msgstr ""
+"Uno o pi&ugrave; dei modelli selezionati &egrave; usato da un dipartimento. "
+"Prima rimuovere l'associazione."
+
+#: scp/admin.php:286
+#, php-format
+msgid "%s of %s selected templates(s) deleted"
+msgstr "%s dei %s modelli selezionati eliminati"
+
+#: scp/admin.php:288
+msgid "Unable to delete selected templates(s)."
+msgstr "Impossibile eliminare i modelli selezionati"
+
+#: scp/admin.php:307
+msgid "Topic updated successfully"
+msgstr "Argomento aggiornato"
+
+#: scp/admin.php:309
+msgid "Error updating the topic"
+msgstr "Errore nell'aggiornamento argomento"
+
+#: scp/admin.php:316
+msgid "Help topic created successfully"
+msgstr "Argomento creato"
+
+#: scp/admin.php:322
+msgid "You must select at least one topic"
+msgstr "Selezionare almeno un argomento"
+
+#: scp/admin.php:329
+#, php-format
+msgid "%s of %s selected services enabled"
+msgstr "%s dei %s servizi selezionati abilitati"
+
+#: scp/admin.php:331
+msgid "Unable to complete the action."
+msgstr "Impossibile completare l'azione."
+
+#: scp/admin.php:335
+#, php-format
+msgid "%s of %s selected topics disabled"
+msgstr "%s dei %s argomenti selezionati disattivati"
+
+#: scp/admin.php:337
+msgid "Unable to disable selected topics"
+msgstr "Impossibile disattivare gli argomenti selezionati"
+
+#: scp/admin.php:341
+#, php-format
+msgid "%s of %s selected topics deleted!"
+msgstr "%s dei %s argomenti selezionati eliminati!"
+
+#: scp/admin.php:343
+msgid "Unable to delete selected topics"
+msgstr "Impossibile eliminare gli argomenti selezionati"
+
+#: scp/admin.php:357
+#, php-format
+msgid "Group %s updated successfully"
+msgstr "Gruppo %s aggiornato"
+
+#: scp/admin.php:359 scp/admin.php:366
+msgid "Error(s) occured. Try again."
+msgstr "Si sono verificati errori. Riprovare"
+
+#: scp/admin.php:364
+#, php-format
+msgid "Group %s created successfully"
+msgstr "Gruppo %s creato"
+
+#: scp/admin.php:387
+msgid ""
+"One or more of the selected groups have users. Only empty groups can be "
+"deleted."
+msgstr ""
+"Uno o pi&ugrave; dei gruppi selezionati ha utenti. Possono essere eliminati "
+"solo gruppi vuoti."
+
+#: scp/admin.php:390
+#, php-format
+msgid "%s of %s selected groups Deleted"
+msgstr "%s dei %s gruppi selezionati eliminati"
+
+#: scp/admin.php:393 scp/admin.php:447 scp/admin.php:454 scp/admin.php:531
+msgid "Uknown command!"
+msgstr "Comando sconosciuto!"
+
+#: scp/admin.php:396
+msgid "No groups selected."
+msgstr "Nessun gruppo selezionato."
+
+#: scp/admin.php:408
+msgid "Staff profile updated successfully"
+msgstr "Profilo staff aggiornato"
+
+#: scp/admin.php:410
+msgid "Error updating the user"
+msgstr "Errore nell'aggiornamento utente"
+
+#: scp/admin.php:417
+#, php-format
+msgid "%s %s added successfully"
+msgstr "%s %s aggiunti"
+
+#: scp/admin.php:419
+msgid "Unable to add the user. Internal error"
+msgstr "Impossibile aggiungere utente. Errore interno"
+
+#: scp/admin.php:429
+#, php-format
+msgid "%s of  %s selected users enabled"
+msgstr "%s di %s utenti selezionati attivati"
+
+#: scp/admin.php:432
+msgid "You can not lock or delete yourself!"
+msgstr "Impossibile bloccare o cancellare se stessi!"
+
+#: scp/admin.php:437
+#, php-format
+msgid "%s of %s selected users locked"
+msgstr "%s di %s utenti selezionati bloccati"
+
+#: scp/admin.php:442
+#, php-format
+msgid "%s of %s selected users deleted"
+msgstr "%s di %s utenti selezionati eliminati"
+
+#: scp/admin.php:450
+msgid "No users selected."
+msgstr "Nessun utente selezionato"
+
+#: scp/admin.php:465
+msgid "Dept updated successfully"
+msgstr "Dipartimento aggiornato"
+
+#: scp/admin.php:467
+msgid "Error updating the department"
+msgstr "Errore nell'aggiornamento dipartimento"
+
+#: scp/admin.php:476
+msgid "Unable to add department. Internal error"
+msgstr "Impossibile aggiungere dipartimento. Errore interno"
+
+#: scp/admin.php:480
+msgid "You must select at least one department"
+msgstr "Selezionare almeno un dipartimento"
+
+#: scp/admin.php:482
+msgid ""
+"You can not disable/delete a default department. Remove default Dept and try "
+"again."
+msgstr ""
+"Impossibile diattivare/eliminare un dipartimento predefinito. Togliere il "
+"dip. predefinito e riprovare."
+
+#: scp/admin.php:489
+#, php-format
+msgid "%s of %s selected departments made public"
+msgstr "%s di %s dipartimenti selezionati resi pubblici"
+
+#: scp/admin.php:491
+msgid "Unable to make depts public."
+msgstr "Impossibile marcare come pubblico un dipartimento."
+
+#: scp/admin.php:495
+#, php-format
+msgid "%s of %s selected departments made private"
+msgstr "%s di %s dipartimenti selezionati resi privati"
+
+#: scp/admin.php:497
+msgid ""
+"Unable to make selected department(s) private. Possibly already private!"
+msgstr ""
+"Impossibile rendere privati i dipartimenti selezionati. Forse sono "
+"gi&agrave; privati!"
+
+#: scp/admin.php:505
+msgid "Can not delete Dept. with members. Move staff first."
+msgstr ""
+"Impossibile eliminare un dipartimento com membri. Spostare prima lo staff."
+
+#: scp/admin.php:507
+msgid ""
+"Can not delete Dept. associated with a help topics. Remove association first."
+msgstr ""
+"Impossibile eliminare un dipartimento associato ad un argomento. Togliere "
+"prima l'associazione."
+
+#: scp/admin.php:518
+#, php-format
+msgid "%s of %s selected departments deleted"
+msgstr "%s di %s dipartimenti selezionati eliminati"
+
+#: scp/admin.php:520
+msgid "Unable to delete selected departments."
+msgstr "Impossibile eliminare i dipartimenti selezionati."
+
+#: scp/admin.php:527
+msgid "Unknown Dept action"
+msgstr "Azione sui dipartimenti sconosciuta"
+
+#: scp/admin.php:548
+msgid "Attachments"
+msgstr "Allegati"
+
+#: scp/admin.php:549
+msgid "API"
+msgstr "API"
+
+#: scp/admin.php:572
+msgid "Email Addresses"
+msgstr "Indirizzi E-mail"
+
+#: scp/admin.php:573
+msgid "Add New Email"
+msgstr "Aggiungere nuova e-mail"
+
+#: scp/admin.php:574
+msgid "Templates"
+msgstr "Modelli"
+
+#: scp/admin.php:575
+msgid "Banlist"
+msgstr "Lista e-mail bloccate"
+
+#: scp/admin.php:575
+msgid "Banned Email"
+msgstr "E-mail bloccate"
+
+#: scp/admin.php:585
+#, php-format
+msgid "Unable to fetch info on template ID#"
+msgstr "Impossibile recuperare informazioni sul modello ID#"
+
+#: scp/admin.php:602
+#, php-format
+msgid "Unable to fetch info on email ID#%s"
+msgstr "Impossibile recuperare informazioni sulla e-mail ID#%s"
+
+#: scp/admin.php:613
+msgid "Add New Topic"
+msgstr "Aggiungere nuovo argomento"
+
+#: scp/admin.php:618
+#, php-format
+msgid "Unable to fetch info on topic #%s"
+msgstr "Impossibile recuperare informazioni sull'argomento #%s"
+
+#: scp/admin.php:631
+msgid "Add New User"
+msgstr "Aggiungere nuovo utente"
+
+#: scp/admin.php:632
+msgid "User Groups"
+msgstr "Gruppi utenti"
+
+#: scp/admin.php:641
+#, php-format
+msgid "Unable to fetch info on group ID#%s"
+msgstr "Impossibile recuperare informazioni sul gruppo ID#%s"
+
+#: scp/admin.php:651
+#, php-format
+msgid "Unable to fetch info on rep ID#%s"
+msgstr "Impossibile recuperare informazioni sul reparto ID%s"
+
+#: scp/admin.php:668
+#, php-format
+msgid "Unable to fetch info on Dept ID#%s"
+msgstr "Impossibile recuperare informazioni sul dipartimento ID#%s"
+
+#: scp/admin.php:674
+msgid "Add New Dept."
+msgstr "Aggiungere nuovo dep."
+
+#: scp/admin.php:705
+msgid "Problems loading requested admin page."
+msgstr "Problemi nel caricare le richieste pagine di amministrazione"
+
+#: scp/admin.php:706
+msgid ""
+"Possibly access denied, if you believe this is in error please get technical "
+"support."
+msgstr ""
+"Forse accesso negato, se si pensa sia un errore rivolgersi al supporto "
+"tecnico."
+
+#: scp/ajax.php:24
+msgid "config error"
+msgstr "errore di configurazione"
+
+#: scp/ajax.php:27
+#, php-format
+msgid "Access Denied. IP %s"
+msgstr "Accesso negato. IP %s"
+
+#: scp/ajax.php:33
+msgid "Invalid params"
+msgstr "Parametro non valido"
+
+#: scp/ajax.php:40
+msgid "invalid method"
+msgstr "metodo non valido"
+
+#: scp/ajax.php:48
+#, php-format
+msgid "This is secure ajax assjax %s"
+msgstr "Questo &egrave; un assjax ajax %s sicuro"
+
+#: scp/ajax.php:54
+#, php-format
+msgid "invalid method/call %s"
+msgstr "chiamata/metodo %s non valido"
+
+#: scp/login.php:22 login.php:25 login.php:27
+msgid "Authentication Required"
+msgstr "Richiesta autenticazione"
+
+#: scp/login.php:25 login.php:33
+msgid "Invalid login"
+msgstr "Login non valido"
+
+#: scp/login.php:28 login.php:36
+msgid "Excessive failed login attempts"
+msgstr "Troppi tentatifi falliti di login"
+
+#: scp/login.php:29
+msgid "You've reached maximum failed login attempts allowed."
+msgstr "Si &egrave; raggiunto il numero massimo di tentativi di login."
+
+#: scp/login.php:60
+msgid "Forgot your login info? Contact IT Dept."
+msgstr "Dati di accesso dimenticati? Rivolgersi al dipartimento IT"
+
+#: scp/login.php:62
+msgid "Excessive login attempts by a staff member?"
+msgstr "Troppi tentativi di accesso da parte di un membro dello staff?"
+
+#: scp/login.php:64 scp/login.php:68 login.php:79 login.php:83
+msgid "Attempts #"
+msgstr "Tentativi Nr."
+
+#: scp/login.php:64
+msgid "minutes"
+msgstr "minuti"
+
+#: scp/login.php:65
+msgid "Excessive login attempts (staff)"
+msgstr "Troppi tentativi di accesso (staff)"
+
+#: scp/login.php:68 login.php:83
+msgid "TIME:"
+msgstr "Data/ora:"
+
+#: scp/login.php:69
+msgid "Failed login attempt (staff)"
+msgstr "Tentativo di accesso fallito (staff)"
+
+#: scp/staff.inc.php:21 secure.inc.php:18 login.php:18
+msgid "Fatal Error"
+msgstr "Errore irreversibile"
+
+#: scp/staff.inc.php:26
+msgid "Fatal error"
+msgstr "Errore irreversibile"
+
+#: scp/staff.inc.php:69
+msgid "System Offline"
+msgstr "Sistema offline"
+
+#: scp/staff.inc.php:74
+msgid "Access Denied. Contact Admin"
+msgstr "Accesso negato, Contattare l'amministratore"
+
+#: scp/staff.inc.php:94
+#, php-format
+msgid "The script is version %s while the database is version %s"
+msgstr ""
+"Il programma &egrave; in versione %s mentre il database &egrave; in versione "
+"%s"
+
+#: scp/staff.inc.php:96
+msgid ""
+"<strong>System is set to offline mode</strong> - Client interface is "
+"disabled and ONLY admins can access staff control panel."
+msgstr ""
+"<strong>Il sistema &egrave; offline</strong> - L'interfaccia utenti &egrave; "
+"disattivata e SOLO gli amministratori possono accedere al pannello di "
+"controllo."
+
+#: scp/attachment.php:30
+msgid "You do not have access to the ticket"
+msgstr "Non si ha accesso al ticket"
+
+#: open.php:25
+msgid "Enter text shown on the image"
+msgstr "Scrivere il testo mostrato nell'immagine"
+
+#: open.php:27
+msgid "Invalid - try again!"
+msgstr "Non valido - riprovare!"
+
+#: open.php:31
+msgid "Support ticket request created"
+msgstr "Creata una richiesta di supporto (ticket)"
+
+#: open.php:37
+msgid "Unable to create a ticket. Please correct errors below and try again!"
+msgstr ""
+"Impossibile creare un ticket. Si prega di correggere gli errori riportati e "
+"ritentare!"
+
+#: login.php:37
+msgid ""
+"You've reached maximum failed login attempts allowed. Try again later or <a "
+"href=\"open.php\">open a new ticket</a>"
+msgstr ""
+"Si &egrave; raggiunto il numero massimo di tentativi di login. Ritentare "
+"pi&ugrave; tardi o <a href=\"open.php\">aprire un nuovo ticket</a>"
+
+#: login.php:74
+msgid ""
+"Forgot your login info? Please <a href=\"open.php\">open a new ticket</a>."
+msgstr ""
+"Dati di accesso dimenticati?  <a href=\"open.php\">Aprire un nuovo "
+"ticket</a>, prego."
+
+#: login.php:76
+msgid "Excessive login attempts by a client?"
+msgstr "Troppi tentativi di accesso da parte di un utente?"
+
+#: login.php:77 login.php:82 index.php:50
+msgid "Ticket #:"
+msgstr "Ticket Nr."
+
+#: login.php:78
+msgid "IP:"
+msgstr "IP:"
+
+#: login.php:78
+msgid "Time:"
+msgstr "Data/ora:"
+
+#: login.php:80
+msgid "Excessive login attempts (client)"
+msgstr "Troppi tentativi di login (utente)"
+
+#: login.php:84
+msgid "Failed login attempt (client)"
+msgstr "Tentativo di login fallito (utente)"
+
+#: index.php:27
+msgid "Welcome to the support center"
+msgstr "Benvenuti nel centro di supporto"
+
+#: index.php:28
+msgid ""
+"In order to streamline support requests and better serve you, we utilize a "
+"support ticket system. Every support request is assigned a unique ticket "
+"number which you can use to track the progress and responses online. For "
+"your reference we provide complete archives and history of all your support "
+"requests. A valid email address is required."
+msgstr ""
+"Al fine di snellire le richieste di supporto e servirvi meglio, utilizziamo "
+"un sistema di ticket di assistenza. Ad ogni richiesta di assistenza &egrave: "
+"assegnato un numero unico di ticket che pu&ograve; essere utilizzato per "
+"monitorare i progressi e le risposte on-line. Per vostro riferimento "
+"forniamo gli archivi e la storia completa di tutte le vostre richieste di "
+"supporto. &Egrave; necessario un indirizzo e-mail valido."
+
+#: index.php:33
+msgid "Open A New Ticket"
+msgstr "Aprire un nuovo ticket"
+
+#: index.php:34
+msgid ""
+"Please provide as much detail as possible so we can best assist you. To "
+"update a previously submitted ticket, please use the form to the right."
+msgstr ""
+"Fornire pi&ugrave; informazioni possibile per facilitare l'assistenza. Per "
+"aggiornare un ticket inserito in precedenza, usare il modulo a destra."
+
+#: index.php:37
+msgid "Open New Ticket"
+msgstr "Aprire nuovo ticket"
+
+#: index.php:42
+msgid "Check Ticket Status"
+msgstr "Controllare lo stato dei ticket"
+
+#: index.php:42
+msgid ""
+"We provide archives and history of all your support requests complete with "
+"responses."
+msgstr ""
+"Forniamo un archivio di tutte le richieste di supporto, completo di "
+"comunicazioni e risposte."
+
+#: index.php:55
+msgid "Check Status"
+msgstr "Controllo status"
+
+#: offline.php:26
+msgid "Support Ticket System"
+msgstr "Support Ticket System"
+
+#: offline.php:33
+msgid "Support Ticket System Offline"
+msgstr "Support Ticket System Offline"
+
+#: offline.php:35
+msgid "Thank you for your interest in contacting us."
+msgstr "Grazie per averci contattato."
+
+#: offline.php:36
+msgid ""
+"Our helpdesk is offline at the moment, please check back at a later time."
+msgstr "Helpdesk offline, riprovare pi&ugrave; tardi."

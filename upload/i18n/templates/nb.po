@@ -1,0 +1,5003 @@
+# Norwegian Bokmal translation for osticketplus
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the osticketplus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: osticketplus\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-11-23 10:26-0300\n"
+"PO-Revision-Date: 2011-10-25 08:50+0000\n"
+"Last-Translator: Arne-Jørgen Auberg <Unknown>\n"
+"Language-Team: Norwegian Bokmal <nb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-26 05:32+0000\n"
+"X-Generator: Launchpad (build 14189)\n"
+
+#: client.inc.php:17 include/ost-config.sample.php:20
+#: include/client/open.inc.php:2 include/client/tickets.inc.php:2
+#: include/client/login.inc.php:2 include/client/viewticket.inc.php:2
+#: include/client/thankyou.inc.php:2 include/staff/myprofile.inc.php:2
+#: include/staff/mypref.inc.php:2 include/ost-config.php:20 secure.inc.php:17
+msgid "Kwaheri rafiki!"
+msgstr "Kwaheri rafiki!"
+
+#: client.inc.php:37
+msgid "System is offline for an upgrade."
+msgstr "Systemet er utilgjengelig på grunn av oppdatering."
+
+#: tickets.php:19 include/client/viewticket.inc.php:4
+#: include/staff/staffmembers.inc.php:2 include/staff/newticket.inc.php:2
+#: include/staff/syslogs.inc.php:2 include/staff/attachment.inc.php:2
+#: include/staff/depts.inc.php:2 include/staff/header.inc.php:1
+#: include/staff/api.inc.php:2 include/staff/tickets.inc.php:2
+#: include/staff/editticket.inc.php:2 include/staff/reply.inc.php:2
+#: include/staff/template.inc.php:2 include/staff/banlist.inc.php:2
+#: include/staff/helptopics.inc.php:2 include/staff/email.inc.php:3
+#: include/staff/filters.inc.php:2 include/staff/viewticket.inc.php:4
+#: include/staff/topic.inc.php:2 include/staff/staff.inc.php:2
+#: include/staff/dept.inc.php:2 include/staff/templates.inc.php:2
+#: include/staff/premade.inc.php:3 include/staff/preference.inc.php:2
+#: include/staff/groups.inc.php:2 include/staff/group.inc.php:2
+#: include/staff/emails.inc.php:2 scp/kb.php:17 scp/login.php:59
+#: scp/attachment.php:28
+msgid "Access Denied"
+msgstr "Tilgang nektet"
+
+#: tickets.php:30 tickets.php:45
+msgid "Access Denied. Possibly invalid ticket ID"
+msgstr "Tilgang nektet. Sannsynligvis på grunn av en ugyldig sak ID."
+
+#: tickets.php:32
+msgid ""
+"Security violation. Repeated violations will result in your account being "
+"locked."
+msgstr ""
+"Sikkerhetsbrudd. Gjentatte sikkerhetsbrudd vil føre til at din konto blir "
+"låst."
+
+#: tickets.php:50 include/class.ticket.php:1168 scp/tickets.php:138
+msgid "Message required"
+msgstr "Melding påkrevd"
+
+#: tickets.php:58
+#, php-format
+msgid "File is too big. Max %s bytes allowed"
+msgstr "Filen er for stor. Den kan ikke være større enn %s bytes."
+
+#: tickets.php:67
+msgid "Message Posted Successfully"
+msgstr "Meldingen ble sendt"
+
+#: tickets.php:69
+msgid "Unable to post the message. Try again"
+msgstr "Kunne ikke poste meldingen. Prøv igjen"
+
+#: tickets.php:72
+msgid "Error(s) occured. Please try again"
+msgstr "En feil oppstod. Vennligst forsøk på nytt"
+
+#: tickets.php:76 scp/profile.php:121
+msgid "Uknown action"
+msgstr "Ukjent handling"
+
+#: main.inc.php:78
+msgid "Error loading settings. Contact admin."
+msgstr "Feil ved lasting av innstillinger. Kontakt administrator."
+
+#: main.inc.php:146
+msgid "Unable to connect to the database"
+msgstr "Kan ikke koble til databasen"
+
+#: main.inc.php:148
+msgid "Unable to load config info from DB. Get tech support."
+msgstr "Kan ikke hente konfigurasjon fra databasen. Kontakt support."
+
+#: main.inc.php:150
+msgid "Short open tag disabled! - osTicket requires it turned ON."
+msgstr "Short open tag deaktivert! - osTicket krever at dette er skrudd PÅ."
+
+#: main.inc.php:155
+msgid "Fatal Error:"
+msgstr "Fatal feil:"
+
+#: main.inc.php:155
+msgid "Contact system adminstrator."
+msgstr "Kontakt systemadministrator."
+
+#: setup/inc/install.inc.php:34
+msgid "System Language:"
+msgstr "Språk:"
+
+#: include/class.msgtpl.php:82 include/class.staff.php:256 scp/admin.php:74
+msgid "Internal Error"
+msgstr "Internfeil"
+
+#: include/class.msgtpl.php:83 include/class.ticket.php:1078
+#: include/class.ticket.php:1165
+msgid "Name required"
+msgstr "Navn påkrevd"
+
+#: include/class.msgtpl.php:85 include/class.msgtpl.php:87
+#: include/class.msgtpl.php:89 include/class.msgtpl.php:91
+#: include/class.msgtpl.php:93 include/class.msgtpl.php:96
+#: include/class.msgtpl.php:98 include/class.msgtpl.php:100
+#: include/class.msgtpl.php:102 include/class.msgtpl.php:104
+#: include/class.ticket.php:1081 include/class.ticket.php:1167
+msgid "Subject required"
+msgstr "Emne påkrevd"
+
+#: include/class.msgtpl.php:86 include/class.msgtpl.php:88
+#: include/class.msgtpl.php:90 include/class.msgtpl.php:92
+#: include/class.msgtpl.php:94 include/class.msgtpl.php:97
+#: include/class.msgtpl.php:99 include/class.msgtpl.php:101
+#: include/class.msgtpl.php:103 include/class.msgtpl.php:105
+msgid "Template message required"
+msgstr "Meldingsmal påkrevd"
+
+#: include/class.msgtpl.php:146
+msgid "Unable to update. Internal error occured"
+msgstr "Kunne ikke oppdatere. Intern feil oppstod"
+
+#: include/class.msgtpl.php:172
+msgid "Name already in use"
+msgstr "Navnet er allerede i bruk"
+
+#: include/class.msgtpl.php:179 scp/admin.php:263
+msgid "Unknown template"
+msgstr "Ukjent mal"
+
+#: include/class.msgtpl.php:211
+msgid "Unable to create the template. Internal error occured"
+msgstr "Kunne ikke opprette mal. Intern feil oppstod"
+
+#: include/class.pagenate.php:76
+msgid "Showing"
+msgstr "Viser"
+
+#: include/mysql.php:64
+msgid "DB Error #"
+msgstr "Databasefeil #"
+
+#: include/class.topic.php:111
+msgid "Internal error. Try again"
+msgstr "Internfeil. Prøv igjen"
+
+#: include/class.topic.php:114
+msgid "Help topic required"
+msgstr "Hjelp emne påkrevd"
+
+#: include/class.topic.php:116
+msgid "Topic is too short. 5 chars minimum"
+msgstr "Emnet er for kort. Minimum fem tegn"
+
+#: include/class.topic.php:122
+msgid "Topic already exists"
+msgstr "Emnet eksisterer allerede"
+
+#: include/class.topic.php:126
+msgid "You must select a department"
+msgstr "Du må velge en avdeling"
+
+#: include/class.topic.php:129 include/class.email.php:281
+msgid "You must select a priority"
+msgstr "Du må sette en prioritet"
+
+#: include/class.topic.php:140
+msgid "Unable to update topic. Internal error occured"
+msgstr "Kan ikke oppdatere emnet. Internfeil"
+
+#: include/class.topic.php:144 scp/admin.php:318
+msgid "Unable to create the topic. Internal error"
+msgstr "Kan ikke opprette emnet. Internfeil"
+
+#: include/class.api.php:26
+msgid "API passphrase missing."
+msgstr "API-passordfrase mangler."
+
+#: include/class.api.php:29
+msgid "Valid IP required"
+msgstr "Gyldig IP-adresse påkrevd"
+
+#: include/class.api.php:31
+msgid "API key for the IP already exists"
+msgstr "API-nøkkel eksisterer allerede for denne IP-adressen"
+
+#: include/class.api.php:51
+msgid "Required"
+msgstr "Påkrevd"
+
+#: include/class.api.php:53
+msgid "Must be at least 3 words long."
+msgstr "Må være minst tre ord"
+
+#: include/class.api.php:55
+msgid "Already set"
+msgstr "Allerede satt"
+
+#: include/class.config.php:458
+msgid "Helpdesk URl required"
+msgstr "Kundestøtte-URI påkrevd"
+
+#: include/class.config.php:459
+msgid "Helpdesk title required"
+msgstr "Kundestøttetittel påkrevd"
+
+#: include/class.config.php:460
+msgid "Default Dept. required"
+msgstr "Standardavdeling påkrevd"
+
+#: include/class.config.php:461
+msgid "Default email required"
+msgstr "Standardepost påkrevd"
+
+#: include/class.config.php:462
+msgid "You must select template."
+msgstr "Du må velge en mal"
+
+#: include/class.config.php:463 include/class.config.php:464
+msgid "Enter idle time in minutes"
+msgstr "Angi inaktivitetstid i minutter"
+
+#: include/class.config.php:465
+msgid "Time format required"
+msgstr "Tidsformat påkrevd"
+
+#: include/class.config.php:466
+msgid "Date format required"
+msgstr "Datoformat påkrevd"
+
+#: include/class.config.php:467
+msgid "Datetime format required"
+msgstr "Datotid-format påkrevd"
+
+#: include/class.config.php:468
+msgid "Day, Datetime format required"
+msgstr "Dag, datotid-format påkrevd"
+
+#: include/class.config.php:469 include/class.staff.php:274
+#: include/class.ticket.php:1166 include/class.email.php:265
+#: scp/profile.php:87
+msgid "Valid email required"
+msgstr "Gyldig epostadresse påkrevd"
+
+#: include/class.config.php:470
+msgid "Enter lock time in minutes"
+msgstr "Angi låstid i minutter"
+
+#: include/class.config.php:484 include/class.config.php:490
+#: include/class.config.php:497
+msgid "No target recipient(s) selected"
+msgstr "Ingen mottaker(e) valgt"
+
+#: include/class.config.php:501
+msgid "Reply separator required (?)"
+msgstr "Svaravskiller påkrevd"
+
+#: include/class.config.php:505
+msgid "The GD extension required"
+msgstr "GD-forlengelse påkrevd"
+
+#: include/class.config.php:507
+msgid "PNG support required for Image Captcha"
+msgstr "PNG-støtte påkrevd for Image Captcha"
+
+#: include/class.config.php:511
+msgid "Email already setup as system email"
+msgstr "Epostadresse er allerede ibruk som epostadresse for systemet"
+
+#: include/ost-config.sample.php:25 include/ost-config.php:25
+msgid "Error: Contact system admin."
+msgstr "Feil: Kontakt systemadministrator"
+
+#: include/client/open.inc.php:15 include/staff/newticket.inc.php:17
+msgid "Please fill in the form below to open a new ticket."
+msgstr "Vennligst fyll ut skjemaet nedenfor for å åpne en ny sak"
+
+#: include/client/open.inc.php:19 include/staff/newticket.inc.php:30
+#: include/staff/editticket.inc.php:47
+msgid "Full Name:"
+msgstr "Fullt navn:"
+
+#: include/client/open.inc.php:31 include/staff/newticket.inc.php:19
+#: include/staff/myprofile.inc.php:25 include/staff/editticket.inc.php:40
+#: include/staff/staff.inc.php:80
+msgid "Email Address:"
+msgstr "Epostadresse:"
+
+#: include/client/open.inc.php:43 include/staff/newticket.inc.php:37
+#: include/staff/editticket.inc.php:61
+msgid "Telephone:"
+msgstr "Telefonnummer:"
+
+#: include/client/open.inc.php:50 include/staff/newticket.inc.php:151
+#: include/staff/editticket.inc.php:104 include/staff/viewticket.inc.php:119
+#: include/staff/topic.inc.php:29
+msgid "Help Topic:"
+msgstr "Hjelp Emne:"
+
+#: include/client/open.inc.php:63
+msgid "General Inquiry"
+msgstr "Generell forespørsel"
+
+#: include/client/open.inc.php:70 include/client/viewticket.inc.php:51
+#: include/staff/newticket.inc.php:72 include/staff/editticket.inc.php:54
+#: include/staff/viewticket.inc.php:88
+msgid "Subject:"
+msgstr "Emne:"
+
+#: include/client/open.inc.php:77
+msgid "Message:"
+msgstr "Melding:"
+
+#: include/client/open.inc.php:87 include/staff/newticket.inc.php:135
+#: include/staff/editticket.inc.php:88 include/staff/viewticket.inc.php:47
+#: include/staff/viewticket.inc.php:187
+msgid "Priority:"
+msgstr "Prioritet:"
+
+#: include/client/open.inc.php:106 include/staff/newticket.inc.php:101
+msgid "Attachment:"
+msgstr "Vedlegg:"
+
+#: include/client/open.inc.php:117
+msgid "Captcha Text:"
+msgstr "Captcha tekst"
+
+#: include/client/open.inc.php:119
+msgid "Enter the text shown on the image."
+msgstr "Skriv teksten vist i bildet"
+
+#: include/client/open.inc.php:128 include/staff/newticket.inc.php:205
+msgid "Submit Ticket"
+msgstr "Send sak"
+
+#: include/client/open.inc.php:129 include/client/viewticket.inc.php:138
+#: include/staff/newticket.inc.php:206 include/staff/myprofile.inc.php:49
+#: include/staff/editticket.inc.php:136 include/staff/reply.inc.php:64
+#: include/staff/email.inc.php:195 include/staff/viewticket.inc.php:343
+#: include/staff/viewticket.inc.php:385 include/staff/viewticket.inc.php:423
+#: include/staff/viewticket.inc.php:470 include/staff/mypref.inc.php:58
+#: include/staff/topic.inc.php:77 include/staff/staff.inc.php:152
+#: include/staff/dept.inc.php:156 include/staff/smtp.inc.php:71
+#: include/staff/changepasswd.inc.php:31 include/staff/group.inc.php:110
+msgid "Reset"
+msgstr "Nullstill"
+
+#: include/client/open.inc.php:130 include/client/viewticket.inc.php:139
+#: include/staff/newticket.inc.php:207 include/staff/myprofile.inc.php:50
+#: include/staff/editticket.inc.php:137 include/staff/reply.inc.php:65
+#: include/staff/email.inc.php:196 include/staff/viewticket.inc.php:344
+#: include/staff/viewticket.inc.php:386 include/staff/viewticket.inc.php:424
+#: include/staff/viewticket.inc.php:471 include/staff/mypref.inc.php:59
+#: include/staff/topic.inc.php:78 include/staff/staff.inc.php:153
+#: include/staff/dept.inc.php:157 include/staff/smtp.inc.php:72
+#: include/staff/changepasswd.inc.php:32 include/staff/group.inc.php:111
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: include/client/header.inc.php:2
+msgid "osTicket :: Support Ticket System"
+msgstr "osTicket :: Support Ticket System"
+
+#: include/client/header.inc.php:16
+msgid "Support Center"
+msgstr "Hjelpesenter"
+
+#: include/client/header.inc.php:17
+msgid "<span>SUPPORT TICKET</span> SYSTEM"
+msgstr "<span>SUPPORT TICKET</span> SYSTEM"
+
+#: include/client/header.inc.php:22 include/staff/header.inc.php:41
+msgid "Log Out"
+msgstr "Logg av"
+
+#: include/client/header.inc.php:23
+msgid "My Tickets"
+msgstr "Mine saker"
+
+#: include/client/header.inc.php:25
+msgid "Ticket Status"
+msgstr "Status"
+
+#: include/client/header.inc.php:27 include/class.ticket.php:1520
+#: scp/tickets.php:464
+msgid "New Ticket"
+msgstr "Ny sak"
+
+#: include/client/header.inc.php:28
+msgid "Home"
+msgstr "Hjem"
+
+#: include/client/tickets.inc.php:80
+msgid "View Open"
+msgstr "Vis åpne saker"
+
+#: include/client/tickets.inc.php:81
+msgid "View Closed"
+msgstr "Vis lukkede saker"
+
+#: include/client/tickets.inc.php:82
+msgid "Refresh"
+msgstr "Oppfrisk"
+
+#: include/client/tickets.inc.php:91 include/staff/tickets.inc.php:393
+msgid "Sort By Ticket ID"
+msgstr "Sorter mht. Sak ID"
+
+#: include/client/tickets.inc.php:91 include/staff/tickets.inc.php:334
+#: include/staff/viewticket.inc.php:31
+msgid "Ticket #"
+msgstr "Sak #"
+
+#: include/client/tickets.inc.php:93 include/staff/tickets.inc.php:395
+msgid "Sort By Date"
+msgstr "Sorter mht. dato"
+
+#: include/client/tickets.inc.php:93 include/staff/groups.inc.php:21
+msgid "Create Date"
+msgstr "Opprettet dato"
+
+#: include/client/tickets.inc.php:94 include/staff/staffmembers.inc.php:29
+#: include/staff/helptopics.inc.php:20 include/staff/email.inc.php:100
+#: include/staff/email.inc.php:161 include/staff/templates.inc.php:145
+#: include/staff/premade.inc.php:97
+msgid "Status"
+msgstr "Status"
+
+#: include/client/tickets.inc.php:95 include/staff/tickets.inc.php:396
+#: include/staff/template.inc.php:36 include/staff/template.inc.php:51
+#: include/staff/template.inc.php:66 include/staff/template.inc.php:82
+#: include/staff/template.inc.php:97 include/staff/template.inc.php:113
+#: include/staff/template.inc.php:126 include/staff/template.inc.php:141
+#: include/staff/template.inc.php:155 include/staff/template.inc.php:168
+#: include/staff/templates.inc.php:142
+msgid "Subject"
+msgstr "Emne"
+
+#: include/client/tickets.inc.php:97 include/staff/tickets.inc.php:398
+msgid "Sort By Category"
+msgstr "Sort mht. kategori"
+
+#: include/client/tickets.inc.php:97 include/staff/tickets.inc.php:398
+#: include/staff/helptopics.inc.php:22 include/staff/dept.inc.php:28
+#: include/staff/templates.inc.php:147 include/staff/emails.inc.php:21
+msgid "Department"
+msgstr "Avdeling"
+
+#: include/client/tickets.inc.php:98 include/staff/newticket.inc.php:49
+#: include/staff/banlist.inc.php:87 include/staff/filters.inc.php:87
+#: scp/directory.php:82
+msgid "Email"
+msgstr "Epost"
+
+#: include/client/tickets.inc.php:129
+msgid "NO tickets found."
+msgstr "INGEN saker funnet"
+
+#: include/client/login.inc.php:16
+msgid ""
+"To view the status of a ticket, provide us with your login details "
+"below.<br/>If this is your first time contacting us or you've lost the "
+"ticket ID, please <a href='open.php'>click here</a> to open a new ticket."
+msgstr ""
+"For å vise status for en sak, gi oss dine brukerdetaljer nedenfor.<br />Hvis "
+"dette er den første gangen du kontakter oss, eller du har mistet sak ID'en, "
+"vennligst <a href='open.php'>trykk her</a> for å åpne en ny sak."
+
+#: include/client/login.inc.php:22
+msgid "E-Mail:"
+msgstr "Epost"
+
+#: include/client/login.inc.php:23
+msgid "Ticket ID:"
+msgstr "Sak ID:"
+
+#: include/client/login.inc.php:24
+msgid "View Status"
+msgstr "Vis status"
+
+#: include/client/viewticket.inc.php:15 include/staff/viewticket.inc.php:31
+msgid "Reload"
+msgstr "Last på nytt"
+
+#: include/client/viewticket.inc.php:20 include/staff/viewticket.inc.php:331
+#: include/staff/viewticket.inc.php:372
+msgid "Ticket Status:"
+msgstr "Status på sak:"
+
+#: include/client/viewticket.inc.php:24 include/staff/newticket.inc.php:56
+#: include/staff/viewticket.inc.php:51 include/staff/viewticket.inc.php:403
+#: include/staff/staff.inc.php:45
+msgid "Department:"
+msgstr "Avdeling:"
+
+#: include/client/viewticket.inc.php:28 include/staff/viewticket.inc.php:55
+msgid "Create Date:"
+msgstr "Opprettet dato:"
+
+#: include/client/viewticket.inc.php:36 include/staff/viewticket.inc.php:63
+msgid "Name:"
+msgstr "Navn:"
+
+#: include/client/viewticket.inc.php:40 include/staff/banlist.inc.php:71
+#: include/staff/filters.inc.php:71 include/staff/viewticket.inc.php:67
+#: login.php:77 login.php:82 index.php:46
+msgid "Email:"
+msgstr "Epost"
+
+#: include/client/viewticket.inc.php:44 include/staff/viewticket.inc.php:78
+msgid "Phone:"
+msgstr "Telefonnummer:"
+
+#: include/client/viewticket.inc.php:61 include/staff/viewticket.inc.php:228
+msgid "Ticket Thread"
+msgstr "Saktråd"
+
+#: include/client/viewticket.inc.php:120
+msgid "Ticket will be reopened on message post"
+msgstr "Saken vil bli gjenåpnet på meldingsposten"
+
+#: include/client/viewticket.inc.php:127
+msgid "Enter Message"
+msgstr "Skriv melding"
+
+#: include/client/viewticket.inc.php:132
+msgid "Attach File"
+msgstr "Legg ved fil"
+
+#: include/client/viewticket.inc.php:137 include/staff/viewticket.inc.php:282
+#: include/staff/viewticket.inc.php:342
+msgid "Post Reply"
+msgstr "Skriv svar"
+
+#: include/client/footer.inc.php:3
+msgid "Copyright &copy; osTicket.com. All rights reserved"
+msgstr "Copyright &copy; osTicket.com. All rights reserved"
+
+#: include/client/footer.inc.php:5
+msgid "Powered by osTicket"
+msgstr "Powered by osTicket"
+
+#: include/client/thankyou.inc.php:18
+msgid ""
+"Thank you for contacting us.<br>A support ticket request has been created "
+"and a representative will be getting back to you shortly if necessary."
+msgstr ""
+"Takk for at du kontaktet oss.<br />En saksanmodning har blitt opprettet og "
+"en representant vil ta kontakt om nødvendig."
+
+#: include/client/thankyou.inc.php:22
+#, php-format
+msgid ""
+"An email with the ticket number has been sent to <b>%s</b>.You'll need the "
+"ticket number along with your email to view status and progress online."
+msgstr ""
+"En epost med saksnummeret har blitt sendt til <b>%s</b>. Du vvil trenge "
+"saksnummeret og eposten din for å se statusen og progresjonen på nettet."
+
+#: include/client/thankyou.inc.php:25
+msgid ""
+"If you wish to send additional comments or information regarding same issue, "
+"please follow the instructions on the email."
+msgstr ""
+"Hvis du ønsker å sende ytterligere kommentarer eller informasjon om samme "
+"sak, vennligst følg instruksjonene i eposten."
+
+#: include/client/thankyou.inc.php:28
+msgid "Support Team"
+msgstr "Support Team"
+
+#: include/class.validator.php:43
+msgid "Invalid input"
+msgstr "Ugyldig inndata"
+
+#: include/class.validator.php:45
+msgid "No fields setup"
+msgstr "Ingen felter er satt opp"
+
+#: include/class.validator.php:109
+msgid "(5 chars min)"
+msgstr "(minst 5 tegn)"
+
+#: include/class.validator.php:113
+msgid "(3 chars min)"
+msgstr "(minst 3 tegn)"
+
+#: include/class.validator.php:120
+msgid "(type not set)"
+msgstr "(type er ikke satt)"
+
+#: include/class.staff.php:259
+msgid "First and last name required"
+msgstr "For- og etternavn påkrevd"
+
+#: include/class.staff.php:262
+msgid "Username required"
+msgstr "Brukernavn påkrevd"
+
+#: include/class.staff.php:270
+msgid "Username already in-use"
+msgstr "Brukernavn er allerede i bruk"
+
+#: include/class.staff.php:276
+msgid "Already in-use system email"
+msgstr "Systemepostadressen er allerede i bruk"
+
+#: include/class.staff.php:279 include/class.staff.php:282
+msgid "Valid number required"
+msgstr "Gyldig nummer påkrevd"
+
+#: include/class.staff.php:286 include/staff/staff.inc.php:14
+msgid "Temp password required"
+msgstr "Midlertidig passord påkrevd"
+
+#: include/class.staff.php:288
+msgid "Password(s) do not match"
+msgstr "Passord(ene) stemmer ikke overens"
+
+#: include/class.staff.php:290
+msgid "Must be at least 6 characters"
+msgstr "Må inneholde minst 6 tegn"
+
+#: include/class.staff.php:294
+msgid "Department required"
+msgstr "Avdeling påkrevd"
+
+#: include/class.staff.php:297
+msgid "Group required"
+msgstr "Gruppe påkrevd"
+
+#: include/class.staff.php:327
+msgid "Unable to update the user. Internal error occured"
+msgstr "Kan ikke oppdatere brukeren. Internfeil oppstod"
+
+#: include/class.staff.php:333
+msgid "Unable to create user. Internal error"
+msgstr "Kan ikke opprette bruker. Intern feil"
+
+#: include/staff/staffmembers.inc.php:16 include/class.nav.php:34
+#: scp/directory.php:20 scp/directory.php:77 scp/admin.php:630
+msgid "Staff Members"
+msgstr "Ansatte"
+
+#: include/staff/staffmembers.inc.php:16
+#, php-format
+msgid ""
+"No staff found. <a href='admin.php?t=staff&a=new&dept=%s'>Add New User</a>."
+msgstr ""
+"Ingen ansatte funnet. <a href='admin.php?t=staff&a=new&dept=%s'>Opprett ny "
+"bruker</a>."
+
+#: include/staff/staffmembers.inc.php:27
+msgid "Full Name"
+msgstr "Fullt navn"
+
+#: include/staff/staffmembers.inc.php:28 include/staff/login.tpl.php:19
+#: include/staff/email.inc.php:84 include/staff/smtp.inc.php:45
+#: scp/login.php:63 scp/login.php:67
+msgid "Username"
+msgstr "Brukernavn"
+
+#: include/staff/staffmembers.inc.php:30
+msgid "Group"
+msgstr "Gruppe"
+
+#: include/staff/staffmembers.inc.php:31 include/staff/email.inc.php:69
+#: include/staff/topic.inc.php:68 include/staff/staff.inc.php:52
+#: include/staff/preference.inc.php:74 scp/directory.php:81
+msgid "Dept"
+msgstr "Avdeling"
+
+#: include/staff/staffmembers.inc.php:32 include/staff/api.inc.php:50
+#: include/staff/templates.inc.php:51
+msgid "Created"
+msgstr "Opprettet"
+
+#: include/staff/staffmembers.inc.php:33
+msgid "Last Login"
+msgstr "Siste pålogging"
+
+#: include/staff/staffmembers.inc.php:63 include/staff/depts.inc.php:61
+#: include/staff/api.inc.php:85 include/staff/banlist.inc.php:116
+#: include/staff/helptopics.inc.php:52 include/staff/filters.inc.php:116
+#: include/staff/templates.inc.php:85 include/staff/premade.inc.php:130
+#: include/staff/groups.inc.php:49 include/staff/emails.inc.php:55
+msgid "Query returned 0 results"
+msgstr "Spørring returnerte 0 resultater"
+
+#: include/staff/staffmembers.inc.php:73 include/staff/depts.inc.php:71
+#: include/staff/tickets.inc.php:455 include/staff/banlist.inc.php:126
+#: include/staff/helptopics.inc.php:62 include/staff/filters.inc.php:126
+#: include/staff/premade.inc.php:138 include/staff/groups.inc.php:58
+#: include/staff/emails.inc.php:65
+msgid "Select:"
+msgstr "Velg:"
+
+#: include/staff/staffmembers.inc.php:74 include/staff/syslogs.inc.php:96
+#: include/staff/depts.inc.php:72 include/staff/tickets.inc.php:456
+#: include/staff/banlist.inc.php:127 include/staff/helptopics.inc.php:63
+#: include/staff/filters.inc.php:127 include/staff/premade.inc.php:139
+#: include/staff/groups.inc.php:59 include/staff/emails.inc.php:66
+msgid "All"
+msgstr "Alle"
+
+#: include/staff/staffmembers.inc.php:75 include/staff/depts.inc.php:74
+#: include/staff/tickets.inc.php:458 include/staff/banlist.inc.php:128
+#: include/staff/helptopics.inc.php:65 include/staff/filters.inc.php:128
+#: include/staff/premade.inc.php:140 include/staff/groups.inc.php:60
+#: include/staff/emails.inc.php:68
+msgid "Toggle"
+msgstr "Merk på/av"
+
+#: include/staff/staffmembers.inc.php:76 include/staff/newticket.inc.php:193
+#: include/staff/depts.inc.php:73 include/staff/tickets.inc.php:457
+#: include/staff/editticket.inc.php:107 include/staff/banlist.inc.php:129
+#: include/staff/helptopics.inc.php:64 include/staff/email.inc.php:131
+#: include/staff/filters.inc.php:129 include/staff/viewticket.inc.php:321
+#: include/staff/smtp.inc.php:39 include/staff/premade.inc.php:141
+#: include/staff/groups.inc.php:61 include/staff/emails.inc.php:67
+msgid "None"
+msgstr "Ingen"
+
+#: include/staff/staffmembers.inc.php:80 include/staff/api.inc.php:98
+#: include/staff/helptopics.inc.php:70 include/staff/email.inc.php:102
+#: include/staff/email.inc.php:163 include/staff/dept.inc.php:119
+#: include/staff/dept.inc.php:125 include/staff/premade.inc.php:145
+#: include/staff/preference.inc.php:412 include/staff/preference.inc.php:418
+#: include/staff/preference.inc.php:424 include/staff/preference.inc.php:430
+#: include/staff/preference.inc.php:443 include/staff/preference.inc.php:453
+#: include/staff/preference.inc.php:463 include/staff/preference.inc.php:473
+#: include/staff/groups.inc.php:66 scp/staff.inc.php:97
+msgid "Enable"
+msgstr "Aktiver"
+
+#: include/staff/staffmembers.inc.php:81
+msgid "Are you sure you want to ENABLE selected user(s)?"
+msgstr "Er du sikker på at du vil AKTIVERE valgte bruker(e)?"
+
+#: include/staff/staffmembers.inc.php:82
+msgid "Lock"
+msgstr "Lås"
+
+#: include/staff/staffmembers.inc.php:83
+msgid "Are you sure you want to LOCK selected user(s)?"
+msgstr "Er du sikker på at du vil LÅSE valgte bruker(e)?"
+
+#: include/staff/staffmembers.inc.php:84 include/staff/api.inc.php:108
+#: include/staff/tickets.inc.php:494 include/staff/helptopics.inc.php:74
+#: include/staff/premade.inc.php:149 include/staff/groups.inc.php:70
+msgid "Delete"
+msgstr "Slett"
+
+#: include/staff/staffmembers.inc.php:85
+msgid "Are you sure you want to DELETE selected user(s)?"
+msgstr "Er du sikker på at du vil SLETTE valgte bruker(e)?"
+
+#: include/staff/newticket.inc.php:25
+msgid "Send alert to user."
+msgstr "Send varsling til bruker:"
+
+#: include/staff/newticket.inc.php:39 include/staff/myprofile.inc.php:32
+#: include/staff/editticket.inc.php:63
+msgid "Ext"
+msgstr "Ext"
+
+#: include/staff/newticket.inc.php:44
+msgid "Ticket Source:"
+msgstr "Sakkilde:"
+
+#: include/staff/newticket.inc.php:47
+msgid "Select Source"
+msgstr "Velg kilde"
+
+#: include/staff/newticket.inc.php:48 scp/directory.php:83
+msgid "Phone"
+msgstr "Telefonnummer"
+
+#: include/staff/newticket.inc.php:50
+msgid "Other"
+msgstr "Annet"
+
+#: include/staff/newticket.inc.php:59 include/staff/email.inc.php:65
+#: include/staff/topic.inc.php:64 include/staff/staff.inc.php:48
+#: scp/tickets.php:106
+msgid "Select Department"
+msgstr "Velg avdeling"
+
+#: include/staff/newticket.inc.php:79
+msgid "Issue Summary:"
+msgstr "Utsted oppsummering:"
+
+#: include/staff/newticket.inc.php:81
+msgid "Visible to client/customer."
+msgstr "Synlig for klient/kunde"
+
+#: include/staff/newticket.inc.php:87
+msgid "Premade:"
+msgstr "Forhåndslagd:"
+
+#: include/staff/newticket.inc.php:90
+msgid "Select a premade reply/issue"
+msgstr "Velg et forhåndslagd svar"
+
+#: include/staff/newticket.inc.php:94 include/staff/viewticket.inc.php:303
+msgid "Append"
+msgstr "Legg til"
+
+#: include/staff/newticket.inc.php:108 include/staff/editticket.inc.php:126
+msgid "Internal Note:"
+msgstr "Internt notat"
+
+#: include/staff/newticket.inc.php:110
+msgid "Optional Internal note(s)."
+msgstr "Valgfri intern notat(er)"
+
+#: include/staff/newticket.inc.php:115 include/staff/editticket.inc.php:68
+#: include/staff/viewticket.inc.php:103
+msgid "Due Date:"
+msgstr "Fristdato"
+
+#: include/staff/newticket.inc.php:117
+#, php-format
+msgid "Time is based on your time zone (GM %s)"
+msgstr "Tiden er basert på din tidssone (GM %s)"
+
+#: include/staff/newticket.inc.php:154 include/staff/dept.inc.php:40
+#: include/staff/dept.inc.php:133 include/staff/preference.inc.php:347
+#: include/staff/preference.inc.php:370 include/staff/preference.inc.php:385
+msgid "Select One"
+msgstr "Velg en"
+
+#: include/staff/newticket.inc.php:168
+msgid "Assign To:"
+msgstr "Tildelt:"
+
+#: include/staff/newticket.inc.php:171
+msgid "-Assign To Staff-"
+msgstr "-Tildelt Ansatte-"
+
+#: include/staff/newticket.inc.php:183
+msgid "Send alert to assigned staff."
+msgstr "Send varsel til tildelte ansatte"
+
+#: include/staff/newticket.inc.php:187 include/staff/myprofile.inc.php:43
+#: include/staff/staff.inc.php:98
+msgid "Signature:"
+msgstr "Underskrift"
+
+#: include/staff/newticket.inc.php:190
+msgid "none"
+msgstr "ingen"
+
+#: include/staff/newticket.inc.php:195 include/staff/viewticket.inc.php:323
+msgid "My signature"
+msgstr "Min underskrift"
+
+#: include/staff/newticket.inc.php:197
+msgid "Dept Signature (if any)"
+msgstr "Avdeling underskrift (hvis noen)"
+
+#: include/staff/myprofile.inc.php:5
+msgid "My Profile Info"
+msgstr "Min profil informasjon"
+
+#: include/staff/myprofile.inc.php:11 include/staff/staff.inc.php:40
+msgid "Username:"
+msgstr "Brukernavn"
+
+#: include/staff/myprofile.inc.php:15
+msgid "First Name:"
+msgstr "Fornavn:"
+
+#: include/staff/myprofile.inc.php:20
+msgid "Last Name:"
+msgstr "Etternavn:"
+
+#: include/staff/myprofile.inc.php:30 include/staff/staff.inc.php:85
+msgid "Office Phone:"
+msgstr "Jobbtelefonnummer:"
+
+#: include/staff/myprofile.inc.php:38
+msgid "Cell Phone:"
+msgstr "Mobiltelefonnummer"
+
+#: include/staff/myprofile.inc.php:48
+msgid "Save"
+msgstr "Lagre"
+
+#: include/staff/syslogs.inc.php:13 include/staff/syslogs.inc.php:97
+msgid "Errors"
+msgstr "Feil"
+
+#: include/staff/syslogs.inc.php:17 include/staff/syslogs.inc.php:98
+msgid "Warnings"
+msgstr "Advarsler"
+
+#: include/staff/syslogs.inc.php:21
+msgid "Debug logs"
+msgstr "Feilsøkingslogger"
+
+#: include/staff/syslogs.inc.php:26
+msgid "All logs"
+msgstr "Alle logger"
+
+#: include/staff/syslogs.inc.php:40
+msgid "Entered date span is invalid. Selection ignored."
+msgstr "Valgte tidsperiode er ugyldig. Valget blir oversett."
+
+#: include/staff/syslogs.inc.php:80 scp/admin.php:565
+msgid "System Logs"
+msgstr "Systemlogger"
+
+#: include/staff/syslogs.inc.php:85 include/staff/tickets.inc.php:308
+msgid "Date Span:"
+msgstr "Datoperiode"
+
+#: include/staff/syslogs.inc.php:86 include/staff/tickets.inc.php:309
+#: include/staff/tickets.inc.php:401
+msgid "From"
+msgstr "Fra"
+
+#: include/staff/syslogs.inc.php:94 include/staff/tickets.inc.php:320
+msgid "Type:"
+msgstr "Type:"
+
+#: include/staff/syslogs.inc.php:99
+msgid "Debug"
+msgstr "Feilsøking"
+
+#: include/staff/syslogs.inc.php:102
+msgid "Go!"
+msgstr "Start!"
+
+#: include/staff/syslogs.inc.php:141 include/staff/tickets.inc.php:445
+msgid "Query returned 0 results."
+msgstr "Spørring returnerte 0 resultater."
+
+#: include/staff/syslogs.inc.php:149 include/staff/tickets.inc.php:460
+#: include/staff/banlist.inc.php:130 include/staff/filters.inc.php:130
+#: include/staff/premade.inc.php:142
+msgid "page:"
+msgstr "side:"
+
+#: include/staff/attachment.inc.php:13
+msgid "Attachments Settings"
+msgstr "Vedlegg innstillinger"
+
+#: include/staff/attachment.inc.php:17
+msgid ""
+"Before enabling attachments make sure you understand the security settings "
+"and issues related to file uploads."
+msgstr ""
+"Før du skrur på vedlegg, sørg for at du forstårsikkerhetsinnstillingene og "
+"saker relatert til filopplasting."
+
+#: include/staff/attachment.inc.php:20 include/staff/attachment.inc.php:22
+msgid "Allow Attachments"
+msgstr "Tillat vedlegg"
+
+#: include/staff/attachment.inc.php:23
+msgid "Global Setting"
+msgstr "Globale innstillinger"
+
+#: include/staff/attachment.inc.php:28
+msgid "Emailed Attachments:"
+msgstr "Sendte vedlegg:"
+
+#: include/staff/attachment.inc.php:30
+msgid "Accept emailed files"
+msgstr "Aksepter filer"
+
+#: include/staff/attachment.inc.php:35
+msgid "Online Attachments:"
+msgstr "Online-vedlegg:"
+
+#: include/staff/attachment.inc.php:38
+msgid "Allow online attachments upload"
+msgstr "Tillat online-vedlegg opplasting"
+
+#: include/staff/attachment.inc.php:40
+msgid "Authenticated users Only."
+msgstr "Autentiser bare brukere."
+
+#: include/staff/attachment.inc.php:40
+msgid "User must be logged in to upload files"
+msgstr "Bruker må være pålogget for å laste opp filer"
+
+#: include/staff/attachment.inc.php:45
+msgid "Staff Response Files:"
+msgstr "Ansattes svarfiler:"
+
+#: include/staff/attachment.inc.php:47
+msgid "Email attachments to the user"
+msgstr "Epost-vedlegg til brukeren"
+
+#: include/staff/attachment.inc.php:51
+msgid "Maximum File Size:"
+msgstr "Maks filstørrelse"
+
+#: include/staff/attachment.inc.php:53
+msgid "bytes"
+msgstr "bytes"
+
+#: include/staff/attachment.inc.php:58
+msgid "Attachment Folder:"
+msgstr "Vedleggmappe:"
+
+#: include/staff/attachment.inc.php:60
+msgid "Web user (e.g apache) must have write access to the folder."
+msgstr "Nettbruker (f.eks. apache) må ha skrivetilgang til mappen:"
+
+#: include/staff/attachment.inc.php:68
+msgid "Accepted File Types:"
+msgstr "Tillate filtyper:"
+
+#: include/staff/attachment.inc.php:70
+msgid ""
+"Enter file extensions allowed separated by a comma. e.g <i>.doc, .pdf, </i>"
+msgstr ""
+"Skriv de tillate filutvidelsene separert med komma. F.eks <i>.doc, .pdf,</i>"
+
+#: include/staff/attachment.inc.php:71
+msgid ""
+"To accept all files enter wildcard <b><i>.*</i></b>&nbsp;&nbsp;i.e dotStar "
+"(NOT recommended)."
+msgstr ""
+"For å akseptere alle filene, skriv inn wildcard "
+"<b><i>.*</i></b>&nbsp;&nbsp;f.eks dotStjerne (IKKE  anbefalt)."
+
+#: include/staff/attachment.inc.php:78 include/staff/template.inc.php:181
+#: include/staff/preference.inc.php:493
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: include/staff/attachment.inc.php:79 include/staff/template.inc.php:182
+#: include/staff/preference.inc.php:494
+msgid "Reset Changes"
+msgstr "Tilbakestill endringer"
+
+#: include/staff/depts.inc.php:11 include/class.nav.php:35 scp/admin.php:673
+msgid "Departments"
+msgstr "Avdelinger"
+
+#: include/staff/depts.inc.php:19
+msgid "Dept. Name"
+msgstr "Avdelingsnavn"
+
+#: include/staff/depts.inc.php:20
+msgid "Type"
+msgstr "Type"
+
+#: include/staff/depts.inc.php:21
+msgid "Users"
+msgstr "Brukere"
+
+#: include/staff/depts.inc.php:22
+msgid "Primary Outgoing Email"
+msgstr "Hovedepostadresse for utgående post"
+
+#: include/staff/depts.inc.php:23
+msgid "Manager"
+msgstr "Prosjektleder"
+
+#: include/staff/depts.inc.php:79
+msgid "Make Public"
+msgstr "Gjør tilgjengelig"
+
+#: include/staff/depts.inc.php:80
+msgid "Are you sure you want to make selected depts(s) public?"
+msgstr "Er du sikker på at du vil gjøre valgte avdeling(er) tilgjengelig?"
+
+#: include/staff/depts.inc.php:81
+msgid "Make Private"
+msgstr "Begrens tilgang"
+
+#: include/staff/depts.inc.php:82
+msgid "Are you sure you want to make selected depts(s) private?"
+msgstr ""
+"Er du sikker på at du vil begrense tilgangen til valgte avdeling(er)?"
+
+#: include/staff/depts.inc.php:83
+msgid "Delete Dept(s)"
+msgstr "Slett avdeling(er)"
+
+#: include/staff/depts.inc.php:84
+msgid "Are you sure you want to DELETE selected depts(s)?"
+msgstr "Er du sikker på at du vil slette valgte avdeling(er)?"
+
+#: include/staff/header.inc.php:34
+msgid "Welcome back"
+msgstr "Velkommen tilbake"
+
+#: include/staff/header.inc.php:37
+msgid "Admin Panel"
+msgstr "Administratorpanel"
+
+#: include/staff/header.inc.php:39
+msgid "Staff Panel"
+msgstr "Ansattpanel"
+
+#: include/staff/header.inc.php:41 include/staff/header.inc.php:51
+msgid "My Preference"
+msgstr "Mine innstillinger"
+
+#: include/staff/header.inc.php:51 include/class.nav.php:42
+msgid "My Account"
+msgstr "Min konto"
+
+#: include/staff/login.tpl.php:1 include/staff/viewticket.inc.php:3
+msgid "Invalid path"
+msgstr "Ugyldig sti"
+
+#: include/staff/login.tpl.php:5
+msgid "osTicket:: SCP Login"
+msgstr "osTicket: SCP pålogging"
+
+#: include/staff/login.tpl.php:13
+msgid "osTicket Staff Control Panel"
+msgstr "osTicket ansatt kontrollpanel"
+
+#: include/staff/login.tpl.php:20 include/staff/email.inc.php:89
+#: include/staff/smtp.inc.php:50
+msgid "Password"
+msgstr "Passord"
+
+#: include/staff/login.tpl.php:21
+msgid "Login"
+msgstr "Logg inn"
+
+#: include/staff/login.tpl.php:25
+msgid ""
+"Copyright &copy; <a href=\"http://www.osticket.com\" "
+"target=\"_blank\">osTicket.com</a>"
+msgstr ""
+"Copyright &copy; <a href=\"http://www.osticket.com\" "
+"target=\"_blank\">osTicket.com</a>"
+
+#: include/staff/api.inc.php:46
+msgid "API Key"
+msgstr "API-nøkkel"
+
+#: include/staff/api.inc.php:47 include/staff/reply.inc.php:36
+#: include/staff/helptopics.inc.php:42 include/staff/staff.inc.php:124
+msgid "Active"
+msgstr "Aktiv"
+
+#: include/staff/api.inc.php:48
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: include/staff/api.inc.php:50 include/staff/banlist.inc.php:90
+#: include/staff/filters.inc.php:90 include/staff/templates.inc.php:50
+msgid "Sort By Create Date"
+msgstr "Sorter mht. opprettet dato"
+
+#: include/staff/api.inc.php:85 include/staff/banlist.inc.php:116
+#: include/staff/filters.inc.php:116 include/staff/templates.inc.php:85
+msgid "Index list"
+msgstr "Indeksliste"
+
+#: include/staff/api.inc.php:99
+msgid "Are you sure you want to ENABLE selected keys?"
+msgstr "Er du sikker på at du vil skru på valgte nøkler?"
+
+#: include/staff/api.inc.php:104 include/staff/helptopics.inc.php:72
+#: include/staff/email.inc.php:103 include/staff/email.inc.php:164
+#: include/staff/dept.inc.php:120 include/staff/dept.inc.php:126
+#: include/staff/premade.inc.php:147 include/staff/preference.inc.php:413
+#: include/staff/preference.inc.php:419 include/staff/preference.inc.php:425
+#: include/staff/preference.inc.php:431 include/staff/preference.inc.php:444
+#: include/staff/preference.inc.php:454 include/staff/preference.inc.php:464
+#: include/staff/preference.inc.php:474 include/staff/groups.inc.php:68
+msgid "Disable"
+msgstr "Deaktivér"
+
+#: include/staff/api.inc.php:105
+msgid "Are you sure you want to DISABLE selected keys?"
+msgstr "Er du sikker på at du vil deaktivére valgte nøkler?"
+
+#: include/staff/api.inc.php:109
+msgid "Are you sure you want to DELETE selected keys?"
+msgstr "Er du sikker på at du vil SLETTE valgte nøkler?"
+
+#: include/staff/api.inc.php:118
+msgid "Add New IP"
+msgstr "Legg til ny IP"
+
+#: include/staff/api.inc.php:121
+msgid "Add a new IP address."
+msgstr "Legg til ny IP-adresse"
+
+#: include/staff/api.inc.php:128 include/staff/banlist.inc.php:73
+#: include/staff/filters.inc.php:73 include/staff/templates.inc.php:125
+msgid "Add"
+msgstr "Legg til"
+
+#: include/staff/api.inc.php:132
+msgid "API Passphrase"
+msgstr "API passordfrase"
+
+#: include/staff/api.inc.php:135
+msgid ""
+"Passphrase must be at least 3 words. Required to generate the api keys."
+msgstr "Passordfrase må være minst 3 ord. Kreves til å generere API-nøklene."
+
+#: include/staff/api.inc.php:139
+msgid "Phrase:"
+msgstr "Frase:"
+
+#: include/staff/api.inc.php:142 include/staff/reply.inc.php:63
+#: include/staff/email.inc.php:194 include/staff/viewticket.inc.php:384
+#: include/staff/mypref.inc.php:57 include/staff/topic.inc.php:76
+#: include/staff/staff.inc.php:151 include/staff/dept.inc.php:155
+#: include/staff/smtp.inc.php:70 include/staff/changepasswd.inc.php:30
+#: include/staff/group.inc.php:109
+msgid "Submit"
+msgstr "Bekreft"
+
+#: include/staff/api.inc.php:145
+msgid ""
+"Please note that changing the passprase does NOT invalidate existing keys. "
+"To regerate a key you need to delete and readd it."
+msgstr ""
+"Vær obs på at å bytte passordfrase ugyldiggjør IKKE eksiterende nøkler. For "
+"å regenerere en nøkkel, må du slette og legge den til på nytt."
+
+#: include/staff/tickets.inc.php:20 include/staff/banlist.inc.php:10
+#: include/staff/premade.inc.php:12
+msgid "Search term must be more than 3 chars"
+msgstr "Søkeordet må være lengre enn 3 tegn"
+
+#: include/staff/tickets.inc.php:38
+msgid "Overdue Tickets"
+msgstr "Forfalte saker"
+
+#: include/staff/tickets.inc.php:47 include/staff/tickets.inc.php:60
+#: scp/tickets.php:440
+msgid "Answered Tickets"
+msgstr "Svarte saker"
+
+#: include/staff/tickets.inc.php:63 scp/tickets.php:460
+msgid "Closed Tickets"
+msgstr "Avsluttete saker"
+
+#: include/staff/tickets.inc.php:266 include/staff/tickets.inc.php:279
+#: include/staff/banlist.inc.php:61 include/staff/filters.inc.php:61
+msgid "Query:"
+msgstr "Spørring:"
+
+#: include/staff/tickets.inc.php:268 include/staff/tickets.inc.php:354
+#: include/staff/banlist.inc.php:63 include/staff/filters.inc.php:63
+msgid "Search"
+msgstr "Søk"
+
+#: include/staff/tickets.inc.php:269
+msgid "Advanced"
+msgstr "Avansert"
+
+#: include/staff/tickets.inc.php:280
+msgid "Dept:"
+msgstr "Avdeling:"
+
+#: include/staff/tickets.inc.php:281 include/staff/reply.inc.php:44
+#: include/staff/premade.inc.php:74
+msgid "All Departments"
+msgstr "Alle avdelingene"
+
+#: include/staff/tickets.inc.php:296
+msgid "Status is:"
+msgstr "Statusen er:"
+
+#: include/staff/tickets.inc.php:299
+msgid "Any status"
+msgstr "Enhver status"
+
+#: include/staff/tickets.inc.php:300 scp/tickets.php:86
+msgid "Open"
+msgstr "Åpne"
+
+#: include/staff/tickets.inc.php:301 include/staff/tickets.inc.php:479
+msgid "Overdue"
+msgstr "Forfalt"
+
+#: include/staff/tickets.inc.php:302 scp/tickets.php:86
+msgid "Closed"
+msgstr "Lukket"
+
+#: include/staff/tickets.inc.php:312
+msgid "to"
+msgstr "til"
+
+#: include/staff/tickets.inc.php:323
+msgid "Scan"
+msgstr "Let"
+
+#: include/staff/tickets.inc.php:324
+msgid "Fulltext"
+msgstr "Full tekst"
+
+#: include/staff/tickets.inc.php:329
+msgid "Sort by:"
+msgstr "Sorter etter:"
+
+#: include/staff/tickets.inc.php:335 include/staff/tickets.inc.php:400
+#: include/staff/helptopics.inc.php:23 include/staff/templates.inc.php:146
+#: include/staff/emails.inc.php:22
+msgid "Priority"
+msgstr "Prioritet"
+
+#: include/staff/tickets.inc.php:336 include/staff/tickets.inc.php:395
+msgid "Date"
+msgstr "Dato"
+
+#: include/staff/tickets.inc.php:337
+msgid "Dept."
+msgstr "Avdeling."
+
+#: include/staff/tickets.inc.php:340
+msgid "Descending"
+msgstr "Synkende"
+
+#: include/staff/tickets.inc.php:341
+msgid "Ascending"
+msgstr "Stigende"
+
+#: include/staff/tickets.inc.php:344
+msgid "Results Per Page:"
+msgstr "Resultater per side:"
+
+#: include/staff/tickets.inc.php:355
+msgid "Basic"
+msgstr "Grunnleggende"
+
+#: include/staff/tickets.inc.php:393
+msgid "Ticket"
+msgstr "Sak"
+
+#: include/staff/tickets.inc.php:400
+msgid "Sort By Priority"
+msgstr "Sorter mht. prioritet"
+
+#: include/staff/tickets.inc.php:431
+msgid "Ticket:"
+msgstr "Sak:"
+
+#: include/staff/tickets.inc.php:471 include/staff/tickets.inc.php:489
+msgid "Reopen"
+msgstr "Gjenåpne"
+
+#: include/staff/tickets.inc.php:472 include/staff/tickets.inc.php:490
+msgid "Are you sure you want to reopen selected tickets?"
+msgstr "Er du sikker på at du ønsker å gjenåpne valgte saker?"
+
+#: include/staff/tickets.inc.php:480
+msgid "Are you sure you want to mark selected tickets overdue/stale?"
+msgstr "Er du sikker på at du vil markere valgte saker forfalt/gammel?"
+
+#: include/staff/tickets.inc.php:481 include/staff/tickets.inc.php:487
+#: include/staff/viewticket.inc.php:177
+msgid "Close"
+msgstr "Lukk"
+
+#: include/staff/tickets.inc.php:482 include/staff/tickets.inc.php:488
+msgid "Are you sure you want to close selected tickets?"
+msgstr "Er du sikker på at du ønsker å lukke valgte saker?"
+
+#: include/staff/tickets.inc.php:495
+msgid "Are you sure you want to DELETE selected tickets?"
+msgstr "Er du sikker på at du ønsker å SLETTE valgte saker?"
+
+#: include/staff/editticket.inc.php:4
+msgid "Access Denied. Perm error."
+msgstr "Ingen tilgang. Feil i rettigheter."
+
+#: include/staff/editticket.inc.php:38
+msgid "Update Ticket #"
+msgstr "Oppdater sak #"
+
+#: include/staff/editticket.inc.php:38
+msgid "View Ticket"
+msgstr "Vis sak"
+
+#: include/staff/editticket.inc.php:70
+#, php-format
+msgid "Time is based on your time zone GM %s"
+msgstr "Tiden er basert på din tidssone GM %s"
+
+#: include/staff/editticket.inc.php:109
+msgid "(deleted)"
+msgstr "(slettet)"
+
+#: include/staff/editticket.inc.php:120
+msgid "(optional)"
+msgstr "(valgfri)"
+
+#: include/staff/editticket.inc.php:128
+msgid "Reasons for the edit."
+msgstr "Begrunnelse for  endringen."
+
+#: include/staff/editticket.inc.php:135
+msgid "Update Ticket"
+msgstr "Oppdater sak"
+
+#: include/staff/reply.inc.php:5
+msgid "Edit Premade Reply"
+msgstr "Rediger ferdiglaget svar"
+
+#: include/staff/reply.inc.php:8
+msgid "Add New Premade Reply"
+msgstr "Legg til nytt ferdiglaget svar"
+
+#: include/staff/reply.inc.php:34 include/staff/viewticket.inc.php:43
+msgid "Status:"
+msgstr "Status:"
+
+#: include/staff/reply.inc.php:37
+msgid "Inative"
+msgstr "Inaktiv"
+
+#: include/staff/reply.inc.php:41
+msgid "Category:"
+msgstr "Kategori:"
+
+#: include/staff/reply.inc.php:42
+msgid "Department under which the 'answer' will be made available."
+msgstr "Avdelingen for hvilket 'svaret' vil være tilgjengelig."
+
+#: include/staff/reply.inc.php:55
+msgid "Answer:"
+msgstr "Svar:"
+
+#: include/staff/reply.inc.php:56
+msgid "Premade Reply - Ticket's base variables are supported."
+msgstr "Forhåndslaget svar - Saksbaserte variable støttes."
+
+#: include/staff/template.inc.php:5 include/staff/templates.inc.php:35
+#: scp/admin.php:574
+msgid "Email Templates"
+msgstr "Epostmaler"
+
+#: include/staff/template.inc.php:13
+msgid "Template Info"
+msgstr "Mal informasjon"
+
+#: include/staff/template.inc.php:14
+msgid "Last updated on"
+msgstr "Sist oppdatert"
+
+#: include/staff/template.inc.php:16 include/staff/templates.inc.php:47
+#: scp/directory.php:80
+msgid "Name"
+msgstr "Navn"
+
+#: include/staff/template.inc.php:22
+msgid "Internal notes:"
+msgstr "Interne skriv:"
+
+#: include/staff/template.inc.php:23
+msgid "Administrative notes"
+msgstr "Administrative skriv"
+
+#: include/staff/template.inc.php:28
+msgid "User"
+msgstr "Bruker"
+
+#: include/staff/template.inc.php:30
+msgid "New Ticket Autoresponse"
+msgstr "Nytt automatisk svar for sak"
+
+#: include/staff/template.inc.php:32
+msgid "Autoresponse sent to user on new ticket if enabled."
+msgstr "Automatisk svar sendt til bruker av ny sak hvis mulig."
+
+#: include/staff/template.inc.php:33
+msgid ""
+"Meant to give the user the ticket ID which can be used to check the status "
+"online."
+msgstr ""
+"Ment å gi brukeren saks-ID'en, som kan brukes til å sjekke status online."
+
+#: include/staff/template.inc.php:42 include/staff/template.inc.php:57
+#: include/staff/template.inc.php:72 include/staff/template.inc.php:88
+#: include/staff/template.inc.php:103 include/staff/template.inc.php:119
+#: include/staff/template.inc.php:132 include/staff/template.inc.php:147
+#: include/staff/template.inc.php:161 include/staff/template.inc.php:174
+msgid "Message Body:"
+msgstr "Meldingsteksten:"
+
+#: include/staff/template.inc.php:46
+msgid "New Message Autoresponse"
+msgstr "Nytt automatisk svar for melding"
+
+#: include/staff/template.inc.php:48
+msgid ""
+"Confirmation sent to user when a new message is appended to an existing "
+"ticket. (email and web replies)"
+msgstr ""
+"Bekreftelse sendt til bruker når en ny melding er lagt til en eksisterende "
+"sak (epost og nettsvar)"
+
+#: include/staff/template.inc.php:61
+msgid "New Ticket Notice"
+msgstr "Ny saksmelding"
+
+#: include/staff/template.inc.php:63
+msgid ""
+"Notice sent to user, if enabled, on new ticket <b>created by staff</b> on "
+"their behalf."
+msgstr ""
+"Melding sendt til bruker hvis mulig, angående ny sak <b>laget av ansatte</b> "
+"på deres vegne."
+
+#: include/staff/template.inc.php:76
+msgid "Over Ticket limit Notice"
+msgstr "Over grensen for saksmeldinger"
+
+#: include/staff/template.inc.php:78
+msgid ""
+"A one time notice sent when user has reached the max allowed open tickets "
+"defined in preferences."
+msgstr ""
+"Engangsvarsel sendt når brukeren når maks tillatte åpne saker, definert i "
+"innstillingene."
+
+#: include/staff/template.inc.php:79
+msgid "Admin email gets alert each time a support ticket request is denied."
+msgstr "Administratorepost får varsel hver gang en sak blir nektet"
+
+#: include/staff/template.inc.php:92
+msgid "Ticket Response/Reply"
+msgstr "Sakssvar"
+
+#: include/staff/template.inc.php:94
+msgid ""
+"Message template used when responding to a ticket or simply alerting the "
+"user about a response/answer availability."
+msgstr ""
+"Meldingsmal brukt når man svarer på en sak eller varsler brukeren om "
+"svarmuligetene."
+
+#: include/staff/template.inc.php:108 include/staff/staff.inc.php:132
+#: include/class.nav.php:34
+msgid "Staff"
+msgstr "Ansatte"
+
+#: include/staff/template.inc.php:110
+msgid "New Ticket Alert"
+msgstr "Ny saksvarsel"
+
+#: include/staff/template.inc.php:111
+msgid "Alert sent to staff ( if enabled) on new ticket."
+msgstr "Varsel sendt til ansatte (hvis mulig) om en ny sak."
+
+#: include/staff/template.inc.php:123
+msgid "New Message Alert"
+msgstr "Ny varselsmelding"
+
+#: include/staff/template.inc.php:124
+msgid ""
+"Alert sent to staff ( if enabled) when user replies to an existing ticket."
+msgstr ""
+"Varsel sendt til ansatte (hvis mulig) når brukeren svarer på en eksisterende "
+"sak."
+
+#: include/staff/template.inc.php:138
+msgid "New Internal Note Alert"
+msgstr "Varsel om nytt internskriv"
+
+#: include/staff/template.inc.php:139
+msgid ""
+"Alert sent to selected staff ( if enabled) when an internal note is appended "
+"to a ticket."
+msgstr ""
+"Varsel sendt til valgte ansatte (hvis mulig) når et internt skriv er lagt "
+"ved en sak."
+
+#: include/staff/template.inc.php:152
+msgid "Ticket Assigned Alert/Notice"
+msgstr "Sak tildelingsvarsel"
+
+#: include/staff/template.inc.php:153
+msgid "Alert sent to staff on ticket assignment."
+msgstr "Varsel sendt til ansatte om sakstildeling."
+
+#: include/staff/template.inc.php:165
+msgid "Overdue/Stale Ticket Alert/Notice"
+msgstr "Forfalt/gammel saksvarsel"
+
+#: include/staff/template.inc.php:166
+msgid "Alert sent to staff on stale or overdue tickets."
+msgstr "Varsel sendt til ansatte om en forfalt eller gammel sak."
+
+#: include/staff/template.inc.php:183
+msgid "Cancel Edit"
+msgstr "Angre redigering"
+
+#: include/staff/banlist.inc.php:53 include/staff/filters.inc.php:53
+#: include/staff/premade.inc.php:54
+msgid "Search Results"
+msgstr "Søkeresultater"
+
+#: include/staff/banlist.inc.php:53 include/staff/filters.inc.php:53
+msgid "Banned Email Addresses"
+msgstr "Utestengte epostadresser"
+
+#: include/staff/banlist.inc.php:87 include/staff/filters.inc.php:87
+msgid "Sort by email"
+msgstr "Sorter etter epostadresser"
+
+#: include/staff/banlist.inc.php:88 include/staff/filters.inc.php:88
+msgid "Submitter"
+msgstr "Bidragsgiver/Avsender"
+
+#: include/staff/banlist.inc.php:90 include/staff/filters.inc.php:90
+msgid "Date Added"
+msgstr "Dato lagt til"
+
+#: include/staff/banlist.inc.php:136
+msgid "Remove From List"
+msgstr "Fjern fra lista"
+
+#: include/staff/banlist.inc.php:137
+msgid "Are you sure you want to REMOVE selected email from ban list?"
+msgstr ""
+"Er du sikker på at du vil FJERNE valgte epostadresser fra utestengelselista?"
+
+#: include/staff/helptopics.inc.php:10 include/class.nav.php:33
+#: scp/admin.php:612
+msgid "Help Topics"
+msgstr "Hjelpemner"
+
+#: include/staff/helptopics.inc.php:19
+msgid "Help Topic"
+msgstr "Hjelpemne"
+
+#: include/staff/helptopics.inc.php:21 include/staff/emails.inc.php:20
+msgid "AutoResp."
+msgstr "Automatisk svar"
+
+#: include/staff/helptopics.inc.php:24 include/staff/premade.inc.php:100
+#: include/staff/groups.inc.php:22 include/staff/emails.inc.php:23
+msgid "Last Updated"
+msgstr "Sist oppdatert"
+
+#: include/staff/helptopics.inc.php:42
+msgid "<b>Disabled</b>"
+msgstr "<b>deaktivert</b>"
+
+#: include/staff/helptopics.inc.php:43 include/staff/email.inc.php:184
+#: include/staff/smtp.inc.php:22 include/staff/group.inc.php:61
+#: include/staff/group.inc.php:68 include/staff/group.inc.php:75
+#: include/staff/group.inc.php:82 include/staff/group.inc.php:89
+#: include/staff/group.inc.php:96 include/staff/group.inc.php:103
+msgid "No"
+msgstr "Nei"
+
+#: include/staff/helptopics.inc.php:43
+msgid "<b>Yes</b>"
+msgstr "<b>Ja</b>"
+
+#: include/staff/helptopics.inc.php:71
+msgid "Are you sure you want to make selected services active?"
+msgstr "Er du sikker på at du vil aktivere valgte tjenester?"
+
+#: include/staff/helptopics.inc.php:73
+msgid "Are you sure you want to DISABLE selected services?"
+msgstr "Er du sikker på at du vil DEAKTIVERE valgte tjenester?"
+
+#: include/staff/helptopics.inc.php:75
+msgid "Are you sure you want to DELETE selected services?"
+msgstr "Er du sikker på at du vil SLETTE valgte tjenester?"
+
+#: include/staff/email.inc.php:2 include/staff/smtp.inc.php:2
+msgid "Habari/Jambo rafiki? "
+msgstr "Habari/Jambo rafiki? "
+
+#: include/staff/email.inc.php:7
+msgid "Edit Email"
+msgstr "Rediger epost"
+
+#: include/staff/email.inc.php:15
+msgid "New Email"
+msgstr "Ny epost"
+
+#: include/staff/email.inc.php:34
+msgid "Email Info"
+msgstr "Epost informasjon"
+
+#: include/staff/email.inc.php:36
+msgid ""
+"Settings are mainly for emailed tickets. For online/web tickets see help "
+"topics."
+msgstr ""
+"Innstillingene er hovedsaklig for saker via epost. For online/nettsaker se "
+"hjelpemnene."
+
+#: include/staff/email.inc.php:38 include/staff/smtp.inc.php:55
+#: include/staff/emails.inc.php:19
+msgid "Email Address"
+msgstr "Epostadresse"
+
+#: include/staff/email.inc.php:43 include/staff/smtp.inc.php:61
+msgid "Email Name:"
+msgstr "Epostnavn:"
+
+#: include/staff/email.inc.php:46 include/staff/smtp.inc.php:64
+msgid "Optional email's FROM name."
+msgstr "Valgri epost AVSENDERnavn"
+
+#: include/staff/email.inc.php:49
+msgid "New Ticket Priority"
+msgstr "Ny saksprioritet"
+
+#: include/staff/email.inc.php:52 include/staff/topic.inc.php:50
+msgid "Select Priority"
+msgstr "Velg prioritet"
+
+#: include/staff/email.inc.php:62
+msgid "New Ticket Dept."
+msgstr "Ny saksavdeling"
+
+#: include/staff/email.inc.php:75
+msgid "Auto Response"
+msgstr "Automatisk svar"
+
+#: include/staff/email.inc.php:77
+msgid "<b>Disable</b> autoresponse for this email."
+msgstr "<b>Deaktiver</b> automatisk svar for denne eposten."
+
+#: include/staff/email.inc.php:78
+msgid "Overwrite Dept setting"
+msgstr "Skriv over avdelingsinnstillinger"
+
+#: include/staff/email.inc.php:82
+msgid ""
+"<b>Login info (optional)</b>: Required when IMAP/POP and/or SMTP are enabled."
+msgstr ""
+"<b>Pålogging informasjon (valgfri)</b>: Påkrevd når IMAP/POP og/eller SMTP "
+"er skrudd på."
+
+#: include/staff/email.inc.php:95
+msgid "Mail Account (Optional)"
+msgstr "Epostkonto"
+
+#: include/staff/email.inc.php:97
+msgid ""
+"Setting for fetching incoming emails. Mail fetching must be enabled with "
+"autocron active or external cron setup."
+msgstr ""
+"Innstilling for å hente innkommende eposter. Epost henting må være skrudd PÅ "
+"med autocron aktiv eller eksternt cron oppsett."
+
+#: include/staff/email.inc.php:98
+msgid ""
+"Please be patient, the system will try to login to mail server to validate "
+"the entered login info."
+msgstr ""
+"Vennligst vær tålmodig, systemet vil prøv å logge på epostserveren for å "
+"sjekke påloggingsinformasjonen."
+
+#: include/staff/email.inc.php:107
+msgid "Host"
+msgstr "Tjener"
+
+#: include/staff/email.inc.php:112
+msgid "Port"
+msgstr "Port"
+
+#: include/staff/email.inc.php:117
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: include/staff/email.inc.php:120
+msgid "Select"
+msgstr "Velg"
+
+#: include/staff/email.inc.php:121
+msgid "POP"
+msgstr "POP"
+
+#: include/staff/email.inc.php:122
+msgid "IMAP"
+msgstr "IMAP"
+
+#: include/staff/email.inc.php:128 include/staff/email.inc.php:188
+#: include/staff/smtp.inc.php:36
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: include/staff/email.inc.php:133
+msgid "SSL"
+msgstr "SSL"
+
+#: include/staff/email.inc.php:137
+msgid "Fetch Frequency"
+msgstr "Hentefrekvens"
+
+#: include/staff/email.inc.php:139
+msgid "Delay intervals in minutes"
+msgstr "Intervall i minutter"
+
+#: include/staff/email.inc.php:143
+msgid "Maximum Emails Per Fetch"
+msgstr "Maks antall epost per innhenting"
+
+#: include/staff/email.inc.php:145
+msgid "Maximum emails to process per fetch."
+msgstr "Maks antall epost å prossessere per innhenting."
+
+#: include/staff/email.inc.php:149
+msgid "Delete Messages"
+msgstr "Slett meldingene"
+
+#: include/staff/email.inc.php:152
+msgid "Delete fetched message(s) (<i>recommended when using POP</i>)"
+msgstr "Slett innhentede melding(er) (<i>anbefalt når man bruker POP</i>)"
+
+#: include/staff/email.inc.php:156
+msgid "SMTP Settings (Optional)"
+msgstr "SMTP innstillinger (valgfri)"
+
+#: include/staff/email.inc.php:158
+msgid ""
+"When enabled the <b>email account</b> will use SMTP server instead of "
+"internal PHP mail() function for outgoing emails.<br>"
+msgstr ""
+"Når det er aktivert vil <b>epostkontoen</b> bruke SMTP tjener istedet for "
+"den interne PHP mail() funksjonen for utgående epost.<br />"
+
+#: include/staff/email.inc.php:159 include/staff/smtp.inc.php:18
+msgid ""
+"Please be patient, the system will try to login to SMTP server to validate "
+"the entered login info."
+msgstr ""
+"Vennligst vær tålmodig, systemet prøver å logge på SMTP tjenere for å "
+"validere påloggingsinformasjonen."
+
+#: include/staff/email.inc.php:168 include/staff/smtp.inc.php:26
+msgid "SMTP Host"
+msgstr "SMTP Tjener"
+
+#: include/staff/email.inc.php:173 include/staff/smtp.inc.php:31
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: include/staff/email.inc.php:178
+msgid "Authentication Required?"
+msgstr "Autentisering påkrevd?"
+
+#: include/staff/email.inc.php:182 include/staff/smtp.inc.php:21
+#: include/staff/group.inc.php:60 include/staff/group.inc.php:67
+#: include/staff/group.inc.php:74 include/staff/group.inc.php:81
+#: include/staff/group.inc.php:88 include/staff/group.inc.php:95
+#: include/staff/group.inc.php:102
+msgid "Yes"
+msgstr "Ja"
+
+#: include/staff/email.inc.php:189
+msgid ""
+"Best available authentication method is auto-selected based on what the "
+"sever supports."
+msgstr ""
+"Best mulige autentiseringsmetode blir automatisk valgt basert på hva "
+"serveren støtter."
+
+#: include/staff/filters.inc.php:64
+msgid "(Add)"
+msgstr "(Legg til)"
+
+#: include/staff/filters.inc.php:74
+msgid "(Search)"
+msgstr "(Søk)"
+
+#: include/staff/viewticket.inc.php:10
+msgid "Unable to obtain a lock on the ticket"
+msgstr "Klarer ikke å få låst saken"
+
+#: include/staff/viewticket.inc.php:19
+#, php-format
+msgid "Ticket is assigned to %s"
+msgstr "Saken er tildelt %s"
+
+#: include/staff/viewticket.inc.php:21
+msgid "This ticket is currently locked by another staff member!"
+msgstr "Denne saken er for tiden låst av en annen ansatt!"
+
+#: include/staff/viewticket.inc.php:23
+msgid "Email is in banlist! Must be removed before any reply/response"
+msgstr ""
+"Epostadressen finnes i lista over utestengte epostadresser! Må fjernes "
+"derfra før man kan svare"
+
+#: include/staff/viewticket.inc.php:25
+msgid "Marked overdue!"
+msgstr "Merket forfalt"
+
+#: include/staff/viewticket.inc.php:35
+msgid "Edit Ticket"
+msgstr "Rediger sak"
+
+#: include/staff/viewticket.inc.php:71
+#, php-format
+msgid "Related Tickets"
+msgstr "Relaterte saker"
+
+#: include/staff/viewticket.inc.php:82
+msgid "Source:"
+msgstr "Kilde:"
+
+#: include/staff/viewticket.inc.php:93
+msgid "Assigned Staff:"
+msgstr "Tildelt ansatt:"
+
+#: include/staff/viewticket.inc.php:97
+msgid "Last Response:"
+msgstr "Siste svar:"
+
+#: include/staff/viewticket.inc.php:109
+msgid "Close Date:"
+msgstr "Dato for lukking"
+
+#: include/staff/viewticket.inc.php:127
+msgid "IP Address:"
+msgstr "IP-adresse:"
+
+#: include/staff/viewticket.inc.php:130
+msgid "Last Message:"
+msgstr "Siste melding:"
+
+#: include/staff/viewticket.inc.php:154
+msgid "Action:"
+msgstr "Handling:"
+
+#: include/staff/viewticket.inc.php:157
+msgid "Select Action"
+msgstr "Velg handling"
+
+#: include/staff/viewticket.inc.php:158
+msgid "Change Priority"
+msgstr "Endre prioritet"
+
+#: include/staff/viewticket.inc.php:160
+msgid "Mark Overdue"
+msgstr "Merk forfalt"
+
+#: include/staff/viewticket.inc.php:163
+msgid "Release (unassign)"
+msgstr "Fjern tildeling"
+
+#: include/staff/viewticket.inc.php:169 include/staff/viewticket.inc.php:376
+msgid "Close Ticket"
+msgstr "Lukk sak"
+
+#: include/staff/viewticket.inc.php:171 include/staff/viewticket.inc.php:378
+msgid "Reopen Ticket"
+msgstr "Åpne sak på nytt"
+
+#: include/staff/viewticket.inc.php:177
+msgid "Ban Email"
+msgstr "Utesteng epostadresse"
+
+#: include/staff/viewticket.inc.php:179
+msgid "Un-Ban Email"
+msgstr "Fjern utestengelse av epostadressen"
+
+#: include/staff/viewticket.inc.php:184
+msgid "Delete Ticket"
+msgstr "Slett sak"
+
+#: include/staff/viewticket.inc.php:189
+msgid "-Unchanged-"
+msgstr "-Uforandret-"
+
+#: include/staff/viewticket.inc.php:198 include/staff/premade.inc.php:84
+msgid "GO"
+msgstr "Utfør"
+
+#: include/staff/viewticket.inc.php:212
+msgid "Internal Notes"
+msgstr "Interne skriv"
+
+#: include/staff/viewticket.inc.php:217
+msgid "posted by"
+msgstr "postet av"
+
+#: include/staff/viewticket.inc.php:296
+msgid "Canned Response:"
+msgstr "Forhåndslaget svar:"
+
+#: include/staff/viewticket.inc.php:299
+msgid "Select a premade reply"
+msgstr "Velg et forhåndslaget svar"
+
+#: include/staff/viewticket.inc.php:309
+msgid "Attach File:"
+msgstr "Legg ved fil:"
+
+#: include/staff/viewticket.inc.php:320
+msgid "Append Signature:"
+msgstr "Legg ved underskrift"
+
+#: include/staff/viewticket.inc.php:326
+msgid "Dept Signature"
+msgstr "Avdelingsunderskrift"
+
+#: include/staff/viewticket.inc.php:335
+msgid "Close on Reply"
+msgstr "Lukk etter svar"
+
+#: include/staff/viewticket.inc.php:337
+msgid "Reopen on Reply"
+msgstr "Gjenåpne etter svar"
+
+#: include/staff/viewticket.inc.php:351
+msgid "Post Internal Note"
+msgstr "Post internt skriv"
+
+#: include/staff/viewticket.inc.php:357
+msgid "Note Title:"
+msgstr "Notat tittel:"
+
+#: include/staff/viewticket.inc.php:362
+msgid "Enter note content."
+msgstr "Skriv notat innhold."
+
+#: include/staff/viewticket.inc.php:396
+msgid "Dept. Transfer"
+msgstr "Avdelingoverføring"
+
+#: include/staff/viewticket.inc.php:405
+msgid "-Select Target Dept.-"
+msgstr "-Velg mål avdelingen-"
+
+#: include/staff/viewticket.inc.php:416
+msgid "Comments/Reasons for the transfer. &nbsp;(<i>Internal note</i>)"
+msgstr ""
+"Kommentarer/begrunnelser for overføring. &nbsp;(<i>Internt skriv</i>)"
+
+#: include/staff/viewticket.inc.php:422
+msgid "Transfer"
+msgstr "Overfør"
+
+#: include/staff/viewticket.inc.php:437
+msgid "Re Assign Ticket"
+msgstr "Omfordel sak"
+
+#: include/staff/viewticket.inc.php:437
+msgid "Assign to Staff"
+msgstr "Tildel til ansatte"
+
+#: include/staff/viewticket.inc.php:443
+msgid "Staff Member:"
+msgstr "Ansatte:"
+
+#: include/staff/viewticket.inc.php:445
+msgid "-Select Staff Member.-"
+msgstr "-Velg ansatt-"
+
+#: include/staff/viewticket.inc.php:462
+msgid "Comments/message for assignee. &nbsp;(<i>Saved as internal note</i>)"
+msgstr ""
+"Kommentarer/meldinger for tildelte. &nbsp;(<i>Lagret som internt skriv</i>)"
+
+#: include/staff/viewticket.inc.php:469
+msgid "Assign"
+msgstr "Tildel"
+
+#: include/staff/mypref.inc.php:4
+msgid "My Preferences"
+msgstr "Mine innstillinger"
+
+#: include/staff/mypref.inc.php:10
+msgid "Maximum Page size:"
+msgstr "Maksimum sidestørrelse"
+
+#: include/staff/mypref.inc.php:18
+msgid "Tickets/items per page."
+msgstr "Saker per side."
+
+#: include/staff/mypref.inc.php:22
+msgid "Auto Refresh Rate:"
+msgstr "Autooppdateringsfrekvens"
+
+#: include/staff/mypref.inc.php:25
+msgid ""
+"in Mins. (<i>Tickets page refresh rate in minutes. Enter 0 to disable</i>)"
+msgstr ""
+"i minutter (<i>Sidens oppdateringsfrekvens i minutter. 0 for å "
+"deaktivere</i>)"
+
+#: include/staff/mypref.inc.php:29
+msgid "Preferred Timezone:"
+msgstr "Foretrukket tidssone:"
+
+#: include/staff/mypref.inc.php:46
+msgid "Daylight Savings:"
+msgstr "Sommertid:"
+
+#: include/staff/mypref.inc.php:48
+msgid "Observe daylight saving"
+msgstr "Bruk sommertid"
+
+#: include/staff/mypref.inc.php:51
+msgid "Current Time:"
+msgstr "Klokkeslett:"
+
+#: include/staff/topic.inc.php:6
+msgid "Edit Topic"
+msgstr "Rediger emne"
+
+#: include/staff/topic.inc.php:10
+msgid "New Help Topic"
+msgstr "Nytt hjelpemne"
+
+#: include/staff/topic.inc.php:26
+msgid "Disabling auto response will overwrite dept settings."
+msgstr "Deaktiver automatisk svar vill overskrive avdelingsinnstillingene"
+
+#: include/staff/topic.inc.php:33
+msgid "Topic Status"
+msgstr "Emnestatus"
+
+#: include/staff/topic.inc.php:35 include/staff/group.inc.php:37
+msgid "Enabled"
+msgstr "Aktivert"
+
+#: include/staff/topic.inc.php:36 include/staff/group.inc.php:38
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: include/staff/topic.inc.php:40
+msgid "Auto Response:"
+msgstr "Automatisk svar:"
+
+#: include/staff/topic.inc.php:43
+msgid ""
+"<b>Disable</b> autoresponse for this topic.   (<i>Overwrite Dept setting</i>)"
+msgstr ""
+"<b>Deaktivert</b> automatisk svar for dette emnet. (<i>Overskriver "
+"avdelingsinnstillingene</i>)"
+
+#: include/staff/topic.inc.php:47
+msgid "New Ticket Priority:"
+msgstr "Ny saksprioritet"
+
+#: include/staff/topic.inc.php:61
+msgid "New Ticket Department:"
+msgstr "Ny saksavdeling"
+
+#: include/staff/staff.inc.php:8
+#, php-format
+msgid "Update: %s %s"
+msgstr "Oppdater: %s %s"
+
+#: include/staff/staff.inc.php:10
+msgid "To reset the password enter a new one below"
+msgstr "For å nullstille passordet, skriv inn et nytt under"
+
+#: include/staff/staff.inc.php:13
+msgid "New Staff Member"
+msgstr "Ny ansatt"
+
+#: include/staff/staff.inc.php:37
+msgid "User Account"
+msgstr "Brukerkonto"
+
+#: include/staff/staff.inc.php:38
+msgid "Account information"
+msgstr "Kontoinformasjon"
+
+#: include/staff/staff.inc.php:59
+msgid "User Group:"
+msgstr "Brukergruppe:"
+
+#: include/staff/staff.inc.php:62
+msgid "Select Group"
+msgstr "Velg gruppe"
+
+#: include/staff/staff.inc.php:73
+msgid "Name (First,Last):"
+msgstr "Navn (førstenavn,etternavn):"
+
+#: include/staff/staff.inc.php:92
+msgid "Mobile Phone:"
+msgstr "Mobiltelefonnummer:"
+
+#: include/staff/staff.inc.php:102
+msgid "Password:"
+msgstr "Passord"
+
+#: include/staff/staff.inc.php:109
+msgid "Password (confirm):"
+msgstr "Passord (bekreft)"
+
+#: include/staff/staff.inc.php:114
+msgid "Forced Password Change:"
+msgstr "Tvunget passordendring:"
+
+#: include/staff/staff.inc.php:116
+msgid "Require a change of password in the next login"
+msgstr "Krever en endring av passord ved neste pålogging"
+
+#: include/staff/staff.inc.php:118
+msgid "Account Permission, status &amp; Settings"
+msgstr "Kontotillatelse, status &amp; innstillinger"
+
+#: include/staff/staff.inc.php:120
+msgid ""
+"Staff's permission is also based on the assigned group. <b>Admin is not "
+"restricted by group settings.</b>"
+msgstr ""
+"Ansattes tillatelse er også basert på den tildelte gruppa. <b>Administrator "
+"er ikke begrenset av gruppeinnstillingene.</b>"
+
+#: include/staff/staff.inc.php:122
+msgid "Account Status"
+msgstr "Kontostatus"
+
+#: include/staff/staff.inc.php:125
+msgid "Locked"
+msgstr "Låst"
+
+#: include/staff/staff.inc.php:129
+msgid "Account Type"
+msgstr "Kontotype"
+
+#: include/staff/staff.inc.php:131
+msgid "Admin"
+msgstr "Administrator"
+
+#: include/staff/staff.inc.php:136
+msgid "Directory Listing"
+msgstr "Mappeoversikt"
+
+#: include/staff/staff.inc.php:138
+msgid "Show the user on staff's directory"
+msgstr "Vis brukeren i ansattes mappe"
+
+#: include/staff/staff.inc.php:141
+msgid "Vacation Mode"
+msgstr "Feriemodus"
+
+#: include/staff/staff.inc.php:144
+msgid "Staff on vacation mode."
+msgstr "Ansatte i feriemodus."
+
+#: include/staff/staff.inc.php:144
+msgid "No ticket assignment or Alerts"
+msgstr "Ingen sakstildeleser eller varsler"
+
+#: include/staff/dept.inc.php:6
+msgid "Update Department"
+msgstr "Oppdater avdeling"
+
+#: include/staff/dept.inc.php:10
+msgid "New Department"
+msgstr "Ny avdeling"
+
+#: include/staff/dept.inc.php:29
+msgid ""
+"Dept depends on email &amp; help topics settings for incoming tickets."
+msgstr ""
+"Avdeling er avhengig av epost- og hjelpemneinnstillinger for innkommende "
+"saker."
+
+#: include/staff/dept.inc.php:30
+msgid "Dept Name:"
+msgstr "Avdelingsnavn:"
+
+#: include/staff/dept.inc.php:37
+msgid "Dept Email:"
+msgstr "Avdelingsepost:"
+
+#: include/staff/dept.inc.php:59
+msgid "Dep Manager:"
+msgstr "Avdelingsleder"
+
+#: include/staff/dept.inc.php:63
+msgid "-------None-------"
+msgstr "-------Ingen-------"
+
+#: include/staff/dept.inc.php:64
+msgid "Select Manager (optional)"
+msgstr "Velg leder (valgfri)"
+
+#: include/staff/dept.inc.php:72
+msgid "No Users (Add Users)"
+msgstr "Ingen brukere (Legg til brukere)"
+
+#: include/staff/dept.inc.php:79
+msgid "Dept Type"
+msgstr "Avdelingstype"
+
+#: include/staff/dept.inc.php:81
+msgid "Public"
+msgstr "Offentlig"
+
+#: include/staff/dept.inc.php:82
+msgid "Private (Hidden)"
+msgstr "Privat (skjult)"
+
+#: include/staff/dept.inc.php:87
+msgid "Dept Signature:"
+msgstr "Avdelingsunderskrift:"
+
+#: include/staff/dept.inc.php:89
+msgid "Required when Dept is public"
+msgstr "Påkrevd når avdelingen er offentlig"
+
+#: include/staff/dept.inc.php:93
+msgid ""
+"can be appended to responses.&nbsp;(available as a choice for public "
+"departments)"
+msgstr ""
+"kan bli lagd ved svarmeldinger.&nbsp;(tilgjengelig som et valg for "
+"offentlige avdelinger)"
+
+#: include/staff/dept.inc.php:96
+msgid "Email Templates:"
+msgstr "Epostmaler:"
+
+#: include/staff/dept.inc.php:99
+msgid "Select Template"
+msgstr "Velg mal"
+
+#: include/staff/dept.inc.php:100
+msgid "System Default"
+msgstr "Systemstandard"
+
+#: include/staff/dept.inc.php:109
+msgid "Used for outgoing emails,alerts and notices to user and staff."
+msgstr ""
+"Brukt for utgående epost, varsler og meldinger til bruker og ansatte."
+
+#: include/staff/dept.inc.php:112
+msgid "Autoresponders"
+msgstr "Automatisk svarere"
+
+#: include/staff/dept.inc.php:114
+msgid ""
+"Global auto-response settings in preference section must be enabled for Dept "
+"'Enable' setting to take effect."
+msgstr ""
+"Globale innstillinger for automatisk svar innstillingsdelen må være aktivert "
+"for at avdeling 'Aktivert' innstilling tar effekt."
+
+#: include/staff/dept.inc.php:117 include/staff/preference.inc.php:410
+msgid "New Ticket:"
+msgstr "Ny sak:"
+
+#: include/staff/dept.inc.php:123 include/staff/preference.inc.php:422
+msgid "New Message:"
+msgstr "Ny melding"
+
+#: include/staff/dept.inc.php:130
+msgid "Auto Response Email:"
+msgstr "Automatisk svarpost:"
+
+#: include/staff/dept.inc.php:134
+msgid "Dept Email (above)"
+msgstr "Avdelingsepost (over)"
+
+#: include/staff/dept.inc.php:149
+msgid "Email address used to send auto-responses, if enabled."
+msgstr "Epostadresser brukt til å sende automatiske svar, hvis mulig."
+
+#: include/staff/templates.inc.php:47
+msgid "Sort by name"
+msgstr "Sorter etter navn"
+
+#: include/staff/templates.inc.php:48
+msgid "In-Use"
+msgstr "I bruk"
+
+#: include/staff/templates.inc.php:50
+msgid "Last Update"
+msgstr "Siste oppdatering"
+
+#: include/staff/templates.inc.php:95
+msgid "Delete Template(s)"
+msgstr "Slett mal(er)"
+
+#: include/staff/templates.inc.php:96
+msgid "Are you sure you want to DELETE selected template(s)?"
+msgstr "Er du sikker på at du vil SLETTE valgte mal(er)?"
+
+#: include/staff/templates.inc.php:105
+msgid "Add New Template"
+msgstr "Legg til ny mal"
+
+#: include/staff/templates.inc.php:108
+msgid ""
+"To add a new template - select existing template and edit it thereafter."
+msgstr "Legg til ny mal - velg en eksisterende mal og rediger den."
+
+#: include/staff/templates.inc.php:117
+msgid "Select Template to Copy"
+msgstr "Select mal for kopiering"
+
+#: include/staff/templates.inc.php:129
+msgid "Variables"
+msgstr "Variabler"
+
+#: include/staff/templates.inc.php:132
+msgid ""
+"Variables are used on email templates as placeholders. Please note that non-"
+"base variables depends on the context in question."
+msgstr ""
+"Variabler er brukt som plassholdere i epostmalene. Vær obs at en ikke-"
+"basevariable er avhengig av konteksten."
+
+#: include/staff/templates.inc.php:134
+msgid "Base Variables"
+msgstr "Basevariable"
+
+#: include/staff/templates.inc.php:134
+msgid "Other Variables"
+msgstr "Andre variable"
+
+#: include/staff/templates.inc.php:138
+msgid "Ticket ID (internal ID)"
+msgstr "SaksID (intern ID)"
+
+#: include/staff/templates.inc.php:139
+msgid "Ticket number (external ID)"
+msgstr "Saksnummer (ekstern ID)"
+
+#: include/staff/templates.inc.php:140
+msgid "Email address"
+msgstr "Epostadresse"
+
+#: include/staff/templates.inc.php:141
+msgid "Full name"
+msgstr "Fullt navn"
+
+#: include/staff/templates.inc.php:143
+msgid "Help topic (web only)"
+msgstr "Hjelpemne (bare for nett)"
+
+#: include/staff/templates.inc.php:144
+msgid "Phone number | ext"
+msgstr "Telefonnummer | ext"
+
+#: include/staff/templates.inc.php:148
+msgid "Assigned staff (if any)"
+msgstr "Tildelt ansatte (hvis noen)"
+
+#: include/staff/templates.inc.php:149
+msgid "Date created"
+msgstr "Opprettet dato"
+
+#: include/staff/templates.inc.php:150
+msgid "Due date"
+msgstr "Forfallsdato"
+
+#: include/staff/templates.inc.php:151
+msgid "Date closed"
+msgstr "Avsluttet dato"
+
+#: include/staff/templates.inc.php:156
+msgid "Message (incoming)"
+msgstr "Melding (innkommende)"
+
+#: include/staff/templates.inc.php:157
+msgid "Response (outgoing)"
+msgstr "Svar (utgående)"
+
+#: include/staff/templates.inc.php:158
+msgid "Internal note"
+msgstr "Internt skriv"
+
+#: include/staff/templates.inc.php:159
+msgid "Staff's name (alert/notices)"
+msgstr "Ansattes navn (varsel/notater)"
+
+#: include/staff/templates.inc.php:160
+msgid "Assigned staff"
+msgstr "Tildelt ansatte"
+
+#: include/staff/templates.inc.php:161
+msgid "Staff assigning the ticket"
+msgstr "Ansatte som tildeler saken"
+
+#: include/staff/templates.inc.php:162
+msgid "osTicket's base url (FQDN)"
+msgstr "osTickets grunn-URL (FQDN)"
+
+#: include/staff/smtp.inc.php:14
+msgid "SMTP Server Setting (Optional)"
+msgstr "SMTP tjenerinnstillinger (valgfri)"
+
+#: include/staff/smtp.inc.php:16
+msgid ""
+"When enabled the system will use an SMTP server rather than the internal PHP "
+"mail() function for outgoing emails."
+msgstr ""
+"Når aktivert, systemet vil bruke en SMTP tjener istedet for den interne PHP "
+"mail() funksjonen for utgående epost."
+
+#: include/staff/smtp.inc.php:17
+msgid ""
+"Leave the username and password empty of the SMTP server doesn't require "
+"authentication"
+msgstr ""
+"La brukernavn og passord være tomme, da SMTP tjenere ikke krever "
+"autentisering"
+
+#: include/staff/smtp.inc.php:19
+msgid "Enable SMTP"
+msgstr "Aktiver SMTP"
+
+#: include/staff/smtp.inc.php:41
+msgid "TLS (secure)"
+msgstr "TLS (sikker)"
+
+#: include/staff/premade.inc.php:54
+msgid "Premade/Canned Replies"
+msgstr "Forhåndslagde svar"
+
+#: include/staff/premade.inc.php:71
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: include/staff/premade.inc.php:72
+msgid "category"
+msgstr "kategori"
+
+#: include/staff/premade.inc.php:96
+msgid "Sort By Title"
+msgstr "Sorter etter tittel"
+
+#: include/staff/premade.inc.php:96
+msgid "Reply Title"
+msgstr "Svartittel"
+
+#: include/staff/premade.inc.php:98
+msgid "Category/Dept"
+msgstr "Kategori/avdeling"
+
+#: include/staff/premade.inc.php:100
+msgid "Sort By Update Date"
+msgstr "Sorter etter oppdateringsdato"
+
+#: include/staff/premade.inc.php:146
+msgid "Are you sure you want to ENABLE selected entries?"
+msgstr "Er du sikker på at du vil AKTIVERE valgene?"
+
+#: include/staff/premade.inc.php:148
+msgid "Are you sure you want to DISABLE selected entries?"
+msgstr "Er du sikker på at du vil DEAKTIVERE valgene?"
+
+#: include/staff/premade.inc.php:150
+msgid "Are you sure you want to DELETE selected entries?"
+msgstr "Er du sikker på at du vil SLETTE valgene?"
+
+#: include/staff/footer.inc.php:4
+#, php-format
+msgid ""
+"Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;All Rights Reserved."
+msgstr ""
+"Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;All Rights Reserved."
+
+#: include/staff/preference.inc.php:9
+msgid "You need to setup upload dir."
+msgstr "Du trenger å sette opp en opplastingsmappe."
+
+#: include/staff/preference.inc.php:12
+msgid "*Attachments Disabled."
+msgstr "*Vedlegg deaktivert."
+
+#: include/staff/preference.inc.php:14
+msgid "<br>*Attachments Disabled."
+msgstr "<br />*Vedlegg deaktivert."
+
+#: include/staff/preference.inc.php:18
+msgid "GD required for captcha to work"
+msgstr "GD påkrevd for at captcha skal fungere"
+
+#: include/staff/preference.inc.php:23
+msgid "Possible errors detected, please check the warnings below"
+msgstr "Mulige feil oppdaget, vennligst sjekk advarslene under"
+
+#: include/staff/preference.inc.php:29
+msgid "System Preferences and Settings"
+msgstr "Systeminnstillinger"
+
+#: include/staff/preference.inc.php:35
+msgid "General Settings"
+msgstr "Generelle innstillinger"
+
+#: include/staff/preference.inc.php:37
+msgid ""
+"Offline mode will disable client interface and <b>only</b> allow <b>super "
+"admins</b> to login to Staff Control Panel"
+msgstr ""
+"Avkoblet modus vil deaktivere klientgrensesnittet og <b>bare</b> tillate "
+"<b>super administratorer</b> å logge inn på ansattes kontrollpanel"
+
+#: include/staff/preference.inc.php:39
+msgid "Helpdesk Status"
+msgstr "Support status"
+
+#: include/staff/preference.inc.php:41
+msgid "Online"
+msgstr "Tilkoblet"
+
+#: include/staff/preference.inc.php:41
+msgid "(Active)"
+msgstr "(Aktiv)"
+
+#: include/staff/preference.inc.php:42
+msgid "Offline"
+msgstr "Frakoblet"
+
+#: include/staff/preference.inc.php:42
+msgid "(Inactive)"
+msgstr "(Inaktiv)"
+
+#: include/staff/preference.inc.php:43
+msgid "osTicket offline"
+msgstr "osTicket frakoblet"
+
+#: include/staff/preference.inc.php:46
+msgid "Helpdesk URL:"
+msgstr "Support URL:"
+
+#: include/staff/preference.inc.php:51
+msgid "Helpdesk Name/Title:"
+msgstr "Support navn/tittel:"
+
+#: include/staff/preference.inc.php:54
+msgid "Default Email Templates:"
+msgstr "Standard epostmal:"
+
+#: include/staff/preference.inc.php:57
+msgid "Select Default Template"
+msgstr "Velg standard mal"
+
+#: include/staff/preference.inc.php:67
+msgid "Default Department:"
+msgstr "Standard avdeling:"
+
+#: include/staff/preference.inc.php:70
+msgid "Select Default Dept"
+msgstr "Velg standard avdeling"
+
+#: include/staff/preference.inc.php:80
+msgid "Default Page Size:"
+msgstr "Standard sidestørrelse:"
+
+#: include/staff/preference.inc.php:93
+msgid "System Log Level:"
+msgstr "Systemloggnivå"
+
+#: include/staff/preference.inc.php:96
+msgid "None (Disable Logger)"
+msgstr "Ingen (deaktiver logger)"
+
+#: include/staff/preference.inc.php:97
+msgid "DEBUG"
+msgstr "FEILSØKING"
+
+#: include/staff/preference.inc.php:98
+msgid "WARN"
+msgstr "VARSLE"
+
+#: include/staff/preference.inc.php:99
+msgid "ERROR"
+msgstr "FEIL"
+
+#: include/staff/preference.inc.php:101
+msgid "Purge logs after"
+msgstr "Rensk logger etter"
+
+#: include/staff/preference.inc.php:103
+msgid "None (Disable)"
+msgstr "Ingen (deaktiver)"
+
+#: include/staff/preference.inc.php:107
+msgid "Months"
+msgstr "Måneder"
+
+#: include/staff/preference.inc.php:107
+msgid "Month"
+msgstr "Måned"
+
+#: include/staff/preference.inc.php:113
+msgid "Staff Excessive Logins:"
+msgstr "Overpålogging av ansatte:"
+
+#: include/staff/preference.inc.php:121 include/staff/preference.inc.php:154
+msgid "attempt(s) allowed"
+msgstr "forsøk tillat"
+
+#: include/staff/preference.inc.php:122 include/staff/preference.inc.php:155
+msgid "before a"
+msgstr "før en"
+
+#: include/staff/preference.inc.php:129 include/staff/preference.inc.php:162
+msgid "min. timeout (penalty in minutes)"
+msgstr "min. timeout (straff i minutter)"
+
+#: include/staff/preference.inc.php:132
+msgid "Staff Session Timeout:"
+msgstr "Ansatte økt timeout:"
+
+#: include/staff/preference.inc.php:135
+msgid "Staff's max Idle time in minutes. Enter 0 to disable timeout"
+msgstr ""
+"Maksimum passiv tid for ansatte, i minutter. 0 for å deaktivere timeout."
+
+#: include/staff/preference.inc.php:138
+msgid "Bind Staff Session to IP:"
+msgstr "Bind ansattes økt til en IP:"
+
+#: include/staff/preference.inc.php:141
+msgid "Bind staff's session to login IP."
+msgstr "Bind ansattes økt til påloggings-IP."
+
+#: include/staff/preference.inc.php:145
+msgid "Client Excessive Logins:"
+msgstr "Klient overpålogging:"
+
+#: include/staff/preference.inc.php:166
+msgid "Client Session Timeout:"
+msgstr "Klient økt timeout:"
+
+#: include/staff/preference.inc.php:169
+msgid "Client's max Idle time in minutes. Enter 0 to disable timeout"
+msgstr ""
+"Maksimum passiv tid for klient, i minutter. 0 for å deaktivere timeout"
+
+#: include/staff/preference.inc.php:172
+msgid "Clickable URLs:"
+msgstr "Klikkbare URL'er"
+
+#: include/staff/preference.inc.php:175
+msgid "Make URLs clickable"
+msgstr "Gjør URL klikkbar"
+
+#: include/staff/preference.inc.php:178
+msgid "Enable Auto Cron:"
+msgstr "Aktiver autocron:"
+
+#: include/staff/preference.inc.php:181
+msgid "Enable cron call on staff's activity"
+msgstr "Aktiver cronkall for ansattes aktivitet"
+
+#: include/staff/preference.inc.php:187
+msgid "Date &amp; Time"
+msgstr "Dato &amp; tid"
+
+#: include/staff/preference.inc.php:189
+msgid ""
+"Please refer to <a href=\"http://php.net/date\" target=\"_blank\">PHP "
+"Manual</a> for supported parameters."
+msgstr ""
+"Vennligst sjekk <a href=\"http://php.net/date\" target=\"_blank\">PHP "
+"Manual</a> for parametre som er støttet."
+
+#: include/staff/preference.inc.php:191
+msgid "Time Format:"
+msgstr "Tidsformat:"
+
+#: include/staff/preference.inc.php:197
+msgid "Date Format:"
+msgstr "Datoformat:"
+
+#: include/staff/preference.inc.php:203
+msgid "Date &amp; Time Format:"
+msgstr "Dato- &amp; tidsformat:"
+
+#: include/staff/preference.inc.php:209
+msgid "Day, Date &amp; Time Format:"
+msgstr "Dags-, dato- &amp; tidsformat"
+
+#: include/staff/preference.inc.php:215
+msgid "Default Timezone:"
+msgstr "Standard tidssone:"
+
+#: include/staff/preference.inc.php:233
+msgid "Daylight Saving:"
+msgstr "Sommertid:"
+
+#: include/staff/preference.inc.php:235
+msgid "Observe daylight savings"
+msgstr "Bruk sommertid"
+
+#: include/staff/preference.inc.php:241
+msgid "Ticket Options &amp; Settings"
+msgstr "Saksvalg &amp; -innstillinger"
+
+#: include/staff/preference.inc.php:242
+msgid "If enabled ticket lock get auto-renewed on form activity."
+msgstr ""
+"Aktiver for at sakslåsen blir automatisk fornyet ved aktivitet i skjemaet."
+
+#: include/staff/preference.inc.php:243
+msgid "Ticket IDs:"
+msgstr "SaksID'er:"
+
+#: include/staff/preference.inc.php:245
+msgid "Sequential"
+msgstr "Sekvensiell"
+
+#: include/staff/preference.inc.php:246
+msgid "Random  (recommended)"
+msgstr "Tilfeldig (anbefalt)"
+
+#: include/staff/preference.inc.php:249
+msgid "Ticket Priority:"
+msgstr "Saksprioritering:"
+
+#: include/staff/preference.inc.php:258
+msgid "Default priority"
+msgstr "Standard prioritet"
+
+#: include/staff/preference.inc.php:260
+msgid "Allow user to overwrite/set priority (new web tickets)"
+msgstr "Tillat brukeren å overskrive/sette prioritet (nye nettsaker)"
+
+#: include/staff/preference.inc.php:262
+msgid "Use email priority when available (new emailed tickets)"
+msgstr "Bruk epostprioritet om mulig (nye epostsaker)"
+
+#: include/staff/preference.inc.php:266
+msgid "Maximum <b>Open</b> Tickets:"
+msgstr "Maksimum <b>åpne</b> saker:"
+
+#: include/staff/preference.inc.php:269
+msgid ""
+"per email. (<i>Helps with spam and flood control. Enter 0 for unlimited</i>)"
+msgstr ""
+"per epost. (<i>Hjelper med spam- og flytkontroll. 0 for ubegrenset</i>)"
+
+#: include/staff/preference.inc.php:272
+msgid "Auto-Lock Time:"
+msgstr "Automatisk låsetid:"
+
+#: include/staff/preference.inc.php:276
+msgid ""
+"(<i>Minutes to lock a ticket on activity. Enter 0 to disable locking</i>)"
+msgstr ""
+"(<i>Minutter å låse en sak ved aktivitet. 0 for å deaktivere låsing</i>)"
+
+#: include/staff/preference.inc.php:279
+msgid "Ticket Grace Period:"
+msgstr "Sak skånsomtid:"
+
+#: include/staff/preference.inc.php:282
+msgid ""
+"(<i>Hours before ticket is marked overdue. Enter 0 to disable aging.</i>)"
+msgstr ""
+"(<i>Timer før saken blir markert som forfalt. 0 for å deaktivere "
+"aldring.</i>)"
+
+#: include/staff/preference.inc.php:285
+msgid "Reopened Tickets:"
+msgstr "Gjenåpnede saker:"
+
+#: include/staff/preference.inc.php:288
+msgid ""
+"Auto-assign reopened tickets to last respondent 'available'. (<i> 3 months "
+"limit</i>)"
+msgstr ""
+"Automatisk tildeling av gjenåpnede saker til den siste som svarte og er "
+"'tilgjengelig'. (<i>3 måneders grense</i>)"
+
+#: include/staff/preference.inc.php:291
+msgid "Assigned Tickets:"
+msgstr "Tildelte saker:"
+
+#: include/staff/preference.inc.php:294
+msgid "Show assigned tickets on open queue."
+msgstr "Vis tildelte saker i åpen kø."
+
+#: include/staff/preference.inc.php:297
+msgid "Answered Tickets:"
+msgstr "Svarte saker:"
+
+#: include/staff/preference.inc.php:300
+msgid "Show answered tickets on open queue."
+msgstr "Vis svarte saker i åpen kø."
+
+#: include/staff/preference.inc.php:303
+msgid "Ticket Activity Log:"
+msgstr "Sak aktivitetslogg:"
+
+#: include/staff/preference.inc.php:306
+msgid "Log ticket's activity as internal notes."
+msgstr "Logg sakens aktivitet som internt skriv."
+
+#: include/staff/preference.inc.php:309
+msgid "Staff Identity:"
+msgstr "Ansatte identitet:"
+
+#: include/staff/preference.inc.php:312
+msgid "Hide staff's name on responses."
+msgstr "Skjul ansatte's navn i svar."
+
+#: include/staff/preference.inc.php:315
+msgid "Human Verification:"
+msgstr "Menneskelig klarifisering:"
+
+#: include/staff/preference.inc.php:322
+msgid "Enable captcha on new web tickets."
+msgstr "Aktiver captcha for nye nettsaker."
+
+#: include/staff/preference.inc.php:328 include/class.nav.php:32
+msgid "Email Settings"
+msgstr "Epostinnstillinger"
+
+#: include/staff/preference.inc.php:329
+msgid "Note that global settings can be disabled at dept/email level."
+msgstr ""
+"Vær obs på at globale innstillinger kan bli deaktivert på avdelings- og "
+"epostnivå."
+
+#: include/staff/preference.inc.php:330
+msgid "Incoming Emails"
+msgstr "Innkommende epost"
+
+#: include/staff/preference.inc.php:331
+msgid ""
+"For mail fetcher (POP/IMAP) to work you must set a cron job or simply enable "
+"auto-cron"
+msgstr ""
+"For å få eposthentere (POP/IMAP) til å fungere, må du lage en cronjobb eller "
+"aktivere autocron"
+
+#: include/staff/preference.inc.php:332
+msgid "Enable POP/IMAP email fetch"
+msgstr "Aktiver POP/IMAP epost henting"
+
+#: include/staff/preference.inc.php:333
+msgid "Global setting which can be disabled at email level"
+msgstr "De globale innstillingere som kan deaktiveres på epostnivå"
+
+#: include/staff/preference.inc.php:334
+msgid "Enable email piping"
+msgstr "Aktiver epost-piping"
+
+#: include/staff/preference.inc.php:335
+msgid "You pipe we accept policy"
+msgstr ""
+
+#: include/staff/preference.inc.php:337
+msgid "Strip quoted reply (<i>depends on the tag below</i>)"
+msgstr "Fjern svar i anførselstegn (<i>avhengig av merkelappen under</i>)"
+
+#: include/staff/preference.inc.php:338
+msgid "Reply Separator Tag"
+msgstr "Svarskillemerke"
+
+#: include/staff/preference.inc.php:342
+msgid "Outgoing Emails"
+msgstr "Utgående epost"
+
+#: include/staff/preference.inc.php:344
+msgid "Default Email:"
+msgstr "Standard epost:"
+
+#: include/staff/preference.inc.php:344
+msgid "Only applies to outgoing emails with no SMTP settings."
+msgstr "Gjelder kun utgående eposter uten SMTP innstillinger."
+
+#: include/staff/preference.inc.php:348
+msgid "None: Use PHP mail function"
+msgstr "Ingen: Bruk PHP mail-funksjon"
+
+#: include/staff/preference.inc.php:363
+msgid "Allow spoofing (No Overwrite)."
+msgstr "Tillat etterligning (Ingen overskrivelse)."
+
+#: include/staff/preference.inc.php:367
+msgid "Default System Email:"
+msgstr "Standard systemepost:"
+
+#: include/staff/preference.inc.php:382
+msgid "Default Alert Email:"
+msgstr "Standard varselsepost"
+
+#: include/staff/preference.inc.php:386
+msgid "Use Default System Email (above)"
+msgstr "Bruk standard systemepost (over)"
+
+#: include/staff/preference.inc.php:397
+msgid "Used to send out alerts and notices to staff."
+msgstr "Brukes for å sende ut varsler og skriv til ansatte."
+
+#: include/staff/preference.inc.php:400
+msgid "System Admin Email Address:"
+msgstr "Systemadministrators epostadresse:"
+
+#: include/staff/preference.inc.php:408
+msgid "Autoresponders &nbsp;(Global Setting)"
+msgstr "Automatisk svar &nbsp;(Globale innstillinger)"
+
+#: include/staff/preference.inc.php:409
+msgid "This is global setting which can be disabled at department level."
+msgstr ""
+"Dette er en global innstilling som kan bli deaktivert på avdelingsnivå."
+
+#: include/staff/preference.inc.php:411
+msgid ""
+"Autoresponse includes the ticket ID required to check status of the ticket"
+msgstr ""
+"Automatisk svar inneholder saksID'en som krever for å sjekke status på saken"
+
+#: include/staff/preference.inc.php:416
+msgid "New Ticket by Staff:"
+msgstr "Ny sak fra ansatte"
+
+#: include/staff/preference.inc.php:417
+msgid ""
+"Notice sent when staff creates a ticket on behalf of the user (Staff can "
+"disable)"
+msgstr ""
+"Skriv som sendes når ansatte oppretter en sak på vegne av en bruker (ansatte "
+"kan deaktivere)"
+
+#: include/staff/preference.inc.php:423
+msgid "Message appended to an existing ticket confirmation"
+msgstr "Melding lagd ved en eksisterende sak bekreftelse"
+
+#: include/staff/preference.inc.php:428
+msgid "Overlimit notice:"
+msgstr "Overskridelsesvarsel:"
+
+#: include/staff/preference.inc.php:429
+msgid ""
+"Ticket denied notice sent <b>only once</b> on limit violation to the user."
+msgstr ""
+"Sak nektet, varsel sendt <b>bare en gang</b> om brudd på grensen av bruker"
+
+#: include/staff/preference.inc.php:432
+msgid "<b>Note:</b> Admin gets alerts on ALL denials by default."
+msgstr ""
+"<b>Note:</b> Som standard, får administrator får varsel om ALLE avvisninger."
+
+#: include/staff/preference.inc.php:437
+msgid "Alerts &amp; Notices"
+msgstr "Varsel &amp; skriv"
+
+#: include/staff/preference.inc.php:439
+msgid ""
+"Notices sent to user use 'No Reply Email' whereas alerts to staff use 'Alert "
+"Email' set above as FROM address respectively."
+msgstr ""
+"Ved skriv sendt til bruker, brukes 'Ikke svar epost'. mens ved varsler til "
+"ansatte. brukes 'Varselsepost'. Sett det over som AVSENDERadresse henholdsvis"
+
+#: include/staff/preference.inc.php:441
+msgid "New Ticket Alert:"
+msgstr "Varsel om ny sak:"
+
+#: include/staff/preference.inc.php:445 include/staff/preference.inc.php:455
+#: include/staff/preference.inc.php:465
+msgid "Select recipients"
+msgstr "Velg mottakere"
+
+#: include/staff/preference.inc.php:446
+msgid "Admin Email"
+msgstr "Administrators epost"
+
+#: include/staff/preference.inc.php:447 include/staff/preference.inc.php:477
+msgid "Department Manager"
+msgstr "Avdelingsleder"
+
+#: include/staff/preference.inc.php:448 include/staff/preference.inc.php:478
+msgid "Department Members (spammy)"
+msgstr "Avdelingsmedlemmer (spammete)"
+
+#: include/staff/preference.inc.php:451
+msgid "New Message Alert:"
+msgstr "Varsel om ny melding:"
+
+#: include/staff/preference.inc.php:456 include/staff/preference.inc.php:466
+msgid "Last Respondent"
+msgstr "Siste svarer"
+
+#: include/staff/preference.inc.php:457 include/staff/preference.inc.php:467
+#: include/staff/preference.inc.php:476
+msgid "Assigned Staff"
+msgstr "Tildelt ansatte"
+
+#: include/staff/preference.inc.php:458 include/staff/preference.inc.php:468
+msgid "Department Manager (spammy)"
+msgstr "Avdelingsleder (spammete)"
+
+#: include/staff/preference.inc.php:461
+msgid "New Internal Note Alert:"
+msgstr "Varsel om nytt internt skriv:"
+
+#: include/staff/preference.inc.php:471
+msgid "Overdue Ticket Alert:"
+msgstr "Varsel om forfalt sak:"
+
+#: include/staff/preference.inc.php:475
+msgid ""
+"Admin Email gets an alert by default. Select additional recipients below"
+msgstr ""
+"Som standard, får administrator tilsendt varselsepost. Velg flere mottakere "
+"under"
+
+#: include/staff/preference.inc.php:481
+msgid "System Errors:"
+msgstr "Systemfeil"
+
+#: include/staff/preference.inc.php:482
+msgid "Enabled errors are sent to admin email set above"
+msgstr "Aktiverte feil sendes til administrators epostadresse, satt over"
+
+#: include/staff/preference.inc.php:483
+msgid "System Errors"
+msgstr "Systemfeil"
+
+#: include/staff/preference.inc.php:484
+msgid "SQL errors"
+msgstr "SQL-feil"
+
+#: include/staff/preference.inc.php:485
+msgid "Excessive Login attempts"
+msgstr "Overflødige påloggings forsøk"
+
+#: include/staff/changepasswd.inc.php:5 scp/profile.php:135
+msgid "Change Password"
+msgstr "Endre passord"
+
+#: include/staff/changepasswd.inc.php:11
+msgid "Current Password:"
+msgstr "Nåværende passord:"
+
+#: include/staff/changepasswd.inc.php:17
+msgid "New Password:"
+msgstr "Nytt passord:"
+
+#: include/staff/changepasswd.inc.php:23
+msgid "Verify Password:"
+msgstr "Bekreft passord:"
+
+#: include/staff/groups.inc.php:18
+msgid "Group Name"
+msgstr "Gruppenavn"
+
+#: include/staff/groups.inc.php:19
+msgid "Group Status"
+msgstr "Gruppestatus"
+
+#: include/staff/groups.inc.php:20
+msgid "Members"
+msgstr "Medlemmer"
+
+#: include/staff/groups.inc.php:67
+msgid "Are you sure you want to ENABLE selected group(s)"
+msgstr "Er du sikker på at du vil AKTIVERE valgte gruppe(r)"
+
+#: include/staff/groups.inc.php:69
+msgid "Are you sure you want to DISABLE selected group(s)"
+msgstr "Er du sikker på at du vil DEAKTIVERE valgte gruppe(r)"
+
+#: include/staff/groups.inc.php:71
+msgid "Are you sure you want to DELETE selected group(s)"
+msgstr "Er du sikker på at du vil SLETTE valgte gruppe(r)"
+
+#: include/staff/group.inc.php:6
+#, php-format
+msgid "Edit Group: %s"
+msgstr "Rediger gruppe: %s"
+
+#: include/staff/group.inc.php:9 scp/admin.php:633
+msgid "Add New Group"
+msgstr "Legg til ny gruppe"
+
+#: include/staff/group.inc.php:26
+msgid ""
+"Group permissions set below applies cross all group members, but don't apply "
+"to adminstrators and Dept. managers in some cases."
+msgstr ""
+"Grupperettigheter satt under gjelder for alle gruppemedlemmene, men ikke for "
+"administratorer eller avdelingsledere i noen tilfeller."
+
+#: include/staff/group.inc.php:28
+msgid "Group Name:"
+msgstr "Gruppenavn:"
+
+#: include/staff/group.inc.php:35
+msgid "Group Status:"
+msgstr "Gruppestatus:"
+
+#: include/staff/group.inc.php:42
+msgid "Dept Access"
+msgstr "Avdelingstilgang"
+
+#: include/staff/group.inc.php:43
+msgid ""
+"Select departments group members are allowed to access in addition to thier "
+"own department."
+msgstr ""
+"Valgte avdelingers gruppemedlemmer har tilgang i tillegg til deres egne "
+"avdelinger."
+
+#: include/staff/group.inc.php:54
+msgid "Select All"
+msgstr "Velg alle"
+
+#: include/staff/group.inc.php:55
+msgid "Select None"
+msgstr "Velg ingen"
+
+#: include/staff/group.inc.php:58
+msgid "Can <b>Create</b> Tickets"
+msgstr "Kan <b>opprette</b> saker"
+
+#: include/staff/group.inc.php:62
+msgid "Ability to open tickets on behalf of users!"
+msgstr "Kan opprette saker på vegne av brukere!"
+
+#: include/staff/group.inc.php:65
+msgid "Can <b>Edit</b> Tickets"
+msgstr "Kan <b>redigere</b> saker"
+
+#: include/staff/group.inc.php:69
+msgid ""
+"Ability to edit tickets. Admins & Dept managers are allowed by default."
+msgstr ""
+"Kan redigere saker. Som standard har administrator og avdelingsledere "
+"tillatelse til dette."
+
+#: include/staff/group.inc.php:72
+msgid "Can <b>Close</b> Tickets"
+msgstr "Kan <b>lukke</b> saker"
+
+#: include/staff/group.inc.php:76
+msgid ""
+"<b>Mass Close Only:</b> Staff can still close one ticket at a time when set "
+"to No"
+msgstr ""
+"<b>Kun masselukking:</b> Ansatte kan fortsatt lukke en sak om gangen når "
+"dette er satt til 'Nei'"
+
+#: include/staff/group.inc.php:79
+msgid "Can <b>Transfer</b> Tickets"
+msgstr "Kan <b>overføre</b> saker"
+
+#: include/staff/group.inc.php:83
+msgid "Ability to transfer tickets from one dept to another."
+msgstr "Kan overfør saker fra en avdeling til en annen."
+
+#: include/staff/group.inc.php:86
+msgid "Can <b>Delete</b> Tickets"
+msgstr "kan <b>slette</b> saker"
+
+#: include/staff/group.inc.php:90
+msgid "Deleted tickets can't be recovered!"
+msgstr "Slettede saker kan ikke gjenopprettes!"
+
+#: include/staff/group.inc.php:93
+msgid "Can Ban Emails"
+msgstr "Kan utestenge epostadresser"
+
+#: include/staff/group.inc.php:97
+msgid "Ability to add/remove emails from banlist via tickets interface."
+msgstr ""
+"Kan legge til og fjerne epostadresser fra utestengelseslista via "
+"saksgrensestnittet."
+
+#: include/staff/group.inc.php:100
+msgid "Can Manage Premade"
+msgstr "Kan forvalte forhåndslagde"
+
+#: include/staff/group.inc.php:104
+msgid "Ability to add/update/disable/delete premade responses."
+msgstr "Kan legge til, oppdatere, deaktivere og slette forhåndslagde svar."
+
+#: include/staff/emails.inc.php:10 include/class.nav.php:32
+msgid "Emails"
+msgstr "Epost"
+
+#: include/staff/emails.inc.php:73
+msgid "Delete Selected Emails"
+msgstr "Slett valgt epost"
+
+#: include/staff/emails.inc.php:74
+msgid "Are you sure you want to DELETE selected emails?"
+msgstr "Er du sikker på at du vil SLETTE valgt epost?"
+
+#: include/class.ticket.php:574 include/class.ticket.php:669
+#: include/class.ticket.php:712 include/class.ticket.php:861
+#: include/class.ticket.php:1378 include/class.ticket.php:1428
+msgid "Template Fetch Error"
+msgstr "Malhentingsfeil"
+
+#: include/class.ticket.php:574
+msgid "Unable to fetch 'assigned' alert template #"
+msgstr "Klarer ikke å hente 'tildelt' varselmal #"
+
+#: include/class.ticket.php:577
+msgid "Ticket assigned"
+msgstr "Sak tildelt"
+
+#: include/class.ticket.php:579
+#, php-format
+msgid "Ticket Assigned to %s"
+msgstr "Sak tildelt %s"
+
+#: include/class.ticket.php:669
+msgid "Unable to fetch 'new message' auto response template #"
+msgstr "Klarer ikke hente 'ny melding' automatisk svarmal #"
+
+#: include/class.ticket.php:712
+msgid "Unable to fetch 'new message' alert template #"
+msgstr "Klarer ikke hente 'ny melding' varselsmal #"
+
+#: include/class.ticket.php:790
+#, php-format
+msgid ""
+"Problems fetching response template for ticket# %s  Possible config error - "
+"template # %s"
+msgstr ""
+"Det oppstod problemer ved henting av svarmal for sak # %s Mulig "
+"innstillingsfeil - mal # %s"
+
+#: include/class.ticket.php:791 include/class.ticket.php:1503
+msgid "System Error"
+msgstr "Systemfeil"
+
+#: include/class.ticket.php:861
+msgid "Unable to fetch 'new note' alert template #"
+msgstr "Kan ikke hente 'ny melding' varselsmal #"
+
+#: include/class.ticket.php:1079
+msgid "Email is required"
+msgstr "Epostadresse er påkrevd"
+
+#: include/class.ticket.php:1080
+msgid "Reason for the update required"
+msgstr "Begrunnelse for oppdatering påkrevd"
+
+#: include/class.ticket.php:1082
+msgid "Invalid Selection"
+msgstr "Ugyldig valg"
+
+#: include/class.ticket.php:1083 include/class.ticket.php:1178
+msgid "Invalid Priority"
+msgstr "Ugyldig prioritet"
+
+#: include/class.ticket.php:1084 include/class.ticket.php:1179
+msgid "Valid phone # required"
+msgstr "Gyldig telefonnummer # påkrevd"
+
+#: include/class.ticket.php:1085 include/class.ticket.php:1174
+msgid "Invalid date - must be MM/DD/YY"
+msgstr "Ugyldig dato - må være MM/DD/ÅÅ"
+
+#: include/class.ticket.php:1095
+msgid "Duedate can NOT be set on a closed ticket"
+msgstr "Forfallsdato kan IKKE settes på en lukket sak"
+
+#: include/class.ticket.php:1097 include/class.ticket.php:1206
+msgid "Select time"
+msgstr "Velg tid"
+
+#: include/class.ticket.php:1099 include/class.ticket.php:1208
+msgid "Invalid duedate"
+msgstr "Ugyldig forfallsdato"
+
+#: include/class.ticket.php:1101 include/class.ticket.php:1210
+msgid "Due date must be in the future"
+msgstr "Forfalldato må være i framtiden"
+
+#: include/class.ticket.php:1107 include/class.ticket.php:1198
+msgid "Invalid phone ext."
+msgstr "Ugylid telefon forlengelse."
+
+#: include/class.ticket.php:1109 include/class.ticket.php:1200
+msgid "Phone number required"
+msgstr "Telefonnummer påkrevd"
+
+#: include/class.ticket.php:1170
+msgid "Select help topic"
+msgstr "Velg hjelpemne"
+
+#: include/class.ticket.php:1172
+msgid "Dept. required"
+msgstr "Avdeling påkrevd"
+
+#: include/class.ticket.php:1173
+msgid "Indicate source"
+msgstr "Indiker kilde"
+
+#: include/class.ticket.php:1176
+msgid "Email unknown"
+msgstr "Ukjent epostadresse"
+
+#: include/class.ticket.php:1189
+msgid "Ticket denied"
+msgstr "Saken er avslått"
+
+#: include/class.ticket.php:1189
+msgid "Banned email - "
+msgstr "Utestengt epostadresse - "
+
+#: include/class.ticket.php:1193
+msgid "Email mismatch."
+msgstr "Ulike epostadresser."
+
+#: include/class.ticket.php:1216 scp/tickets.php:71
+msgid "Invalid file type"
+msgstr "Ugyldig filtype"
+
+#: include/class.ticket.php:1218
+msgid "File is too big. Max"
+msgstr "Filen er for stor. Maksimum"
+
+#: include/class.ticket.php:1218
+msgid "bytes allowed"
+msgstr "bytes tillatt"
+
+#: include/class.ticket.php:1226
+msgid "You've reached the maximum open tickets allowed."
+msgstr "Do har nådd maksimum tillate åpne saker."
+
+#: include/class.ticket.php:1252
+#, php-format
+msgid ""
+"Support ticket request denied for %s\\nOpen ticket: %s\\nMax Allowed: %s\\n\\"
+"nNotice only sent once"
+msgstr ""
+"Saksforespørsel avslått for %s\\nÅpen sak: %s\\nMaksimum tillatt: %s\\n\\"
+"nSkriv sendt kun en gang"
+
+#: include/class.ticket.php:1253
+msgid "Overlimit Notice"
+msgstr "Overgrensen varsel"
+
+#: include/class.ticket.php:1378
+msgid "Unable to fetch autoresponse template #"
+msgstr "Klarer ikke å hente automatisk svarmal #"
+
+#: include/class.ticket.php:1428
+msgid "Unable to fetch 'new ticket' alert template #"
+msgstr "Klarer ikke å hente 'ny sak' varselsmal #"
+
+#: include/class.ticket.php:1440
+msgid "Permission denied"
+msgstr "Adgang nektet"
+
+#: include/class.ticket.php:1443
+msgid "Summary of the issue required"
+msgstr "Oppsummering av saken kreves"
+
+#: include/class.ticket.php:1445
+msgid "Invalid source - "
+msgstr "Ugyldig kilde - "
+
+#: include/class.ticket.php:1448
+msgid "Ticket created by staff"
+msgstr "Sak opprettet av ansatte"
+
+#: include/class.ticket.php:1502
+msgid "Problems fetching response template for ticket#"
+msgstr "Det oppstod problemer ved innhenting av svarmalen for sak #"
+
+#: include/class.ticket.php:1502
+msgid "Possible config error - template #"
+msgstr "Mulig feil i innstillingene - mal #"
+
+#: include/class.ticket.php:1514
+msgid "Internal error - message/response post error."
+msgstr "Intern feil - melding/svar poster feil"
+
+#: include/class.ticket.php:1522
+msgid "New Ticket by Staff"
+msgstr "Ny sak av ansatte"
+
+#: include/class.ticket.php:1522
+msgid "Ticket created by staff -"
+msgstr "Sak opprettet av ansatte -"
+
+#: include/class.ticket.php:1526 scp/tickets.php:406
+msgid "Unable to create the ticket. Correct the error(s) and try again"
+msgstr "Klarer ikke å opprette saken. Fiks feilen(e) og prøv på nytt."
+
+#: include/class.ticket.php:1553 scp/tickets.php:278 scp/tickets.php:376
+msgid "Ticket Marked Overdue"
+msgstr "Sak merket forfalt"
+
+#: include/class.ticket.php:1553
+msgid "Ticket flagged as overdue by the system."
+msgstr "Sak flagget som forfalt av systemet"
+
+#: include/class.dept.php:208
+msgid "Missing or invalid Dept ID"
+msgstr "Manglende eller ygyldig avdelingsID"
+
+#: include/class.dept.php:211
+msgid "Dept email required"
+msgstr "Avdelingsepost påkrevd"
+
+#: include/class.dept.php:214
+msgid "Template required"
+msgstr "Mal påkrevd"
+
+#: include/class.dept.php:217
+msgid "Dept name required"
+msgstr "Avdelingsnavn påkrevd"
+
+#: include/class.dept.php:219
+msgid "Dept name must be at least 4 chars."
+msgstr "Avdelingsnavn må innehold minst 4 tegn."
+
+#: include/class.dept.php:226
+msgid "Department already exist"
+msgstr "Avdeling eksisterer allerede"
+
+#: include/class.dept.php:230
+msgid "Signature required"
+msgstr "Underskrift påkrevd"
+
+#: include/class.dept.php:233
+msgid "Default department can not be private"
+msgstr "Standard avdeling kan ikke være privat"
+
+#: include/class.dept.php:252
+msgid "Unable to update "
+msgstr "Klarer ikk å oppdatere "
+
+#: include/class.dept.php:252
+msgid " Dept. Error occured"
+msgstr " Avdelingsfeil oppstod"
+
+#: include/class.dept.php:258
+msgid "Unable to create department. Internal error"
+msgstr "Klarer ikke å opprette adeling. Intern feil"
+
+#: include/class.nav.php:30
+msgid "Dashboard"
+msgstr "Konsoll"
+
+#: include/class.nav.php:30
+msgid "Admin Dashboard"
+msgstr "Administratorkonsoll"
+
+#: include/class.nav.php:31
+msgid "Settings"
+msgstr "innstillinger"
+
+#: include/class.nav.php:31
+msgid "System Settings"
+msgstr "Systeminnstillinger"
+
+#: include/class.nav.php:37
+msgid "Tickets"
+msgstr "Saker"
+
+#: include/class.nav.php:37
+msgid "Ticket Queue"
+msgstr "Sakskø"
+
+#: include/class.nav.php:39
+msgid "Knowledge Base"
+msgstr "Kunnskapsdatabase"
+
+#: include/class.nav.php:39
+msgid "Knowledge Base: Premade"
+msgstr "Kunnskapsdatabase: forhåndslagd"
+
+#: include/class.nav.php:41
+msgid "Directory"
+msgstr "Mappe"
+
+#: include/class.nav.php:41
+msgid "Staff Directory"
+msgstr "Ansattemappe"
+
+#: include/class.nav.php:42 scp/profile.php:133
+msgid "My Profile"
+msgstr "Min profil"
+
+#: include/class.group.php:34 scp/kb.php:39
+msgid "Missing or invalid group ID"
+msgstr "Manglende eller ugyldig gruppeID"
+
+#: include/class.group.php:37
+msgid "Group name required"
+msgstr "Gruppenavn påkrevd"
+
+#: include/class.group.php:39
+msgid "Group name must be at least 5 chars."
+msgstr "Gruppenavn må inneholde minst 5 tegn."
+
+#: include/class.group.php:46
+msgid "Group name already exists"
+msgstr "Gruppenavn eksisterer allerede"
+
+#: include/class.group.php:65
+msgid "Internal error occured"
+msgstr "En intern feil oppstod"
+
+#: include/class.group.php:71
+msgid "Unable to create the group. Internal error"
+msgstr "Klarer ikke å opprettegruppe. Intern feil"
+
+#: include/class.email.php:262
+msgid "Internal error."
+msgstr "Intern feil."
+
+#: include/class.email.php:267
+msgid "Email already exits"
+msgstr "Epostadressen eksisterer allerede"
+
+#: include/class.email.php:269
+msgid "Email already used as admin email!"
+msgstr "Epostadressen er allerede brukt av administrator!"
+
+#: include/class.email.php:273
+msgid "Email in-use by a staff member"
+msgstr "Epostadressen brukes av en ansatt."
+
+#: include/class.email.php:278
+msgid "You must select a Dept."
+msgstr "Du må velge en avdeling."
+
+#: include/class.email.php:285
+msgid "Username missing"
+msgstr "Brukernavn mangler"
+
+#: include/class.email.php:288
+msgid "Password required"
+msgstr "Passord er påkrevd"
+
+#: include/class.email.php:294
+msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
+msgstr "IMAP finnes ikke. PHP må kompileres med IMAP aktivert."
+
+#: include/class.email.php:296 include/class.email.php:310
+msgid "Host name required"
+msgstr "Tjenernavn påkrevd"
+
+#: include/class.email.php:298 include/class.email.php:312
+msgid "Port required"
+msgstr "Port påkrevd"
+
+#: include/class.email.php:300
+msgid "Select protocol"
+msgstr "Vel protokoll"
+
+#: include/class.email.php:302
+msgid "Fetch interval required"
+msgstr "Hent påkrevd intervall"
+
+#: include/class.email.php:304
+msgid "Maximum emails required"
+msgstr "Maks antall epost påkrevd"
+
+#: include/class.email.php:321
+msgid "Another department using host/username combination."
+msgstr "En annen avdeling bruker tjener/brukernavn kombinasjonen."
+
+#: include/class.email.php:330
+#, php-format
+msgid "Invalid login. Check %s settings"
+msgstr "Ugyldig påloggin. Sjekk %s innstillinger."
+
+#: include/class.email.php:348
+msgid "Unable to login. Check SMTP settings."
+msgstr "Kan ikke logge på. Sjekk SMTP innstillinger."
+
+#: include/class.email.php:380
+msgid "Unable to update email. Internal error occured"
+msgstr "Kan ikke oppdatere epostadresse. Intern feil oppstod"
+
+#: include/class.email.php:384 scp/admin.php:213
+msgid "Unable to add email. Internal error"
+msgstr "Kan ikke legge til epostadresse. Intern feil"
+
+#: include/class.email.php:390
+msgid "Error(s) Occured. Try again"
+msgstr "Feil oppstod. Prøv igjen"
+
+#: scp/autocron.php:39
+#, php-format
+msgid "cron job executed [%s]"
+msgstr "cronjobb gjennomført [%s]"
+
+#: scp/tickets.php:26
+msgid "Unknown ticket ID#"
+msgstr "Ukjent saksID #"
+
+#: scp/tickets.php:28
+msgid "Access denied. Contact admin if you believe this is in error"
+msgstr "Tilgang nektet. Kontakt administrator hvis du tror dette er feil"
+
+#: scp/tickets.php:37
+msgid ""
+"Access denied. You are not allowed to edit this ticket. Contact admin if you "
+"believe this is in error"
+msgstr ""
+"Tilgang nektet. Du har ikke lov å redigere denne saken. Kontakt "
+"administrator hvis du tror dette er feil"
+
+#: scp/tickets.php:54
+msgid "Missing message ID"
+msgstr "Manglende meldingsID"
+
+#: scp/tickets.php:55
+msgid "Response message required"
+msgstr "Svarmelding påkrevd"
+
+#: scp/tickets.php:62
+msgid "Action Denied. Ticket is locked by someone else!"
+msgstr "Handling nektet. Saken er låst av noen andre!"
+
+#: scp/tickets.php:67
+msgid "Invalid attachment"
+msgstr "Ugyldig vedlegg"
+
+#: scp/tickets.php:69
+msgid "upload dir invalid. Contact admin."
+msgstr "Opplastningsmappe ugyldig. Kontakt administrator."
+
+#: scp/tickets.php:76
+msgid "Email is in banlist. Must be removed to reply"
+msgstr ""
+"Epostadressen finnes på utstengelselisten. Må fjernes derfra for å kunne "
+"svare"
+
+#: scp/tickets.php:80
+msgid "Response Posted Successfully"
+msgstr "Svar postet vellykket"
+
+#: scp/tickets.php:85
+#, php-format
+msgid "%s %s the ticket on reply"
+msgstr "%s %s saken i svar"
+
+#: scp/tickets.php:85
+msgid "reopened"
+msgstr "gjenåpnet"
+
+#: scp/tickets.php:85 scp/tickets.php:179
+msgid "closed"
+msgstr "lukket"
+
+#: scp/tickets.php:86
+#, php-format
+msgid "Ticket status changed to %s"
+msgstr "Saksstatus endret til %s"
+
+#: scp/tickets.php:101
+msgid "Unable to post the response."
+msgstr "Kan ikke poste svaret."
+
+#: scp/tickets.php:107
+msgid "Note/Message required"
+msgstr "Melding påkrevd"
+
+#: scp/tickets.php:114
+msgid "Ticket already in the Dept."
+msgstr "Saken er allerede i avdelingen."
+
+#: scp/tickets.php:117
+msgid "Action Denied. You are not allowed to transfer tickets."
+msgstr "Handling nektet. Du har ikke rettigheter til å flytte saker."
+
+#: scp/tickets.php:123
+#, php-format
+msgid "Dept. Transfer from %s to %s"
+msgstr "Avdelingsoverføring fra %s til %s"
+
+#: scp/tickets.php:125
+#, php-format
+msgid "Ticket transfered sucessfully to %s Dept."
+msgstr "Saken ble vellykket overført til %s avdeling."
+
+#: scp/tickets.php:132
+msgid "Unable to complete the transfer"
+msgstr "Kan ikke fullføre overføringen"
+
+#: scp/tickets.php:137
+msgid "Select assignee"
+msgstr "Velg mottaker"
+
+#: scp/tickets.php:145 scp/tickets.php:151
+msgid "Ticket already assigned to the staff."
+msgstr "Saken er allerede tildelt ansatte."
+
+#: scp/tickets.php:154
+msgid ""
+"Ticket already assigned. You do not have permission to re-assign assigned "
+"tickets"
+msgstr ""
+"Saken er allerede tildelt. Du har ikke rettigheter til å omdele tildelte "
+"saker"
+
+#: scp/tickets.php:158
+msgid "Ticket Assigned to"
+msgstr "Saken er tildelt"
+
+#: scp/tickets.php:158
+msgid "staff"
+msgstr "ansatte"
+
+#: scp/tickets.php:164
+msgid "Unable to assign the ticket"
+msgstr "Kan ikke tildele saken"
+
+#: scp/tickets.php:169
+msgid "Title required"
+msgstr "Tittel påkrevd"
+
+#: scp/tickets.php:170
+msgid "Note message required"
+msgstr "Melding påkrevd"
+
+#: scp/tickets.php:176
+msgid "Internal note posted"
+msgstr "Internt notat postet"
+
+#: scp/tickets.php:179 scp/tickets.php:245 scp/tickets.php:275
+msgid "and status set to"
+msgstr "og status er satt til"
+
+#: scp/tickets.php:179
+msgid "open"
+msgstr "åpen"
+
+#: scp/tickets.php:186
+msgid "Error(s) occured. Unable to post the note."
+msgstr "Feil oppstod. Kan ikke poste meldingen."
+
+#: scp/tickets.php:192
+msgid "Perm. Denied. You are not allowed to edit tickets"
+msgstr "Rettigheter nektet. Du har ikke rettigheter til å redigere saker"
+
+#: scp/tickets.php:194
+msgid "Ticket updated successfully"
+msgstr "Saken ble oppdatert vellykket"
+
+#: scp/tickets.php:197
+msgid "Error(s) occured! Try again."
+msgstr "Feil oppstod! Prøv igjen."
+
+#: scp/tickets.php:205
+msgid "Perm. Denied. You are not allowed to change ticket's priority"
+msgstr ""
+"Rettigheter nektet. Du har ikke rettigheter til å endre sakens prioritet"
+
+#: scp/tickets.php:207
+msgid "You must select priority"
+msgstr "Du må velge prioritet"
+
+#: scp/tickets.php:211
+msgid "Priority Changed Successfully"
+msgstr "Prioriteten ble endret"
+
+#: scp/tickets.php:213
+#, php-format
+msgid "Ticket priority set to \"%s\" by %s"
+msgstr "Saksprioriteten satt til \"%s\" av %s"
+
+#: scp/tickets.php:214
+msgid "Priority Changed"
+msgstr "Prioriteten er endret"
+
+#: scp/tickets.php:216
+msgid "Problems changing priority. Try again"
+msgstr "Problemer med endring av prioritet. Prøv igjen"
+
+#: scp/tickets.php:222
+msgid "Perm. Denied. You are not allowed to close tickets."
+msgstr "Rettighet nektet. Du har ikke lov å lukke saker."
+
+#: scp/tickets.php:225
+#, php-format
+msgid "Ticket #%s status set to CLOSED"
+msgstr "Sak #%s status er satt til LUKKET"
+
+#: scp/tickets.php:226
+#, php-format
+msgid "Ticket closed without response by %s"
+msgstr "Saken lukket uten svar fra %s"
+
+#: scp/tickets.php:227 scp/tickets.php:291 scp/tickets.php:364
+msgid "Ticket Closed"
+msgstr "Saken lukket"
+
+#: scp/tickets.php:230
+msgid "Problems closing the ticket. Try again"
+msgstr "Problemer oppstod ved lukking av sak. Prøv igjen"
+
+#: scp/tickets.php:237
+msgid "Perm. Denied. You are not allowed to reopen tickets."
+msgstr "Rettighet nektet. Du har ikke lov å gjenåpne saker."
+
+#: scp/tickets.php:240
+msgid "Ticket status set to OPEN"
+msgstr "Sakens status er satt til ÅPEN"
+
+#: scp/tickets.php:241
+msgid "Ticket reopened (without comments)"
+msgstr "Saken gjenåpnet (uten kommentar)"
+
+#: scp/tickets.php:248 scp/tickets.php:353
+msgid "Ticket Reopened"
+msgstr "Saken gjenåpnet"
+
+#: scp/tickets.php:250
+msgid "Problems reopening the ticket. Try again"
+msgstr "Problemer oppstod ved gjenåpning av sak. Prøv igjen"
+
+#: scp/tickets.php:256
+msgid "Ticket is not assigned!"
+msgstr "Saken er ikke tildelt noen!"
+
+#: scp/tickets.php:258
+#, php-format
+msgid "Ticket released (unassigned) from %s by %s"
+msgstr "Saken frigjort fra %s av %s"
+
+#: scp/tickets.php:260
+msgid "Ticket unassigned"
+msgstr "Saken er utildelt"
+
+#: scp/tickets.php:262
+msgid "Problems releasing the ticket. Try again"
+msgstr "Problemer oppstod ved frigjøring av saken. Prøv igjen"
+
+#: scp/tickets.php:267
+msgid "Perm. Denied. You are not allowed to flag tickets overdue"
+msgstr "Rettighet nektet. Du har ikke lov å merke saker forfalt"
+
+#: scp/tickets.php:270
+msgid "Ticket flagged as overdue"
+msgstr "Sak merket som forfalt"
+
+#: scp/tickets.php:280
+msgid "Problems marking the the ticket overdue. Try again"
+msgstr "Problemer oppstod ved forfallsmarkering av sak. Prøv igjen"
+
+#: scp/tickets.php:286
+msgid "Perm. Denied. You are not allowed to ban emails"
+msgstr "Ikke tillatt. Du har ikke lov å utestenge epostadresser"
+
+#: scp/tickets.php:288
+#, php-format
+msgid "Email (%s) added to banlist"
+msgstr "Epostadresse (%s) lagt til utestengelseliste"
+
+#: scp/tickets.php:290
+msgid "& ticket status set to closed"
+msgstr "& sakens status er satt til lukket"
+
+#: scp/tickets.php:295
+msgid "Unable to add the email to banlist"
+msgstr "Kan ikke legge til epostadressen til utestengelselisten"
+
+#: scp/tickets.php:300
+msgid "Perm. Denied. You are not allowed to remove emails from banlist."
+msgstr ""
+"Ikke tillatt. Du har ikke love å fjerne epostadresser fra "
+"utestengelseslisten."
+
+#: scp/tickets.php:302
+msgid "Email removed from banlist"
+msgstr "Epostadresse fjernet fra utestengelselisten"
+
+#: scp/tickets.php:304
+msgid "Unable to remove the email from banlist. Try again."
+msgstr "Kan ikke fjerne epostadressen fra utestengelselisten. Prøv igjen."
+
+#: scp/tickets.php:309
+msgid "Perm. Denied. You are not allowed to DELETE tickets!!"
+msgstr "Rettighet nektet. Du har ikke lov å SLETTE saker!!"
+
+#: scp/tickets.php:313
+msgid "Ticket Deleted Forever"
+msgstr "Sakener slettet for alltid"
+
+#: scp/tickets.php:316
+msgid "Problems deleting the ticket. Try again"
+msgstr "Problemer oppstod ved sletting av sak. Prøv igjen"
+
+#: scp/tickets.php:321
+msgid "You must select action to perform"
+msgstr "Du må velge en handling å utføre"
+
+#: scp/tickets.php:325 scp/kb.php:96 scp/admin.php:295
+msgid "Unknown action"
+msgstr "Ukjent handling"
+
+#: scp/tickets.php:334
+msgid ""
+"You do not have permission to mass manage tickets. Contact admin for such "
+"access"
+msgstr ""
+"Du har ikke rettigheter å masseforvalte saker. Kontakt administrator for "
+"slike adgang"
+
+#: scp/tickets.php:336
+msgid "No tickets selected. You must select at least one ticket."
+msgstr "Ingen saker valgt. Du må velge minst en sak."
+
+#: scp/tickets.php:338
+msgid "You do not have permission to close/reopen tickets"
+msgstr "Du har ikke rettighet å åpne/gjenåpne saker"
+
+#: scp/tickets.php:340
+msgid "You do not have permission to delete tickets"
+msgstr "Du har ikke rettigheter å slette saker"
+
+#: scp/tickets.php:342
+msgid "You must select at least one ticket"
+msgstr "Du må velge minst en sak"
+
+#: scp/tickets.php:348
+msgid "Ticket reopened by"
+msgstr "Saken er gjenåpnet av"
+
+#: scp/tickets.php:356 scp/tickets.php:367 scp/tickets.php:379
+#: scp/tickets.php:387
+msgid "of"
+msgstr "av"
+
+#: scp/tickets.php:356
+msgid "selected tickets reopened"
+msgstr "Valgte saker er gjenåpnet"
+
+#: scp/tickets.php:359
+msgid "Ticket closed without response by"
+msgstr "Saken er lukket uten svar fra"
+
+#: scp/tickets.php:367
+msgid "selected tickets closed"
+msgstr "valgte saker er lukket"
+
+#: scp/tickets.php:370
+msgid "Ticket flagged as overdue by"
+msgstr "Saken er merket forfalt av"
+
+#: scp/tickets.php:379
+msgid "selected tickets marked overdue"
+msgstr "valgte saker er markert forfalt"
+
+#: scp/tickets.php:387
+msgid "selected tickets deleted"
+msgstr "valgte saker er slettet"
+
+#: scp/tickets.php:396
+msgid "Ticket created successfully"
+msgstr "Saken er opprettet"
+
+#: scp/tickets.php:433
+#, php-format
+msgid "Open (%s)"
+msgstr "Åpne (%s)"
+
+#: scp/tickets.php:434 scp/tickets.php:437
+msgid "Open Tickets"
+msgstr "Åpne saker"
+
+#: scp/tickets.php:437
+#, php-format
+msgid "Open Tickets (%s)"
+msgstr "Åpne saker (%s)"
+
+#: scp/tickets.php:439
+#, php-format
+msgid "Answered (%s)"
+msgstr "Svart (%s)"
+
+#: scp/tickets.php:446
+msgid "assigned to you!"
+msgstr "tildelt deg!"
+
+#: scp/tickets.php:448
+#, php-format
+msgid "My Tickets (%s)"
+msgstr "Mine saker (%s)"
+
+#: scp/tickets.php:448
+msgid "Assigned Tickets"
+msgstr "Tildelte saker"
+
+#: scp/tickets.php:453
+#, php-format
+msgid "Overdue (%s)"
+msgstr "Forfalt (%s)"
+
+#: scp/tickets.php:453
+msgid "Stale Tickets"
+msgstr "Gamle saker"
+
+#: scp/tickets.php:457
+msgid "overdue tickets!"
+msgstr "forfalte saker!"
+
+#: scp/profile.php:21
+msgid "Internal Error. Action Denied"
+msgstr "Intern feil. Handling nektet"
+
+#: scp/profile.php:28
+msgid "Invalid auto refresh value."
+msgstr "Ugyldig automatisk oppfriskningsverdi."
+
+#: scp/profile.php:43
+msgid "Preference Updated Successfully"
+msgstr "Preferansene er oppdatert"
+
+#: scp/profile.php:45
+msgid "Preference update error."
+msgstr "Oppdateringsfeil av innstillinger"
+
+#: scp/profile.php:51
+msgid "Current password required"
+msgstr "Nåværende passord påkrevd"
+
+#: scp/profile.php:53
+msgid "New password required"
+msgstr "Nytt passord påkrevd"
+
+#: scp/profile.php:55
+msgid "Must be atleast 6 characters"
+msgstr "Må inneholde minst 6 tegn"
+
+#: scp/profile.php:57
+msgid "Confirm new password"
+msgstr "Bekreft nytt passord"
+
+#: scp/profile.php:60
+msgid "Valid password required"
+msgstr "Gyldig passord påkrevd"
+
+#: scp/profile.php:62
+msgid "New password(s) don't match"
+msgstr "Nytt passord matcher ikke"
+
+#: scp/profile.php:64
+msgid "New password is same as old password"
+msgstr "Det nye passordet er det samme som det gamle"
+
+#: scp/profile.php:72
+msgid "Password Changed Successfully"
+msgstr "Passord endret"
+
+#: scp/profile.php:74
+msgid "Unable to complete password change. Internal error."
+msgstr "Kan ikke fullføre passord endring. Intern feil."
+
+#: scp/profile.php:81
+msgid "First name required"
+msgstr "Førstenavn påkrevd"
+
+#: scp/profile.php:84
+msgid "Last name required"
+msgstr "Etternavn påkrevd"
+
+#: scp/profile.php:90 scp/profile.php:93
+msgid "Enter a valid number"
+msgstr "Skriv et gyldig nummer"
+
+#: scp/profile.php:97
+msgid "Invalid ext."
+msgstr "Ugyldig forlengelse"
+
+#: scp/profile.php:112
+msgid "Profile Updated Successfully"
+msgstr "Profilen ble vellykket oppdatert"
+
+#: scp/profile.php:114
+msgid "Error(s) occured. Profile NOT updated"
+msgstr "Feil oppstod. Profilen ble IKKE oppdatert"
+
+#: scp/profile.php:117
+msgid "Error(s) below occured. Try again"
+msgstr "Feilene under oppstod. Prøv igjen"
+
+#: scp/profile.php:134 scp/admin.php:547
+msgid "Preferences"
+msgstr "Innstillinger"
+
+#: scp/profile.php:138
+msgid ""
+"Welcome back! You are listed as 'on vacation' Please let admin or your "
+"manager know that you are back."
+msgstr ""
+"Velkommen tilbake! Du er listet som 'på ferie'. Vennligst la administrator "
+"eller din overordnede få vite at du er tilbake."
+
+#: scp/profile.php:158
+msgid "You must change your password to continue."
+msgstr "Du må endre ditt passord for å fortsette."
+
+#: scp/directory.php:64
+msgid "All Department"
+msgstr "Hele avdelingen"
+
+#: scp/directory.php:84
+msgid "Mobile"
+msgstr "Mobiltelefonnummer"
+
+#: scp/directory.php:106
+msgid "Problems displaying directory"
+msgstr "Det oppstod problemer ved visning av mappe"
+
+#: scp/kb.php:27
+msgid "Unknown ID#"
+msgstr "ukjent ID #"
+
+#: scp/kb.php:42
+msgid "Title/subject required"
+msgstr "Tittel/emne påkrevd"
+
+#: scp/kb.php:45
+msgid "Reply required"
+msgstr "Svar påkrevd"
+
+#: scp/kb.php:55
+msgid "Unable to create the reply. Internal error"
+msgstr "Kan ikke opprette svar. Intern feil"
+
+#: scp/kb.php:61
+msgid "Premade reply updated"
+msgstr "Forhåndslaget svar oppdatert"
+
+#: scp/kb.php:65
+msgid "Internal update error occured. Try again"
+msgstr "Intern oppdateringsfeil oppstod. Prøv igjen"
+
+#: scp/kb.php:68
+msgid "Title already exists!"
+msgstr "Tittel eksisterer allerede!"
+
+#: scp/kb.php:70
+msgid "Error(s) occured. Try again"
+msgstr "Feil oppstod. Prøv igjen"
+
+#: scp/kb.php:75
+msgid "You must select at least one item"
+msgstr "Du må velge minst en"
+
+#: scp/kb.php:92
+msgid "Error occured. Try again"
+msgstr "Feil oppstod. Prøv igjen"
+
+#: scp/kb.php:106
+msgid "Premade Replies"
+msgstr "Forhåndslagde svar"
+
+#: scp/kb.php:107
+msgid "New Premade Reply"
+msgstr "Nytt forhåndslaget svar"
+
+#: scp/admin.php:27
+#, php-format
+msgid "The script is version %s while the database is version %s."
+msgstr "Skriptet er versjon %s, mens databasen er versjon %s"
+
+#: scp/admin.php:29
+msgid ""
+"Possibly caused by incomplete <a href=\"../setup/upgrade.php\">upgrade</a>."
+msgstr ""
+"Mulig forårsaket av en uferdig <a "
+"href=\"../setup/upgrade.php\">oppdatering</a>"
+
+#: scp/admin.php:34
+msgid ""
+"Please take a minute to delete <strong>setup/install</strong> directory for "
+"security reasons."
+msgstr ""
+"Vennligst slett <strong>setup/install</strong> mappen for sikkerhets skyld."
+
+#: scp/admin.php:42
+#, php-format
+msgid ""
+"Please change permission of config file (%s) to remove write access. e.g "
+"<i>chmod 644 %s</i>"
+msgstr ""
+"Vennligst endre rettighetene til configurasjonsfila (%s) for å fjerne "
+"skriveadgang. F.eks. <i>chmod 644 %s</i>"
+
+#: scp/admin.php:48
+msgid "Please consider turning off register globals if possible"
+msgstr "Vennligst vurder å skru av registerglobalene hvis det er mulig."
+
+#: scp/admin.php:71
+msgid "Preferences Updated Successfully"
+msgstr "Preferansene er oppdatert"
+
+#: scp/admin.php:84
+msgid "Directory must be valid and writeable"
+msgstr "Mappen må være gyldig og skrivbar"
+
+#: scp/admin.php:86
+msgid "Invalid upload dir"
+msgstr "Ugyldig opplastningsmappe"
+
+#: scp/admin.php:88
+msgid "The 'file_uploads' directive is disabled in php.ini"
+msgstr "'file_uploads' direktivet er deaktivert i php.ini"
+
+#: scp/admin.php:92
+msgid "Maximum file size required"
+msgstr "Maksimum fil størrelse påkrevd"
+
+#: scp/admin.php:95
+msgid "Allowed file extentions required"
+msgstr "Tillatte filutvidelser påkrevd"
+
+#: scp/admin.php:110
+msgid "Attachments settings updated"
+msgstr "Vedleggsinnstillinger oppdatert"
+
+#: scp/admin.php:112
+msgid "Update error!"
+msgstr "Oppdateringsfeil!"
+
+#: scp/admin.php:115
+msgid "Error occured. See error messages below."
+msgstr "Feil oppstod. Se feilmeldingene under."
+
+#: scp/admin.php:123
+#, php-format
+msgid "Key created successfully for %s"
+msgstr "Nøkkel opprettet for %s"
+
+#: scp/admin.php:125
+msgid "Error adding the IP. Try again"
+msgstr "Problemer ved å legge til IP. Prøv igjen"
+
+#: scp/admin.php:129
+msgid "API passphrase updated successfully"
+msgstr "API passordfrase oppdatert"
+
+#: scp/admin.php:131
+msgid "Error updating passphrase. Try again"
+msgstr "Feil oppstod ved oppdatering av passordfrase. Prøv igjen"
+
+#: scp/admin.php:135
+msgid "You must select at least one entry to process"
+msgstr "Du må velge minst en av valgene for å prosessere"
+
+#: scp/admin.php:143
+#, php-format
+msgid "%s of %s selected key(s) updated"
+msgstr "%s av %s valgte nøkler er oppdatert"
+
+#: scp/admin.php:145
+msgid "Unable to delete selected keys."
+msgstr "Kan ikke slette valgte nøkler."
+
+#: scp/admin.php:150
+#, php-format
+msgid "%s of %s selected key(s) deleted"
+msgstr "%s av %s valgte nøkler ble slettet"
+
+#: scp/admin.php:152
+msgid "Unable to delete selected key(s). Try again"
+msgstr "Kan ikke slette valgte nøkler. Prøv igjen"
+
+#: scp/admin.php:155 scp/admin.php:237 scp/admin.php:290
+msgid "Unknown command"
+msgstr "Ukjent kommando"
+
+#: scp/admin.php:160
+#, php-format
+msgid "Unknown action %s"
+msgstr "Ukjent handling %s"
+
+#: scp/admin.php:168
+msgid "Please enter a valid email."
+msgstr "Vennligst skriv inn gyldig epostadresse"
+
+#: scp/admin.php:170
+msgid "Email already banned"
+msgstr "Epostadresse er allerede utestengt"
+
+#: scp/admin.php:173
+msgid "Email added to banlist"
+msgstr "Epostadresse er lagt til utestengelselisten"
+
+#: scp/admin.php:175
+msgid "Unable to add email to banlist. Try again"
+msgstr "Kan ikke legge til epostadresse til utestengelselisten. Prøv igjen"
+
+#: scp/admin.php:180
+msgid "You must select at least one email"
+msgstr "Du må velge minst en epostadresse"
+
+#: scp/admin.php:185
+#, php-format
+msgid "%s of %s selected emails removed from banlist"
+msgstr "%s av %s valgte epostadresser er fjernet fra utestengelselisten"
+
+#: scp/admin.php:187
+msgid "Unable to make remove selected emails. Try again."
+msgstr "Kan ikke fjerne valgte epostadresser. Prøv igjen"
+
+#: scp/admin.php:191
+msgid "Uknown banlist command!"
+msgstr "Ukjent utestengelseliste kommando"
+
+#: scp/admin.php:202
+msgid "Email updated successfully"
+msgstr "Epostadresse oppdatert"
+
+#: scp/admin.php:204
+msgid "Error updating email"
+msgstr "Feil oppstod ved oppdatering av epostadresse"
+
+#: scp/admin.php:206 scp/admin.php:311 scp/admin.php:412 scp/admin.php:469
+msgid "Internal error"
+msgstr "Intern feil"
+
+#: scp/admin.php:211
+msgid "Email added successfully"
+msgstr "Epostadresse er lagt til"
+
+#: scp/admin.php:217
+msgid "You must select at least one email to process"
+msgstr "Du må velge minst en epostadresse for å prosessere"
+
+#: scp/admin.php:224
+msgid ""
+"One or more of the selected emails is being used by a Dept. Remove "
+"association first."
+msgstr ""
+"En eller flere av de valgte epostadressene brukes av avdelingen. Fjern "
+"koblingen først."
+
+#: scp/admin.php:232
+#, php-format
+msgid "%s of %s selected email(s) deleted"
+msgstr "%s av %s valgte epostadresser er slettet"
+
+#: scp/admin.php:234
+msgid "Unable to delete selected email(s)."
+msgstr "Kan ikke slette valgte epostadresser."
+
+#: scp/admin.php:242 scp/admin.php:348
+msgid "Unknown topic action!"
+msgstr "Ukjent emne handling!"
+
+#: scp/admin.php:252
+msgid "Template created successfully"
+msgstr "Mal opprettet"
+
+#: scp/admin.php:254
+msgid "Error creating the template - try again"
+msgstr "Feil oppsted ved opprettelse av mal - prøv igjen"
+
+#: scp/admin.php:265
+msgid "Template updated successfully"
+msgstr "Mal oppdatert"
+
+#: scp/admin.php:267
+msgid "Error updating the template. Try again"
+msgstr "Feil oppstod ved oppdatering av mal. Prøv igjen"
+
+#: scp/admin.php:273
+msgid "You must select at least one template"
+msgstr "Du må velge minst en mal"
+
+#: scp/admin.php:275
+msgid "You can not delete default template"
+msgstr "Du kan ikke slette standard malen"
+
+#: scp/admin.php:282
+msgid ""
+"One or more of the selected templates is being used by a Dept. Remove "
+"association first."
+msgstr ""
+"En eller flere av de valgte malene blir brukt av avdelingen. Fjern koblingen "
+"først."
+
+#: scp/admin.php:286
+#, php-format
+msgid "%s of %s selected templates(s) deleted"
+msgstr "%s av %s valgte mal(er) er slettet"
+
+#: scp/admin.php:288
+msgid "Unable to delete selected templates(s)."
+msgstr "Kan ikke slette valgte mal(er)."
+
+#: scp/admin.php:307
+msgid "Topic updated successfully"
+msgstr "Emne oppdatert"
+
+#: scp/admin.php:309
+msgid "Error updating the topic"
+msgstr "Feil oppstod ved oppdatering av emne"
+
+#: scp/admin.php:316
+msgid "Help topic created successfully"
+msgstr "Hjelpemne opprettet"
+
+#: scp/admin.php:322
+msgid "You must select at least one topic"
+msgstr "Du må velge minst ett emne"
+
+#: scp/admin.php:329
+#, php-format
+msgid "%s of %s selected services enabled"
+msgstr "%s av %s valgte tjenester er aktivert"
+
+#: scp/admin.php:331
+msgid "Unable to complete the action."
+msgstr "Kan ikke fullføre handlingen"
+
+#: scp/admin.php:335
+#, php-format
+msgid "%s of %s selected topics disabled"
+msgstr "%s av %s valgte emner deaktivert"
+
+#: scp/admin.php:337
+msgid "Unable to disable selected topics"
+msgstr "Kan ikke deaktivere valgte emner"
+
+#: scp/admin.php:341
+#, php-format
+msgid "%s of %s selected topics deleted!"
+msgstr "%s av %s valgte emner er slettet!"
+
+#: scp/admin.php:343
+msgid "Unable to delete selected topics"
+msgstr "Kan ikke slette valgte emner"
+
+#: scp/admin.php:357
+#, php-format
+msgid "Group %s updated successfully"
+msgstr "Gruppe %s er oppdatert"
+
+#: scp/admin.php:359 scp/admin.php:366
+msgid "Error(s) occured. Try again."
+msgstr "Feil oppstod. Prøv igjen."
+
+#: scp/admin.php:364
+#, php-format
+msgid "Group %s created successfully"
+msgstr "Gruppe %s er opprettet"
+
+#: scp/admin.php:387
+msgid ""
+"One or more of the selected groups have users. Only empty groups can be "
+"deleted."
+msgstr ""
+"En eller fler av de valgte gruppene har brukere. Kun tomme grupper kan "
+"slettes."
+
+#: scp/admin.php:390
+#, php-format
+msgid "%s of %s selected groups Deleted"
+msgstr "%s av %s valgte grupper er slettet"
+
+#: scp/admin.php:393 scp/admin.php:447 scp/admin.php:454 scp/admin.php:531
+msgid "Uknown command!"
+msgstr "Ukjent kommando"
+
+#: scp/admin.php:396
+msgid "No groups selected."
+msgstr "Ingen grupper valgt"
+
+#: scp/admin.php:408
+msgid "Staff profile updated successfully"
+msgstr "Ansattes profil er oppdatert"
+
+#: scp/admin.php:410
+msgid "Error updating the user"
+msgstr "Feil oppstod ved oppdatering av bruker"
+
+#: scp/admin.php:417
+#, php-format
+msgid "%s %s added successfully"
+msgstr "%s %s lagt til"
+
+#: scp/admin.php:419
+msgid "Unable to add the user. Internal error"
+msgstr "Kan ikke legge til bruker. Intern feil"
+
+#: scp/admin.php:429
+#, php-format
+msgid "%s of  %s selected users enabled"
+msgstr "%s av %s valgte brukere aktivert"
+
+#: scp/admin.php:432
+msgid "You can not lock or delete yourself!"
+msgstr "Du kan ikke låse eller slette degselv!"
+
+#: scp/admin.php:437
+#, php-format
+msgid "%s of %s selected users locked"
+msgstr "%s av %s valgte brukere er låst"
+
+#: scp/admin.php:442
+#, php-format
+msgid "%s of %s selected users deleted"
+msgstr "%s av %s valgte brukere er slettet"
+
+#: scp/admin.php:450
+msgid "No users selected."
+msgstr "Ingen brukere valgt."
+
+#: scp/admin.php:465
+msgid "Dept updated successfully"
+msgstr "Avdelingen er oppdatert"
+
+#: scp/admin.php:467
+msgid "Error updating the department"
+msgstr "Feil oppstod ved oppdatering av avdeling"
+
+#: scp/admin.php:476
+msgid "Unable to add department. Internal error"
+msgstr "Kan ikke legge til avdeling. Intern feil"
+
+#: scp/admin.php:480
+msgid "You must select at least one department"
+msgstr "Du må velge minst en avdeling"
+
+#: scp/admin.php:482
+msgid ""
+"You can not disable/delete a default department. Remove default Dept and try "
+"again."
+msgstr ""
+"Du kan ikke deaktivere/slette en standard avdeling. Fjern standard avdeling "
+"og prøv igjen."
+
+#: scp/admin.php:489
+#, php-format
+msgid "%s of %s selected departments made public"
+msgstr "%s av %s valgte avdelinger er offentlige"
+
+#: scp/admin.php:491
+msgid "Unable to make depts public."
+msgstr "Kan ikke gjøre avdelinger offentlig."
+
+#: scp/admin.php:495
+#, php-format
+msgid "%s of %s selected departments made private"
+msgstr "%s av %s valgte avdelinger er private"
+
+#: scp/admin.php:497
+msgid ""
+"Unable to make selected department(s) private. Possibly already private!"
+msgstr "Kan ikke gjør valgte avdelinger private. Mulig de allerede er!"
+
+#: scp/admin.php:505
+msgid "Can not delete Dept. with members. Move staff first."
+msgstr "kan ikke slette avdelinger med medlemmer. Flyt ansatte først."
+
+#: scp/admin.php:507
+msgid ""
+"Can not delete Dept. associated with a help topics. Remove association first."
+msgstr ""
+"Kan ikke slette avdelinger koblet med hjelpember. Fjern koblingen først."
+
+#: scp/admin.php:518
+#, php-format
+msgid "%s of %s selected departments deleted"
+msgstr "%s av %s valgte avdelinger ble slettet"
+
+#: scp/admin.php:520
+msgid "Unable to delete selected departments."
+msgstr "Kan ikke slette valgte avdelinger."
+
+#: scp/admin.php:527
+msgid "Unknown Dept action"
+msgstr "Ukjent avdelingshandling"
+
+#: scp/admin.php:548
+msgid "Attachments"
+msgstr "Vedlegg"
+
+#: scp/admin.php:549
+msgid "API"
+msgstr "API"
+
+#: scp/admin.php:572
+msgid "Email Addresses"
+msgstr "Epostadresser"
+
+#: scp/admin.php:573
+msgid "Add New Email"
+msgstr "Legg til ny epostadresse"
+
+#: scp/admin.php:574
+msgid "Templates"
+msgstr "Maler"
+
+#: scp/admin.php:575
+msgid "Banlist"
+msgstr "Utestengelseliste"
+
+#: scp/admin.php:575
+msgid "Banned Email"
+msgstr "Utestengt epostadresse"
+
+#: scp/admin.php:585
+#, php-format
+msgid "Unable to fetch info on template ID#"
+msgstr "Kan ikke hente informasjon om mal ID #"
+
+#: scp/admin.php:602
+#, php-format
+msgid "Unable to fetch info on email ID#%s"
+msgstr "Kan ikke hente informasjon om epost ID # %s"
+
+#: scp/admin.php:613
+msgid "Add New Topic"
+msgstr "Legg til nytt emne"
+
+#: scp/admin.php:618
+#, php-format
+msgid "Unable to fetch info on topic #%s"
+msgstr "Kan ikke hente informasjon om emne # %s"
+
+#: scp/admin.php:631
+msgid "Add New User"
+msgstr "Legg til ny bruker"
+
+#: scp/admin.php:632
+msgid "User Groups"
+msgstr "Brukergrupper"
+
+#: scp/admin.php:641
+#, php-format
+msgid "Unable to fetch info on group ID#%s"
+msgstr "Kan ikke hente informasjon om gruppe ID # %s"
+
+#: scp/admin.php:651
+#, php-format
+msgid "Unable to fetch info on rep ID#%s"
+msgstr "Kan ikke hente informasjon om rep ID # %s"
+
+#: scp/admin.php:668
+#, php-format
+msgid "Unable to fetch info on Dept ID#%s"
+msgstr "Kan ikke hente informasjon om avdeling ID # %s"
+
+#: scp/admin.php:674
+msgid "Add New Dept."
+msgstr "Legg til ny avdeling"
+
+#: scp/admin.php:705
+msgid "Problems loading requested admin page."
+msgstr "Problemer oppstod ved lasting av valgte administrasjonsside"
+
+#: scp/admin.php:706
+msgid ""
+"Possibly access denied, if you believe this is in error please get technical "
+"support."
+msgstr ""
+"Mulig tilgang nektet, hvis du tror dette er feil, vennligst konktakt teknisk "
+"support"
+
+#: scp/ajax.php:24
+msgid "config error"
+msgstr "konfigurasjonsfeil"
+
+#: scp/ajax.php:27
+#, php-format
+msgid "Access Denied. IP %s"
+msgstr "Nektet tilgang. IP %s"
+
+#: scp/ajax.php:33
+msgid "Invalid params"
+msgstr "Ugyldig parametre"
+
+#: scp/ajax.php:40
+msgid "invalid method"
+msgstr "Ugyldig metode"
+
+#: scp/ajax.php:48
+#, php-format
+msgid "This is secure ajax assjax %s"
+msgstr "Dette er sikker ajax %s"
+
+#: scp/ajax.php:54
+#, php-format
+msgid "invalid method/call %s"
+msgstr "Ugyldig metodekall %s"
+
+#: scp/login.php:22 login.php:25 login.php:27
+msgid "Authentication Required"
+msgstr "Autentisering påkrevd"
+
+#: scp/login.php:25 login.php:33
+msgid "Invalid login"
+msgstr "Ugyldig pålogging"
+
+#: scp/login.php:28 login.php:36
+msgid "Excessive failed login attempts"
+msgstr "For mange feilede påloggingsforsøk"
+
+#: scp/login.php:29
+msgid "You've reached maximum failed login attempts allowed."
+msgstr "Du har nådd maksimum feilede påloggingsforsøk tillatt"
+
+#: scp/login.php:60
+msgid "Forgot your login info? Contact IT Dept."
+msgstr "Glemt din påloggingsinfo? Kontakt IT avdelingen."
+
+#: scp/login.php:62
+msgid "Excessive login attempts by a staff member?"
+msgstr "For mange påloggingsforsøk av ansatt?"
+
+#: scp/login.php:64 scp/login.php:68 login.php:79 login.php:83
+msgid "Attempts #"
+msgstr "Forsøk #"
+
+#: scp/login.php:64
+msgid "minutes"
+msgstr "minutter"
+
+#: scp/login.php:65
+msgid "Excessive login attempts (staff)"
+msgstr "For mange påloggingsforsøk (ansatte)"
+
+#: scp/login.php:68 login.php:83
+msgid "TIME:"
+msgstr "TID:"
+
+#: scp/login.php:69
+msgid "Failed login attempt (staff)"
+msgstr "Feilete påloggingsforsøk (ansatte)"
+
+#: scp/staff.inc.php:21 secure.inc.php:18 login.php:18
+msgid "Fatal Error"
+msgstr "Kritisk feil"
+
+#: scp/staff.inc.php:26
+msgid "Fatal error"
+msgstr "Kritisk feil"
+
+#: scp/staff.inc.php:69
+msgid "System Offline"
+msgstr "Systemet er frakoblet"
+
+#: scp/staff.inc.php:74
+msgid "Access Denied. Contact Admin"
+msgstr "Tilgang nektet. Kontakt administrator"
+
+#: scp/staff.inc.php:94
+#, php-format
+msgid "The script is version %s while the database is version %s"
+msgstr "Skriptet er versjon %s mens databasen bruker versjon %s"
+
+#: scp/staff.inc.php:96
+msgid ""
+"<strong>System is set to offline mode</strong> - Client interface is "
+"disabled and ONLY admins can access staff control panel."
+msgstr ""
+"<strong>Systemet er satt til avkoblet modus</strong> - Klientgrensesnittet "
+"er deaktivert og BARE administrator har adgang til ansattes kontrollpanel"
+
+#: scp/attachment.php:30
+msgid "You do not have access to the ticket"
+msgstr "Du har ikke tilgang til denne saken"
+
+#: open.php:25
+msgid "Enter text shown on the image"
+msgstr "Skriv teksten vist i bildet"
+
+#: open.php:27
+msgid "Invalid - try again!"
+msgstr "Ugyldig - prøv igjen!"
+
+#: open.php:31
+msgid "Support ticket request created"
+msgstr "Hjelpesak anmodning opprettet"
+
+#: open.php:37
+msgid "Unable to create a ticket. Please correct errors below and try again!"
+msgstr ""
+"Kan ikke opprette en sak. Vennligst rett feilene under, og prøv igjen!"
+
+#: login.php:37
+msgid ""
+"You've reached maximum failed login attempts allowed. Try again later or <a "
+"href=\"open.php\">open a new ticket</a>"
+msgstr ""
+"Du har nådd maksimum feilete påloggingsforsøk tillatt. Prøv igjen senere "
+"eller <a href=\"open.php\">åpne en ny sak</a>"
+
+#: login.php:74
+msgid ""
+"Forgot your login info? Please <a href=\"open.php\">open a new ticket</a>."
+msgstr ""
+"Glemt din påloggingsinfo? Vennligst <a href=\"open.php\">åpn en ny sak</a>."
+
+#: login.php:76
+msgid "Excessive login attempts by a client?"
+msgstr "For mange påloggingsforsøk av en klient?"
+
+#: login.php:77 login.php:82 index.php:50
+msgid "Ticket #:"
+msgstr "Sak #:"
+
+#: login.php:78
+msgid "IP:"
+msgstr "IP:"
+
+#: login.php:78
+msgid "Time:"
+msgstr "Tid:"
+
+#: login.php:80
+msgid "Excessive login attempts (client)"
+msgstr "For mange påloggingsforsøk (klient)"
+
+#: login.php:84
+msgid "Failed login attempt (client)"
+msgstr "Feilete påloggingsforsøk (klient)"
+
+#: index.php:27
+msgid "Welcome to the support center"
+msgstr "Velkommen til hjelpesenteret"
+
+#: index.php:28
+msgid ""
+"In order to streamline support requests and better serve you, we utilize a "
+"support ticket system. Every support request is assigned a unique ticket "
+"number which you can use to track the progress and responses online. For "
+"your reference we provide complete archives and history of all your support "
+"requests. A valid email address is required."
+msgstr ""
+"For å strømlinjegjøre hjelpeanmodningene og for å bedre hjelpe deg, bruker "
+"vi et hjelpesystem. Hver anmodning blir tildelt et unikt saksnummer, som du "
+"kan bruke for å sjekke fremgangen og svarene online. For referanse, tilbyr "
+"vi et komplett arkiv og historie av alle dine tidligere saksanmodninger. En "
+"gyldig epostadresse kreves."
+
+#: index.php:33
+msgid "Open A New Ticket"
+msgstr "Åpne en ny sak"
+
+#: index.php:34
+msgid ""
+"Please provide as much detail as possible so we can best assist you. To "
+"update a previously submitted ticket, please use the form to the right."
+msgstr ""
+"Jo mer detaljer, jo bedre kan vi hjelpe deg. For å oppdatere allerede sendte "
+"saker, vennligst bruk skjemaet til høyre."
+
+#: index.php:37
+msgid "Open New Ticket"
+msgstr "Åpne en ny sak"
+
+#: index.php:42
+msgid "Check Ticket Status"
+msgstr "Sjekk status på saken"
+
+#: index.php:42
+msgid ""
+"We provide archives and history of all your support requests complete with "
+"responses."
+msgstr ""
+"Vi tilbyr arkiv og historie fra alle dine tidligere saker, komplett med svar."
+
+#: index.php:55
+msgid "Check Status"
+msgstr "Sjekk status"
+
+#: offline.php:26
+msgid "Support Ticket System"
+msgstr "Hjelpesystem"
+
+#: offline.php:33
+msgid "Support Ticket System Offline"
+msgstr "Hjelpesystemet er frakoblet"
+
+#: offline.php:35
+msgid "Thank you for your interest in contacting us."
+msgstr "Takk for din interesse."
+
+#: offline.php:36
+msgid ""
+"Our helpdesk is offline at the moment, please check back at a later time."
+msgstr ""
+"Vårt hjelpesenter er foreløpigt frakoblet, vennligst prøv igjen senere."
