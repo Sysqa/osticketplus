@@ -24,11 +24,11 @@ if($cfg && !$cfg->isHelpDeskOffline()) {
 <html>
 <head>
 <title><?= _('Support Ticket System') ?></title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" rightmargin="0" topmargin="0">
+<body bgcolor="#FFFFFF" text="#000000" >
 <table width="60%" cellpadding="5" cellspacing="0" border="0">
-	<tr<td>
+	<tr><td>
         <p>
          <h3><?= _('Support Ticket System Offline') ?></h3>
          
