@@ -8,19 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: alexandrehaguiar@gmail.com\n"
-"POT-Creation-Date: 2011-11-01 14:22-0200\n"
+"POT-Creation-Date: 2012-06-05 11:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: upload/login.php:18 upload/secure.inc.php:18 upload/scp/staff.inc.php:21
+#: upload/login.php:18 upload/secure.inc.php:18 upload/scp/login.php:17
+#: upload/scp/staff.inc.php:21 upload/client.inc.php:19
 msgid "Fatal Error"
 msgstr ""
 
 #: upload/login.php:25 upload/login.php:27 upload/scp/login.php:22
+#: upload/scp/staff.inc.php:61
 msgid "Authentication Required"
 msgstr ""
 
@@ -36,6 +39,43 @@ msgstr ""
 msgid "You've reached maximum failed login attempts allowed. Try again later or <a href=\"open.php\">open a new ticket</a>"
 msgstr ""
 
+#: upload/login.php:60
+#, php-format
+msgid "%s/%s logged in [%s]"
+msgstr ""
+
+#: upload/login.php:61
+msgid "User login"
+msgstr ""
+
+#: upload/login.php:73 upload/scp/login.php:59 upload/scp/kb.php:17
+#: upload/scp/attachment.php:19 upload/scp/attachment.php:28
+#: upload/attachment.php:20 upload/attachment.php:31 upload/tickets.php:19
+#: upload/include/client/viewticket.inc.php:4
+#: upload/include/staff/tickets.inc.php:2
+#: upload/include/staff/premade.inc.php:3
+#: upload/include/staff/filters.inc.php:2
+#: upload/include/staff/helptopics.inc.php:2
+#: upload/include/staff/template.inc.php:2
+#: upload/include/staff/depts.inc.php:2 upload/include/staff/emails.inc.php:2
+#: upload/include/staff/dept.inc.php:2 upload/include/staff/header.inc.php:1
+#: upload/include/staff/email.inc.php:3 upload/include/staff/groups.inc.php:2
+#: upload/include/staff/syslogs.inc.php:2
+#: upload/include/staff/viewticket.inc.php:4
+#: upload/include/staff/editticket.inc.php:2
+#: upload/include/staff/banlist.inc.php:2 upload/include/staff/group.inc.php:2
+#: upload/include/staff/smtp.inc.php:3
+#: upload/include/staff/preference.inc.php:2
+#: upload/include/staff/attachment.inc.php:2
+#: upload/include/staff/topic.inc.php:2
+#: upload/include/staff/newticket.inc.php:2
+#: upload/include/staff/reply.inc.php:2
+#: upload/include/staff/templates.inc.php:2
+#: upload/include/staff/staff.inc.php:2 upload/include/staff/api.inc.php:2
+#: upload/include/staff/staffmembers.inc.php:2
+msgid "Access Denied"
+msgstr ""
+
 #: upload/login.php:74
 msgid "Forgot your login info? Please <a href=\"open.php\">open a new ticket</a>."
 msgstr ""
@@ -45,10 +85,10 @@ msgid "Excessive login attempts by a client?"
 msgstr ""
 
 #: upload/login.php:77 upload/login.php:82 upload/index.php:46
+#: upload/include/client/viewticket.inc.php:40
 #: upload/include/staff/filters.inc.php:71
 #: upload/include/staff/viewticket.inc.php:67
 #: upload/include/staff/banlist.inc.php:71
-#: upload/include/client/viewticket.inc.php:40
 msgid "Email:"
 msgstr ""
 
@@ -73,7 +113,7 @@ msgstr ""
 msgid "Excessive login attempts (client)"
 msgstr ""
 
-#: upload/login.php:83 upload/scp/login.php:68
+#: upload/login.php:83 upload/scp/login.php:63 upload/scp/login.php:68
 msgid "TIME:"
 msgstr ""
 
@@ -81,24 +121,20 @@ msgstr ""
 msgid "Failed login attempt (client)"
 msgstr ""
 
-#: upload/open.php:25
-msgid "Enter text shown on the image"
+#: upload/offline.php:26
+msgid "Support Ticket System"
 msgstr ""
 
-#: upload/open.php:27
-msgid "Invalid - try again!"
+#: upload/offline.php:33
+msgid "Support Ticket System Offline"
 msgstr ""
 
-#: upload/open.php:31
-msgid "Support ticket request created"
+#: upload/offline.php:35
+msgid "Thank you for your interest in contacting us."
 msgstr ""
 
-#: upload/open.php:37
-msgid "Unable to create a ticket. Please correct errors below and try again!"
-msgstr ""
-
-#: upload/setup/inc/install.inc.php:34
-msgid "System Language:"
+#: upload/offline.php:36
+msgid "Our helpdesk is offline at the moment, please check back at a later time."
 msgstr ""
 
 #: upload/index.php:27
@@ -133,65 +169,179 @@ msgstr ""
 msgid "Check Status"
 msgstr ""
 
-#: upload/offline.php:26
-msgid "Support Ticket System"
+#: upload/open.php:25
+msgid "Enter text shown on the image"
 msgstr ""
 
-#: upload/offline.php:33
-msgid "Support Ticket System Offline"
+#: upload/open.php:27
+msgid "Invalid - try again!"
 msgstr ""
 
-#: upload/offline.php:35
-msgid "Thank you for your interest in contacting us."
+#: upload/open.php:31
+msgid "Support ticket request created"
 msgstr ""
 
-#: upload/offline.php:36
-msgid "Our helpdesk is offline at the moment, please check back at a later time."
+#: upload/open.php:37
+msgid "Unable to create a ticket. Please correct errors below and try again!"
 msgstr ""
 
 #: upload/secure.inc.php:17 upload/client.inc.php:17
-#: upload/include/staff/mypref.inc.php:2
-#: upload/include/staff/myprofile.inc.php:2
-#: upload/include/client/login.inc.php:2 upload/include/client/open.inc.php:2
+#: upload/include/ost-config.sample.php:20
 #: upload/include/client/tickets.inc.php:2
+#: upload/include/client/login.inc.php:2
 #: upload/include/client/thankyou.inc.php:2
 #: upload/include/client/viewticket.inc.php:2
-#: upload/include/ost-config.sample.php:20
+#: upload/include/client/open.inc.php:2 upload/include/ost-config.php:20
+#: upload/include/staff/mypref.inc.php:2
+#: upload/include/staff/myprofile.inc.php:2
 msgid "Kwaheri rafiki!"
 msgstr ""
 
-#: upload/client.inc.php:37
-msgid "System is offline for an upgrade."
+#: upload/main.inc.php:78
+msgid "Error loading settings. Contact admin."
+msgstr ""
+
+#: upload/main.inc.php:146
+msgid "Unable to connect to the database"
+msgstr ""
+
+#: upload/main.inc.php:148
+msgid "Unable to load config info from DB. Get tech support."
+msgstr ""
+
+#: upload/main.inc.php:150
+msgid "Short open tag disabled! - osTicket requires it turned ON."
+msgstr ""
+
+#: upload/main.inc.php:155
+msgid "Fatal Error:"
+msgstr ""
+
+#: upload/main.inc.php:155
+msgid "Contact system adminstrator."
+msgstr ""
+
+#: upload/scp/profile.php:21
+msgid "Internal Error. Action Denied"
+msgstr ""
+
+#: upload/scp/profile.php:28
+msgid "Invalid auto refresh value."
+msgstr ""
+
+#: upload/scp/profile.php:43
+msgid "Preference Updated Successfully"
+msgstr ""
+
+#: upload/scp/profile.php:45
+msgid "Preference update error."
+msgstr ""
+
+#: upload/scp/profile.php:51
+msgid "Current password required"
+msgstr ""
+
+#: upload/scp/profile.php:53
+msgid "New password required"
+msgstr ""
+
+#: upload/scp/profile.php:55
+msgid "Must be atleast 6 characters"
+msgstr ""
+
+#: upload/scp/profile.php:57
+msgid "Confirm new password"
+msgstr ""
+
+#: upload/scp/profile.php:60
+msgid "Valid password required"
+msgstr ""
+
+#: upload/scp/profile.php:62
+msgid "New password(s) don't match"
+msgstr ""
+
+#: upload/scp/profile.php:64
+msgid "New password is same as old password"
+msgstr ""
+
+#: upload/scp/profile.php:72
+msgid "Password Changed Successfully"
+msgstr ""
+
+#: upload/scp/profile.php:74
+msgid "Unable to complete password change. Internal error."
+msgstr ""
+
+#: upload/scp/profile.php:81
+msgid "First name required"
+msgstr ""
+
+#: upload/scp/profile.php:84
+msgid "Last name required"
+msgstr ""
+
+#: upload/scp/profile.php:87 upload/include/class.staff.php:274
+#: upload/include/class.email.php:265 upload/include/class.ticket.php:1166
+#: upload/include/class.config.php:469
+msgid "Valid email required"
+msgstr ""
+
+#: upload/scp/profile.php:90 upload/scp/profile.php:93
+msgid "Enter a valid number"
+msgstr ""
+
+#: upload/scp/profile.php:97
+msgid "Invalid ext."
+msgstr ""
+
+#: upload/scp/profile.php:112
+msgid "Profile Updated Successfully"
+msgstr ""
+
+#: upload/scp/profile.php:114
+msgid "Error(s) occured. Profile NOT updated"
+msgstr ""
+
+#: upload/scp/profile.php:117
+msgid "Error(s) below occured. Try again"
+msgstr ""
+
+#: upload/scp/profile.php:121 upload/tickets.php:76
+msgid "Uknown action"
+msgstr ""
+
+#: upload/scp/profile.php:133 upload/include/class.nav.php:42
+msgid "My Profile"
+msgstr ""
+
+#: upload/scp/profile.php:134 upload/scp/admin.php:547
+msgid "Preferences"
+msgstr ""
+
+#: upload/scp/profile.php:135 upload/include/staff/changepasswd.inc.php:5
+msgid "Change Password"
+msgstr ""
+
+#: upload/scp/profile.php:138
+msgid "Welcome back! You are listed as 'on vacation' Please let admin or your manager know that you are back."
+msgstr ""
+
+#: upload/scp/profile.php:158
+msgid "You must change your password to continue."
 msgstr ""
 
 #: upload/scp/login.php:29
 msgid "You've reached maximum failed login attempts allowed."
 msgstr ""
 
-#: upload/scp/login.php:59 upload/scp/kb.php:17 upload/scp/attachment.php:28
-#: upload/tickets.php:19 upload/include/staff/reply.inc.php:2
-#: upload/include/staff/template.inc.php:2
-#: upload/include/staff/preference.inc.php:2
-#: upload/include/staff/tickets.inc.php:2 upload/include/staff/group.inc.php:2
-#: upload/include/staff/email.inc.php:3
-#: upload/include/staff/attachment.inc.php:2
-#: upload/include/staff/topic.inc.php:2
-#: upload/include/staff/newticket.inc.php:2
-#: upload/include/staff/editticket.inc.php:2
-#: upload/include/staff/depts.inc.php:2 upload/include/staff/syslogs.inc.php:2
-#: upload/include/staff/filters.inc.php:2
-#: upload/include/staff/viewticket.inc.php:4
-#: upload/include/staff/premade.inc.php:3
-#: upload/include/staff/templates.inc.php:2
-#: upload/include/staff/header.inc.php:1
-#: upload/include/staff/banlist.inc.php:2
-#: upload/include/staff/helptopics.inc.php:2
-#: upload/include/staff/api.inc.php:2 upload/include/staff/staff.inc.php:2
-#: upload/include/staff/dept.inc.php:2 upload/include/staff/emails.inc.php:2
-#: upload/include/staff/staffmembers.inc.php:2
-#: upload/include/staff/groups.inc.php:2
-#: upload/include/client/viewticket.inc.php:4
-msgid "Access Denied"
+#: upload/scp/login.php:47
+msgid "Staff login"
+msgstr ""
+
+#: upload/scp/login.php:47
+#, php-format
+msgid "%s logged in [%s]"
 msgstr ""
 
 #: upload/scp/login.php:60
@@ -210,6 +360,10 @@ msgid "Username"
 msgstr ""
 
 #: upload/scp/login.php:64
+msgid "Timeout:"
+msgstr ""
+
+#: upload/scp/login.php:64
 msgid "minutes"
 msgstr ""
 
@@ -219,6 +373,188 @@ msgstr ""
 
 #: upload/scp/login.php:69
 msgid "Failed login attempt (staff)"
+msgstr ""
+
+#: upload/scp/logout.php:19
+msgid "Staff logout"
+msgstr ""
+
+#: upload/scp/logout.php:19
+#, php-format
+msgid "%s logged out [%s]"
+msgstr ""
+
+#: upload/scp/directory.php:20 upload/scp/directory.php:77
+#: upload/scp/admin.php:630 upload/include/class.nav.php:34
+#: upload/include/staff/staffmembers.inc.php:16
+msgid "Staff Members"
+msgstr ""
+
+#: upload/scp/directory.php:61 upload/include/staff/premade.inc.php:71
+msgid "Search for:"
+msgstr ""
+
+#: upload/scp/directory.php:62 upload/include/staff/tickets.inc.php:337
+msgid "Dept."
+msgstr ""
+
+#: upload/scp/directory.php:64
+msgid "All Department"
+msgstr ""
+
+#: upload/scp/directory.php:73 upload/include/staff/premade.inc.php:84
+#: upload/include/staff/viewticket.inc.php:198
+msgid "GO"
+msgstr ""
+
+#: upload/scp/directory.php:80 upload/include/staff/template.inc.php:16
+#: upload/include/staff/templates.inc.php:47
+msgid "Name"
+msgstr ""
+
+#: upload/scp/directory.php:81 upload/include/staff/email.inc.php:69
+#: upload/include/staff/preference.inc.php:74
+#: upload/include/staff/topic.inc.php:68 upload/include/staff/staff.inc.php:52
+#: upload/include/staff/staffmembers.inc.php:31
+msgid "Dept"
+msgstr ""
+
+#: upload/scp/directory.php:82 upload/include/client/tickets.inc.php:98
+#: upload/include/staff/filters.inc.php:87
+#: upload/include/staff/banlist.inc.php:87
+#: upload/include/staff/newticket.inc.php:49
+msgid "Email"
+msgstr ""
+
+#: upload/scp/directory.php:83 upload/include/staff/newticket.inc.php:48
+msgid "Phone"
+msgstr ""
+
+#: upload/scp/directory.php:84
+msgid "Mobile"
+msgstr ""
+
+#: upload/scp/directory.php:106
+msgid "Problems displaying directory"
+msgstr ""
+
+#: upload/scp/kb.php:27
+msgid "Unknown ID#"
+msgstr ""
+
+#: upload/scp/kb.php:39 upload/include/class.group.php:34
+msgid "Missing or invalid group ID"
+msgstr ""
+
+#: upload/scp/kb.php:42
+msgid "Title/subject required"
+msgstr ""
+
+#: upload/scp/kb.php:45
+msgid "Reply required"
+msgstr ""
+
+#: upload/scp/kb.php:55
+msgid "Unable to create the reply. Internal error"
+msgstr ""
+
+#: upload/scp/kb.php:57
+msgid "Premade reply created"
+msgstr ""
+
+#: upload/scp/kb.php:61
+msgid "Premade reply updated"
+msgstr ""
+
+#: upload/scp/kb.php:65
+msgid "Internal update error occured. Try again"
+msgstr ""
+
+#: upload/scp/kb.php:68
+msgid "Title already exists!"
+msgstr ""
+
+#: upload/scp/kb.php:70
+msgid "Error(s) occured. Try again"
+msgstr ""
+
+#: upload/scp/kb.php:75
+msgid "You must select at least one item"
+msgstr ""
+
+#: upload/scp/kb.php:82
+#, php-format
+msgid "%s of %s selected replies enabled"
+msgstr ""
+
+#: upload/scp/kb.php:85
+#, php-format
+msgid "%s of %s selected replies disabled"
+msgstr ""
+
+#: upload/scp/kb.php:88
+#, php-format
+msgid "%s of %s selected replies deleted"
+msgstr ""
+
+#: upload/scp/kb.php:92
+msgid "Error occured. Try again"
+msgstr ""
+
+#: upload/scp/kb.php:96 upload/scp/admin.php:295 upload/scp/tickets.php:325
+msgid "Unknown action"
+msgstr ""
+
+#: upload/scp/kb.php:106
+msgid "Premade Replies"
+msgstr ""
+
+#: upload/scp/kb.php:107
+msgid "New Premade Reply"
+msgstr ""
+
+#: upload/scp/ajax.php:24
+msgid "config error"
+msgstr ""
+
+#: upload/scp/ajax.php:27
+#, php-format
+msgid "Access Denied. IP %s"
+msgstr ""
+
+#: upload/scp/ajax.php:33
+msgid "Invalid params"
+msgstr ""
+
+#: upload/scp/ajax.php:40
+msgid "invalid method"
+msgstr ""
+
+#: upload/scp/ajax.php:48
+#, php-format
+msgid "This is secure ajax assjax %s"
+msgstr ""
+
+#: upload/scp/ajax.php:54
+#, php-format
+msgid "invalid method/call %s"
+msgstr ""
+
+#: upload/scp/attachment.php:24
+msgid "Invalid file"
+msgstr ""
+
+#: upload/scp/attachment.php:30
+msgid "You do not have access to the ticket"
+msgstr ""
+
+#: upload/scp/attachment.php:41
+msgid "No such file"
+msgstr ""
+
+#: upload/scp/autocron.php:39
+#, php-format
+msgid "cron job executed [%s]"
 msgstr ""
 
 #: upload/scp/admin.php:27
@@ -448,10 +784,6 @@ msgstr ""
 msgid "Unable to delete selected templates(s)."
 msgstr ""
 
-#: upload/scp/admin.php:295 upload/scp/kb.php:96 upload/scp/tickets.php:325
-msgid "Unknown action"
-msgstr ""
-
 #: upload/scp/admin.php:307
 msgid "Topic updated successfully"
 msgstr ""
@@ -511,6 +843,20 @@ msgstr ""
 #: upload/scp/admin.php:364
 #, php-format
 msgid "Group %s created successfully"
+msgstr ""
+
+#: upload/scp/admin.php:377
+#, php-format
+msgid "%s of %s selected groups Enabled"
+msgstr ""
+
+#: upload/scp/admin.php:379
+msgid "Trying to 'Disable' or 'Delete' your group? Doesn't make any sense!"
+msgstr ""
+
+#: upload/scp/admin.php:383
+#, php-format
+msgid "%s of %s selected groups Disabled"
 msgstr ""
 
 #: upload/scp/admin.php:387
@@ -630,10 +976,6 @@ msgstr ""
 msgid "Unknown Dept action"
 msgstr ""
 
-#: upload/scp/admin.php:547 upload/scp/profile.php:134
-msgid "Preferences"
-msgstr ""
-
 #: upload/scp/admin.php:548
 msgid "Attachments"
 msgstr ""
@@ -681,8 +1023,8 @@ msgstr ""
 msgid "Unable to fetch info on email ID#%s"
 msgstr ""
 
-#: upload/scp/admin.php:612 upload/include/staff/helptopics.inc.php:10
-#: upload/include/class.nav.php:33
+#: upload/scp/admin.php:612 upload/include/class.nav.php:33
+#: upload/include/staff/helptopics.inc.php:10
 msgid "Help Topics"
 msgstr ""
 
@@ -695,17 +1037,11 @@ msgstr ""
 msgid "Unable to fetch info on topic #%s"
 msgstr ""
 
-#: upload/scp/admin.php:630 upload/scp/directory.php:20
-#: upload/scp/directory.php:77 upload/include/staff/staffmembers.inc.php:16
-#: upload/include/class.nav.php:34
-msgid "Staff Members"
-msgstr ""
-
 #: upload/scp/admin.php:631
 msgid "Add New User"
 msgstr ""
 
-#: upload/scp/admin.php:632
+#: upload/scp/admin.php:632 upload/include/staff/groups.inc.php:8
 msgid "User Groups"
 msgstr ""
 
@@ -728,8 +1064,8 @@ msgstr ""
 msgid "Unable to fetch info on Dept ID#%s"
 msgstr ""
 
-#: upload/scp/admin.php:673 upload/include/staff/depts.inc.php:11
-#: upload/include/class.nav.php:35
+#: upload/scp/admin.php:673 upload/include/class.nav.php:35
+#: upload/include/staff/depts.inc.php:11
 msgid "Departments"
 msgstr ""
 
@@ -743,231 +1079,6 @@ msgstr ""
 
 #: upload/scp/admin.php:706
 msgid "Possibly access denied, if you believe this is in error please get technical support."
-msgstr ""
-
-#: upload/scp/ajax.php:24
-msgid "config error"
-msgstr ""
-
-#: upload/scp/ajax.php:27
-#, php-format
-msgid "Access Denied. IP %s"
-msgstr ""
-
-#: upload/scp/ajax.php:33
-msgid "Invalid params"
-msgstr ""
-
-#: upload/scp/ajax.php:40
-msgid "invalid method"
-msgstr ""
-
-#: upload/scp/ajax.php:48
-#, php-format
-msgid "This is secure ajax assjax %s"
-msgstr ""
-
-#: upload/scp/ajax.php:54
-#, php-format
-msgid "invalid method/call %s"
-msgstr ""
-
-#: upload/scp/kb.php:27
-msgid "Unknown ID#"
-msgstr ""
-
-#: upload/scp/kb.php:39 upload/include/class.group.php:34
-msgid "Missing or invalid group ID"
-msgstr ""
-
-#: upload/scp/kb.php:42
-msgid "Title/subject required"
-msgstr ""
-
-#: upload/scp/kb.php:45
-msgid "Reply required"
-msgstr ""
-
-#: upload/scp/kb.php:55
-msgid "Unable to create the reply. Internal error"
-msgstr ""
-
-#: upload/scp/kb.php:61
-msgid "Premade reply updated"
-msgstr ""
-
-#: upload/scp/kb.php:65
-msgid "Internal update error occured. Try again"
-msgstr ""
-
-#: upload/scp/kb.php:68
-msgid "Title already exists!"
-msgstr ""
-
-#: upload/scp/kb.php:70
-msgid "Error(s) occured. Try again"
-msgstr ""
-
-#: upload/scp/kb.php:75
-msgid "You must select at least one item"
-msgstr ""
-
-#: upload/scp/kb.php:92
-msgid "Error occured. Try again"
-msgstr ""
-
-#: upload/scp/kb.php:106
-msgid "Premade Replies"
-msgstr ""
-
-#: upload/scp/kb.php:107
-msgid "New Premade Reply"
-msgstr ""
-
-#: upload/scp/directory.php:64
-msgid "All Department"
-msgstr ""
-
-#: upload/scp/directory.php:80 upload/include/staff/template.inc.php:16
-#: upload/include/staff/templates.inc.php:47
-msgid "Name"
-msgstr ""
-
-#: upload/scp/directory.php:81 upload/include/staff/preference.inc.php:74
-#: upload/include/staff/email.inc.php:69 upload/include/staff/topic.inc.php:68
-#: upload/include/staff/staff.inc.php:52
-#: upload/include/staff/staffmembers.inc.php:31
-msgid "Dept"
-msgstr ""
-
-#: upload/scp/directory.php:82 upload/include/staff/newticket.inc.php:49
-#: upload/include/staff/filters.inc.php:87
-#: upload/include/staff/banlist.inc.php:87
-#: upload/include/client/tickets.inc.php:98
-msgid "Email"
-msgstr ""
-
-#: upload/scp/directory.php:83 upload/include/staff/newticket.inc.php:48
-msgid "Phone"
-msgstr ""
-
-#: upload/scp/directory.php:84
-msgid "Mobile"
-msgstr ""
-
-#: upload/scp/directory.php:106
-msgid "Problems displaying directory"
-msgstr ""
-
-#: upload/scp/autocron.php:39
-#, php-format
-msgid "cron job executed [%s]"
-msgstr ""
-
-#: upload/scp/profile.php:21
-msgid "Internal Error. Action Denied"
-msgstr ""
-
-#: upload/scp/profile.php:28
-msgid "Invalid auto refresh value."
-msgstr ""
-
-#: upload/scp/profile.php:43
-msgid "Preference Updated Successfully"
-msgstr ""
-
-#: upload/scp/profile.php:45
-msgid "Preference update error."
-msgstr ""
-
-#: upload/scp/profile.php:51
-msgid "Current password required"
-msgstr ""
-
-#: upload/scp/profile.php:53
-msgid "New password required"
-msgstr ""
-
-#: upload/scp/profile.php:55
-msgid "Must be atleast 6 characters"
-msgstr ""
-
-#: upload/scp/profile.php:57
-msgid "Confirm new password"
-msgstr ""
-
-#: upload/scp/profile.php:60
-msgid "Valid password required"
-msgstr ""
-
-#: upload/scp/profile.php:62
-msgid "New password(s) don't match"
-msgstr ""
-
-#: upload/scp/profile.php:64
-msgid "New password is same as old password"
-msgstr ""
-
-#: upload/scp/profile.php:72
-msgid "Password Changed Successfully"
-msgstr ""
-
-#: upload/scp/profile.php:74
-msgid "Unable to complete password change. Internal error."
-msgstr ""
-
-#: upload/scp/profile.php:81
-msgid "First name required"
-msgstr ""
-
-#: upload/scp/profile.php:84
-msgid "Last name required"
-msgstr ""
-
-#: upload/scp/profile.php:87 upload/include/class.staff.php:274
-#: upload/include/class.config.php:469 upload/include/class.email.php:265
-#: upload/include/class.ticket.php:1166
-msgid "Valid email required"
-msgstr ""
-
-#: upload/scp/profile.php:90 upload/scp/profile.php:93
-msgid "Enter a valid number"
-msgstr ""
-
-#: upload/scp/profile.php:97
-msgid "Invalid ext."
-msgstr ""
-
-#: upload/scp/profile.php:112
-msgid "Profile Updated Successfully"
-msgstr ""
-
-#: upload/scp/profile.php:114
-msgid "Error(s) occured. Profile NOT updated"
-msgstr ""
-
-#: upload/scp/profile.php:117
-msgid "Error(s) below occured. Try again"
-msgstr ""
-
-#: upload/scp/profile.php:121 upload/tickets.php:76
-msgid "Uknown action"
-msgstr ""
-
-#: upload/scp/profile.php:133 upload/include/class.nav.php:42
-msgid "My Profile"
-msgstr ""
-
-#: upload/scp/profile.php:135 upload/include/staff/changepasswd.inc.php:5
-msgid "Change Password"
-msgstr ""
-
-#: upload/scp/profile.php:138
-msgid "Welcome back! You are listed as 'on vacation' Please let admin or your manager know that you are back."
-msgstr ""
-
-#: upload/scp/profile.php:158
-msgid "You must change your password to continue."
 msgstr ""
 
 #: upload/scp/tickets.php:26
@@ -1002,7 +1113,8 @@ msgstr ""
 msgid "upload dir invalid. Contact admin."
 msgstr ""
 
-#: upload/scp/tickets.php:71 upload/include/class.ticket.php:1216
+#: upload/scp/tickets.php:71 upload/tickets.php:56
+#: upload/include/class.ticket.php:1216
 msgid "Invalid file type"
 msgstr ""
 
@@ -1203,6 +1315,10 @@ msgstr ""
 msgid "Ticket reopened (without comments)"
 msgstr ""
 
+#: upload/scp/tickets.php:247 upload/scp/tickets.php:277
+msgid "by"
+msgstr ""
+
 #: upload/scp/tickets.php:248 upload/scp/tickets.php:353
 msgid "Ticket Reopened"
 msgstr ""
@@ -1316,6 +1432,7 @@ msgstr ""
 
 #: upload/scp/tickets.php:356 upload/scp/tickets.php:367
 #: upload/scp/tickets.php:379 upload/scp/tickets.php:387
+#: upload/include/class.pagenate.php:78
 msgid "of"
 msgstr ""
 
@@ -1384,7 +1501,7 @@ msgstr ""
 msgid "My Tickets (%s)"
 msgstr ""
 
-#: upload/scp/tickets.php:448
+#: upload/scp/tickets.php:448 upload/include/staff/tickets.inc.php:95
 msgid "Assigned Tickets"
 msgstr ""
 
@@ -1405,13 +1522,17 @@ msgstr ""
 msgid "Closed Tickets"
 msgstr ""
 
-#: upload/scp/tickets.php:464 upload/include/client/header.inc.php:27
-#: upload/include/class.ticket.php:1520
+#: upload/scp/tickets.php:464 upload/include/class.ticket.php:1520
+#: upload/include/client/header.inc.php:27
 msgid "New Ticket"
 msgstr ""
 
-#: upload/scp/staff.inc.php:26
+#: upload/scp/staff.inc.php:26 upload/client.inc.php:23
 msgid "Fatal error"
+msgstr ""
+
+#: upload/scp/staff.inc.php:61
+msgid "Session timed out due to inactivity"
 msgstr ""
 
 #: upload/scp/staff.inc.php:69
@@ -1431,27 +1552,35 @@ msgstr ""
 msgid "<strong>System is set to offline mode</strong> - Client interface is disabled and ONLY admins can access staff control panel."
 msgstr ""
 
-#: upload/scp/staff.inc.php:97 upload/include/staff/preference.inc.php:412
-#: upload/include/staff/preference.inc.php:418
-#: upload/include/staff/preference.inc.php:424
-#: upload/include/staff/preference.inc.php:430
-#: upload/include/staff/preference.inc.php:443
-#: upload/include/staff/preference.inc.php:453
-#: upload/include/staff/preference.inc.php:463
-#: upload/include/staff/preference.inc.php:473
+#: upload/scp/staff.inc.php:97 upload/include/staff/premade.inc.php:145
+#: upload/include/staff/helptopics.inc.php:70
+#: upload/include/staff/dept.inc.php:119 upload/include/staff/dept.inc.php:125
 #: upload/include/staff/email.inc.php:102
 #: upload/include/staff/email.inc.php:163
-#: upload/include/staff/premade.inc.php:145
-#: upload/include/staff/helptopics.inc.php:70
-#: upload/include/staff/api.inc.php:98 upload/include/staff/dept.inc.php:119
-#: upload/include/staff/dept.inc.php:125
-#: upload/include/staff/staffmembers.inc.php:80
 #: upload/include/staff/groups.inc.php:66
+#: upload/include/staff/preference.inc.php:413
+#: upload/include/staff/preference.inc.php:419
+#: upload/include/staff/preference.inc.php:425
+#: upload/include/staff/preference.inc.php:431
+#: upload/include/staff/preference.inc.php:444
+#: upload/include/staff/preference.inc.php:454
+#: upload/include/staff/preference.inc.php:464
+#: upload/include/staff/preference.inc.php:474
+#: upload/include/staff/api.inc.php:98
+#: upload/include/staff/staffmembers.inc.php:80
 msgid "Enable"
 msgstr ""
 
-#: upload/scp/attachment.php:30
-msgid "You do not have access to the ticket"
+#: upload/client.inc.php:37
+msgid "System is offline for an upgrade."
+msgstr ""
+
+#: upload/attachment.php:26
+msgid "Invalid/unknown file"
+msgstr ""
+
+#: upload/attachment.php:40
+msgid "Invalid Attachment"
 msgstr ""
 
 #: upload/tickets.php:30 upload/tickets.php:45
@@ -1460,6 +1589,11 @@ msgstr ""
 
 #: upload/tickets.php:32
 msgid "Security violation. Repeated violations will result in your account being locked."
+msgstr ""
+
+#: upload/tickets.php:54
+#, php-format
+msgid "File [ %s ] rejected"
 msgstr ""
 
 #: upload/tickets.php:58
@@ -1477,6 +1611,50 @@ msgstr ""
 
 #: upload/tickets.php:72
 msgid "Error(s) occured. Please try again"
+msgstr ""
+
+#: upload/include/class.dept.php:208
+msgid "Missing or invalid Dept ID"
+msgstr ""
+
+#: upload/include/class.dept.php:211
+msgid "Dept email required"
+msgstr ""
+
+#: upload/include/class.dept.php:214
+msgid "Template required"
+msgstr ""
+
+#: upload/include/class.dept.php:217
+msgid "Dept name required"
+msgstr ""
+
+#: upload/include/class.dept.php:219
+msgid "Dept name must be at least 4 chars."
+msgstr ""
+
+#: upload/include/class.dept.php:226
+msgid "Department already exist"
+msgstr ""
+
+#: upload/include/class.dept.php:230
+msgid "Signature required"
+msgstr ""
+
+#: upload/include/class.dept.php:233
+msgid "Default department can not be private"
+msgstr ""
+
+#: upload/include/class.dept.php:252
+msgid "Unable to update "
+msgstr ""
+
+#: upload/include/class.dept.php:252
+msgid " Dept. Error occured"
+msgstr ""
+
+#: upload/include/class.dept.php:258
+msgid "Unable to create department. Internal error"
 msgstr ""
 
 #: upload/include/class.staff.php:259
@@ -1527,6 +1705,918 @@ msgstr ""
 msgid "Unable to create user. Internal error"
 msgstr ""
 
+#: upload/include/class.email.php:198
+#, php-format
+msgid ""
+"Unable to email via %s:%d [%s]\n"
+"\n"
+"%s\n"
+msgstr ""
+
+#: upload/include/class.email.php:199
+msgid "SMTP Error"
+msgstr ""
+
+#: upload/include/class.email.php:262
+msgid "Internal error."
+msgstr ""
+
+#: upload/include/class.email.php:267
+msgid "Email already exits"
+msgstr ""
+
+#: upload/include/class.email.php:269
+msgid "Email already used as admin email!"
+msgstr ""
+
+#: upload/include/class.email.php:273
+msgid "Email in-use by a staff member"
+msgstr ""
+
+#: upload/include/class.email.php:278
+msgid "You must select a Dept."
+msgstr ""
+
+#: upload/include/class.email.php:281 upload/include/class.topic.php:129
+msgid "You must select a priority"
+msgstr ""
+
+#: upload/include/class.email.php:285
+msgid "Username missing"
+msgstr ""
+
+#: upload/include/class.email.php:288
+msgid "Password required"
+msgstr ""
+
+#: upload/include/class.email.php:294
+msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
+msgstr ""
+
+#: upload/include/class.email.php:296 upload/include/class.email.php:310
+msgid "Host name required"
+msgstr ""
+
+#: upload/include/class.email.php:298 upload/include/class.email.php:312
+msgid "Port required"
+msgstr ""
+
+#: upload/include/class.email.php:300
+msgid "Select protocol"
+msgstr ""
+
+#: upload/include/class.email.php:302
+msgid "Fetch interval required"
+msgstr ""
+
+#: upload/include/class.email.php:304
+msgid "Maximum emails required"
+msgstr ""
+
+#: upload/include/class.email.php:321
+msgid "Another department using host/username combination."
+msgstr ""
+
+#: upload/include/class.email.php:330
+#, php-format
+msgid "Invalid login. Check %s settings"
+msgstr ""
+
+#: upload/include/class.email.php:348
+msgid "Unable to login. Check SMTP settings."
+msgstr ""
+
+#: upload/include/class.email.php:380
+msgid "Unable to update email. Internal error occured"
+msgstr ""
+
+#: upload/include/class.email.php:390
+msgid "Error(s) Occured. Try again"
+msgstr ""
+
+#: upload/include/class.pagenate.php:76
+msgid "Showing"
+msgstr ""
+
+#: upload/include/ost-config.sample.php:25 upload/include/ost-config.php:25
+msgid "Error: Contact system admin."
+msgstr ""
+
+#: upload/include/class.msgtpl.php:83 upload/include/class.ticket.php:1078
+#: upload/include/class.ticket.php:1165
+msgid "Name required"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:85 upload/include/class.msgtpl.php:87
+#: upload/include/class.msgtpl.php:89 upload/include/class.msgtpl.php:91
+#: upload/include/class.msgtpl.php:93 upload/include/class.msgtpl.php:96
+#: upload/include/class.msgtpl.php:98 upload/include/class.msgtpl.php:100
+#: upload/include/class.msgtpl.php:102 upload/include/class.msgtpl.php:104
+#: upload/include/class.ticket.php:1081 upload/include/class.ticket.php:1167
+msgid "Subject required"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:86 upload/include/class.msgtpl.php:88
+#: upload/include/class.msgtpl.php:90 upload/include/class.msgtpl.php:92
+#: upload/include/class.msgtpl.php:94 upload/include/class.msgtpl.php:97
+#: upload/include/class.msgtpl.php:99 upload/include/class.msgtpl.php:101
+#: upload/include/class.msgtpl.php:103 upload/include/class.msgtpl.php:105
+msgid "Template message required"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:113 upload/include/class.topic.php:111
+msgid "Internal error. Try again"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:116 upload/include/class.msgtpl.php:172
+msgid "Name already in use"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:146
+msgid "Unable to update. Internal error occured"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:170 upload/include/class.msgtpl.php:175
+msgid "required"
+msgstr ""
+
+#: upload/include/class.msgtpl.php:211
+msgid "Unable to create the template. Internal error occured"
+msgstr ""
+
+#: upload/include/class.ticket.php:513 upload/include/class.ticket.php:574
+#: upload/include/class.ticket.php:669 upload/include/class.ticket.php:712
+#: upload/include/class.ticket.php:861 upload/include/class.ticket.php:1378
+#: upload/include/class.ticket.php:1428
+msgid "Template Fetch Error"
+msgstr ""
+
+#: upload/include/class.ticket.php:513
+msgid "Unable to fetch 'overdue' alert template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:574
+msgid "Unable to fetch 'assigned' alert template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:577
+msgid "Ticket assigned"
+msgstr ""
+
+#: upload/include/class.ticket.php:579
+#, php-format
+msgid "Ticket Assigned to %s"
+msgstr ""
+
+#: upload/include/class.ticket.php:669
+msgid "Unable to fetch 'new message' auto response template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:712
+msgid "Unable to fetch 'new message' alert template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:790
+#, php-format
+msgid "Problems fetching response template for ticket# %s  Possible config error - template # %s"
+msgstr ""
+
+#: upload/include/class.ticket.php:791 upload/include/class.ticket.php:1503
+msgid "System Error"
+msgstr ""
+
+#: upload/include/class.ticket.php:861
+msgid "Unable to fetch 'new note' alert template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:1079
+msgid "Email is required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1080
+msgid "Reason for the update required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1082
+msgid "Invalid Selection"
+msgstr ""
+
+#: upload/include/class.ticket.php:1083 upload/include/class.ticket.php:1178
+msgid "Invalid Priority"
+msgstr ""
+
+#: upload/include/class.ticket.php:1084 upload/include/class.ticket.php:1179
+msgid "Valid phone # required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1085 upload/include/class.ticket.php:1174
+msgid "Invalid date - must be MM/DD/YY"
+msgstr ""
+
+#: upload/include/class.ticket.php:1095
+msgid "Duedate can NOT be set on a closed ticket"
+msgstr ""
+
+#: upload/include/class.ticket.php:1097 upload/include/class.ticket.php:1206
+msgid "Select time"
+msgstr ""
+
+#: upload/include/class.ticket.php:1099 upload/include/class.ticket.php:1208
+msgid "Invalid duedate"
+msgstr ""
+
+#: upload/include/class.ticket.php:1101 upload/include/class.ticket.php:1210
+msgid "Due date must be in the future"
+msgstr ""
+
+#: upload/include/class.ticket.php:1107 upload/include/class.ticket.php:1198
+msgid "Invalid phone ext."
+msgstr ""
+
+#: upload/include/class.ticket.php:1109 upload/include/class.ticket.php:1200
+msgid "Phone number required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1141
+msgid "Ticket Updated"
+msgstr ""
+
+#: upload/include/class.ticket.php:1170
+msgid "Select help topic"
+msgstr ""
+
+#: upload/include/class.ticket.php:1172
+msgid "Dept. required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1173
+msgid "Indicate source"
+msgstr ""
+
+#: upload/include/class.ticket.php:1176
+msgid "Email unknown"
+msgstr ""
+
+#: upload/include/class.ticket.php:1188 upload/include/class.ticket.php:1189
+msgid "Ticket denied"
+msgstr ""
+
+#: upload/include/class.ticket.php:1188 upload/include/class.mailfetch.php:359
+msgid "Error"
+msgstr ""
+
+#: upload/include/class.ticket.php:1189
+msgid "Banned email - "
+msgstr ""
+
+#: upload/include/class.ticket.php:1193
+msgid "Email mismatch."
+msgstr ""
+
+#: upload/include/class.ticket.php:1218
+msgid "File is too big. Max"
+msgstr ""
+
+#: upload/include/class.ticket.php:1218
+msgid "bytes allowed"
+msgstr ""
+
+#: upload/include/class.ticket.php:1226
+msgid "You've reached the maximum open tickets allowed."
+msgstr ""
+
+#: upload/include/class.ticket.php:1252
+#, php-format
+msgid "Support ticket request denied for %s\\nOpen ticket: %s\\nMax Allowed: %s\\n\\nNotice only sent once"
+msgstr ""
+
+#: upload/include/class.ticket.php:1253
+msgid "Overlimit Notice"
+msgstr ""
+
+#: upload/include/class.ticket.php:1378
+msgid "Unable to fetch autoresponse template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:1428
+msgid "Unable to fetch 'new ticket' alert template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:1440
+msgid "Permission denied"
+msgstr ""
+
+#: upload/include/class.ticket.php:1443
+msgid "Summary of the issue required"
+msgstr ""
+
+#: upload/include/class.ticket.php:1445
+msgid "Invalid source - "
+msgstr ""
+
+#: upload/include/class.ticket.php:1448
+msgid "Ticket created by staff"
+msgstr ""
+
+#: upload/include/class.ticket.php:1502
+msgid "Problems fetching response template for ticket#"
+msgstr ""
+
+#: upload/include/class.ticket.php:1502
+msgid "Possible config error - template #"
+msgstr ""
+
+#: upload/include/class.ticket.php:1514
+msgid "Internal error - message/response post error."
+msgstr ""
+
+#: upload/include/class.ticket.php:1522
+msgid "New Ticket by Staff"
+msgstr ""
+
+#: upload/include/class.ticket.php:1522
+msgid "Ticket created by staff -"
+msgstr ""
+
+#: upload/include/class.ticket.php:1553
+msgid "Ticket flagged as overdue by the system."
+msgstr ""
+
+#: upload/include/class.topic.php:114
+msgid "Help topic required"
+msgstr ""
+
+#: upload/include/class.topic.php:116
+msgid "Topic is too short. 5 chars minimum"
+msgstr ""
+
+#: upload/include/class.topic.php:122
+msgid "Topic already exists"
+msgstr ""
+
+#: upload/include/class.topic.php:126
+msgid "You must select a department"
+msgstr ""
+
+#: upload/include/class.topic.php:140
+msgid "Unable to update topic. Internal error occured"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:80
+msgid "View Open"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:81
+msgid "View Closed"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:82
+#: upload/include/staff/tickets.inc.php:378
+msgid "Refresh"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:91
+#: upload/include/staff/tickets.inc.php:393
+msgid "Sort By Ticket ID"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:91
+#: upload/include/client/viewticket.inc.php:14
+#: upload/include/staff/tickets.inc.php:334
+#: upload/include/staff/viewticket.inc.php:31
+msgid "Ticket #"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:93
+#: upload/include/staff/tickets.inc.php:395
+msgid "Sort By Date"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:93
+#: upload/include/staff/groups.inc.php:21
+msgid "Create Date"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:94
+#: upload/include/staff/premade.inc.php:97
+#: upload/include/staff/helptopics.inc.php:20
+#: upload/include/staff/email.inc.php:100
+#: upload/include/staff/email.inc.php:161
+#: upload/include/staff/templates.inc.php:145
+#: upload/include/staff/staffmembers.inc.php:29
+msgid "Status"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:95
+#: upload/include/staff/tickets.inc.php:396
+#: upload/include/staff/template.inc.php:36
+#: upload/include/staff/template.inc.php:51
+#: upload/include/staff/template.inc.php:66
+#: upload/include/staff/template.inc.php:82
+#: upload/include/staff/template.inc.php:97
+#: upload/include/staff/template.inc.php:113
+#: upload/include/staff/template.inc.php:126
+#: upload/include/staff/template.inc.php:141
+#: upload/include/staff/template.inc.php:155
+#: upload/include/staff/template.inc.php:168
+#: upload/include/staff/templates.inc.php:142
+msgid "Subject"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:97
+#: upload/include/staff/tickets.inc.php:398
+msgid "Sort By Category"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:97
+#: upload/include/staff/tickets.inc.php:398
+#: upload/include/staff/helptopics.inc.php:22
+#: upload/include/staff/emails.inc.php:21 upload/include/staff/dept.inc.php:28
+#: upload/include/staff/viewticket.inc.php:410
+#: upload/include/staff/templates.inc.php:147
+msgid "Department"
+msgstr ""
+
+#: upload/include/client/tickets.inc.php:129
+msgid "NO tickets found."
+msgstr ""
+
+#: upload/include/client/login.inc.php:16
+msgid "To view the status of a ticket, provide us with your login details below.<br/>If this is your first time contacting us or you've lost the ticket ID, please <a href='open.php'>click here</a> to open a new ticket."
+msgstr ""
+
+#: upload/include/client/login.inc.php:22
+msgid "E-Mail:"
+msgstr ""
+
+#: upload/include/client/login.inc.php:23
+msgid "Ticket ID:"
+msgstr ""
+
+#: upload/include/client/login.inc.php:24
+msgid "View Status"
+msgstr ""
+
+#: upload/include/client/thankyou.inc.php:18
+msgid "Thank you for contacting us.<br>A support ticket request has been created and a representative will be getting back to you shortly if necessary."
+msgstr ""
+
+#: upload/include/client/thankyou.inc.php:22
+#, php-format
+msgid "An email with the ticket number has been sent to <b>%s</b>.You'll need the ticket number along with your email to view status and progress online."
+msgstr ""
+
+#: upload/include/client/thankyou.inc.php:25
+msgid "If you wish to send additional comments or information regarding same issue, please follow the instructions on the email."
+msgstr ""
+
+#: upload/include/client/thankyou.inc.php:28
+msgid "Support Team"
+msgstr ""
+
+#: upload/include/client/header.inc.php:2
+msgid "osTicket :: Support Ticket System"
+msgstr ""
+
+#: upload/include/client/header.inc.php:16
+msgid "Support Center"
+msgstr ""
+
+#: upload/include/client/header.inc.php:17
+msgid "<span>SUPPORT TICKET</span> SYSTEM"
+msgstr ""
+
+#: upload/include/client/header.inc.php:22
+#: upload/include/staff/header.inc.php:41
+msgid "Log Out"
+msgstr ""
+
+#: upload/include/client/header.inc.php:23
+msgid "My Tickets"
+msgstr ""
+
+#: upload/include/client/header.inc.php:25
+msgid "Ticket Status"
+msgstr ""
+
+#: upload/include/client/header.inc.php:28
+msgid "Home"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:15
+#: upload/include/staff/viewticket.inc.php:31
+msgid "Reload"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:20
+#: upload/include/staff/viewticket.inc.php:331
+#: upload/include/staff/viewticket.inc.php:372
+msgid "Ticket Status:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:24
+#: upload/include/staff/viewticket.inc.php:51
+#: upload/include/staff/viewticket.inc.php:403
+#: upload/include/staff/newticket.inc.php:56
+#: upload/include/staff/staff.inc.php:45
+msgid "Department:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:28
+#: upload/include/staff/viewticket.inc.php:55
+msgid "Create Date:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:36
+#: upload/include/staff/viewticket.inc.php:63
+msgid "Name:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:44
+#: upload/include/staff/viewticket.inc.php:78
+msgid "Phone:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:51
+#: upload/include/client/open.inc.php:70
+#: upload/include/staff/viewticket.inc.php:88
+#: upload/include/staff/editticket.inc.php:54
+#: upload/include/staff/newticket.inc.php:72
+msgid "Subject:"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:61
+#: upload/include/staff/viewticket.inc.php:228
+msgid "Ticket Thread"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:120
+msgid "Ticket will be reopened on message post"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:127
+msgid "Enter Message"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:132
+msgid "Attach File"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:137
+#: upload/include/staff/viewticket.inc.php:282
+#: upload/include/staff/viewticket.inc.php:342
+msgid "Post Reply"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:138
+#: upload/include/client/open.inc.php:129
+#: upload/include/staff/dept.inc.php:156
+#: upload/include/staff/email.inc.php:195
+#: upload/include/staff/viewticket.inc.php:343
+#: upload/include/staff/viewticket.inc.php:385
+#: upload/include/staff/viewticket.inc.php:423
+#: upload/include/staff/viewticket.inc.php:470
+#: upload/include/staff/editticket.inc.php:136
+#: upload/include/staff/mypref.inc.php:59
+#: upload/include/staff/group.inc.php:110 upload/include/staff/smtp.inc.php:71
+#: upload/include/staff/topic.inc.php:77
+#: upload/include/staff/newticket.inc.php:206
+#: upload/include/staff/reply.inc.php:64
+#: upload/include/staff/staff.inc.php:152
+#: upload/include/staff/myprofile.inc.php:49
+#: upload/include/staff/changepasswd.inc.php:31
+msgid "Reset"
+msgstr ""
+
+#: upload/include/client/viewticket.inc.php:139
+#: upload/include/client/open.inc.php:130
+#: upload/include/staff/dept.inc.php:157
+#: upload/include/staff/email.inc.php:196
+#: upload/include/staff/viewticket.inc.php:344
+#: upload/include/staff/viewticket.inc.php:386
+#: upload/include/staff/viewticket.inc.php:424
+#: upload/include/staff/viewticket.inc.php:471
+#: upload/include/staff/editticket.inc.php:137
+#: upload/include/staff/mypref.inc.php:60
+#: upload/include/staff/group.inc.php:111 upload/include/staff/smtp.inc.php:72
+#: upload/include/staff/topic.inc.php:78
+#: upload/include/staff/newticket.inc.php:207
+#: upload/include/staff/reply.inc.php:65
+#: upload/include/staff/staff.inc.php:153
+#: upload/include/staff/myprofile.inc.php:50
+#: upload/include/staff/changepasswd.inc.php:32
+msgid "Cancel"
+msgstr ""
+
+#: upload/include/client/footer.inc.php:3
+msgid "Copyright &copy; osTicket.com. All rights reserved"
+msgstr ""
+
+#: upload/include/client/footer.inc.php:5
+msgid "Powered by osTicket"
+msgstr ""
+
+#: upload/include/client/open.inc.php:15
+#: upload/include/staff/newticket.inc.php:17
+msgid "Please fill in the form below to open a new ticket."
+msgstr ""
+
+#: upload/include/client/open.inc.php:19
+#: upload/include/staff/editticket.inc.php:47
+#: upload/include/staff/newticket.inc.php:30
+msgid "Full Name:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:31
+#: upload/include/staff/editticket.inc.php:40
+#: upload/include/staff/newticket.inc.php:19
+#: upload/include/staff/staff.inc.php:80
+#: upload/include/staff/myprofile.inc.php:25
+msgid "Email Address:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:43
+#: upload/include/staff/editticket.inc.php:61
+#: upload/include/staff/newticket.inc.php:37
+msgid "Telephone:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:45
+#: upload/include/staff/editticket.inc.php:63
+#: upload/include/staff/newticket.inc.php:39
+#: upload/include/staff/staff.inc.php:87
+#: upload/include/staff/myprofile.inc.php:32
+msgid "Ext"
+msgstr ""
+
+#: upload/include/client/open.inc.php:50
+#: upload/include/staff/viewticket.inc.php:119
+#: upload/include/staff/editticket.inc.php:104
+#: upload/include/staff/topic.inc.php:29
+#: upload/include/staff/newticket.inc.php:151
+msgid "Help Topic:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:53 upload/include/staff/dept.inc.php:40
+#: upload/include/staff/dept.inc.php:133
+#: upload/include/staff/preference.inc.php:348
+#: upload/include/staff/preference.inc.php:371
+#: upload/include/staff/preference.inc.php:386
+#: upload/include/staff/newticket.inc.php:154
+msgid "Select One"
+msgstr ""
+
+#: upload/include/client/open.inc.php:63
+msgid "General Inquiry"
+msgstr ""
+
+#: upload/include/client/open.inc.php:77
+msgid "Message:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:87
+#: upload/include/staff/viewticket.inc.php:47
+#: upload/include/staff/viewticket.inc.php:187
+#: upload/include/staff/editticket.inc.php:88
+#: upload/include/staff/newticket.inc.php:135
+msgid "Priority:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:106
+#: upload/include/staff/newticket.inc.php:101
+msgid "Attachment:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:114
+msgid "Please re-enter the text again"
+msgstr ""
+
+#: upload/include/client/open.inc.php:117
+msgid "Captcha Text:"
+msgstr ""
+
+#: upload/include/client/open.inc.php:119
+msgid "Enter the text shown on the image."
+msgstr ""
+
+#: upload/include/client/open.inc.php:128
+#: upload/include/staff/newticket.inc.php:205
+msgid "Submit Ticket"
+msgstr ""
+
+#: upload/include/class.misc.php:37
+msgid "Cryptography extension mcrypt is not enabled or installed. IMAP/POP passwords are being stored as plain text in database."
+msgstr ""
+
+#: upload/include/class.misc.php:127
+msgid "Time"
+msgstr ""
+
+#: upload/include/class.validator.php:43
+msgid "Invalid input"
+msgstr ""
+
+#: upload/include/class.validator.php:45
+msgid "No fields setup"
+msgstr ""
+
+#: upload/include/class.validator.php:109
+msgid "(5 chars min)"
+msgstr ""
+
+#: upload/include/class.validator.php:113
+msgid "(3 chars min)"
+msgstr ""
+
+#: upload/include/class.validator.php:120
+msgid "(type not set)"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:329
+msgid "PHP must be compiled with IMAP extension enabled for IMAP/POP3 fetch to work!"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:330
+msgid "Mail Fetch Error"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:356
+msgid "The system is having trouble fetching emails from the following mail account"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:357
+#: upload/include/staff/template.inc.php:28
+msgid "User"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:358
+#: upload/include/staff/email.inc.php:107
+msgid "Host"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:360
+#, php-format
+msgid "consecutive errors. Maximum of %s allowed"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:361
+msgid "This could be connection issues related to the host. Next delayed login attempt in aprox. 10 minutes"
+msgstr ""
+
+#: upload/include/class.mailfetch.php:362
+msgid "Mail Fetch Failure Alert"
+msgstr ""
+
+#: upload/include/class.api.php:26
+msgid "API passphrase missing."
+msgstr ""
+
+#: upload/include/class.api.php:29
+msgid "Valid IP required"
+msgstr ""
+
+#: upload/include/class.api.php:31
+msgid "API key for the IP already exists"
+msgstr ""
+
+#: upload/include/class.api.php:51
+msgid "Required"
+msgstr ""
+
+#: upload/include/class.api.php:53
+msgid "Must be at least 3 words long."
+msgstr ""
+
+#: upload/include/class.api.php:55
+msgid "Already set"
+msgstr ""
+
+#: upload/include/class.nav.php:30
+msgid "Dashboard"
+msgstr ""
+
+#: upload/include/class.nav.php:30
+msgid "Admin Dashboard"
+msgstr ""
+
+#: upload/include/class.nav.php:31
+msgid "Settings"
+msgstr ""
+
+#: upload/include/class.nav.php:31
+msgid "System Settings"
+msgstr ""
+
+#: upload/include/class.nav.php:32 upload/include/staff/emails.inc.php:10
+msgid "Emails"
+msgstr ""
+
+#: upload/include/class.nav.php:32 upload/include/staff/preference.inc.php:329
+msgid "Email Settings"
+msgstr ""
+
+#: upload/include/class.nav.php:34 upload/include/staff/template.inc.php:108
+#: upload/include/staff/staff.inc.php:132
+msgid "Staff"
+msgstr ""
+
+#: upload/include/class.nav.php:37
+msgid "Tickets"
+msgstr ""
+
+#: upload/include/class.nav.php:37
+msgid "Ticket Queue"
+msgstr ""
+
+#: upload/include/class.nav.php:39
+msgid "Knowledge Base"
+msgstr ""
+
+#: upload/include/class.nav.php:39
+msgid "Knowledge Base: Premade"
+msgstr ""
+
+#: upload/include/class.nav.php:41
+msgid "Directory"
+msgstr ""
+
+#: upload/include/class.nav.php:41
+msgid "Staff Directory"
+msgstr ""
+
+#: upload/include/class.nav.php:42 upload/include/staff/header.inc.php:51
+msgid "My Account"
+msgstr ""
+
+#: upload/include/mysql.php:64
+msgid "DB Error #"
+msgstr ""
+
+#: upload/include/class.config.php:458
+msgid "Helpdesk URl required"
+msgstr ""
+
+#: upload/include/class.config.php:459
+msgid "Helpdesk title required"
+msgstr ""
+
+#: upload/include/class.config.php:460
+msgid "Default Dept. required"
+msgstr ""
+
+#: upload/include/class.config.php:461
+msgid "Default email required"
+msgstr ""
+
+#: upload/include/class.config.php:462
+msgid "You must select template."
+msgstr ""
+
+#: upload/include/class.config.php:463 upload/include/class.config.php:464
+msgid "Enter idle time in minutes"
+msgstr ""
+
+#: upload/include/class.config.php:465
+msgid "Time format required"
+msgstr ""
+
+#: upload/include/class.config.php:466
+msgid "Date format required"
+msgstr ""
+
+#: upload/include/class.config.php:467
+msgid "Datetime format required"
+msgstr ""
+
+#: upload/include/class.config.php:468
+msgid "Day, Datetime format required"
+msgstr ""
+
+#: upload/include/class.config.php:470
+msgid "Enter lock time in minutes"
+msgstr ""
+
+#: upload/include/class.config.php:484 upload/include/class.config.php:490
+#: upload/include/class.config.php:497
+msgid "No target recipient(s) selected"
+msgstr ""
+
+#: upload/include/class.config.php:501
+msgid "Reply separator required (?)"
+msgstr ""
+
+#: upload/include/class.config.php:505
+msgid "The GD extension required"
+msgstr ""
+
+#: upload/include/class.config.php:507
+msgid "PNG support required for Image Captcha"
+msgstr ""
+
+#: upload/include/class.config.php:511
+msgid "Email already setup as system email"
+msgstr ""
+
 #: upload/include/class.group.php:37
 msgid "Group name required"
 msgstr ""
@@ -1547,140 +2637,464 @@ msgstr ""
 msgid "Unable to create the group. Internal error"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:5
-msgid "Edit Premade Reply"
+#: upload/include/staff/tickets.inc.php:20
+#: upload/include/staff/premade.inc.php:12
+#: upload/include/staff/filters.inc.php:10
+#: upload/include/staff/banlist.inc.php:10
+msgid "Search term must be more than 3 chars"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:8
-msgid "Add New Premade Reply"
+#: upload/include/staff/tickets.inc.php:38
+msgid "Overdue Tickets"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:34
-#: upload/include/staff/viewticket.inc.php:43
-msgid "Status:"
+#: upload/include/staff/tickets.inc.php:164
+#: upload/include/staff/syslogs.inc.php:40
+msgid "Entered date span is invalid. Selection ignored."
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:36
-#: upload/include/staff/helptopics.inc.php:42
-#: upload/include/staff/api.inc.php:47 upload/include/staff/staff.inc.php:124
-msgid "Active"
+#: upload/include/staff/tickets.inc.php:266
+#: upload/include/staff/tickets.inc.php:279
+#: upload/include/staff/filters.inc.php:61
+#: upload/include/staff/banlist.inc.php:61
+msgid "Query:"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:37
-msgid "Inative"
+#: upload/include/staff/tickets.inc.php:268
+#: upload/include/staff/tickets.inc.php:354
+#: upload/include/staff/filters.inc.php:63
+#: upload/include/staff/banlist.inc.php:63
+msgid "Search"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:41
-msgid "Category:"
+#: upload/include/staff/tickets.inc.php:269
+msgid "Advanced"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:42
-msgid "Department under which the 'answer' will be made available."
+#: upload/include/staff/tickets.inc.php:280
+msgid "Dept:"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:44
 #: upload/include/staff/tickets.inc.php:281
 #: upload/include/staff/premade.inc.php:74
+#: upload/include/staff/premade.inc.php:122
+#: upload/include/staff/reply.inc.php:44
 msgid "All Departments"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:55
-msgid "Answer:"
+#: upload/include/staff/tickets.inc.php:296
+msgid "Status is:"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:56
-msgid "Premade Reply - Ticket's base variables are supported."
+#: upload/include/staff/tickets.inc.php:299
+msgid "Any status"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:63
-#: upload/include/staff/mypref.inc.php:57
-#: upload/include/staff/group.inc.php:109
-#: upload/include/staff/email.inc.php:194
-#: upload/include/staff/topic.inc.php:76
-#: upload/include/staff/changepasswd.inc.php:30
-#: upload/include/staff/smtp.inc.php:70
-#: upload/include/staff/viewticket.inc.php:384
-#: upload/include/staff/api.inc.php:142 upload/include/staff/staff.inc.php:151
-#: upload/include/staff/dept.inc.php:155
-msgid "Submit"
+#: upload/include/staff/tickets.inc.php:301
+#: upload/include/staff/tickets.inc.php:479
+msgid "Overdue"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:64
-#: upload/include/staff/mypref.inc.php:58
-#: upload/include/staff/group.inc.php:110
-#: upload/include/staff/email.inc.php:195
-#: upload/include/staff/myprofile.inc.php:49
-#: upload/include/staff/topic.inc.php:77
-#: upload/include/staff/newticket.inc.php:206
-#: upload/include/staff/editticket.inc.php:136
-#: upload/include/staff/changepasswd.inc.php:31
-#: upload/include/staff/smtp.inc.php:71
-#: upload/include/staff/viewticket.inc.php:343
-#: upload/include/staff/viewticket.inc.php:385
-#: upload/include/staff/viewticket.inc.php:423
-#: upload/include/staff/viewticket.inc.php:470
-#: upload/include/staff/staff.inc.php:152
-#: upload/include/staff/dept.inc.php:156
-#: upload/include/client/open.inc.php:129
-#: upload/include/client/viewticket.inc.php:138
-msgid "Reset"
+#: upload/include/staff/tickets.inc.php:308
+#: upload/include/staff/syslogs.inc.php:85
+msgid "Date Span:"
 msgstr ""
 
-#: upload/include/staff/reply.inc.php:65
-#: upload/include/staff/mypref.inc.php:59
-#: upload/include/staff/group.inc.php:111
-#: upload/include/staff/email.inc.php:196
-#: upload/include/staff/myprofile.inc.php:50
-#: upload/include/staff/topic.inc.php:78
-#: upload/include/staff/newticket.inc.php:207
-#: upload/include/staff/editticket.inc.php:137
-#: upload/include/staff/changepasswd.inc.php:32
-#: upload/include/staff/smtp.inc.php:72
-#: upload/include/staff/viewticket.inc.php:344
-#: upload/include/staff/viewticket.inc.php:386
-#: upload/include/staff/viewticket.inc.php:424
-#: upload/include/staff/viewticket.inc.php:471
-#: upload/include/staff/staff.inc.php:153
-#: upload/include/staff/dept.inc.php:157
-#: upload/include/client/open.inc.php:130
-#: upload/include/client/viewticket.inc.php:139
-msgid "Cancel"
+#: upload/include/staff/tickets.inc.php:309
+#: upload/include/staff/tickets.inc.php:401
+#: upload/include/staff/syslogs.inc.php:86
+msgid "From"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:4
-msgid "My Preferences"
+#: upload/include/staff/tickets.inc.php:312
+#: upload/include/staff/syslogs.inc.php:89
+msgid "to"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:10
-msgid "Maximum Page size:"
+#: upload/include/staff/tickets.inc.php:320
+#: upload/include/staff/syslogs.inc.php:94
+msgid "Type:"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:18
-msgid "Tickets/items per page."
+#: upload/include/staff/tickets.inc.php:323
+msgid "Scan"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:22
-msgid "Auto Refresh Rate:"
+#: upload/include/staff/tickets.inc.php:324
+msgid "Fulltext"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:25
-msgid "in Mins. (<i>Tickets page refresh rate in minutes. Enter 0 to disable</i>)"
+#: upload/include/staff/tickets.inc.php:329
+msgid "Sort by:"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:29
-msgid "Preferred Timezone:"
+#: upload/include/staff/tickets.inc.php:335
+#: upload/include/staff/tickets.inc.php:400
+#: upload/include/staff/helptopics.inc.php:23
+#: upload/include/staff/emails.inc.php:22
+#: upload/include/staff/templates.inc.php:146
+msgid "Priority"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:46
-msgid "Daylight Savings:"
+#: upload/include/staff/tickets.inc.php:336
+#: upload/include/staff/tickets.inc.php:395
+msgid "Date"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:48
-msgid "Observe daylight saving"
+#: upload/include/staff/tickets.inc.php:340
+msgid "Descending"
 msgstr ""
 
-#: upload/include/staff/mypref.inc.php:51
-msgid "Current Time:"
+#: upload/include/staff/tickets.inc.php:341
+msgid "Ascending"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:344
+msgid "Results Per Page:"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:355
+msgid "Basic"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:393
+msgid "Ticket"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:400
+msgid "Sort By Priority"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:431
+msgid "Ticket:"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:445
+#: upload/include/staff/syslogs.inc.php:141
+msgid "Query returned 0 results."
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:455
+#: upload/include/staff/premade.inc.php:138
+#: upload/include/staff/filters.inc.php:126
+#: upload/include/staff/helptopics.inc.php:62
+#: upload/include/staff/depts.inc.php:71
+#: upload/include/staff/emails.inc.php:65
+#: upload/include/staff/groups.inc.php:58
+#: upload/include/staff/banlist.inc.php:126
+#: upload/include/staff/staffmembers.inc.php:73
+msgid "Select:"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:456
+#: upload/include/staff/premade.inc.php:139
+#: upload/include/staff/filters.inc.php:127
+#: upload/include/staff/helptopics.inc.php:63
+#: upload/include/staff/depts.inc.php:72
+#: upload/include/staff/emails.inc.php:66
+#: upload/include/staff/groups.inc.php:59
+#: upload/include/staff/syslogs.inc.php:96
+#: upload/include/staff/banlist.inc.php:127
+#: upload/include/staff/staffmembers.inc.php:74
+msgid "All"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:457
+#: upload/include/staff/premade.inc.php:140
+#: upload/include/staff/filters.inc.php:129
+#: upload/include/staff/helptopics.inc.php:64
+#: upload/include/staff/depts.inc.php:73
+#: upload/include/staff/emails.inc.php:67
+#: upload/include/staff/email.inc.php:131
+#: upload/include/staff/groups.inc.php:60
+#: upload/include/staff/viewticket.inc.php:321
+#: upload/include/staff/editticket.inc.php:107
+#: upload/include/staff/banlist.inc.php:128
+#: upload/include/staff/smtp.inc.php:39
+#: upload/include/staff/newticket.inc.php:193
+#: upload/include/staff/staffmembers.inc.php:75
+msgid "None"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:458
+#: upload/include/staff/premade.inc.php:141
+#: upload/include/staff/filters.inc.php:128
+#: upload/include/staff/helptopics.inc.php:65
+#: upload/include/staff/depts.inc.php:74
+#: upload/include/staff/emails.inc.php:68
+#: upload/include/staff/groups.inc.php:61
+#: upload/include/staff/banlist.inc.php:129
+#: upload/include/staff/staffmembers.inc.php:76
+msgid "Toggle"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:460
+#: upload/include/staff/premade.inc.php:142
+#: upload/include/staff/filters.inc.php:130
+#: upload/include/staff/syslogs.inc.php:149
+#: upload/include/staff/banlist.inc.php:130
+msgid "page:"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:471
+#: upload/include/staff/tickets.inc.php:489
+msgid "Reopen"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:472
+#: upload/include/staff/tickets.inc.php:490
+msgid "Are you sure you want to reopen selected tickets?"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:480
+msgid "Are you sure you want to mark selected tickets overdue/stale?"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:481
+#: upload/include/staff/tickets.inc.php:487
+#: upload/include/staff/viewticket.inc.php:177
+msgid "Close"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:482
+#: upload/include/staff/tickets.inc.php:488
+msgid "Are you sure you want to close selected tickets?"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:494
+#: upload/include/staff/premade.inc.php:149
+#: upload/include/staff/helptopics.inc.php:74
+#: upload/include/staff/groups.inc.php:70 upload/include/staff/api.inc.php:108
+#: upload/include/staff/staffmembers.inc.php:84
+msgid "Delete"
+msgstr ""
+
+#: upload/include/staff/tickets.inc.php:495
+msgid "Are you sure you want to DELETE selected tickets?"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:54
+#: upload/include/staff/filters.inc.php:53
+#: upload/include/staff/banlist.inc.php:53
+msgid "Search Results"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:54
+msgid "Premade/Canned Replies"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:72
+msgid "category"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:96
+msgid "Sort By Title"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:96
+msgid "Reply Title"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:98
+msgid "Category/Dept"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:100
+msgid "Sort By Update Date"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:100
+#: upload/include/staff/helptopics.inc.php:24
+#: upload/include/staff/emails.inc.php:23
+#: upload/include/staff/groups.inc.php:22
+msgid "Last Updated"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:121
+#: upload/include/staff/helptopics.inc.php:42
+#: upload/include/staff/groups.inc.php:40
+#: upload/include/staff/editticket.inc.php:114
+#: upload/include/staff/reply.inc.php:36
+#: upload/include/staff/staff.inc.php:124 upload/include/staff/api.inc.php:47
+#: upload/include/staff/staffmembers.inc.php:53
+msgid "Active"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:121
+#: upload/include/staff/groups.inc.php:40
+#: upload/include/staff/group.inc.php:38 upload/include/staff/topic.inc.php:36
+msgid "Disabled"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:130
+#: upload/include/staff/filters.inc.php:116
+#: upload/include/staff/helptopics.inc.php:52
+#: upload/include/staff/depts.inc.php:61
+#: upload/include/staff/emails.inc.php:55
+#: upload/include/staff/groups.inc.php:49
+#: upload/include/staff/banlist.inc.php:116
+#: upload/include/staff/templates.inc.php:85
+#: upload/include/staff/api.inc.php:85
+#: upload/include/staff/staffmembers.inc.php:63
+msgid "Query returned 0 results"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:146
+msgid "Are you sure you want to ENABLE selected entries?"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:147
+#: upload/include/staff/helptopics.inc.php:72
+#: upload/include/staff/dept.inc.php:120 upload/include/staff/dept.inc.php:126
+#: upload/include/staff/email.inc.php:103
+#: upload/include/staff/email.inc.php:164
+#: upload/include/staff/groups.inc.php:68
+#: upload/include/staff/preference.inc.php:414
+#: upload/include/staff/preference.inc.php:420
+#: upload/include/staff/preference.inc.php:426
+#: upload/include/staff/preference.inc.php:432
+#: upload/include/staff/preference.inc.php:445
+#: upload/include/staff/preference.inc.php:455
+#: upload/include/staff/preference.inc.php:465
+#: upload/include/staff/preference.inc.php:475
+#: upload/include/staff/api.inc.php:104
+msgid "Disable"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:148
+msgid "Are you sure you want to DISABLE selected entries?"
+msgstr ""
+
+#: upload/include/staff/premade.inc.php:150
+msgid "Are you sure you want to DELETE selected entries?"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:53
+#: upload/include/staff/banlist.inc.php:53
+msgid "Banned Email Addresses"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:64
+#: upload/include/staff/banlist.inc.php:64
+msgid "(Add)"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:73
+#: upload/include/staff/banlist.inc.php:73
+#: upload/include/staff/templates.inc.php:125
+#: upload/include/staff/api.inc.php:128
+msgid "Add"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:74
+#: upload/include/staff/banlist.inc.php:74
+msgid "(Search)"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:87
+#: upload/include/staff/banlist.inc.php:87
+msgid "Sort by email"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:88
+#: upload/include/staff/banlist.inc.php:88
+msgid "Submitter"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:90
+#: upload/include/staff/banlist.inc.php:90
+#: upload/include/staff/templates.inc.php:50
+#: upload/include/staff/api.inc.php:50
+msgid "Sort By Create Date"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:90
+#: upload/include/staff/banlist.inc.php:90
+msgid "Date Added"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:116
+#: upload/include/staff/banlist.inc.php:116
+#: upload/include/staff/templates.inc.php:85
+#: upload/include/staff/api.inc.php:85
+msgid "Index list"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:136
+#: upload/include/staff/banlist.inc.php:136
+msgid "Remove From List"
+msgstr ""
+
+#: upload/include/staff/filters.inc.php:137
+#: upload/include/staff/banlist.inc.php:137
+msgid "Are you sure you want to REMOVE selected email from ban list?"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:1
+#: upload/include/staff/viewticket.inc.php:3
+msgid "Invalid path"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:5
+msgid "osTicket:: SCP Login"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:13
+msgid "osTicket Staff Control Panel"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:20 upload/include/staff/email.inc.php:89
+#: upload/include/staff/smtp.inc.php:50
+msgid "Password"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:21
+msgid "Login"
+msgstr ""
+
+#: upload/include/staff/login.tpl.php:25
+msgid "Copyright &copy; <a href=\"http://www.osticket.com\" target=\"_blank\">osTicket.com</a>"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:19
+msgid "Help Topic"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:21
+#: upload/include/staff/emails.inc.php:20
+msgid "AutoResp."
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:42
+msgid "<b>Disabled</b>"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:43
+#: upload/include/staff/emails.inc.php:46
+#: upload/include/staff/email.inc.php:184
+#: upload/include/staff/group.inc.php:61 upload/include/staff/group.inc.php:68
+#: upload/include/staff/group.inc.php:75 upload/include/staff/group.inc.php:82
+#: upload/include/staff/group.inc.php:89 upload/include/staff/group.inc.php:96
+#: upload/include/staff/group.inc.php:103 upload/include/staff/smtp.inc.php:22
+#: upload/include/staff/templates.inc.php:77
+#: upload/include/staff/api.inc.php:77
+msgid "No"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:43
+msgid "<b>Yes</b>"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:71
+msgid "Are you sure you want to make selected services active?"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:73
+msgid "Are you sure you want to DISABLE selected services?"
+msgstr ""
+
+#: upload/include/staff/helptopics.inc.php:75
+msgid "Are you sure you want to DELETE selected services?"
 msgstr ""
 
 #: upload/include/staff/template.inc.php:13
@@ -1699,10 +3113,6 @@ msgstr ""
 msgid "Administrative notes"
 msgstr ""
 
-#: upload/include/staff/template.inc.php:28
-msgid "User"
-msgstr ""
-
 #: upload/include/staff/template.inc.php:30
 msgid "New Ticket Autoresponse"
 msgstr ""
@@ -1713,22 +3123,6 @@ msgstr ""
 
 #: upload/include/staff/template.inc.php:33
 msgid "Meant to give the user the ticket ID which can be used to check the status online."
-msgstr ""
-
-#: upload/include/staff/template.inc.php:36
-#: upload/include/staff/template.inc.php:51
-#: upload/include/staff/template.inc.php:66
-#: upload/include/staff/template.inc.php:82
-#: upload/include/staff/template.inc.php:97
-#: upload/include/staff/template.inc.php:113
-#: upload/include/staff/template.inc.php:126
-#: upload/include/staff/template.inc.php:141
-#: upload/include/staff/template.inc.php:155
-#: upload/include/staff/template.inc.php:168
-#: upload/include/staff/tickets.inc.php:396
-#: upload/include/staff/templates.inc.php:142
-#: upload/include/client/tickets.inc.php:95
-msgid "Subject"
 msgstr ""
 
 #: upload/include/staff/template.inc.php:42
@@ -1780,11 +3174,6 @@ msgstr ""
 msgid "Message template used when responding to a ticket or simply alerting the user about a response/answer availability."
 msgstr ""
 
-#: upload/include/staff/template.inc.php:108
-#: upload/include/staff/staff.inc.php:132 upload/include/class.nav.php:34
-msgid "Staff"
-msgstr ""
-
 #: upload/include/staff/template.inc.php:110
 msgid "New Ticket Alert"
 msgstr ""
@@ -1826,13 +3215,13 @@ msgid "Alert sent to staff on stale or overdue tickets."
 msgstr ""
 
 #: upload/include/staff/template.inc.php:181
-#: upload/include/staff/preference.inc.php:493
+#: upload/include/staff/preference.inc.php:494
 #: upload/include/staff/attachment.inc.php:78
 msgid "Save Changes"
 msgstr ""
 
 #: upload/include/staff/template.inc.php:182
-#: upload/include/staff/preference.inc.php:494
+#: upload/include/staff/preference.inc.php:495
 #: upload/include/staff/attachment.inc.php:79
 msgid "Reset Changes"
 msgstr ""
@@ -1841,30 +3230,837 @@ msgstr ""
 msgid "Cancel Edit"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:1
-#: upload/include/staff/viewticket.inc.php:3
-msgid "Invalid path"
+#: upload/include/staff/depts.inc.php:19
+msgid "Dept. Name"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:5
-msgid "osTicket:: SCP Login"
+#: upload/include/staff/depts.inc.php:20
+msgid "Type"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:13
-msgid "osTicket Staff Control Panel"
+#: upload/include/staff/depts.inc.php:21
+msgid "Users"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:20 upload/include/staff/email.inc.php:89
-#: upload/include/staff/smtp.inc.php:50
-msgid "Password"
+#: upload/include/staff/depts.inc.php:22
+msgid "Primary Outgoing Email"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:21
-msgid "Login"
+#: upload/include/staff/depts.inc.php:23
+msgid "Manager"
 msgstr ""
 
-#: upload/include/staff/login.tpl.php:25
-msgid "Copyright &copy; <a href=\"http://www.osticket.com\" target=\"_blank\">osTicket.com</a>"
+#: upload/include/staff/depts.inc.php:38
+msgid "(Default)"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:45 upload/include/staff/dept.inc.php:81
+msgid "Public"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:45
+msgid "<b>Private</b>"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:79
+msgid "Make Public"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:80
+msgid "Are you sure you want to make selected depts(s) public?"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:81
+msgid "Make Private"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:82
+msgid "Are you sure you want to make selected depts(s) private?"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:83
+msgid "Delete Dept(s)"
+msgstr ""
+
+#: upload/include/staff/depts.inc.php:84
+msgid "Are you sure you want to DELETE selected depts(s)?"
+msgstr ""
+
+#: upload/include/staff/emails.inc.php:19
+#: upload/include/staff/email.inc.php:38 upload/include/staff/smtp.inc.php:55
+msgid "Email Address"
+msgstr ""
+
+#: upload/include/staff/emails.inc.php:46
+#: upload/include/staff/email.inc.php:182
+#: upload/include/staff/group.inc.php:60 upload/include/staff/group.inc.php:67
+#: upload/include/staff/group.inc.php:74 upload/include/staff/group.inc.php:81
+#: upload/include/staff/group.inc.php:88 upload/include/staff/group.inc.php:95
+#: upload/include/staff/group.inc.php:102 upload/include/staff/smtp.inc.php:21
+#: upload/include/staff/templates.inc.php:77
+#: upload/include/staff/api.inc.php:77
+msgid "Yes"
+msgstr ""
+
+#: upload/include/staff/emails.inc.php:73
+msgid "Delete Selected Emails"
+msgstr ""
+
+#: upload/include/staff/emails.inc.php:74
+msgid "Are you sure you want to DELETE selected emails?"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:6
+msgid "Update Department"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:10
+msgid "New Department"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:29
+msgid "Dept depends on email &amp; help topics settings for incoming tickets."
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:30
+msgid "Dept Name:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:37
+msgid "Dept Email:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:52
+msgid "(outgoing email)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:59
+msgid "Dep Manager:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:63
+msgid "-------None-------"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:64
+msgid "Select Manager (optional)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:72
+msgid "No Users (Add Users)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:79
+msgid "Dept Type"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:82
+msgid "Private (Hidden)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:87
+msgid "Dept Signature:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:89
+msgid "Required when Dept is public"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:93
+msgid "can be appended to responses.&nbsp;(available as a choice for public departments)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:96
+msgid "Email Templates:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:99
+msgid "Select Template"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:100
+msgid "System Default"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:109
+msgid "Used for outgoing emails,alerts and notices to user and staff."
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:112
+msgid "Autoresponders"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:114
+msgid "Global auto-response settings in preference section must be enabled for Dept 'Enable' setting to take effect."
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:117
+#: upload/include/staff/preference.inc.php:411
+msgid "New Ticket:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:123
+#: upload/include/staff/preference.inc.php:423
+msgid "New Message:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:130
+msgid "Auto Response Email:"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:134
+msgid "Dept Email (above)"
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:149
+msgid "Email address used to send auto-responses, if enabled."
+msgstr ""
+
+#: upload/include/staff/dept.inc.php:155
+#: upload/include/staff/email.inc.php:194
+#: upload/include/staff/viewticket.inc.php:384
+#: upload/include/staff/mypref.inc.php:58
+#: upload/include/staff/group.inc.php:109 upload/include/staff/smtp.inc.php:70
+#: upload/include/staff/topic.inc.php:76 upload/include/staff/reply.inc.php:63
+#: upload/include/staff/staff.inc.php:151
+#: upload/include/staff/changepasswd.inc.php:30
+#: upload/include/staff/api.inc.php:142
+msgid "Submit"
+msgstr ""
+
+#: upload/include/staff/header.inc.php:34
+msgid "Welcome back"
+msgstr ""
+
+#: upload/include/staff/header.inc.php:37
+msgid "Admin Panel"
+msgstr ""
+
+#: upload/include/staff/header.inc.php:39
+msgid "Staff Panel"
+msgstr ""
+
+#: upload/include/staff/header.inc.php:41
+#: upload/include/staff/header.inc.php:51
+msgid "My Preference"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:2 upload/include/staff/smtp.inc.php:2
+msgid "Habari/Jambo rafiki? "
+msgstr ""
+
+#: upload/include/staff/email.inc.php:7
+msgid "Edit Email"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:15
+msgid "New Email"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:34
+msgid "Email Info"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:36
+msgid "Settings are mainly for emailed tickets. For online/web tickets see help topics."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:43 upload/include/staff/smtp.inc.php:61
+msgid "Email Name:"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:46 upload/include/staff/smtp.inc.php:64
+msgid "Optional email's FROM name."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:49
+msgid "New Ticket Priority"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:52 upload/include/staff/topic.inc.php:50
+msgid "Select Priority"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:62
+msgid "New Ticket Dept."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:75
+msgid "Auto Response"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:77
+msgid "<b>Disable</b> autoresponse for this email."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:78
+msgid "Overwrite Dept setting"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:82
+msgid "<b>Login info (optional)</b>: Required when IMAP/POP and/or SMTP are enabled."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:95
+msgid "Mail Account (Optional)"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:97
+msgid "Setting for fetching incoming emails. Mail fetching must be enabled with autocron active or external cron setup."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:98
+msgid "Please be patient, the system will try to login to mail server to validate the entered login info."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:112
+msgid "Port"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:117
+msgid "Protocol"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:120
+msgid "Select"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:121
+msgid "POP"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:122
+msgid "IMAP"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:128
+#: upload/include/staff/email.inc.php:188 upload/include/staff/smtp.inc.php:36
+msgid "Encryption"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:133
+msgid "SSL"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:137
+msgid "Fetch Frequency"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:139
+msgid "Delay intervals in minutes"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:143
+msgid "Maximum Emails Per Fetch"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:145
+msgid "Maximum emails to process per fetch."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:149
+msgid "Delete Messages"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:152
+msgid "Delete fetched message(s) (<i>recommended when using POP</i>)"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:156
+msgid "SMTP Settings (Optional)"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:158
+msgid "When enabled the <b>email account</b> will use SMTP server instead of internal PHP mail() function for outgoing emails.<br>"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:159 upload/include/staff/smtp.inc.php:18
+msgid "Please be patient, the system will try to login to SMTP server to validate the entered login info."
+msgstr ""
+
+#: upload/include/staff/email.inc.php:168 upload/include/staff/smtp.inc.php:26
+msgid "SMTP Host"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:173 upload/include/staff/smtp.inc.php:31
+msgid "SMTP Port"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:178
+msgid "Authentication Required?"
+msgstr ""
+
+#: upload/include/staff/email.inc.php:189
+msgid "Best available authentication method is auto-selected based on what the sever supports."
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:8
+msgid "No groups??"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:18
+msgid "Group Name"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:19
+msgid "Group Status"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:20
+msgid "Members"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:67
+msgid "Are you sure you want to ENABLE selected group(s)"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:69
+msgid "Are you sure you want to DISABLE selected group(s)"
+msgstr ""
+
+#: upload/include/staff/groups.inc.php:71
+msgid "Are you sure you want to DELETE selected group(s)"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:13
+#: upload/include/staff/syslogs.inc.php:97
+msgid "Errors"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:17
+#: upload/include/staff/syslogs.inc.php:98
+msgid "Warnings"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:21
+msgid "Debug logs"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:26
+msgid "All logs"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:99
+msgid "Debug"
+msgstr ""
+
+#: upload/include/staff/syslogs.inc.php:102
+msgid "Go!"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:10
+msgid "Unable to obtain a lock on the ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:19
+#, php-format
+msgid "Ticket is assigned to %s"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:21
+msgid "This ticket is currently locked by another staff member!"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:23
+msgid "Email is in banlist! Must be removed before any reply/response"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:25
+msgid "Marked overdue!"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:35
+msgid "Edit Ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:43
+#: upload/include/staff/reply.inc.php:34
+msgid "Status:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:71
+#, php-format
+msgid "Related Tickets"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:82
+msgid "Source:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:93
+msgid "Assigned Staff:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:94
+msgid "- unassigned -"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:97
+msgid "Last Response:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:103
+#: upload/include/staff/editticket.inc.php:68
+#: upload/include/staff/newticket.inc.php:115
+msgid "Due Date:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:109
+msgid "Close Date:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:127
+msgid "IP Address:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:130
+msgid "Last Message:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:154
+msgid "Action:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:157
+msgid "Select Action"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:158
+msgid "Change Priority"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:160
+msgid "Mark Overdue"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:163
+msgid "Release (unassign)"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:169
+#: upload/include/staff/viewticket.inc.php:376
+msgid "Close Ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:171
+#: upload/include/staff/viewticket.inc.php:378
+msgid "Reopen Ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:177
+msgid "Ban Email"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:179
+msgid "Un-Ban Email"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:184
+msgid "Delete Ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:189
+msgid "-Unchanged-"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:212
+msgid "Internal Notes"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:217
+msgid "posted by"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:296
+msgid "Canned Response:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:299
+msgid "Select a premade reply"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:303
+#: upload/include/staff/newticket.inc.php:94
+msgid "Append"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:309
+msgid "Attach File:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:320
+msgid "Append Signature:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:323
+#: upload/include/staff/newticket.inc.php:195
+msgid "My signature"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:326
+msgid "Dept Signature"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:335
+msgid "Close on Reply"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:337
+msgid "Reopen on Reply"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:351
+msgid "Post Internal Note"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:357
+msgid "Note Title:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:362
+msgid "Enter note content."
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:396
+msgid "Dept. Transfer"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:405
+msgid "-Select Target Dept.-"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:416
+msgid "Comments/Reasons for the transfer. &nbsp;(<i>Internal note</i>)"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:422
+msgid "Transfer"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:437
+msgid "Re Assign Ticket"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:437
+msgid "Assign to Staff"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:443
+msgid "Staff Member:"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:445
+msgid "-Select Staff Member.-"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:462
+msgid "Comments/message for assignee. &nbsp;(<i>Saved as internal note</i>)"
+msgstr ""
+
+#: upload/include/staff/viewticket.inc.php:469
+msgid "Assign"
+msgstr ""
+
+#: upload/include/staff/footer.inc.php:4
+#, php-format
+msgid "Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;All Rights Reserved."
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:4
+msgid "Access Denied. Perm error."
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:38
+msgid "Update Ticket #"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:38
+msgid "View Ticket"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:70
+#, php-format
+msgid "Time is based on your time zone GM %s"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:109
+msgid "(deleted)"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:114
+msgid "Inactive"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:120
+msgid "(optional)"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:126
+#: upload/include/staff/newticket.inc.php:108
+msgid "Internal Note:"
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:128
+msgid "Reasons for the edit."
+msgstr ""
+
+#: upload/include/staff/editticket.inc.php:135
+msgid "Update Ticket"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:4
+msgid "My Preferences"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:10
+msgid "Maximum Page size:"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:18
+msgid "Tickets/items per page."
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:22
+msgid "Auto Refresh Rate:"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:25
+msgid "in Mins. (<i>Tickets page refresh rate in minutes. Enter 0 to disable</i>)"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:29
+msgid "Preferred Timezone:"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:35
+#: upload/include/staff/preference.inc.php:220
+#, php-format
+msgid "Server Time (GMT %s:00)"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:47
+msgid "Daylight Savings:"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:49
+msgid "Observe daylight saving"
+msgstr ""
+
+#: upload/include/staff/mypref.inc.php:52
+msgid "Current Time:"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:6
+#, php-format
+msgid "Edit Group: %s"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:26
+msgid "Group permissions set below applies cross all group members, but don't apply to adminstrators and Dept. managers in some cases."
+msgstr ""
+
+#: upload/include/staff/group.inc.php:28
+msgid "Group Name:"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:35
+msgid "Group Status:"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:37 upload/include/staff/topic.inc.php:35
+msgid "Enabled"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:42
+msgid "Dept Access"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:43
+msgid "Select departments group members are allowed to access in addition to thier own department."
+msgstr ""
+
+#: upload/include/staff/group.inc.php:54
+msgid "Select All"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:55
+msgid "Select None"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:58
+msgid "Can <b>Create</b> Tickets"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:62
+msgid "Ability to open tickets on behalf of users!"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:65
+msgid "Can <b>Edit</b> Tickets"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:69
+msgid "Ability to edit tickets. Admins & Dept managers are allowed by default."
+msgstr ""
+
+#: upload/include/staff/group.inc.php:72
+msgid "Can <b>Close</b> Tickets"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:76
+msgid "<b>Mass Close Only:</b> Staff can still close one ticket at a time when set to No"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:79
+msgid "Can <b>Transfer</b> Tickets"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:83
+msgid "Ability to transfer tickets from one dept to another."
+msgstr ""
+
+#: upload/include/staff/group.inc.php:86
+msgid "Can <b>Delete</b> Tickets"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:90
+msgid "Deleted tickets can't be recovered!"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:93
+msgid "Can Ban Emails"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:97
+msgid "Ability to add/remove emails from banlist via tickets interface."
+msgstr ""
+
+#: upload/include/staff/group.inc.php:100
+msgid "Can Manage Premade"
+msgstr ""
+
+#: upload/include/staff/group.inc.php:104
+msgid "Ability to add/update/disable/delete premade responses."
+msgstr ""
+
+#: upload/include/staff/smtp.inc.php:14
+msgid "SMTP Server Setting (Optional)"
+msgstr ""
+
+#: upload/include/staff/smtp.inc.php:16
+msgid "When enabled the system will use an SMTP server rather than the internal PHP mail() function for outgoing emails."
+msgstr ""
+
+#: upload/include/staff/smtp.inc.php:17
+msgid "Leave the username and password empty of the SMTP server doesn't require authentication"
+msgstr ""
+
+#: upload/include/staff/smtp.inc.php:19
+msgid "Enable SMTP"
+msgstr ""
+
+#: upload/include/staff/smtp.inc.php:41
+msgid "TLS (secure)"
 msgstr ""
 
 #: upload/include/staff/preference.inc.php:9
@@ -2078,942 +4274,316 @@ msgstr ""
 msgid "Default Timezone:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:233
+#: upload/include/staff/preference.inc.php:234
 msgid "Daylight Saving:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:235
+#: upload/include/staff/preference.inc.php:236
 msgid "Observe daylight savings"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:241
+#: upload/include/staff/preference.inc.php:242
 msgid "Ticket Options &amp; Settings"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:242
+#: upload/include/staff/preference.inc.php:243
 msgid "If enabled ticket lock get auto-renewed on form activity."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:243
+#: upload/include/staff/preference.inc.php:244
 msgid "Ticket IDs:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:245
+#: upload/include/staff/preference.inc.php:246
 msgid "Sequential"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:246
+#: upload/include/staff/preference.inc.php:247
 msgid "Random  (recommended)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:249
+#: upload/include/staff/preference.inc.php:250
 msgid "Ticket Priority:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:258
+#: upload/include/staff/preference.inc.php:259
 msgid "Default priority"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:260
+#: upload/include/staff/preference.inc.php:261
 msgid "Allow user to overwrite/set priority (new web tickets)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:262
+#: upload/include/staff/preference.inc.php:263
 msgid "Use email priority when available (new emailed tickets)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:266
+#: upload/include/staff/preference.inc.php:267
 msgid "Maximum <b>Open</b> Tickets:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:269
+#: upload/include/staff/preference.inc.php:270
 msgid "per email. (<i>Helps with spam and flood control. Enter 0 for unlimited</i>)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:272
+#: upload/include/staff/preference.inc.php:273
 msgid "Auto-Lock Time:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:276
+#: upload/include/staff/preference.inc.php:277
 msgid "(<i>Minutes to lock a ticket on activity. Enter 0 to disable locking</i>)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:279
+#: upload/include/staff/preference.inc.php:280
 msgid "Ticket Grace Period:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:282
+#: upload/include/staff/preference.inc.php:283
 msgid "(<i>Hours before ticket is marked overdue. Enter 0 to disable aging.</i>)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:285
+#: upload/include/staff/preference.inc.php:286
 msgid "Reopened Tickets:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:288
+#: upload/include/staff/preference.inc.php:289
 msgid "Auto-assign reopened tickets to last respondent 'available'. (<i> 3 months limit</i>)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:291
+#: upload/include/staff/preference.inc.php:292
 msgid "Assigned Tickets:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:294
+#: upload/include/staff/preference.inc.php:295
 msgid "Show assigned tickets on open queue."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:297
+#: upload/include/staff/preference.inc.php:298
 msgid "Answered Tickets:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:300
+#: upload/include/staff/preference.inc.php:301
 msgid "Show answered tickets on open queue."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:303
+#: upload/include/staff/preference.inc.php:304
 msgid "Ticket Activity Log:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:306
+#: upload/include/staff/preference.inc.php:307
 msgid "Log ticket's activity as internal notes."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:309
+#: upload/include/staff/preference.inc.php:310
 msgid "Staff Identity:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:312
+#: upload/include/staff/preference.inc.php:313
 msgid "Hide staff's name on responses."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:315
+#: upload/include/staff/preference.inc.php:316
 msgid "Human Verification:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:322
+#: upload/include/staff/preference.inc.php:323
 msgid "Enable captcha on new web tickets."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:328 upload/include/class.nav.php:32
-msgid "Email Settings"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:329
+#: upload/include/staff/preference.inc.php:330
 msgid "Note that global settings can be disabled at dept/email level."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:330
+#: upload/include/staff/preference.inc.php:331
 msgid "Incoming Emails"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:331
+#: upload/include/staff/preference.inc.php:332
 msgid "For mail fetcher (POP/IMAP) to work you must set a cron job or simply enable auto-cron"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:332
+#: upload/include/staff/preference.inc.php:333
 msgid "Enable POP/IMAP email fetch"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:333
+#: upload/include/staff/preference.inc.php:334
 msgid "Global setting which can be disabled at email level"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:334
+#: upload/include/staff/preference.inc.php:335
 msgid "Enable email piping"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:335
+#: upload/include/staff/preference.inc.php:336
 msgid "You pipe we accept policy"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:337
+#: upload/include/staff/preference.inc.php:338
 msgid "Strip quoted reply (<i>depends on the tag below</i>)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:338
+#: upload/include/staff/preference.inc.php:339
 msgid "Reply Separator Tag"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:342
+#: upload/include/staff/preference.inc.php:343
 msgid "Outgoing Emails"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:344
+#: upload/include/staff/preference.inc.php:345
 msgid "Default Email:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:344
+#: upload/include/staff/preference.inc.php:345
 msgid "Only applies to outgoing emails with no SMTP settings."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:347
-#: upload/include/staff/preference.inc.php:370
-#: upload/include/staff/preference.inc.php:385
-#: upload/include/staff/newticket.inc.php:154
-#: upload/include/staff/dept.inc.php:40 upload/include/staff/dept.inc.php:133
-msgid "Select One"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:348
+#: upload/include/staff/preference.inc.php:349
 msgid "None: Use PHP mail function"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:363
+#: upload/include/staff/preference.inc.php:364
 msgid "Allow spoofing (No Overwrite)."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:367
+#: upload/include/staff/preference.inc.php:368
 msgid "Default System Email:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:382
+#: upload/include/staff/preference.inc.php:383
 msgid "Default Alert Email:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:386
+#: upload/include/staff/preference.inc.php:387
 msgid "Use Default System Email (above)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:397
+#: upload/include/staff/preference.inc.php:398
 msgid "Used to send out alerts and notices to staff."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:400
+#: upload/include/staff/preference.inc.php:401
 msgid "System Admin Email Address:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:408
+#: upload/include/staff/preference.inc.php:409
 msgid "Autoresponders &nbsp;(Global Setting)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:409
+#: upload/include/staff/preference.inc.php:410
 msgid "This is global setting which can be disabled at department level."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:410
-#: upload/include/staff/dept.inc.php:117
-msgid "New Ticket:"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:411
+#: upload/include/staff/preference.inc.php:412
 msgid "Autoresponse includes the ticket ID required to check status of the ticket"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:413
-#: upload/include/staff/preference.inc.php:419
-#: upload/include/staff/preference.inc.php:425
-#: upload/include/staff/preference.inc.php:431
-#: upload/include/staff/preference.inc.php:444
-#: upload/include/staff/preference.inc.php:454
-#: upload/include/staff/preference.inc.php:464
-#: upload/include/staff/preference.inc.php:474
-#: upload/include/staff/email.inc.php:103
-#: upload/include/staff/email.inc.php:164
-#: upload/include/staff/premade.inc.php:147
-#: upload/include/staff/helptopics.inc.php:72
-#: upload/include/staff/api.inc.php:104 upload/include/staff/dept.inc.php:120
-#: upload/include/staff/dept.inc.php:126
-#: upload/include/staff/groups.inc.php:68
-msgid "Disable"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:416
+#: upload/include/staff/preference.inc.php:417
 msgid "New Ticket by Staff:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:417
+#: upload/include/staff/preference.inc.php:418
 msgid "Notice sent when staff creates a ticket on behalf of the user (Staff can disable)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:422
-#: upload/include/staff/dept.inc.php:123
-msgid "New Message:"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:423
+#: upload/include/staff/preference.inc.php:424
 msgid "Message appended to an existing ticket confirmation"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:428
+#: upload/include/staff/preference.inc.php:429
 msgid "Overlimit notice:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:429
+#: upload/include/staff/preference.inc.php:430
 msgid "Ticket denied notice sent <b>only once</b> on limit violation to the user."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:432
+#: upload/include/staff/preference.inc.php:433
 msgid "<b>Note:</b> Admin gets alerts on ALL denials by default."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:437
+#: upload/include/staff/preference.inc.php:438
 msgid "Alerts &amp; Notices"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:439
+#: upload/include/staff/preference.inc.php:440
 msgid "Notices sent to user use 'No Reply Email' whereas alerts to staff use 'Alert Email' set above as FROM address respectively."
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:441
+#: upload/include/staff/preference.inc.php:442
 msgid "New Ticket Alert:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:445
-#: upload/include/staff/preference.inc.php:455
-#: upload/include/staff/preference.inc.php:465
+#: upload/include/staff/preference.inc.php:446
+#: upload/include/staff/preference.inc.php:456
+#: upload/include/staff/preference.inc.php:466
 msgid "Select recipients"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:446
-msgid "Admin Email"
-msgstr ""
-
 #: upload/include/staff/preference.inc.php:447
-#: upload/include/staff/preference.inc.php:477
-msgid "Department Manager"
+msgid "Admin Email"
 msgstr ""
 
 #: upload/include/staff/preference.inc.php:448
 #: upload/include/staff/preference.inc.php:478
+msgid "Department Manager"
+msgstr ""
+
+#: upload/include/staff/preference.inc.php:449
+#: upload/include/staff/preference.inc.php:479
 msgid "Department Members (spammy)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:451
+#: upload/include/staff/preference.inc.php:452
 msgid "New Message Alert:"
-msgstr ""
-
-#: upload/include/staff/preference.inc.php:456
-#: upload/include/staff/preference.inc.php:466
-msgid "Last Respondent"
 msgstr ""
 
 #: upload/include/staff/preference.inc.php:457
 #: upload/include/staff/preference.inc.php:467
-#: upload/include/staff/preference.inc.php:476
-msgid "Assigned Staff"
+msgid "Last Respondent"
 msgstr ""
 
 #: upload/include/staff/preference.inc.php:458
 #: upload/include/staff/preference.inc.php:468
+#: upload/include/staff/preference.inc.php:477
+msgid "Assigned Staff"
+msgstr ""
+
+#: upload/include/staff/preference.inc.php:459
+#: upload/include/staff/preference.inc.php:469
 msgid "Department Manager (spammy)"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:461
+#: upload/include/staff/preference.inc.php:462
 msgid "New Internal Note Alert:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:471
+#: upload/include/staff/preference.inc.php:472
 msgid "Overdue Ticket Alert:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:475
+#: upload/include/staff/preference.inc.php:476
 msgid "Admin Email gets an alert by default. Select additional recipients below"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:481
+#: upload/include/staff/preference.inc.php:482
 msgid "System Errors:"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:482
+#: upload/include/staff/preference.inc.php:483
 msgid "Enabled errors are sent to admin email set above"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:483
+#: upload/include/staff/preference.inc.php:484
 msgid "System Errors"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:484
+#: upload/include/staff/preference.inc.php:485
 msgid "SQL errors"
 msgstr ""
 
-#: upload/include/staff/preference.inc.php:485
+#: upload/include/staff/preference.inc.php:486
 msgid "Excessive Login attempts"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:20
-#: upload/include/staff/premade.inc.php:12
-#: upload/include/staff/banlist.inc.php:10
-msgid "Search term must be more than 3 chars"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:38
-msgid "Overdue Tickets"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:266
-#: upload/include/staff/tickets.inc.php:279
-#: upload/include/staff/filters.inc.php:61
-#: upload/include/staff/banlist.inc.php:61
-msgid "Query:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:268
-#: upload/include/staff/tickets.inc.php:354
-#: upload/include/staff/filters.inc.php:63
-#: upload/include/staff/banlist.inc.php:63
-msgid "Search"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:269
-msgid "Advanced"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:280
-msgid "Dept:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:296
-msgid "Status is:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:299
-msgid "Any status"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:301
-#: upload/include/staff/tickets.inc.php:479
-msgid "Overdue"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:308
-#: upload/include/staff/syslogs.inc.php:85
-msgid "Date Span:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:309
-#: upload/include/staff/tickets.inc.php:401
-#: upload/include/staff/syslogs.inc.php:86
-msgid "From"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:312
-msgid "to"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:320
-#: upload/include/staff/syslogs.inc.php:94
-msgid "Type:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:323
-msgid "Scan"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:324
-msgid "Fulltext"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:329
-msgid "Sort by:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:334
-#: upload/include/staff/viewticket.inc.php:31
-#: upload/include/client/tickets.inc.php:91
-msgid "Ticket #"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:335
-#: upload/include/staff/tickets.inc.php:400
-#: upload/include/staff/templates.inc.php:146
-#: upload/include/staff/helptopics.inc.php:23
-#: upload/include/staff/emails.inc.php:22
-msgid "Priority"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:336
-#: upload/include/staff/tickets.inc.php:395
-msgid "Date"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:337
-msgid "Dept."
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:340
-msgid "Descending"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:341
-msgid "Ascending"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:344
-msgid "Results Per Page:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:355
-msgid "Basic"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:393
-#: upload/include/client/tickets.inc.php:91
-msgid "Sort By Ticket ID"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:393
-msgid "Ticket"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:395
-#: upload/include/client/tickets.inc.php:93
-msgid "Sort By Date"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:398
-#: upload/include/client/tickets.inc.php:97
-msgid "Sort By Category"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:398
-#: upload/include/staff/templates.inc.php:147
-#: upload/include/staff/helptopics.inc.php:22
-#: upload/include/staff/dept.inc.php:28 upload/include/staff/emails.inc.php:21
-#: upload/include/client/tickets.inc.php:97
-msgid "Department"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:400
-msgid "Sort By Priority"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:431
-msgid "Ticket:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:445
-#: upload/include/staff/syslogs.inc.php:141
-msgid "Query returned 0 results."
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:455
-#: upload/include/staff/depts.inc.php:71
-#: upload/include/staff/filters.inc.php:126
-#: upload/include/staff/premade.inc.php:138
-#: upload/include/staff/banlist.inc.php:126
-#: upload/include/staff/helptopics.inc.php:62
-#: upload/include/staff/emails.inc.php:65
-#: upload/include/staff/staffmembers.inc.php:73
-#: upload/include/staff/groups.inc.php:58
-msgid "Select:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:456
-#: upload/include/staff/depts.inc.php:72
-#: upload/include/staff/syslogs.inc.php:96
-#: upload/include/staff/filters.inc.php:127
-#: upload/include/staff/premade.inc.php:139
-#: upload/include/staff/banlist.inc.php:127
-#: upload/include/staff/helptopics.inc.php:63
-#: upload/include/staff/emails.inc.php:66
-#: upload/include/staff/staffmembers.inc.php:74
-#: upload/include/staff/groups.inc.php:59
-msgid "All"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:457
-#: upload/include/staff/email.inc.php:131
-#: upload/include/staff/newticket.inc.php:193
-#: upload/include/staff/editticket.inc.php:107
-#: upload/include/staff/depts.inc.php:73 upload/include/staff/smtp.inc.php:39
-#: upload/include/staff/filters.inc.php:129
-#: upload/include/staff/viewticket.inc.php:321
-#: upload/include/staff/premade.inc.php:141
-#: upload/include/staff/banlist.inc.php:129
-#: upload/include/staff/helptopics.inc.php:64
-#: upload/include/staff/emails.inc.php:67
-#: upload/include/staff/staffmembers.inc.php:76
-#: upload/include/staff/groups.inc.php:61
-msgid "None"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:458
-#: upload/include/staff/depts.inc.php:74
-#: upload/include/staff/filters.inc.php:128
-#: upload/include/staff/premade.inc.php:140
-#: upload/include/staff/banlist.inc.php:128
-#: upload/include/staff/helptopics.inc.php:65
-#: upload/include/staff/emails.inc.php:68
-#: upload/include/staff/staffmembers.inc.php:75
-#: upload/include/staff/groups.inc.php:60
-msgid "Toggle"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:460
-#: upload/include/staff/syslogs.inc.php:149
-#: upload/include/staff/filters.inc.php:130
-#: upload/include/staff/premade.inc.php:142
-#: upload/include/staff/banlist.inc.php:130
-msgid "page:"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:471
-#: upload/include/staff/tickets.inc.php:489
-msgid "Reopen"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:472
-#: upload/include/staff/tickets.inc.php:490
-msgid "Are you sure you want to reopen selected tickets?"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:480
-msgid "Are you sure you want to mark selected tickets overdue/stale?"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:481
-#: upload/include/staff/tickets.inc.php:487
-#: upload/include/staff/viewticket.inc.php:177
-msgid "Close"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:482
-#: upload/include/staff/tickets.inc.php:488
-msgid "Are you sure you want to close selected tickets?"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:494
-#: upload/include/staff/premade.inc.php:149
-#: upload/include/staff/helptopics.inc.php:74
-#: upload/include/staff/api.inc.php:108
-#: upload/include/staff/staffmembers.inc.php:84
-#: upload/include/staff/groups.inc.php:70
-msgid "Delete"
-msgstr ""
-
-#: upload/include/staff/tickets.inc.php:495
-msgid "Are you sure you want to DELETE selected tickets?"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:6
-#, php-format
-msgid "Edit Group: %s"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:26
-msgid "Group permissions set below applies cross all group members, but don't apply to adminstrators and Dept. managers in some cases."
-msgstr ""
-
-#: upload/include/staff/group.inc.php:28
-msgid "Group Name:"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:35
-msgid "Group Status:"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:37 upload/include/staff/topic.inc.php:35
-msgid "Enabled"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:38 upload/include/staff/topic.inc.php:36
-msgid "Disabled"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:42
-msgid "Dept Access"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:43
-msgid "Select departments group members are allowed to access in addition to thier own department."
-msgstr ""
-
-#: upload/include/staff/group.inc.php:54
-msgid "Select All"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:55
-msgid "Select None"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:58
-msgid "Can <b>Create</b> Tickets"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:60 upload/include/staff/group.inc.php:67
-#: upload/include/staff/group.inc.php:74 upload/include/staff/group.inc.php:81
-#: upload/include/staff/group.inc.php:88 upload/include/staff/group.inc.php:95
-#: upload/include/staff/group.inc.php:102
-#: upload/include/staff/email.inc.php:182 upload/include/staff/smtp.inc.php:21
-msgid "Yes"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:61 upload/include/staff/group.inc.php:68
-#: upload/include/staff/group.inc.php:75 upload/include/staff/group.inc.php:82
-#: upload/include/staff/group.inc.php:89 upload/include/staff/group.inc.php:96
-#: upload/include/staff/group.inc.php:103
-#: upload/include/staff/email.inc.php:184 upload/include/staff/smtp.inc.php:22
-#: upload/include/staff/helptopics.inc.php:43
-msgid "No"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:62
-msgid "Ability to open tickets on behalf of users!"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:65
-msgid "Can <b>Edit</b> Tickets"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:69
-msgid "Ability to edit tickets. Admins & Dept managers are allowed by default."
-msgstr ""
-
-#: upload/include/staff/group.inc.php:72
-msgid "Can <b>Close</b> Tickets"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:76
-msgid "<b>Mass Close Only:</b> Staff can still close one ticket at a time when set to No"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:79
-msgid "Can <b>Transfer</b> Tickets"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:83
-msgid "Ability to transfer tickets from one dept to another."
-msgstr ""
-
-#: upload/include/staff/group.inc.php:86
-msgid "Can <b>Delete</b> Tickets"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:90
-msgid "Deleted tickets can't be recovered!"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:93
-msgid "Can Ban Emails"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:97
-msgid "Ability to add/remove emails from banlist via tickets interface."
-msgstr ""
-
-#: upload/include/staff/group.inc.php:100
-msgid "Can Manage Premade"
-msgstr ""
-
-#: upload/include/staff/group.inc.php:104
-msgid "Ability to add/update/disable/delete premade responses."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:2 upload/include/staff/smtp.inc.php:2
-msgid "Habari/Jambo rafiki? "
-msgstr ""
-
-#: upload/include/staff/email.inc.php:7
-msgid "Edit Email"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:15
-msgid "New Email"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:34
-msgid "Email Info"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:36
-msgid "Settings are mainly for emailed tickets. For online/web tickets see help topics."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:38 upload/include/staff/smtp.inc.php:55
-#: upload/include/staff/emails.inc.php:19
-msgid "Email Address"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:43 upload/include/staff/smtp.inc.php:61
-msgid "Email Name:"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:46 upload/include/staff/smtp.inc.php:64
-msgid "Optional email's FROM name."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:49
-msgid "New Ticket Priority"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:52 upload/include/staff/topic.inc.php:50
-msgid "Select Priority"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:62
-msgid "New Ticket Dept."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:75
-msgid "Auto Response"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:77
-msgid "<b>Disable</b> autoresponse for this email."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:78
-msgid "Overwrite Dept setting"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:82
-msgid "<b>Login info (optional)</b>: Required when IMAP/POP and/or SMTP are enabled."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:95
-msgid "Mail Account (Optional)"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:97
-msgid "Setting for fetching incoming emails. Mail fetching must be enabled with autocron active or external cron setup."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:98
-msgid "Please be patient, the system will try to login to mail server to validate the entered login info."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:100
-#: upload/include/staff/email.inc.php:161
-#: upload/include/staff/premade.inc.php:97
-#: upload/include/staff/templates.inc.php:145
-#: upload/include/staff/helptopics.inc.php:20
-#: upload/include/staff/staffmembers.inc.php:29
-#: upload/include/client/tickets.inc.php:94
-msgid "Status"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:107
-msgid "Host"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:112
-msgid "Port"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:117
-msgid "Protocol"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:120
-msgid "Select"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:121
-msgid "POP"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:122
-msgid "IMAP"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:128
-#: upload/include/staff/email.inc.php:188 upload/include/staff/smtp.inc.php:36
-msgid "Encryption"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:133
-msgid "SSL"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:137
-msgid "Fetch Frequency"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:139
-msgid "Delay intervals in minutes"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:143
-msgid "Maximum Emails Per Fetch"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:145
-msgid "Maximum emails to process per fetch."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:149
-msgid "Delete Messages"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:152
-msgid "Delete fetched message(s) (<i>recommended when using POP</i>)"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:156
-msgid "SMTP Settings (Optional)"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:158
-msgid "When enabled the <b>email account</b> will use SMTP server instead of internal PHP mail() function for outgoing emails.<br>"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:159 upload/include/staff/smtp.inc.php:18
-msgid "Please be patient, the system will try to login to SMTP server to validate the entered login info."
-msgstr ""
-
-#: upload/include/staff/email.inc.php:168 upload/include/staff/smtp.inc.php:26
-msgid "SMTP Host"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:173 upload/include/staff/smtp.inc.php:31
-msgid "SMTP Port"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:178
-msgid "Authentication Required?"
-msgstr ""
-
-#: upload/include/staff/email.inc.php:189
-msgid "Best available authentication method is auto-selected based on what the sever supports."
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:5
-msgid "My Profile Info"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:11
-#: upload/include/staff/staff.inc.php:40
-msgid "Username:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:15
-msgid "First Name:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:20
-msgid "Last Name:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:25
-#: upload/include/staff/newticket.inc.php:19
-#: upload/include/staff/editticket.inc.php:40
-#: upload/include/staff/staff.inc.php:80 upload/include/client/open.inc.php:31
-msgid "Email Address:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:30
-#: upload/include/staff/staff.inc.php:85
-msgid "Office Phone:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:32
-#: upload/include/staff/newticket.inc.php:39
-#: upload/include/staff/editticket.inc.php:63
-msgid "Ext"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:38
-msgid "Cell Phone:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:43
-#: upload/include/staff/newticket.inc.php:187
-#: upload/include/staff/staff.inc.php:98
-msgid "Signature:"
-msgstr ""
-
-#: upload/include/staff/myprofile.inc.php:48
-msgid "Save"
 msgstr ""
 
 #: upload/include/staff/attachment.inc.php:13
@@ -3105,14 +4675,6 @@ msgstr ""
 msgid "Disabling auto response will overwrite dept settings."
 msgstr ""
 
-#: upload/include/staff/topic.inc.php:29
-#: upload/include/staff/newticket.inc.php:151
-#: upload/include/staff/editticket.inc.php:104
-#: upload/include/staff/viewticket.inc.php:119
-#: upload/include/client/open.inc.php:50
-msgid "Help Topic:"
-msgstr ""
-
 #: upload/include/staff/topic.inc.php:33
 msgid "Topic Status"
 msgstr ""
@@ -3133,25 +4695,8 @@ msgstr ""
 msgid "New Ticket Department:"
 msgstr ""
 
-#: upload/include/staff/newticket.inc.php:17
-#: upload/include/client/open.inc.php:15
-msgid "Please fill in the form below to open a new ticket."
-msgstr ""
-
 #: upload/include/staff/newticket.inc.php:25
 msgid "Send alert to user."
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:30
-#: upload/include/staff/editticket.inc.php:47
-#: upload/include/client/open.inc.php:19
-msgid "Full Name:"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:37
-#: upload/include/staff/editticket.inc.php:61
-#: upload/include/client/open.inc.php:43
-msgid "Telephone:"
 msgstr ""
 
 #: upload/include/staff/newticket.inc.php:44
@@ -3164,22 +4709,6 @@ msgstr ""
 
 #: upload/include/staff/newticket.inc.php:50
 msgid "Other"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:56
-#: upload/include/staff/viewticket.inc.php:51
-#: upload/include/staff/viewticket.inc.php:403
-#: upload/include/staff/staff.inc.php:45
-#: upload/include/client/viewticket.inc.php:24
-msgid "Department:"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:72
-#: upload/include/staff/editticket.inc.php:54
-#: upload/include/staff/viewticket.inc.php:88
-#: upload/include/client/open.inc.php:70
-#: upload/include/client/viewticket.inc.php:51
-msgid "Subject:"
 msgstr ""
 
 #: upload/include/staff/newticket.inc.php:79
@@ -3198,42 +4727,13 @@ msgstr ""
 msgid "Select a premade reply/issue"
 msgstr ""
 
-#: upload/include/staff/newticket.inc.php:94
-#: upload/include/staff/viewticket.inc.php:303
-msgid "Append"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:101
-#: upload/include/client/open.inc.php:106
-msgid "Attachment:"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:108
-#: upload/include/staff/editticket.inc.php:126
-msgid "Internal Note:"
-msgstr ""
-
 #: upload/include/staff/newticket.inc.php:110
 msgid "Optional Internal note(s)."
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:115
-#: upload/include/staff/editticket.inc.php:68
-#: upload/include/staff/viewticket.inc.php:103
-msgid "Due Date:"
 msgstr ""
 
 #: upload/include/staff/newticket.inc.php:117
 #, php-format
 msgid "Time is based on your time zone (GM %s)"
-msgstr ""
-
-#: upload/include/staff/newticket.inc.php:135
-#: upload/include/staff/editticket.inc.php:88
-#: upload/include/staff/viewticket.inc.php:47
-#: upload/include/staff/viewticket.inc.php:187
-#: upload/include/client/open.inc.php:87
-msgid "Priority:"
 msgstr ""
 
 #: upload/include/staff/newticket.inc.php:168
@@ -3248,504 +4748,46 @@ msgstr ""
 msgid "Send alert to assigned staff."
 msgstr ""
 
-#: upload/include/staff/newticket.inc.php:190
-msgid "none"
+#: upload/include/staff/newticket.inc.php:187
+#: upload/include/staff/staff.inc.php:98
+#: upload/include/staff/myprofile.inc.php:43
+msgid "Signature:"
 msgstr ""
 
-#: upload/include/staff/newticket.inc.php:195
-#: upload/include/staff/viewticket.inc.php:323
-msgid "My signature"
+#: upload/include/staff/newticket.inc.php:190
+msgid "none"
 msgstr ""
 
 #: upload/include/staff/newticket.inc.php:197
 msgid "Dept Signature (if any)"
 msgstr ""
 
-#: upload/include/staff/newticket.inc.php:205
-#: upload/include/client/open.inc.php:128
-msgid "Submit Ticket"
+#: upload/include/staff/reply.inc.php:5
+msgid "Edit Premade Reply"
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:4
-msgid "Access Denied. Perm error."
+#: upload/include/staff/reply.inc.php:8
+msgid "Add New Premade Reply"
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:38
-msgid "Update Ticket #"
+#: upload/include/staff/reply.inc.php:37
+msgid "Inative"
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:38
-msgid "View Ticket"
+#: upload/include/staff/reply.inc.php:41
+msgid "Category:"
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:70
-#, php-format
-msgid "Time is based on your time zone GM %s"
+#: upload/include/staff/reply.inc.php:42
+msgid "Department under which the 'answer' will be made available."
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:109
-msgid "(deleted)"
+#: upload/include/staff/reply.inc.php:55
+msgid "Answer:"
 msgstr ""
 
-#: upload/include/staff/editticket.inc.php:120
-msgid "(optional)"
-msgstr ""
-
-#: upload/include/staff/editticket.inc.php:128
-msgid "Reasons for the edit."
-msgstr ""
-
-#: upload/include/staff/editticket.inc.php:135
-msgid "Update Ticket"
-msgstr ""
-
-#: upload/include/staff/changepasswd.inc.php:11
-msgid "Current Password:"
-msgstr ""
-
-#: upload/include/staff/changepasswd.inc.php:17
-msgid "New Password:"
-msgstr ""
-
-#: upload/include/staff/changepasswd.inc.php:23
-msgid "Verify Password:"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:19
-msgid "Dept. Name"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:20
-msgid "Type"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:21
-msgid "Users"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:22
-msgid "Primary Outgoing Email"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:23
-msgid "Manager"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:61
-#: upload/include/staff/filters.inc.php:116
-#: upload/include/staff/premade.inc.php:130
-#: upload/include/staff/templates.inc.php:85
-#: upload/include/staff/banlist.inc.php:116
-#: upload/include/staff/helptopics.inc.php:52
-#: upload/include/staff/api.inc.php:85 upload/include/staff/emails.inc.php:55
-#: upload/include/staff/staffmembers.inc.php:63
-#: upload/include/staff/groups.inc.php:49
-msgid "Query returned 0 results"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:79
-msgid "Make Public"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:80
-msgid "Are you sure you want to make selected depts(s) public?"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:81
-msgid "Make Private"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:82
-msgid "Are you sure you want to make selected depts(s) private?"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:83
-msgid "Delete Dept(s)"
-msgstr ""
-
-#: upload/include/staff/depts.inc.php:84
-msgid "Are you sure you want to DELETE selected depts(s)?"
-msgstr ""
-
-#: upload/include/staff/smtp.inc.php:14
-msgid "SMTP Server Setting (Optional)"
-msgstr ""
-
-#: upload/include/staff/smtp.inc.php:16
-msgid "When enabled the system will use an SMTP server rather than the internal PHP mail() function for outgoing emails."
-msgstr ""
-
-#: upload/include/staff/smtp.inc.php:17
-msgid "Leave the username and password empty of the SMTP server doesn't require authentication"
-msgstr ""
-
-#: upload/include/staff/smtp.inc.php:19
-msgid "Enable SMTP"
-msgstr ""
-
-#: upload/include/staff/smtp.inc.php:41
-msgid "TLS (secure)"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:13
-#: upload/include/staff/syslogs.inc.php:97
-msgid "Errors"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:17
-#: upload/include/staff/syslogs.inc.php:98
-msgid "Warnings"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:21
-msgid "Debug logs"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:26
-msgid "All logs"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:40
-msgid "Entered date span is invalid. Selection ignored."
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:99
-msgid "Debug"
-msgstr ""
-
-#: upload/include/staff/syslogs.inc.php:102
-msgid "Go!"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:53
-#: upload/include/staff/premade.inc.php:54
-#: upload/include/staff/banlist.inc.php:53
-msgid "Search Results"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:53
-#: upload/include/staff/banlist.inc.php:53
-msgid "Banned Email Addresses"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:64
-msgid "(Add)"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:73
-#: upload/include/staff/templates.inc.php:125
-#: upload/include/staff/banlist.inc.php:73
-#: upload/include/staff/api.inc.php:128
-msgid "Add"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:74
-msgid "(Search)"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:87
-#: upload/include/staff/banlist.inc.php:87
-msgid "Sort by email"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:88
-#: upload/include/staff/banlist.inc.php:88
-msgid "Submitter"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:90
-#: upload/include/staff/templates.inc.php:50
-#: upload/include/staff/banlist.inc.php:90 upload/include/staff/api.inc.php:50
-msgid "Sort By Create Date"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:90
-#: upload/include/staff/banlist.inc.php:90
-msgid "Date Added"
-msgstr ""
-
-#: upload/include/staff/filters.inc.php:116
-#: upload/include/staff/templates.inc.php:85
-#: upload/include/staff/banlist.inc.php:116
-#: upload/include/staff/api.inc.php:85
-msgid "Index list"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:10
-msgid "Unable to obtain a lock on the ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:19
-#, php-format
-msgid "Ticket is assigned to %s"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:21
-msgid "This ticket is currently locked by another staff member!"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:23
-msgid "Email is in banlist! Must be removed before any reply/response"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:25
-msgid "Marked overdue!"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:31
-#: upload/include/client/viewticket.inc.php:15
-msgid "Reload"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:35
-msgid "Edit Ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:55
-#: upload/include/client/viewticket.inc.php:28
-msgid "Create Date:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:63
-#: upload/include/client/viewticket.inc.php:36
-msgid "Name:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:71
-#, php-format
-msgid "Related Tickets"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:78
-#: upload/include/client/viewticket.inc.php:44
-msgid "Phone:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:82
-msgid "Source:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:93
-msgid "Assigned Staff:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:97
-msgid "Last Response:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:109
-msgid "Close Date:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:127
-msgid "IP Address:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:130
-msgid "Last Message:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:154
-msgid "Action:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:157
-msgid "Select Action"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:158
-msgid "Change Priority"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:160
-msgid "Mark Overdue"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:163
-msgid "Release (unassign)"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:169
-#: upload/include/staff/viewticket.inc.php:376
-msgid "Close Ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:171
-#: upload/include/staff/viewticket.inc.php:378
-msgid "Reopen Ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:177
-msgid "Ban Email"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:179
-msgid "Un-Ban Email"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:184
-msgid "Delete Ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:189
-msgid "-Unchanged-"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:198
-#: upload/include/staff/premade.inc.php:84
-msgid "GO"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:212
-msgid "Internal Notes"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:217
-msgid "posted by"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:228
-#: upload/include/client/viewticket.inc.php:61
-msgid "Ticket Thread"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:282
-#: upload/include/staff/viewticket.inc.php:342
-#: upload/include/client/viewticket.inc.php:137
-msgid "Post Reply"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:296
-msgid "Canned Response:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:299
-msgid "Select a premade reply"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:309
-msgid "Attach File:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:320
-msgid "Append Signature:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:326
-msgid "Dept Signature"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:331
-#: upload/include/staff/viewticket.inc.php:372
-#: upload/include/client/viewticket.inc.php:20
-msgid "Ticket Status:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:335
-msgid "Close on Reply"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:337
-msgid "Reopen on Reply"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:351
-msgid "Post Internal Note"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:357
-msgid "Note Title:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:362
-msgid "Enter note content."
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:396
-msgid "Dept. Transfer"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:405
-msgid "-Select Target Dept.-"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:416
-msgid "Comments/Reasons for the transfer. &nbsp;(<i>Internal note</i>)"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:422
-msgid "Transfer"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:437
-msgid "Re Assign Ticket"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:437
-msgid "Assign to Staff"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:443
-msgid "Staff Member:"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:445
-msgid "-Select Staff Member.-"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:462
-msgid "Comments/message for assignee. &nbsp;(<i>Saved as internal note</i>)"
-msgstr ""
-
-#: upload/include/staff/viewticket.inc.php:469
-msgid "Assign"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:54
-msgid "Premade/Canned Replies"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:71
-msgid "Search for:"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:72
-msgid "category"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:96
-msgid "Sort By Title"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:96
-msgid "Reply Title"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:98
-msgid "Category/Dept"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:100
-msgid "Sort By Update Date"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:100
-#: upload/include/staff/helptopics.inc.php:24
-#: upload/include/staff/emails.inc.php:23
-#: upload/include/staff/groups.inc.php:22
-msgid "Last Updated"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:146
-msgid "Are you sure you want to ENABLE selected entries?"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:148
-msgid "Are you sure you want to DISABLE selected entries?"
-msgstr ""
-
-#: upload/include/staff/premade.inc.php:150
-msgid "Are you sure you want to DELETE selected entries?"
+#: upload/include/staff/reply.inc.php:56
+msgid "Premade Reply - Ticket's base variables are supported."
 msgstr ""
 
 #: upload/include/staff/templates.inc.php:47
@@ -3870,113 +4912,6 @@ msgstr ""
 msgid "osTicket's base url (FQDN)"
 msgstr ""
 
-#: upload/include/staff/header.inc.php:34
-msgid "Welcome back"
-msgstr ""
-
-#: upload/include/staff/header.inc.php:37
-msgid "Admin Panel"
-msgstr ""
-
-#: upload/include/staff/header.inc.php:39
-msgid "Staff Panel"
-msgstr ""
-
-#: upload/include/staff/header.inc.php:41
-#: upload/include/staff/header.inc.php:51
-msgid "My Preference"
-msgstr ""
-
-#: upload/include/staff/header.inc.php:41
-#: upload/include/client/header.inc.php:22
-msgid "Log Out"
-msgstr ""
-
-#: upload/include/staff/header.inc.php:51 upload/include/class.nav.php:42
-msgid "My Account"
-msgstr ""
-
-#: upload/include/staff/banlist.inc.php:136
-msgid "Remove From List"
-msgstr ""
-
-#: upload/include/staff/banlist.inc.php:137
-msgid "Are you sure you want to REMOVE selected email from ban list?"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:19
-msgid "Help Topic"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:21
-#: upload/include/staff/emails.inc.php:20
-msgid "AutoResp."
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:42
-msgid "<b>Disabled</b>"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:43
-msgid "<b>Yes</b>"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:71
-msgid "Are you sure you want to make selected services active?"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:73
-msgid "Are you sure you want to DISABLE selected services?"
-msgstr ""
-
-#: upload/include/staff/helptopics.inc.php:75
-msgid "Are you sure you want to DELETE selected services?"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:46
-msgid "API Key"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:48
-msgid "IP Address"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:99
-msgid "Are you sure you want to ENABLE selected keys?"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:105
-msgid "Are you sure you want to DISABLE selected keys?"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:109
-msgid "Are you sure you want to DELETE selected keys?"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:118
-msgid "Add New IP"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:121
-msgid "Add a new IP address."
-msgstr ""
-
-#: upload/include/staff/api.inc.php:132
-msgid "API Passphrase"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:135
-msgid "Passphrase must be at least 3 words. Required to generate the api keys."
-msgstr ""
-
-#: upload/include/staff/api.inc.php:139
-msgid "Phrase:"
-msgstr ""
-
-#: upload/include/staff/api.inc.php:145
-msgid "Please note that changing the passprase does NOT invalidate existing keys. To regerate a key you need to delete and readd it."
-msgstr ""
-
 #: upload/include/staff/staff.inc.php:8
 #, php-format
 msgid "Update: %s %s"
@@ -3998,6 +4933,11 @@ msgstr ""
 msgid "Account information"
 msgstr ""
 
+#: upload/include/staff/staff.inc.php:40
+#: upload/include/staff/myprofile.inc.php:11
+msgid "Username:"
+msgstr ""
+
 #: upload/include/staff/staff.inc.php:59
 msgid "User Group:"
 msgstr ""
@@ -4008,6 +4948,11 @@ msgstr ""
 
 #: upload/include/staff/staff.inc.php:73
 msgid "Name (First,Last):"
+msgstr ""
+
+#: upload/include/staff/staff.inc.php:85
+#: upload/include/staff/myprofile.inc.php:30
+msgid "Office Phone:"
 msgstr ""
 
 #: upload/include/staff/staff.inc.php:92
@@ -4043,6 +4988,7 @@ msgid "Account Status"
 msgstr ""
 
 #: upload/include/staff/staff.inc.php:125
+#: upload/include/staff/staffmembers.inc.php:53
 msgid "Locked"
 msgstr ""
 
@@ -4074,117 +5020,88 @@ msgstr ""
 msgid "No ticket assignment or Alerts"
 msgstr ""
 
-#: upload/include/staff/footer.inc.php:4
-#, php-format
-msgid "Copyright &copy; 2006-%s&nbsp;osTicket.com. &nbsp;All Rights Reserved."
+#: upload/include/staff/myprofile.inc.php:5
+msgid "My Profile Info"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:6
-msgid "Update Department"
+#: upload/include/staff/myprofile.inc.php:15
+msgid "First Name:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:10
-msgid "New Department"
+#: upload/include/staff/myprofile.inc.php:20
+msgid "Last Name:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:29
-msgid "Dept depends on email &amp; help topics settings for incoming tickets."
+#: upload/include/staff/myprofile.inc.php:38
+msgid "Cell Phone:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:30
-msgid "Dept Name:"
+#: upload/include/staff/myprofile.inc.php:48
+msgid "Save"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:37
-msgid "Dept Email:"
+#: upload/include/staff/changepasswd.inc.php:11
+msgid "Current Password:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:59
-msgid "Dep Manager:"
+#: upload/include/staff/changepasswd.inc.php:17
+msgid "New Password:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:63
-msgid "-------None-------"
+#: upload/include/staff/changepasswd.inc.php:23
+msgid "Verify Password:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:64
-msgid "Select Manager (optional)"
+#: upload/include/staff/api.inc.php:35
+msgid "API Keys"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:72
-msgid "No Users (Add Users)"
+#: upload/include/staff/api.inc.php:46
+msgid "API Key"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:79
-msgid "Dept Type"
+#: upload/include/staff/api.inc.php:48
+msgid "IP Address"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:81
-msgid "Public"
+#: upload/include/staff/api.inc.php:99
+msgid "Are you sure you want to ENABLE selected keys?"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:82
-msgid "Private (Hidden)"
+#: upload/include/staff/api.inc.php:105
+msgid "Are you sure you want to DISABLE selected keys?"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:87
-msgid "Dept Signature:"
+#: upload/include/staff/api.inc.php:109
+msgid "Are you sure you want to DELETE selected keys?"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:89
-msgid "Required when Dept is public"
+#: upload/include/staff/api.inc.php:118
+msgid "Add New IP"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:93
-msgid "can be appended to responses.&nbsp;(available as a choice for public departments)"
+#: upload/include/staff/api.inc.php:121
+msgid "Add a new IP address."
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:96
-msgid "Email Templates:"
+#: upload/include/staff/api.inc.php:125
+msgid "New IP:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:99
-msgid "Select Template"
+#: upload/include/staff/api.inc.php:132
+msgid "API Passphrase"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:100
-msgid "System Default"
+#: upload/include/staff/api.inc.php:135
+msgid "Passphrase must be at least 3 words. Required to generate the api keys."
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:109
-msgid "Used for outgoing emails,alerts and notices to user and staff."
+#: upload/include/staff/api.inc.php:139
+msgid "Phrase:"
 msgstr ""
 
-#: upload/include/staff/dept.inc.php:112
-msgid "Autoresponders"
-msgstr ""
-
-#: upload/include/staff/dept.inc.php:114
-msgid "Global auto-response settings in preference section must be enabled for Dept 'Enable' setting to take effect."
-msgstr ""
-
-#: upload/include/staff/dept.inc.php:130
-msgid "Auto Response Email:"
-msgstr ""
-
-#: upload/include/staff/dept.inc.php:134
-msgid "Dept Email (above)"
-msgstr ""
-
-#: upload/include/staff/dept.inc.php:149
-msgid "Email address used to send auto-responses, if enabled."
-msgstr ""
-
-#: upload/include/staff/emails.inc.php:10 upload/include/class.nav.php:32
-msgid "Emails"
-msgstr ""
-
-#: upload/include/staff/emails.inc.php:73
-msgid "Delete Selected Emails"
-msgstr ""
-
-#: upload/include/staff/emails.inc.php:74
-msgid "Are you sure you want to DELETE selected emails?"
+#: upload/include/staff/api.inc.php:145
+msgid "Please note that changing the passprase does NOT invalidate existing keys. To regerate a key you need to delete and readd it."
 msgstr ""
 
 #: upload/include/staff/staffmembers.inc.php:16
@@ -4204,6 +5121,10 @@ msgstr ""
 msgid "Last Login"
 msgstr ""
 
+#: upload/include/staff/staffmembers.inc.php:53
+msgid "(<i>vacation</i>)"
+msgstr ""
+
 #: upload/include/staff/staffmembers.inc.php:81
 msgid "Are you sure you want to ENABLE selected user(s)?"
 msgstr ""
@@ -4220,689 +5141,6 @@ msgstr ""
 msgid "Are you sure you want to DELETE selected user(s)?"
 msgstr ""
 
-#: upload/include/staff/groups.inc.php:18
-msgid "Group Name"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:19
-msgid "Group Status"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:20
-msgid "Members"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:21
-#: upload/include/client/tickets.inc.php:93
-msgid "Create Date"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:67
-msgid "Are you sure you want to ENABLE selected group(s)"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:69
-msgid "Are you sure you want to DISABLE selected group(s)"
-msgstr ""
-
-#: upload/include/staff/groups.inc.php:71
-msgid "Are you sure you want to DELETE selected group(s)"
-msgstr ""
-
-#: upload/include/mysql.php:64
-msgid "DB Error #"
-msgstr ""
-
-#: upload/include/client/login.inc.php:16
-msgid "To view the status of a ticket, provide us with your login details below.<br/>If this is your first time contacting us or you've lost the ticket ID, please <a href='open.php'>click here</a> to open a new ticket."
-msgstr ""
-
-#: upload/include/client/login.inc.php:22
-msgid "E-Mail:"
-msgstr ""
-
-#: upload/include/client/login.inc.php:23
-msgid "Ticket ID:"
-msgstr ""
-
-#: upload/include/client/login.inc.php:24
-msgid "View Status"
-msgstr ""
-
-#: upload/include/client/open.inc.php:63
-msgid "General Inquiry"
-msgstr ""
-
-#: upload/include/client/open.inc.php:77
-msgid "Message:"
-msgstr ""
-
-#: upload/include/client/open.inc.php:117
-msgid "Captcha Text:"
-msgstr ""
-
-#: upload/include/client/open.inc.php:119
-msgid "Enter the text shown on the image."
-msgstr ""
-
-#: upload/include/client/tickets.inc.php:80
-msgid "View Open"
-msgstr ""
-
-#: upload/include/client/tickets.inc.php:81
-msgid "View Closed"
-msgstr ""
-
-#: upload/include/client/tickets.inc.php:82
-msgid "Refresh"
-msgstr ""
-
-#: upload/include/client/tickets.inc.php:129
-msgid "NO tickets found."
-msgstr ""
-
-#: upload/include/client/thankyou.inc.php:18
-msgid "Thank you for contacting us.<br>A support ticket request has been created and a representative will be getting back to you shortly if necessary."
-msgstr ""
-
-#: upload/include/client/thankyou.inc.php:22
-#, php-format
-msgid "An email with the ticket number has been sent to <b>%s</b>.You'll need the ticket number along with your email to view status and progress online."
-msgstr ""
-
-#: upload/include/client/thankyou.inc.php:25
-msgid "If you wish to send additional comments or information regarding same issue, please follow the instructions on the email."
-msgstr ""
-
-#: upload/include/client/thankyou.inc.php:28
-msgid "Support Team"
-msgstr ""
-
-#: upload/include/client/viewticket.inc.php:120
-msgid "Ticket will be reopened on message post"
-msgstr ""
-
-#: upload/include/client/viewticket.inc.php:127
-msgid "Enter Message"
-msgstr ""
-
-#: upload/include/client/viewticket.inc.php:132
-msgid "Attach File"
-msgstr ""
-
-#: upload/include/client/header.inc.php:2
-msgid "osTicket :: Support Ticket System"
-msgstr ""
-
-#: upload/include/client/header.inc.php:16
-msgid "Support Center"
-msgstr ""
-
-#: upload/include/client/header.inc.php:17
-msgid "<span>SUPPORT TICKET</span> SYSTEM"
-msgstr ""
-
-#: upload/include/client/header.inc.php:23
-msgid "My Tickets"
-msgstr ""
-
-#: upload/include/client/header.inc.php:25
-msgid "Ticket Status"
-msgstr ""
-
-#: upload/include/client/header.inc.php:28
-msgid "Home"
-msgstr ""
-
-#: upload/include/client/footer.inc.php:3
-msgid "Copyright &copy; osTicket.com. All rights reserved"
-msgstr ""
-
-#: upload/include/client/footer.inc.php:5
-msgid "Powered by osTicket"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:83 upload/include/class.ticket.php:1078
-#: upload/include/class.ticket.php:1165
-msgid "Name required"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:85 upload/include/class.msgtpl.php:87
-#: upload/include/class.msgtpl.php:89 upload/include/class.msgtpl.php:91
-#: upload/include/class.msgtpl.php:93 upload/include/class.msgtpl.php:96
-#: upload/include/class.msgtpl.php:98 upload/include/class.msgtpl.php:100
-#: upload/include/class.msgtpl.php:102 upload/include/class.msgtpl.php:104
-#: upload/include/class.ticket.php:1081 upload/include/class.ticket.php:1167
-msgid "Subject required"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:86 upload/include/class.msgtpl.php:88
-#: upload/include/class.msgtpl.php:90 upload/include/class.msgtpl.php:92
-#: upload/include/class.msgtpl.php:94 upload/include/class.msgtpl.php:97
-#: upload/include/class.msgtpl.php:99 upload/include/class.msgtpl.php:101
-#: upload/include/class.msgtpl.php:103 upload/include/class.msgtpl.php:105
-msgid "Template message required"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:146
-msgid "Unable to update. Internal error occured"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:172
-msgid "Name already in use"
-msgstr ""
-
-#: upload/include/class.msgtpl.php:211
-msgid "Unable to create the template. Internal error occured"
-msgstr ""
-
-#: upload/include/class.validator.php:43
-msgid "Invalid input"
-msgstr ""
-
-#: upload/include/class.validator.php:45
-msgid "No fields setup"
-msgstr ""
-
-#: upload/include/class.validator.php:109
-msgid "(5 chars min)"
-msgstr ""
-
-#: upload/include/class.validator.php:113
-msgid "(3 chars min)"
-msgstr ""
-
-#: upload/include/class.validator.php:120
-msgid "(type not set)"
-msgstr ""
-
-#: upload/include/class.topic.php:111
-msgid "Internal error. Try again"
-msgstr ""
-
-#: upload/include/class.topic.php:114
-msgid "Help topic required"
-msgstr ""
-
-#: upload/include/class.topic.php:116
-msgid "Topic is too short. 5 chars minimum"
-msgstr ""
-
-#: upload/include/class.topic.php:122
-msgid "Topic already exists"
-msgstr ""
-
-#: upload/include/class.topic.php:126
-msgid "You must select a department"
-msgstr ""
-
-#: upload/include/class.topic.php:129 upload/include/class.email.php:281
-msgid "You must select a priority"
-msgstr ""
-
-#: upload/include/class.topic.php:140
-msgid "Unable to update topic. Internal error occured"
-msgstr ""
-
-#: upload/include/class.config.php:458
-msgid "Helpdesk URl required"
-msgstr ""
-
-#: upload/include/class.config.php:459
-msgid "Helpdesk title required"
-msgstr ""
-
-#: upload/include/class.config.php:460
-msgid "Default Dept. required"
-msgstr ""
-
-#: upload/include/class.config.php:461
-msgid "Default email required"
-msgstr ""
-
-#: upload/include/class.config.php:462
-msgid "You must select template."
-msgstr ""
-
-#: upload/include/class.config.php:463 upload/include/class.config.php:464
-msgid "Enter idle time in minutes"
-msgstr ""
-
-#: upload/include/class.config.php:465
-msgid "Time format required"
-msgstr ""
-
-#: upload/include/class.config.php:466
-msgid "Date format required"
-msgstr ""
-
-#: upload/include/class.config.php:467
-msgid "Datetime format required"
-msgstr ""
-
-#: upload/include/class.config.php:468
-msgid "Day, Datetime format required"
-msgstr ""
-
-#: upload/include/class.config.php:470
-msgid "Enter lock time in minutes"
-msgstr ""
-
-#: upload/include/class.config.php:484 upload/include/class.config.php:490
-#: upload/include/class.config.php:497
-msgid "No target recipient(s) selected"
-msgstr ""
-
-#: upload/include/class.config.php:501
-msgid "Reply separator required (?)"
-msgstr ""
-
-#: upload/include/class.config.php:505
-msgid "The GD extension required"
-msgstr ""
-
-#: upload/include/class.config.php:507
-msgid "PNG support required for Image Captcha"
-msgstr ""
-
-#: upload/include/class.config.php:511
-msgid "Email already setup as system email"
-msgstr ""
-
-#: upload/include/class.nav.php:30
-msgid "Dashboard"
-msgstr ""
-
-#: upload/include/class.nav.php:30
-msgid "Admin Dashboard"
-msgstr ""
-
-#: upload/include/class.nav.php:31
-msgid "Settings"
-msgstr ""
-
-#: upload/include/class.nav.php:31
-msgid "System Settings"
-msgstr ""
-
-#: upload/include/class.nav.php:37
-msgid "Tickets"
-msgstr ""
-
-#: upload/include/class.nav.php:37
-msgid "Ticket Queue"
-msgstr ""
-
-#: upload/include/class.nav.php:39
-msgid "Knowledge Base"
-msgstr ""
-
-#: upload/include/class.nav.php:39
-msgid "Knowledge Base: Premade"
-msgstr ""
-
-#: upload/include/class.nav.php:41
-msgid "Directory"
-msgstr ""
-
-#: upload/include/class.nav.php:41
-msgid "Staff Directory"
-msgstr ""
-
-#: upload/include/class.pagenate.php:76
-msgid "Showing"
-msgstr ""
-
-#: upload/include/ost-config.sample.php:25
-msgid "Error: Contact system admin."
-msgstr ""
-
-#: upload/include/class.email.php:262
-msgid "Internal error."
-msgstr ""
-
-#: upload/include/class.email.php:267
-msgid "Email already exits"
-msgstr ""
-
-#: upload/include/class.email.php:269
-msgid "Email already used as admin email!"
-msgstr ""
-
-#: upload/include/class.email.php:273
-msgid "Email in-use by a staff member"
-msgstr ""
-
-#: upload/include/class.email.php:278
-msgid "You must select a Dept."
-msgstr ""
-
-#: upload/include/class.email.php:285
-msgid "Username missing"
-msgstr ""
-
-#: upload/include/class.email.php:288
-msgid "Password required"
-msgstr ""
-
-#: upload/include/class.email.php:294
-msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
-msgstr ""
-
-#: upload/include/class.email.php:296 upload/include/class.email.php:310
-msgid "Host name required"
-msgstr ""
-
-#: upload/include/class.email.php:298 upload/include/class.email.php:312
-msgid "Port required"
-msgstr ""
-
-#: upload/include/class.email.php:300
-msgid "Select protocol"
-msgstr ""
-
-#: upload/include/class.email.php:302
-msgid "Fetch interval required"
-msgstr ""
-
-#: upload/include/class.email.php:304
-msgid "Maximum emails required"
-msgstr ""
-
-#: upload/include/class.email.php:321
-msgid "Another department using host/username combination."
-msgstr ""
-
-#: upload/include/class.email.php:330
-#, php-format
-msgid "Invalid login. Check %s settings"
-msgstr ""
-
-#: upload/include/class.email.php:348
-msgid "Unable to login. Check SMTP settings."
-msgstr ""
-
-#: upload/include/class.email.php:380
-msgid "Unable to update email. Internal error occured"
-msgstr ""
-
-#: upload/include/class.email.php:390
-msgid "Error(s) Occured. Try again"
-msgstr ""
-
-#: upload/include/class.dept.php:208
-msgid "Missing or invalid Dept ID"
-msgstr ""
-
-#: upload/include/class.dept.php:211
-msgid "Dept email required"
-msgstr ""
-
-#: upload/include/class.dept.php:214
-msgid "Template required"
-msgstr ""
-
-#: upload/include/class.dept.php:217
-msgid "Dept name required"
-msgstr ""
-
-#: upload/include/class.dept.php:219
-msgid "Dept name must be at least 4 chars."
-msgstr ""
-
-#: upload/include/class.dept.php:226
-msgid "Department already exist"
-msgstr ""
-
-#: upload/include/class.dept.php:230
-msgid "Signature required"
-msgstr ""
-
-#: upload/include/class.dept.php:233
-msgid "Default department can not be private"
-msgstr ""
-
-#: upload/include/class.dept.php:252
-msgid "Unable to update "
-msgstr ""
-
-#: upload/include/class.dept.php:252
-msgid " Dept. Error occured"
-msgstr ""
-
-#: upload/include/class.dept.php:258
-msgid "Unable to create department. Internal error"
-msgstr ""
-
-#: upload/include/class.api.php:26
-msgid "API passphrase missing."
-msgstr ""
-
-#: upload/include/class.api.php:29
-msgid "Valid IP required"
-msgstr ""
-
-#: upload/include/class.api.php:31
-msgid "API key for the IP already exists"
-msgstr ""
-
-#: upload/include/class.api.php:51
-msgid "Required"
-msgstr ""
-
-#: upload/include/class.api.php:53
-msgid "Must be at least 3 words long."
-msgstr ""
-
-#: upload/include/class.api.php:55
-msgid "Already set"
-msgstr ""
-
-#: upload/include/class.ticket.php:574 upload/include/class.ticket.php:669
-#: upload/include/class.ticket.php:712 upload/include/class.ticket.php:861
-#: upload/include/class.ticket.php:1378 upload/include/class.ticket.php:1428
-msgid "Template Fetch Error"
-msgstr ""
-
-#: upload/include/class.ticket.php:574
-msgid "Unable to fetch 'assigned' alert template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:577
-msgid "Ticket assigned"
-msgstr ""
-
-#: upload/include/class.ticket.php:579
-#, php-format
-msgid "Ticket Assigned to %s"
-msgstr ""
-
-#: upload/include/class.ticket.php:669
-msgid "Unable to fetch 'new message' auto response template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:712
-msgid "Unable to fetch 'new message' alert template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:790
-#, php-format
-msgid "Problems fetching response template for ticket# %s  Possible config error - template # %s"
-msgstr ""
-
-#: upload/include/class.ticket.php:791 upload/include/class.ticket.php:1503
-msgid "System Error"
-msgstr ""
-
-#: upload/include/class.ticket.php:861
-msgid "Unable to fetch 'new note' alert template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:1079
-msgid "Email is required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1080
-msgid "Reason for the update required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1082
-msgid "Invalid Selection"
-msgstr ""
-
-#: upload/include/class.ticket.php:1083 upload/include/class.ticket.php:1178
-msgid "Invalid Priority"
-msgstr ""
-
-#: upload/include/class.ticket.php:1084 upload/include/class.ticket.php:1179
-msgid "Valid phone # required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1085 upload/include/class.ticket.php:1174
-msgid "Invalid date - must be MM/DD/YY"
-msgstr ""
-
-#: upload/include/class.ticket.php:1095
-msgid "Duedate can NOT be set on a closed ticket"
-msgstr ""
-
-#: upload/include/class.ticket.php:1097 upload/include/class.ticket.php:1206
-msgid "Select time"
-msgstr ""
-
-#: upload/include/class.ticket.php:1099 upload/include/class.ticket.php:1208
-msgid "Invalid duedate"
-msgstr ""
-
-#: upload/include/class.ticket.php:1101 upload/include/class.ticket.php:1210
-msgid "Due date must be in the future"
-msgstr ""
-
-#: upload/include/class.ticket.php:1107 upload/include/class.ticket.php:1198
-msgid "Invalid phone ext."
-msgstr ""
-
-#: upload/include/class.ticket.php:1109 upload/include/class.ticket.php:1200
-msgid "Phone number required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1170
-msgid "Select help topic"
-msgstr ""
-
-#: upload/include/class.ticket.php:1172
-msgid "Dept. required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1173
-msgid "Indicate source"
-msgstr ""
-
-#: upload/include/class.ticket.php:1176
-msgid "Email unknown"
-msgstr ""
-
-#: upload/include/class.ticket.php:1189
-msgid "Ticket denied"
-msgstr ""
-
-#: upload/include/class.ticket.php:1189
-msgid "Banned email - "
-msgstr ""
-
-#: upload/include/class.ticket.php:1193
-msgid "Email mismatch."
-msgstr ""
-
-#: upload/include/class.ticket.php:1218
-msgid "File is too big. Max"
-msgstr ""
-
-#: upload/include/class.ticket.php:1218
-msgid "bytes allowed"
-msgstr ""
-
-#: upload/include/class.ticket.php:1226
-msgid "You've reached the maximum open tickets allowed."
-msgstr ""
-
-#: upload/include/class.ticket.php:1252
-#, php-format
-msgid "Support ticket request denied for %s\\nOpen ticket: %s\\nMax Allowed: %s\\n\\nNotice only sent once"
-msgstr ""
-
-#: upload/include/class.ticket.php:1253
-msgid "Overlimit Notice"
-msgstr ""
-
-#: upload/include/class.ticket.php:1378
-msgid "Unable to fetch autoresponse template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:1428
-msgid "Unable to fetch 'new ticket' alert template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:1440
-msgid "Permission denied"
-msgstr ""
-
-#: upload/include/class.ticket.php:1443
-msgid "Summary of the issue required"
-msgstr ""
-
-#: upload/include/class.ticket.php:1445
-msgid "Invalid source - "
-msgstr ""
-
-#: upload/include/class.ticket.php:1448
-msgid "Ticket created by staff"
-msgstr ""
-
-#: upload/include/class.ticket.php:1502
-msgid "Problems fetching response template for ticket#"
-msgstr ""
-
-#: upload/include/class.ticket.php:1502
-msgid "Possible config error - template #"
-msgstr ""
-
-#: upload/include/class.ticket.php:1514
-msgid "Internal error - message/response post error."
-msgstr ""
-
-#: upload/include/class.ticket.php:1522
-msgid "New Ticket by Staff"
-msgstr ""
-
-#: upload/include/class.ticket.php:1522
-msgid "Ticket created by staff -"
-msgstr ""
-
-#: upload/include/class.ticket.php:1553
-msgid "Ticket flagged as overdue by the system."
-msgstr ""
-
-#: upload/main.inc.php:78
-msgid "Error loading settings. Contact admin."
-msgstr ""
-
-#: upload/main.inc.php:146
-msgid "Unable to connect to the database"
-msgstr ""
-
-#: upload/main.inc.php:148
-msgid "Unable to load config info from DB. Get tech support."
-msgstr ""
-
-#: upload/main.inc.php:150
-msgid "Short open tag disabled! - osTicket requires it turned ON."
-msgstr ""
-
-#: upload/main.inc.php:155
-msgid "Fatal Error:"
-msgstr ""
-
-#: upload/main.inc.php:155
-msgid "Contact system adminstrator."
+#: upload/setup/inc/install.inc.php:34
+msgid "System Language:"
 msgstr ""
