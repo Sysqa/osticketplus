@@ -58,7 +58,7 @@ function staffLoginPage($msg) {
 $thisuser = new StaffSession($_SESSION['_staff']['userID']); /* always reload??? */
 //1) is the user Logged in for real && is staff.
 if (!is_object($thisuser) || !$thisuser->getId() || !$thisuser->isValid()) {
-    $msg = (!$thisuser || !$thisuser->isValid()) ? 'Authentication Required' : 'Session timed out due to inactivity';
+    $msg = (!$thisuser || !$thisuser->isValid()) ? _('Authentication Required') : _('Session timed out due to inactivity');
     staffLoginPage($msg);
     exit;
 }

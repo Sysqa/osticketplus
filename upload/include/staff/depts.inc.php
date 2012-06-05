@@ -35,14 +35,14 @@ $depts=db_query($sql.' GROUP BY dept.dept_id ORDER BY dept_name');
                     $sel=true;
                 }
                 $row['email']=$row['email_name']?($row['email_name'].' &lt;'.$row['email'].'&gt;'):$row['email'];
-                $default=($defaultId==$row['dept_id'])?'(Default)':'';
+                $default=($defaultId==$row['dept_id'])?_('(Default)'):'';
                 ?>
             <tr class="<?=$class?>" id="<?=$row['dept_id']?>">
                 <td width=7px>
                   <input type="checkbox" name="ids[]" value="<?=$row['dept_id']?>" <?=$sel?'checked':''?>  <?=$default?'disabled':''?>
                             onClick="highLight(this.value,this.checked);"> </td>
                 <td><a href="admin.php?t=dept&id=<?=$row['dept_id']?>"><?=$row['dept_name']?></a>&nbsp;<?=$default?></td>
-                <td><?=$row['ispublic']?'Public':'<b>Private</b>'?></td>
+                <td><?=$row['ispublic']?_('Public'):_('<b>Private</b>')?></td>
                 <td>&nbsp;&nbsp;
                     <b>
                     <?if($row['users']>0) {?>

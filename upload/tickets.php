@@ -51,9 +51,9 @@ if($_POST && is_object($ticket) && $ticket->getId()):
         //check attachment..if any is set
         if($_FILES['attachment']['name']) {
             if(!$cfg->allowOnlineAttachments()) //Something wrong with the form...user shouldn't have an option to attach
-                $errors['attachment']='File [ '.$_FILES['attachment']['name'].' ] rejected';
+                $errors['attachment']=sprintf(_('File [ %s ] rejected'),$_FILES['attachment']['name']);
             elseif(!$cfg->canUploadFileType($_FILES['attachment']['name']))
-                $errors['attachment']='Invalid file type [ '.$_FILES['attachment']['name'].' ]';
+                $errors['attachment']=_('Invalid file type').' [ '.$_FILES['attachment']['name'].' ]';
             elseif($_FILES['attachment']['size']>$cfg->getMaxFileSize())
                 $errors['attachment']=sprintf(_('File is too big. Max %s bytes allowed'), $cfg->getMaxFileSize());
         }

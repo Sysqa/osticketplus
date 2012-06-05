@@ -32,12 +32,13 @@ if(!defined('OSTSCPINC') || !is_object($thisuser) || !$rep) die(_('Kwaheri rafik
                 <?
                 $gmoffset  = date("Z") / 3600; //Server's offset.
                 $currentoffset = ($rep['timezone_offset']==NULL)?$cfg->getTZOffset():$rep['timezone_offset'];
-                echo"<option value=\"$gmoffset\">Server Time (GMT $gmoffset:00)</option>"; //Default if all fails.
+		$servertime = sprintf(_('Server Time (GMT %s:00)'),$gmoffset);
+                echo "<option value=\"$gmoffset\">$servertime</option>"; //Default if all fails.
                 $timezones= db_query('SELECT offset,timezone FROM '.TIMEZONE_TABLE);
                 while (list($offset,$tz) = db_fetch_row($timezones)){
                     $selected = ($currentoffset==$offset) ?'SELECTED':'';
                     $tag=($offset)?"GMT $offset ($tz)":" GMT ($tz)"; ?>
-                    <option value="<?=$offset?>"<?=$selected?>><?=$tag?></option>
+                    <option value="<?=$offset?>"<?=$selected?>><?=_($tag)?></option>
                 <?}?>
             </select>
         </td>

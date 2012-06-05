@@ -34,7 +34,7 @@ class Misc {
 
         //if mcrypt extension is not installed--simply return unencryted text and log a warning.
         if(!function_exists('mcrypt_encrypt') || !function_exists('mcrypt_decrypt')) {
-            $msg='Cryptography extension mcrypt is not enabled or installed. IMAP/POP passwords are being stored as plain text in database.';
+            $msg=_('Cryptography extension mcrypt is not enabled or installed. IMAP/POP passwords are being stored as plain text in database.');
             Sys::log(LOG_WARN,'mcrypt missing',$msg);
             return $text;
         }
@@ -124,7 +124,7 @@ class Misc {
        
         ob_start();
         echo sprintf('<select name="%s" id="%s">',$name,$name);
-        echo '<option value="" selected>Time</option>';
+        echo '<option value="" selected>'._('Time').'</option>';
         for($i=23; $i>=0; $i--) {
             for($minute=45; $minute>=0; $minute-=15) {
                 $sel=($hr==$i && $min==$minute)?'selected="selected"':'';

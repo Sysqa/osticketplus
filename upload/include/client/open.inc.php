@@ -42,15 +42,15 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
     <tr>
         <td><?= _('Telephone:')?></td>
         <td><input type="text" name="phone" size="25" value="<?=$info['phone']?>">
-             &nbsp;Ext&nbsp;<input type="text" name="phone_ext" size="6" value="<?=$info['phone_ext']?>">
+             &nbsp;<?= _('Ext')?>&nbsp;<input type="text" name="phone_ext" size="6" value="<?=$info['phone_ext']?>">
             &nbsp;<font class="error">&nbsp;<?=$errors['phone']?></font></td>
     </tr>
-    <tr height=2px><td align="left" colspan=2 >&nbsp;</td</tr>
+    <tr height=2px><td align="left" colspan=2 >&nbsp;</td></tr>
     <tr>
         <th><?= _('Help Topic:')?></th>
         <td>
             <select name="topicId">
-                <option value="" selected >Select One</option>
+                <option value="" selected ><?= _('Select One')?></option>
                 <?
                  $services= db_query('SELECT topic_id,topic FROM '.TOPIC_TABLE.' WHERE isactive=1 ORDER BY topic');
                  if($services && db_num_rows($services)) {
@@ -90,7 +90,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
               <?
                 $info['pri']=$info['pri']?$info['pri']:$cfg->getDefaultPriorityId(); //use system's default priority.
                 while($row=db_fetch_array($priorities)){ ?>
-                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=$row['priority_desc']?></option>
+                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=_($row['priority_desc'])?></option>
               <?}?>
             </select>
         </td>
@@ -111,7 +111,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
     <?}?>
     <?if($cfg && $cfg->enableCaptcha() && (!$thisclient || !$thisclient->isValid())) {
         if($_POST && $errors && !$errors['captcha'])
-            $errors['captcha']='Please re-enter the text again';
+            $errors['captcha']=_('Please re-enter the text again');
         ?>
     <tr>
         <th valign="top"><?= _('Captcha Text:')?></th>
@@ -121,7 +121,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
         </td>
     </tr>
     <?}?>
-    <tr height=2px><td align="left" colspan=2 >&nbsp;</td</tr>
+    <tr height=2px><td align="left" colspan=2 >&nbsp;</td></tr>
     <tr>
         <td></td>
         <td>

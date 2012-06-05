@@ -7,7 +7,7 @@ $where='';
 //make sure the search query is 3 chars min...defaults to no query with warning message
 if($_REQUEST['a']=='search') {
     if(!$_REQUEST['query'] || strlen($_REQUEST['query'])<3) {
-        $errors['err']='Search term must be more than 3 chars';
+        $errors['err']=_('Search term must be more than 3 chars');
     }else{
         //Do the search
         $search=true;
@@ -133,8 +133,8 @@ $showadd=($errors && $_POST['a']=='add')?true:false;
     </tr>
     <tr>
         <td align="center">
-            <input class="button" type="submit" name="delete" value="Remove From List" 
-                     onClick='return confirm("Are you sure you wan to REMOVE selected email from ban list?");'>
+            <input class="button" type="submit" name="delete" value="<?= _('Remove From List') ?>" 
+                     onClick='return confirm("<?= _('Are you sure you want to REMOVE selected email from ban list?') ?>");'>
         </td>
     </tr>
     <?

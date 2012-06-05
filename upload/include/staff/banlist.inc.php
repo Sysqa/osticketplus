@@ -61,7 +61,7 @@ $showadd=($errors && $_POST['a']=='add')?true:false;
         <?= _('Query:') ?>&nbsp;<input type="text" name="query" value="<?=Format::htmlchars($_REQUEST['query'])?>">
         &nbsp;&nbsp;
         <input type="submit" name="search" class="button" value="<?= _('Search') ?>">
-        &nbsp;<a href="#" class="msg" onClick="showHide('add','search'); return false;">(Add)</a>
+        &nbsp;<a href="#" class="msg" onClick="showHide('add','search'); return false;"><?= _('(Add)') ?></a>
     </form>
 </div>
 <div id='add' style="display:<?=$showadd?'block':'none'?>;" align="left">
@@ -71,7 +71,7 @@ $showadd=($errors && $_POST['a']=='add')?true:false;
     <?= _('Email:') ?>&nbsp;<input type="text" name="email" value="<?=$_POST['email']?>">
     &nbsp;
     <input type="submit" name="add" class="button" value="<?= _('Add') ?>">
-     &nbsp;<a href="#" class="msg" onClick="showHide('add','search'); return false;">(Search)</a>
+     &nbsp;<a href="#" class="msg" onClick="showHide('add','search'); return false;"><?= _('(Search)') ?></a>
     </form>
 </div>
 <div class="msg"><?=$result_type?>:&nbsp;<?=$showing?></div>
@@ -125,8 +125,8 @@ $showadd=($errors && $_POST['a']=='add')?true:false;
         <td style="padding-left:20px">
             <?= _('Select:') ?>&nbsp;
             <a href="#" onclick="return select_all(document.forms['banlist'],true)"><?= _('All') ?></a>&nbsp;&nbsp;
-            <a href="#" onclick="return toogle_all(document.forms['banlist'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
             <a href="#" onclick="return reset_all(document.forms['banlist'])"><?= _('None') ?></a>&nbsp;&nbsp;
+            <a href="#" onclick="return toogle_all(document.forms['banlist'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
             &nbsp;<?= _('page:') ?><?=$pageNav->getPageLinks()?>
             
         </td>

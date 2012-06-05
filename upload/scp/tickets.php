@@ -244,7 +244,7 @@ if ($_POST && !$errors):
                                     $ticket->reload();
                                     $note.=' ' . _('and status set to') . ' ' . $ticket->getPriority();
                                 }
-                                $note.=' by ' . $thisuser->getName();
+                                $note.=' '._('by').' ' . $thisuser->getName();
                                 $ticket->logActivity(_('Ticket Reopened'), $note);
                             } else {
                                 $errors['err'] = _('Problems reopening the ticket. Try again');
@@ -274,7 +274,7 @@ if ($_POST && !$errors):
                                     $ticket->reload();
                                     $note.=' ' . _('and status set to') . ' ' . $ticket->getPriority();
                                 }
-                                $note.=' by ' . $thisuser->getName();
+                                $note.=' '._('by').' ' . $thisuser->getName();
                                 $ticket->logActivity(_('Ticket Marked Overdue'), $note);
                             } else {
                                 $errors['err'] = _('Problems marking the the ticket overdue. Try again');

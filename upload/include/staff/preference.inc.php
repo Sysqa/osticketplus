@@ -34,7 +34,7 @@ $templates=db_query('SELECT tpl_id,name FROM '.EMAIL_TEMPLATE_TABLE.' WHERE cfg_
     <table width="100%" border="0" cellspacing=0 cellpadding=2 class="tform">
         <tr class="header" ><td colspan=2><?= _('General Settings') ?></td></tr>
         <tr class="subheader">
-            <td colspan=2"><?= _('Offline mode will disable client interface and <b>only</b> allow <b>super admins</b> to login to Staff Control Panel') ?></td>
+            <td colspan=2><?= _('Offline mode will disable client interface and <b>only</b> allow <b>super admins</b> to login to Staff Control Panel') ?></td>
         </tr>
         <tr><th><b><?= _('Helpdesk Status') ?></b></th>
             <td>
@@ -217,13 +217,14 @@ $templates=db_query('SELECT tpl_id,name FROM '.EMAIL_TEMPLATE_TABLE.' WHERE cfg_
                 <select name="timezone_offset">
                     <?
                     $gmoffset = date("Z") / 3600; //Server's offset.
-                    echo"<option value=\"$gmoffset\">Server Time (GMT $gmoffset:00)</option>"; //Default if all fails.
+		    $servertime = sprintf(_('Server Time (GMT %s:00)'),$gmoffset);
+                    echo "<option value=\"$gmoffset\">$servertime</option>"; //Default if all fails.
                     $timezones= db_query('SELECT offset,timezone FROM '.TIMEZONE_TABLE);
                     while (list($offset,$tz) = db_fetch_row($timezones)){
                         $selected = ($config['timezone_offset'] ==$offset) ?'SELECTED':'';
                         $tag=($offset)?"GMT $offset ($tz)":" GMT ($tz)";
                         ?>
-                        <option value="<?=$offset?>"<?=$selected?>><?=$tag?></option>
+                        <option value="<?=$offset?>"<?=$selected?>><?=_($tag)?></option>
                         <?
                     }?>
                 </select>
@@ -252,7 +253,7 @@ $templates=db_query('SELECT tpl_id,name FROM '.EMAIL_TEMPLATE_TABLE.' WHERE cfg_
                     <?
                     $priorities= db_query('SELECT priority_id,priority_desc FROM '.TICKET_PRIORITY_TABLE);
                     while (list($id,$tag) = db_fetch_row($priorities)){ ?>
-                        <option value="<?=$id?>"<?=($config['default_priority_id']==$id)?'selected':''?>><?=$tag?></option>
+                        <option value="<?=$id?>"<?=($config['default_priority_id']==$id)?'selected':''?>><?=_($tag)?></option>
                     <?
                     }?>
                 </select> &nbsp;<?= _('Default priority') ?><br/>
@@ -406,7 +407,7 @@ $templates=db_query('SELECT tpl_id,name FROM '.EMAIL_TEMPLATE_TABLE.' WHERE cfg_
 
     <table width="100%" border="0" cellspacing=0 cellpadding=2 class="tform">
         <tr class="header"><td colspan=2><?= _('Autoresponders &nbsp;(Global Setting)') ?></td></tr>
-        <tr class="subheader"><td colspan=2"><?= _('This is global setting which can be disabled at department level.') ?></td></tr>
+        <tr class="subheader"><td colspan=2><?= _('This is global setting which can be disabled at department level.') ?></td></tr>
         <tr><th valign="top"><?= _('New Ticket:') ?></th>
             <td><i><?= _('Autoresponse includes the ticket ID required to check status of the ticket') ?></i><br>
                 <input type="radio" name="ticket_autoresponder"  value="1"   <?=$config['ticket_autoresponder']?'checked':''?> /><?= _('Enable') ?>

@@ -49,7 +49,7 @@ $info=($errors && $_POST)?Format::input($_POST):Format::htmlchars($info);
                     <?
                     }?>
                  </select>
-                 &nbsp;<font class="error">*&nbsp;<?=$errors['email_id']?></font>&nbsp;(outgoing email)
+                 &nbsp;<font class="error">*&nbsp;<?=$errors['email_id']?></font>&nbsp;<?=_('(outgoing email)')?>
             </td>
         </tr>    
         <? if($info['dept_id']) { //update 

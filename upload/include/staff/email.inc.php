@@ -53,7 +53,7 @@ $priorities= db_query('SELECT priority_id,priority_desc FROM '.TICKET_PRIORITY_T
                     <?
                     while (list($id,$name) = db_fetch_row($priorities)){
                         $selected = ($info['priority_id']==$id)?'selected':''; ?>
-                        <option value="<?=$id?>"<?=$selected?>><?=$name?></option>
+                        <option value="<?=$id?>"<?=$selected?>><?=_($name)?></option>
                     <?
                     }?>
                 </select>&nbsp;<font class="error">*&nbsp;<?=$errors['priority_id']?></font>

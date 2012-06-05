@@ -16,11 +16,11 @@
 **********************************************************************/
 if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']),basename(__FILE__))) die(_('Kwaheri rafiki!'));
 
-if(!file_exists('main.inc.php')) die('Fatal Error.');
+if(!file_exists('main.inc.php')) die(_('Fatal Error'));
 
 require_once('main.inc.php');
 
-if(!defined('INCLUDE_DIR')) die('Fatal error');
+if(!defined('INCLUDE_DIR')) die(_('Fatal error'));
 
 /*Some more include defines specific to client only */
 define('CLIENTINC_DIR',INCLUDE_DIR.'client/');

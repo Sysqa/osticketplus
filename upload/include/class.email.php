@@ -195,8 +195,8 @@ class Email {
             if(!PEAR::isError($result))
                 return true;
 
-            $alert=sprintf("Unable to email via %s:%d [%s]\n\n%s\n",$smtp['host'],$smtp['port'],$smtp['username'],$result->getMessage());
-            Sys::log(LOG_ALERT,'SMTP Error',$alert,false);
+            $alert=sprintf(_("Unable to email via %s:%d [%s]\n\n%s\n"),$smtp['host'],$smtp['port'],$smtp['username'],$result->getMessage());
+            Sys::log(LOG_ALERT,_('SMTP Error'),$alert,false);
             //print_r($result);
         }
 

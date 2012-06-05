@@ -57,8 +57,8 @@ if($_POST && (!empty($_POST['lemail']) && !empty($_POST['lticket']))):
             $_SESSION['TZ_OFFSET']=$cfg->getTZoffset();
             $_SESSION['daylight']=$cfg->observeDaylightSaving();
             //Log login info...
-            $msg=sprintf("%s/%s logged in [%s]",$ticket->getEmail(),$ticket->getExtId(),$_SERVER['REMOTE_ADDR']);
-            Sys::log(LOG_DEBUG,'User login',$msg);
+            $msg=sprintf(_("%s/%s logged in [%s]"),$ticket->getEmail(),$ticket->getExtId(),$_SERVER['REMOTE_ADDR']);
+            Sys::log(LOG_DEBUG,_('User login'),$msg);
             //Redirect tickets.php
             session_write_close();
             session_regenerate_id();
@@ -70,7 +70,7 @@ if($_POST && (!empty($_POST['lemail']) && !empty($_POST['lticket']))):
     //If we get to this point we know the login failed.
     $_SESSION['_client']['strikes']+=1;
     if(!$errors && $_SESSION['_client']['strikes']>$cfg->getClientMaxLogins()) {
-        $loginmsg=('Access Denied');
+        $loginmsg=_('Access Denied');
         $errors['err']=_('Forgot your login info? Please <a href="open.php">open a new ticket</a>.');
         $_SESSION['_client']['laststrike']=time();
         $alert=_('Excessive login attempts by a client?')."\n".

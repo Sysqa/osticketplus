@@ -50,7 +50,7 @@ $showing=($num=db_num_rows($users))?_("Staff Members"):sprintf(_("No staff found
                   <input type="checkbox" name="uids[]" value="<?=$row['staff_id']?>" <?=$sel?'checked':''?>  onClick="highLight(this.value,this.checked);">
                 <td><a href="admin.php?t=staff&id=<?=$row['staff_id']?>"><?=Format::htmlchars($name)?></a>&nbsp;</td>
                 <td><?=$row['username']?></td>
-                <td><?=$row['isactive']?'Active':'<b>Locked</b>'?>&nbsp;<?=$row['onvacation']?'(<i>vacation</i>)':''?></td>
+                <td><?=$row['isactive']?_('Active'):'<b>'._('Locked').'</b>'?>&nbsp;<?=$row['onvacation']?_('(<i>vacation</i>)'):''?></td>
                 <td><a href="admin.php?t=grp&id=<?=$row['group_id']?>"><?=Format::htmlchars($row['group_name'])?></a></td>
                 <td><a href="admin.php?t=dept&id=<?=$row['dept_id']?>"><?=Format::htmlchars($row['dept_name'])?></a></td>
                 <td><?=Format::db_date($row['created'])?></td>
@@ -72,8 +72,8 @@ $showing=($num=db_num_rows($users))?_("Staff Members"):sprintf(_("No staff found
         <div style="margin-left:20px;">
             <?= _('Select:') ?>&nbsp;
             <a href="#" onclick="return select_all(document.forms['staff'],true)"><?= _('All') ?></a>&nbsp;&nbsp;
-            <a href="#" onclick="return toogle_all(document.forms['staff'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
             <a href="#" onclick="return reset_all(document.forms['staff'])"><?= _('None') ?></a>&nbsp;&nbsp;
+            <a href="#" onclick="return toogle_all(document.forms['staff'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
         </div>
     </td></tr>
     <tr><td align="center">

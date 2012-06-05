@@ -110,10 +110,10 @@ class Template {
         }
 
         if(!$errors && $var['id'] && $var['id']!=$this->getId())
-            $errors['err']='Internal error. Try again';
+            $errors['err']=_('Internal error. Try again');
 
         if(!$errors['name'] && ($tid=Template::getIdByName($var['name'])) && $tid!=$this->getId())
-             $errors['name']='Name already in use';
+             $errors['name']=_('Name already in use');
                         
         if(!$errors) {
         
@@ -167,12 +167,12 @@ class Template {
         global $cfg;
 
         if(!$var['name'])
-            $errors['name']='required';
+            $errors['name']=_('required');
         elseif(!$errors && Template::getIdByName($var['name'])) 
              $errors['name']=_('Name already in use');
               
         if(!$var['copy_template'])
-            $errors['copy_template']='required';
+            $errors['copy_template']=_('required');
         else if(!$errors){
             $template= new Template($var['copy_template'],$cfg->getId());
             if(!is_object($template) || !$template->getId())

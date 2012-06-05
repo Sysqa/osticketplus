@@ -326,8 +326,8 @@ class MailFetcher {
 
         //We require imap ext to fetch emails via IMAP/POP3
         if(!function_exists('imap_open')) {
-            $msg='PHP must be compiled with IMAP extension enabled for IMAP/POP3 fetch to work!';
-            Sys::log(LOG_WARN,'Mail Fetch Error',$msg);
+            $msg=_('PHP must be compiled with IMAP extension enabled for IMAP/POP3 fetch to work!');
+            Sys::log(LOG_WARN,_('Mail Fetch Error'),$msg);
             return;
         }
 
@@ -353,13 +353,13 @@ class MailFetcher {
                 db_query('UPDATE '.EMAIL_TABLE.' SET mail_errors=mail_errors+1, mail_lasterror=NOW() WHERE email_id='.db_input($row['email_id']));
                 if($errors>=$MAX_ERRORS){
                     //We've reached the MAX consecutive errors...will attempt logins at delayed intervals
-                    $msg="\nThe system is having trouble fetching emails from the following mail account: \n".
-                        "\nUser: ".$row['userid'].
-                        "\nHost: ".$row['mail_host'].
-                        "\nError: ".$fetcher->getLastError().
-                        "\n\n ".$errors.' consecutive errors. Maximum of '.$MAX_ERRORS. ' allowed'.
-                        "\n\n This could be connection issues related to the host. Next delayed login attempt in aprox. 10 minutes";
-                    Sys::alertAdmin('Mail Fetch Failure Alert',$msg,true);
+                    $msg="\n"._("The system is having trouble fetching emails from the following mail account").": \n".
+                        "\n"._("User").": ".$row['userid'].
+                        "\n"._("Host").": ".$row['mail_host'].
+                        "\n"._("Error").": ".$fetcher->getLastError().
+                        "\n\n ".$errors." ".sprintf(_('consecutive errors. Maximum of %s allowed'),$MAX_ERRORS).
+                        "\n\n "._("This could be connection issues related to the host. Next delayed login attempt in aprox. 10 minutes");
+                    Sys::alertAdmin(_('Mail Fetch Failure Alert'),$msg,true);
                 }
             }
         }

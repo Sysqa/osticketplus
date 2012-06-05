@@ -32,7 +32,7 @@ $showing=db_num_rows($result)?$pageNav->showing():'';
 $negorder=$order=='DESC'?'ASC':'DESC'; //Negate the sorting..
 $deletable=0;
 ?>
-<div class="msg">API Keys</div>
+<div class="msg"><?=_('API Keys')?></div>
 <hr>
 <div><b><?=$showing?></b></div>
  <table width="100%" border="0" cellspacing=1 cellpadding=2>
@@ -43,11 +43,11 @@ $deletable=0;
     <table border="0" cellspacing=0 cellpadding=2 class="dtable" align="center" width="100%">
         <tr>
 	        <th width="7px">&nbsp;</th>
-	        <th><?php _('API Key') ?></th>
-            <th width="10" nowrap><?php _('Active') ?></th>
-            <th width="100" nowrap>&nbsp;&nbsp;<?php _('IP Address') ?></th>
+	        <th><?= _('API Key') ?></th>
+            <th width="10" nowrap><?= _('Active') ?></th>
+            <th width="100" nowrap>&nbsp;&nbsp;<?= _('IP Address') ?></th>
 	        <th width="150" nowrap>&nbsp;&nbsp;
-                <a href="admin.php?t=api&sort=date&order=<?=$negorder?><?=$qstr?>" title="<?php _('Sort By Create Date') ?> <?=$negorder?>"><?php _('Created') ?></a></th>
+                <a href="admin.php?t=api&sort=date&order=<?=$negorder?><?=$qstr?>" title="<?= _('Sort By Create Date') ?> <?=$negorder?>"><?= _('Created') ?></a></th>
         </tr>
         <?
         $class = 'row1';
@@ -74,7 +74,7 @@ $deletable=0;
                   <input type="checkbox" name="ids[]" value="<?=$row['id']?>" <?=$sel?'checked':''?>
                         onClick="highLight(this.value,this.checked);">
                 <td>&nbsp;<?=$row['apikey']?></td>
-                <td><?=$row['isactive']?'<b>Yes</b>':'No'?></td>
+                <td><?=$row['isactive']?'<b>'._('Yes').'</b>':_('No')?></td>
                 <td>&nbsp;<?=$row['ipaddr']?></td>
                 <td>&nbsp;<?=Format::db_datetime($row['created'])?></td>
             </tr>
@@ -95,7 +95,7 @@ $deletable=0;
         <td align="center">
             <?php
             if($inactive) {?>
-                <input class="button" type="submit" name="enable" value="<?php _('Enable') ?>"
+                <input class="button" type="submit" name="enable" value="<?= _('Enable') ?>"
                        onClick='return confirm("<?= _('Are you sure you want to ENABLE selected keys?') ?>");'>
             <?php
             }
@@ -122,7 +122,7 @@ $deletable=0;
    <form action="admin.php?t=api" method="POST" >
     <input type=hidden name='t' value='api'>
     <input type=hidden name='do' value='add'>
-    New IP:
+    <?= _('New IP:') ?>
     <input name="ip" size=30 value="<?=($errors['ip'])?Format::htmlchars($_REQUEST['ip']):''?>" />
     <font class="error">*&nbsp;</font>&nbsp;&nbsp;
      &nbsp;&nbsp; <input class="button" type="submit" name="add" value="<?= _('Add') ?>">

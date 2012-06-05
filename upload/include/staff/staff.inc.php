@@ -84,7 +84,7 @@ $depts= db_query('SELECT dept_id,dept_name FROM '.DEPT_TABLE);
         <tr>
             <th><?= _('Office Phone:') ?></th>
             <td>
-                <input type="text" name="phone" value="<?=$rep['phone']?>" >&nbsp;Ext&nbsp;
+                <input type="text" name="phone" value="<?=$rep['phone']?>" >&nbsp;<?=_('Ext')?>&nbsp;
                 <input type="text" name="phone_ext" size=6 value="<?=$rep['phone_ext']?>" >
                     &nbsp;<font class="error">&nbsp;<?=$errors['phone']?></font></td>
         </tr>

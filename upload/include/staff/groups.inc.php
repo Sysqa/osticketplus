@@ -5,7 +5,7 @@ if(!defined('OSTADMININC') || !$thisuser->isadmin()) die(_('Access Denied'));
 $sql='SELECT grp.group_id,group_name,group_enabled,count(staff.staff_id) as users, grp.created,grp.updated'
      .' FROM '.GROUP_TABLE.' grp LEFT JOIN '.STAFF_TABLE.' staff USING(group_id)';
 $groups=db_query($sql.' GROUP BY grp.group_id ORDER BY group_name');    
-$showing=($num=db_num_rows($groups))?'User Groups':'No groups??';
+$showing=($num=db_num_rows($groups))?_('User Groups'):_('No groups??');
 ?>
 <div class="msg"><?=$showing?></div>
 <table width="100%" border="0" cellspacing=1 cellpadding=2>
@@ -37,7 +37,7 @@ $showing=($num=db_num_rows($groups))?'User Groups':'No groups??';
                 <td width=7px>
                   <input type="checkbox" name="grps[]" value="<?=$row['group_id']?>" <?=$sel?'checked':''?>  onClick="highLight(this.value,this.checked);">
                 <td><a href="admin.php?t=grp&id=<?=$row['group_id']?>"><?=Format::htmlchars($row['group_name'])?></a></td>
-                <td><b><?=$row['group_enabled']?'Active':'Disabled'?></b></td>
+                <td><b><?=$row['group_enabled']?_('Active'):_('Disabled')?></b></td>
                 <td>&nbsp;&nbsp;<a href="admin.php?t=staff&gid=<?=$row['group_id']?>"><?=$row['users']?></a></td>
                 <td><?=Format::db_date($row['created'])?></td>
                 <td><?=Format::db_datetime($row['updated'])?></td>
@@ -57,8 +57,8 @@ $showing=($num=db_num_rows($groups))?'User Groups':'No groups??';
         <td style="padding-left:20px;">
             <?= _('Select:') ?>&nbsp;
             <a href="#" onclick="return select_all(document.forms['groups'],true)"><?= _('All') ?></a>&nbsp;&nbsp;
-            <a href="#" onclick="return toogle_all(document.forms['groups'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
             <a href="#" onclick="return reset_all(document.forms['groups'])"><?= _('None') ?></a>&nbsp;&nbsp;
+            <a href="#" onclick="return toogle_all(document.forms['groups'],true)"><?= _('Toggle') ?></a>&nbsp;&nbsp;
         </td>
     </tr>
     <tr>

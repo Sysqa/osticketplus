@@ -42,7 +42,7 @@ $services=db_query($sql.' ORDER BY topic');
                 <td><?=$row['isactive']?_('Active'):_('<b>Disabled</b>')?></td>
                 <td>&nbsp;&nbsp;<?=$row['noautoresp']?_('No'):_('<b>Yes</b>')?></td>
                 <td><a href="admin.php?t=dept&id=<?=$row['dept_id']?>"><?=$row['dept_name']?></a></td>
-                <td><?=$row['priority_desc']?></td>
+                <td><?=_($row['priority_desc'])?></td>
                 <td><?=Format::db_datetime($row['updated'])?></td>
             </tr>
             <?

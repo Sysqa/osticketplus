@@ -60,7 +60,7 @@ $query="$qselect $qfrom $qwhere $qgroup ORDER BY $order_by $order LIMIT ".$pageN
 //echo $query;
 $tickets_res = db_query($query);
 $showing=db_num_rows($tickets_res)?$pageNav->showing():"";
-$results_type=($status)?ucfirst($status).' Tickets':' All Tickets';
+$results_type=($status)?ucfirst($status).' Tickets':'All Tickets';
 $negorder=$order=='DESC'?'ASC':'DESC'; //Negate the sorting..
 ?>
 <div>
@@ -75,11 +75,11 @@ $negorder=$order=='DESC'?'ASC':'DESC'; //Negate the sorting..
 <div style="margin: 10px 0 60px 0;">
  <table width="100%" border="0" cellspacing=0 cellpadding=0 align="center">
     <tr>
-        <td width="60%" class="msg"><?=$showing?>&nbsp;&nbsp;<?=$results_type?></td>
+        <td width="60%" class="msg"><?=$showing?>&nbsp;&nbsp;<?= _($results_type) ?></td>
         <td nowrap >
-            <a href="view.php?status=open"><img src="images/view_open_btn.gif" alt="<?= _('View Open')?>" border=0></a>
-            <a href="view.php?status=closed"><img src="images/view_closed_btn.gif" alt="<?= _('View Closed')?>" border=0></a>
-            <a href=""><img src="images/refresh_btn.gif" alt="<?= _('Refresh')?>" border=0></a>
+            <a href="view.php?status=open"><img src="images/view_open_btn.gif" alt="" border=0><sup><?= _('View Open') ?></sup></a>
+            <a href="view.php?status=closed"><img src="images/view_closed_btn.gif" alt="" border=0><sup><?= _('View Closed') ?></sup></a>
+            <a href=""><img src="images/refresh_btn.gif" alt="" border=0><sup><?= _('Refresh') ?></sup></a>
         </td>
     </tr>
  </table>
@@ -116,7 +116,7 @@ $negorder=$order=='DESC'?'ASC':'DESC'; //Negate the sorting..
                     <a class="Icon <?=strtolower($row['source'])?>Ticket" title="<?=$row['email']?>" href="view.php?id=<?=$row['ticketID']?>">
                         <?=$ticketID?></a></td>
                 <td nowrap>&nbsp;<?=Format::db_date($row['created'])?></td>
-                <td>&nbsp;<?=ucfirst($row['status'])?></td>
+                <td>&nbsp;<?=_(ucfirst($row['status']))?></td>
                 <td>&nbsp;<a href="view.php?id=<?=$row['ticketID']?>"><?=$subject?></a>
                     &nbsp;<?=$row['attachments']?"<span class='Icon file'>&nbsp;</span>":''?></td>
                 <td nowrap>&nbsp;<?=Format::truncate($dept,30)?></td>

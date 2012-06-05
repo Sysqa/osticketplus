@@ -118,8 +118,8 @@ $negorder = $order == 'DESC' ? 'ASC' : 'DESC'; //Negate the sorting..
                                     <input type="checkbox" name="canned[]" value="<?= $row['premade_id'] ?>" <?= $sel ? 'checked' : '' ?>
                                            onClick="highLight(this.value,this.checked);">
                                 <td><a href="kb.php?id=<?= $row['premade_id'] ?>"><?= Format::htmlchars(Format::truncate($row['title'], 60)) ?></a></td>
-                                <td><b><?= $row['isenabled'] ? 'Active' : 'Disabled' ?></b></td>
-                                <td><?= $row['dept_name'] ? Format::htmlchars($row['dept_name']) : 'All Departments' ?></td>
+                                <td><b><?= $row['isenabled'] ? _('Active') : _('Disabled') ?></b></td>
+                                <td><?= $row['dept_name'] ? Format::htmlchars($row['dept_name']) : _('All Departments') ?></td>
                                 <td><?= Format::db_datetime($row['updated']) ?></td>
                             </tr>
                     <?
@@ -137,8 +137,8 @@ $negorder = $order == 'DESC' ? 'ASC' : 'DESC'; //Negate the sorting..
                             <tr><td style="padding-left:20px">
 <?= _('Select:') ?>&nbsp;
                             <a href="#" onclick="return select_all(document.forms['premade'],true)"><?= _('All') ?></a>&nbsp;
+			    <a href="#" onclick="return reset_all(document.forms['premade'])"><?= _('None') ?></a>&nbsp;
                             <a href="#" onclick="return toogle_all(document.forms['premade'],true)"><?= _('Toggle') ?></a>&nbsp;
-                            <a href="#" onclick="return reset_all(document.forms['premade'])"><?= _('None') ?></a>&nbsp;
                             &nbsp;<?= _('page:') ?><?= $pageNav->getPageLinks() ?>&nbsp;
                         </td>
                     <tr><td align="center">

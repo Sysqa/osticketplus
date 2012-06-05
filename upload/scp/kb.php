@@ -54,7 +54,7 @@ if ($_POST):
                     if (!$res or !($replyID = db_insert_id()))
                         $errors['err'] = _('Unable to create the reply. Internal error');
                     else
-                        $msg='Premade reply created';
+                        $msg=_('Premade reply created');
                 }elseif ($_POST['a'] == 'update') { //update
                     $res = db_query('UPDATE ' . KB_PREMADE_TABLE . ' ' . $sql . ' WHERE premade_id=' . db_input($_POST['id']));
                     if ($res && db_affected_rows()) {
@@ -79,13 +79,13 @@ if ($_POST):
                 $selected = count($_POST['canned']);
                 if (isset($_POST['enable'])) {
                     if (db_query('UPDATE ' . KB_PREMADE_TABLE . ' SET isenabled=1,updated=NOW() WHERE isenabled=0 AND premade_id IN(' . $ids . ')'))
-                        $msg = db_affected_rows() . " of  $selected selected replies enabled";
+                        $msg = sprintf(_("%s of %s selected replies enabled"), db_affected_rows(), $selected);
                 }elseif (isset($_POST['disable'])) {
                     if (db_query('UPDATE ' . KB_PREMADE_TABLE . ' SET isenabled=0, updated=NOW() WHERE isenabled=1 AND premade_id IN(' . $ids . ')'))
-                        $msg = db_affected_rows() . " of  $selected selected replies disabled";
+                        $msg = sprintf(_("%s of %s selected replies disabled"), db_affected_rows(), $selected);
                 }elseif (isset($_POST['delete'])) {
                     if (db_query('DELETE FROM ' . KB_PREMADE_TABLE . ' WHERE premade_id IN(' . $ids . ')'))
-                        $msg = db_affected_rows() . " of  $selected selected replies deleted";
+                        $msg = sprintf(_("%s of %s selected replies deleted"), db_affected_rows(), $selected);
                 }
 
                 if (!$msg)

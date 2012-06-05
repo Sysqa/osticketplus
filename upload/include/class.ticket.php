@@ -510,7 +510,7 @@ class Ticket{
                         }
                     }
                 }else {
-                    Sys::log(LOG_WARNING,'Template Fetch Error',"Unable to fetch 'overdue' alert template #$tplId");
+                    Sys::log(LOG_WARNING,_('Template Fetch Error'),_("Unable to fetch 'overdue' alert template #").$tplId);
                 }
             }
             return true;
@@ -1138,7 +1138,7 @@ class Ticket{
              $sql.=' WHERE ticket_id='.db_input($this->getId());
              //echo $sql;
              if(db_query($sql)){
-                 $this->postNote('Ticket Updated',$var['note']);
+                 $this->postNote(_('Ticket Updated'),$var['note']);
                  $this->reload();
                  return true;
              }
@@ -1185,7 +1185,7 @@ class Ticket{
         
         //Make sure the email is not banned
         if(!$errors && BanList::isbanned($var['email'])) {
-            $errors['err']='Ticket denied. Error #403'; //We don't want to tell the user the real reason...Psssst.
+            $errors['err']=_('Ticket denied').'. '._('Error').' #403'; //We don't want to tell the user the real reason...Psssst.
             Sys::log(LOG_WARNING,_('Ticket denied'),_('Banned email - ').$var['email']); //We need to let admin know which email got banned.
         }
 

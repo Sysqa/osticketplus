@@ -39,7 +39,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
             &nbsp;<?= _('Ext') ?>&nbsp;<input type="text" name="phone_ext" size="6" value="<?=$info['phone_ext']?>">
             <font class="error">&nbsp;<?=$errors['phone']?></font></td>
     </tr>
-    <tr height=2px><td align="left" colspan=2 >&nbsp;</td</tr>
+    <tr height=2px><td align="left" colspan=2 >&nbsp;</td></tr>
     <tr>
         <td align="left"><b><?= _('Ticket Source:') ?></b></td>
         <td>
@@ -138,7 +138,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
               <?
                 $info['pri']=$info['pri']?$info['pri']:$cfg->getDefaultPriorityId();
                 while($row=db_fetch_array($priorities)){ ?>
-                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=$row['priority_desc']?></option>
+                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=_($row['priority_desc'])?></option>
               <?}?>
             </select>
         </td>
@@ -198,7 +198,7 @@ $info=($_POST && $errors)?Format::input($_POST):array(); //on error...use the po
             </div>
         </td>
     </tr>
-    <tr height=2px><td align="left" colspan=2 >&nbsp;</td</tr>
+    <tr height=2px><td align="left" colspan=2 >&nbsp;</td></tr>
     <tr>
         <td></td>
         <td>

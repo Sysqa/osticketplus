@@ -92,7 +92,7 @@ if($status){
 
 //Sub-statuses Trust me!
 if($staffId && ($staffId==$thisuser->getId())) { //Staff's assigned tickets.
-    $results_type='Assigned Tickets';
+    $results_type=_('Assigned Tickets');
     $qwhere.=' AND ticket.staff_id='.db_input($staffId);    
 }elseif($showoverdue) { //overdue
     $qwhere.=' AND isoverdue=1 ';
@@ -161,7 +161,7 @@ if($search):
     $startTime  =($_REQUEST['startDate'] && (strlen($_REQUEST['startDate'])>=8))?strtotime($_REQUEST['startDate']):0;
     $endTime    =($_REQUEST['endDate'] && (strlen($_REQUEST['endDate'])>=8))?strtotime($_REQUEST['endDate']):0;
     if( ($startTime && $startTime>time()) or ($startTime>$endTime && $endTime>0)){
-        $errors['err']='Entered date span is invalid. Selection ignored.';
+        $errors['err']=_('Entered date span is invalid. Selection ignored.');
         $startTime=$endTime=0;
     }else{
         //Have fun with dates.
@@ -373,9 +373,9 @@ $basic_display=!isset($_REQUEST['advance_search'])?true:false;
 <div style="margin-bottom:20px">
  <table width="100%" border="0" cellspacing=0 cellpadding=0 align="center">
     <tr>
-        <td width="80%" class="msg" >&nbsp;<b><?=$showing?>&nbsp;&nbsp;&nbsp;<?=$results_type?></b></td>
+        <td width="80%" class="msg" >&nbsp;<b><?=$showing?>&nbsp;&nbsp;&nbsp;<?=_($results_type)?></b></td>
         <td nowrap style="text-align:right;padding-right:20px;">
-            <a href=""><img src="images/refresh.gif" alt="Refresh" border=0></a>
+            <a href=""><img src="images/refresh.gif" alt="" border=0><sup><?=_('Refresh')?></sup></a>
         </td>
     </tr>
  </table>
@@ -435,7 +435,7 @@ $basic_display=!isset($_REQUEST['advance_search'])?true:false;
                     href="tickets.php?id=<?=$row['ticket_id']?>"><?=$subject?></a>
                     &nbsp;<?=$row['attachments']?"<span class='Icon file'>&nbsp;</span>":''?></td>
                 <td nowrap><?=Format::truncate($row['dept_name'],30)?></td>
-                <td class="nohover" align="center" style="background-color:<?=$row['priority_color']?>;"><?=$row['priority_desc']?></td>
+                <td class="nohover" align="center" style="background-color:<?=$row['priority_color']?>;"><?=_($row['priority_desc'])?></td>
                 <td nowrap><?=Format::truncate($row['name'],22,strpos($row['name'],'@'))?>&nbsp;</td>
             </tr>
             <?

@@ -374,13 +374,13 @@ if ($_POST && $_REQUEST['t'] && !$errors):
                         if (isset($_POST['activate_grps'])) {
                             $sql = 'UPDATE ' . GROUP_TABLE . ' SET group_enabled=1,updated=NOW() WHERE group_enabled=0 AND group_id IN(' . $ids . ')';
                             db_query($sql);
-                            $msg = sprintf(_("%s of  $selected selected groups Enabled"), db_affected_rows());
+                            $msg = sprintf(_("%s of %s selected groups Enabled"), db_affected_rows(), $selected);
                         } elseif (in_array($thisuser->getDeptId(), $_POST['grps'])) {
-                            $errors['err'] = "Trying to 'Disable' or 'Delete' your group? Doesn't make any sense!";
+                            $errors['err'] = _("Trying to 'Disable' or 'Delete' your group? Doesn't make any sense!");
                         } elseif (isset($_POST['disable_grps'])) {
                             $sql = 'UPDATE ' . GROUP_TABLE . ' SET group_enabled=0, updated=NOW() WHERE group_enabled=1 AND group_id IN(' . $ids . ')';
                             db_query($sql);
-                            $msg = sprintf(_("%s of  $selected selected groups Disabled"), db_affected_rows());
+                            $msg = sprintf(_("%s of %s selected groups Disabled"), db_affected_rows(), $selected);
                         } elseif (isset($_POST['delete_grps'])) {
                             $res = db_query('SELECT staff_id FROM ' . STAFF_TABLE . ' WHERE group_id IN(' . $ids . ')');
                             if (!$res || db_num_rows($res)) { //fail if any of the selected groups has users.
@@ -414,7 +414,7 @@ if ($_POST && $_REQUEST['t'] && !$errors):
                     break;
                 case 'create':
                     if (($uID = Staff::create($_POST, $errors)))
-                        $msg = sprintf(_('%s %s added successfully'), Format::htmlchars($_POST['firstname'], $_POST['lastname']));
+                        $msg = sprintf(_('%s %s added successfully'), Format::htmlchars($_POST['firstname']), Format::htmlchars($_POST['lastname']));
                     elseif (!$errors['err'])
                         $errors['err'] = _('Unable to add the user. Internal error');
                     break;

@@ -41,11 +41,11 @@ if($ticket->isOverdue())
 		<table align="center" class="ticketinfo" cellspacing="1" cellpadding="3" width="100%" border=0>
 			<tr>
 				<th><?= _('Status:') ?></th>
-				<td><?=$ticket->getStatus()?></td>
+				<td><?=_($ticket->getStatus())?></td>
 			</tr>
 			<tr>
         		<th><?= _('Priority:') ?></th>
-        		<td><?=$ticket->getPriority()?></td>
+        		<td><?=_($ticket->getPriority())?></td>
    	 		</tr>
             <tr>
                 <th><?= _('Department:') ?></th>
@@ -80,7 +80,7 @@ if($ticket->isOverdue())
             </tr>
             <tr>
                 <th><?= _('Source:') ?></th>
-                <td><?=$ticket->getSource()?></td>
+                <td><?=_($ticket->getSource())?></td>
             </tr>
         </table>
      </td>
@@ -91,7 +91,7 @@ if($ticket->isOverdue())
         <table align="center" class="ticketinfo" cellspacing="1" cellpadding="3" width="100%" border=0>
             <tr>
                 <th><?= _('Assigned Staff:') ?></th>
-                <td><?=$staff?Format::htmlchars($staff->getName()):'- unassigned -'?></td>
+                <td><?=$staff?Format::htmlchars($staff->getName()):_('- unassigned -')?></td>
             </tr>
             <tr>
                 <th nowrap><?= _('Last Response:') ?></th>
@@ -191,7 +191,7 @@ if($thisuser->canManageTickets() || $thisuser->isManager()){ ?>
                 $priorityId=$ticket->getPriorityId();
                 $resp=db_query('SELECT priority_id,priority_desc FROM '.TICKET_PRIORITY_TABLE);
                 while($row=db_fetch_array($resp)){ ?>
-                    <option value="<?=$row['priority_id']?>" <?=$priorityId==$row['priority_id']?'disabled':''?> ><?=$row['priority_desc']?></option>
+                    <option value="<?=$row['priority_id']?>" <?=$priorityId==$row['priority_id']?'disabled':''?> ><?=_($row['priority_desc'])?></option>
                 <?}?>
             </select>
                 &nbsp;&nbsp;
@@ -407,7 +407,7 @@ if(($resp=db_query($sql)) && ($notes=db_num_rows($resp))){
                                 $depts= db_query('SELECT dept_id,dept_name FROM '.DEPT_TABLE.' WHERE dept_id!='.db_input($ticket->getDeptId()));
                                 while (list($deptId,$deptName) = db_fetch_row($depts)){
                                     $selected = ($info['dept_id']==$deptId)?'selected':''; ?>
-                                    <option value="<?=$deptId?>"<?=$selected?>><?=$deptName?> Department </option>
+                                    <option value="<?=$deptId?>"<?=$selected?>><?=$deptName.' '._('Department')?> </option>
                                 <?
                                 }?>
                             </select><font class='error'>&nbsp;*<?=$errors['dept_id']?></font>

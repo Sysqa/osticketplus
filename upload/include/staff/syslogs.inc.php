@@ -86,7 +86,7 @@ $showing=db_num_rows($resp)?$pageNav->showing():"";
         &nbsp;<?= _('From') ?>&nbsp;<input id="sd" size=15 name="startDate" value="<?=Format::htmlchars($_REQUEST['startDate'])?>"
                 onclick="event.cancelBubble=true;calendar(this);" autocomplete=OFF>
             <a href="#" onclick="event.cancelBubble=true;calendar(getObj('sd')); return false;"><img src='images/cal.png'border=0 alt=""></a>
-            &nbsp;&nbsp; to &nbsp;&nbsp;
+            &nbsp;&nbsp; <?= _('to') ?> &nbsp;&nbsp;
             <input id="ed" size=15 name="endDate" value="<?=Format::htmlchars($_REQUEST['endDate'])?>" 
                 onclick="event.cancelBubble=true;calendar(this);" autocomplete=OFF >
                 <a href="#" onclick="event.cancelBubble=true;calendar(getObj('ed')); return false;"><img src='images/cal.png'border=0 alt=""></a>
@@ -99,7 +99,7 @@ $showing=db_num_rows($resp)?$pageNav->showing():"";
                 <option value="Debug" <?=($type=='Debug')?'selected="selected"':''?>><?= _('Debug') ?></option>
             </select>
             &nbsp;&nbsp;
-            <input type="submit" Value="<?= _('Go!') ?>" />
+            <input class="button" type="submit" Value="<?= _('Go!') ?>" />
     </div>
  </form>
 </div>

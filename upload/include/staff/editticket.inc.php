@@ -90,7 +90,7 @@ if($_POST && $errors){
             <select name="pri">
               <?
                 while($row=db_fetch_array($priorities)){ ?>
-                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=$row['priority_desc']?></option>
+                    <option value="<?=$row['priority_id']?>" <?=$info['pri']==$row['priority_id']?'selected':''?> ><?=_($row['priority_desc'])?></option>
               <?}?>
             </select>
         </td>
@@ -106,12 +106,12 @@ if($_POST && $errors){
             <select name="topicId">    
                 <option value="0" selected ><?= _('None') ?></option>
                 <?if(!$info['topicId'] && $info['topic']){ //old helptopic?>
-                <option value="0" selected ><?=$info['topic']?> <?= _('(deleted)') ?></option>
+                <option value="0" selected ><?=_($info['topic'])?> <?= _('(deleted)') ?></option>
                 <?
                 }
                  while (list($topicId,$topic,$active) = db_fetch_row($services)){
                     $selected = ($info['topicId']==$topicId)?'selected':'';
-                    $status=$active?'Active':'Inactive';
+                    $status=$active?_('Active'):_('Inactive');
                     ?>
                     <option value="<?=$topicId?>"<?=$selected?>><?=$topic?>&nbsp;&nbsp;&nbsp;(<?=$status?>)</option>
                 <?

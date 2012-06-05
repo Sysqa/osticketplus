@@ -16,12 +16,12 @@
 **********************************************************************/
 require('staff.inc.php');
 //TODO: alert admin on any error on this file.
-if(!$thisuser || !$thisuser->isStaff() || !$_GET['id'] || !$_GET['ref']) die('Access Denied');
+if(!$thisuser || !$thisuser->isStaff() || !$_GET['id'] || !$_GET['ref']) die(_('Access Denied'));
 $sql='SELECT attach_id,ref_id,ticket.ticket_id,dept_id,file_name,file_key,staff_id,ticket.created FROM '.TICKET_ATTACHMENT_TABLE.
     ' LEFT JOIN '.TICKET_TABLE.' ticket USING(ticket_id) '.
     ' WHERE attach_id='.db_input($_GET['id']);
 //valid ID??
-if(!($resp=db_query($sql)) || !db_num_rows($resp)) die('Invalid file');
+if(!($resp=db_query($sql)) || !db_num_rows($resp)) die(_('Invalid file'));
 list($id,$refid,$tid,$deptID,$filename,$key,$staffId,$createDate)=db_fetch_row($resp);
 //Still paranoid...:)...check the secret session based hash.
 $hash=MD5($tid*$refid.session_id());
@@ -38,7 +38,7 @@ $file=rtrim($cfg->getUploadDir(),'/')."/$month/$key".'_'.$filename;
 if(!file_exists($file))
     $file=rtrim($cfg->getUploadDir(),'/')."/$key".'_'.$filename;
 
-if(!file_exists($file)) die('No such file');
+if(!file_exists($file)) die(_('No such file'));
 
 $extension =substr($filename,-3);
 switch(strtolower($extension))

@@ -58,8 +58,8 @@ require_once(STAFFINC_DIR.'header.inc.php');
 <div align="left">
     <form action="directory.php" method="POST" >
     <input type='hidden' name='a' value='search'>
-    Search for :&nbsp;<input type="text" name="query" value="<?=Format::htmlchars($_REQUEST['query'])?>">
-    Dept.
+    <?=_('Search for:')?>&nbsp;<input type="text" name="query" value="<?=Format::htmlchars($_REQUEST['query'])?>">
+    <?=_('Dept.')?>
     <select name="dept">
             <option value=0><?= _('All Department') ?></option>
             <?
@@ -70,7 +70,7 @@ require_once(STAFFINC_DIR.'header.inc.php');
            <?}?>
     </select>
     &nbsp;
-    <input type="submit" name="search" class="button" value="GO">
+    <input type="submit" name="search" class="button" value="<?=_('GO')?>">
     </form>
 </div>
 <? if($users && db_num_rows($users)):?>
