@@ -17,6 +17,7 @@ class i18n {
         $langs[] = new i18n("cs", "Czech");
         $langs[] = new i18n("es", "Spanish");
         $langs[] = new i18n("tr", "Turkish");
+	$langs[] = new i18n("hu_HU", "Hungarian");
 
         return $langs;
     }
