@@ -34,7 +34,7 @@ msgstr "Túl sok helytelen bejelentkezési kisérlet"
 
 #: upload/login.php:37
 msgid "You've reached maximum failed login attempts allowed. Try again later or <a href=\"open.php\">open a new ticket</a>"
-msgstr "A helytelen bejelentkezési kisérletek száma elérte a megengedett maximumot. Próbálkozz később vagy <a href=\"open.php\">nyiss egy új hibajegyet</a>"
+msgstr "A helytelen bejelentkezési kisérletek száma elérte a megengedett maximumot. Próbálkozzon később vagy <a href=\"open.php\">nyisson egy új hibajegyet</a>"
 
 #: upload/login.php:60
 msgid "%s/%s logged in [%s]"
@@ -46,7 +46,7 @@ msgstr "Felhasználói bejelentkezés"
 
 #: upload/login.php:74
 msgid "Forgot your login info? Please <a href=\"open.php\">open a new ticket</a>."
-msgstr "Elfelejtetted a bejelentkezéshez szükséges adatokat? Kérlek <a href=\"open.php\">nyiss egy új hibajegyet</a>."
+msgstr "Elfelejtette a bejelentkezéshez szükséges adatokat? Kérjük <a href=\"open.php\">nyisson egy új hibajegyet</a>."
 
 #: upload/login.php:76
 msgid "Excessive login attempts by a client?"
@@ -91,11 +91,11 @@ msgstr "Hibás bejelentkezési kisérlet (felhasználó)"
 
 #: upload/open.php:25
 msgid "Enter text shown on the image"
-msgstr "Írd be a képen látható szöveget"
+msgstr "Írja be a képen látható szöveget"
 
 #: upload/open.php:27
 msgid "Invalid - try again!"
-msgstr "Érvénytelen - próbáld újra!"
+msgstr "Érvénytelen - próbálja újra!"
 
 #: upload/open.php:31
 msgid "Support ticket request created"
@@ -103,7 +103,7 @@ msgstr "Hibajegy létrehozva"
 
 #: upload/open.php:37
 msgid "Unable to create a ticket. Please correct errors below and try again!"
-msgstr "Nem lehet létrehozni a hibajegyet. Kérlek javítsd a hibákat és próbáld újra!"
+msgstr "Nem lehet létrehozni a hibajegyet. Kérjük javítsa a hibákat és próbája újra!"
 
 #: upload/setup/inc/install.inc.php:34
 msgid "System Language:"
@@ -111,11 +111,11 @@ msgstr "Rendszer nyelve:"
 
 #: upload/index.php:27
 msgid "Welcome to the support center"
-msgstr "Üdvözöllek a hibabejelentőn"
+msgstr "Üdvözöljük a hibabejelentőn"
 
 #: upload/index.php:28
 msgid "In order to streamline support requests and better serve you, we utilize a support ticket system. Every support request is assigned a unique ticket number which you can use to track the progress and responses online. For your reference we provide complete archives and history of all your support requests. A valid email address is required."
-msgstr "A hatékony ügyintézés és a felhasználók hatékonyabb segítése érdekében használjuk ezt a hibabejelentő rendszert. Minden bejelentés egy egyedi azonosítót kap, amivel ezen az oldalon nyomon lehet követni az ügy haladását és a válaszokat. Minden bejelentést a rendszer archivál. A bejelentéshez egy érvényes email cím szükséges."
+msgstr "A hatékonyabb ügyintézés érdekében használjuk ezt a hibabejelentő rendszert. Minden bejelentés egy egyedi azonosítót kap, amivel ezen az oldalon nyomon lehet követni az ügy haladását és a válaszokat. Minden bejelentést a rendszer archivál. A bejelentéshez egy érvényes email cím szükséges."
 
 #: upload/index.php:33
 msgid "Open A New Ticket"
@@ -123,7 +123,7 @@ msgstr "Új Hibajegy Létrehozása"
 
 #: upload/index.php:34
 msgid "Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please use the form to the right."
-msgstr "A legjobb ügyintézés érdekében, kérlek írd le a problémát olyan részletesen, amennyire lehetséges. Egy korábbi hibajegy kiegészítéséhez használd a jobb oldalon található űrlapot."
+msgstr "A legjobb ügyintézés érdekében, kérjük írja le a problémát olyan részletesen, amennyire lehetséges. Egy korábbi hibajegy kiegészítéséhez használja a jobb oldalon található űrlapot."
 
 #: upload/index.php:37
 msgid "Open New Ticket"
@@ -155,7 +155,7 @@ msgstr "Köszönjük az érdeklődést."
 
 #: upload/offline.php:36
 msgid "Our helpdesk is offline at the moment, please check back at a later time."
-msgstr "A szolgáltatás jelenleg nem elérhető, kérlek próbáld meg később."
+msgstr "A szolgáltatás jelenleg nem elérhető, kérjük próbálja meg később."
 
 #: upload/secure.inc.php:17 upload/client.inc.php:17
 #: upload/include/staff/mypref.inc.php:2
@@ -216,7 +216,7 @@ msgstr "Hozzáférés Megtagadva"
 
 #: upload/scp/login.php:60
 msgid "Forgot your login info? Contact IT Dept."
-msgstr "Elfelejtetted a bejelentkezéshez szükséges adatokat? Lépj kapcsolatba az informatikai részleggel."
+msgstr "Elfelejtette a bejelentkezéshez szükséges adatokat? Lépjen kapcsolatba az informatikai részleggel."
 
 #: upload/scp/login.php:62
 msgid "Excessive login attempts by a staff member?"
@@ -264,16 +264,16 @@ msgstr "Befejezetlen telepítés, <a href=\"../setup/upgrade.php\">frissítés</
 
 #: upload/scp/admin.php:34
 msgid "Please take a minute to delete <strong>setup/install</strong> directory for security reasons."
-msgstr "Kérlek szánj rá pár percet és töröld a <strong>setup/install</strong> könyvtárat, biztonsági okok végett."
+msgstr "Kérjük szánjon rá pár percet és törölje a <strong>setup/install</strong> könyvtárat, biztonsági okok végett."
 
 #: upload/scp/admin.php:42
 #, php-format
 msgid "Please change permission of config file (%s) to remove write access. e.g <i>chmod 644 %s</i>"
-msgstr "Kérlek változtasd meg a config fájl hozzáférési jogait (%s), töröld az írási jogot. pl.: <i>chmod 644 %s</i>"
+msgstr "Kérjük változtassa meg a config fájl hozzáférési jogait (%s), törölje az írási jogot. pl.: <i>chmod 644 %s</i>"
 
 #: upload/scp/admin.php:48
 msgid "Please consider turning off register globals if possible"
-msgstr "Vedd fontolóra és ha lehetséges állítsd a register_globals változót off állapotra"
+msgstr "Vegye fontolóra és ha lehetséges állítsa a register_globals változót off állapotra"
 
 #: upload/scp/admin.php:71
 msgid "Preferences Updated Successfully"
@@ -314,7 +314,7 @@ msgstr "Frissítési hiba!"
 
 #: upload/scp/admin.php:115
 msgid "Error occured. See error messages below."
-msgstr "Hiba lépett fel. Nézd meg a hibaüzenetet alul."
+msgstr "Hiba lépett fel. Nézze meg a hibaüzenetet alul."
 
 #: upload/scp/admin.php:123
 #, php-format
@@ -323,7 +323,7 @@ msgstr "Kulcs sikeresen létrehozva a %s"
 
 #: upload/scp/admin.php:125
 msgid "Error adding the IP. Try again"
-msgstr "Hiba az IP cím hozzáadása közben. Próbálkozz újra"
+msgstr "Hiba az IP cím hozzáadása közben. Próbálkozzon újra"
 
 #: upload/scp/admin.php:129
 msgid "API passphrase updated successfully"
@@ -331,11 +331,11 @@ msgstr "API titkos kulcs sikeresen módosítva"
 
 #: upload/scp/admin.php:131
 msgid "Error updating passphrase. Try again"
-msgstr "Hiba a titkos kulcs frissítése közben. Próbálkozz újra"
+msgstr "Hiba a titkos kulcs frissítése közben. Próbálkozzon újra"
 
 #: upload/scp/admin.php:135
 msgid "You must select at least one entry to process"
-msgstr "Ki kell választanod legalább egy bejegyzést a feldolgozáshoz"
+msgstr "Ki kell választania legalább egy bejegyzést a feldolgozáshoz"
 
 #: upload/scp/admin.php:143
 #, php-format
@@ -353,7 +353,7 @@ msgstr "A kiválasztott kulcsok közül %s / %s törölve lett"
 
 #: upload/scp/admin.php:152
 msgid "Unable to delete selected key(s). Try again"
-msgstr "Nem lehet törölni a kiválasztott kulcsokat. Próbálkozz újra"
+msgstr "Nem lehet törölni a kiválasztott kulcsokat. Próbálkozzon újra"
 
 #: upload/scp/admin.php:155 upload/scp/admin.php:237 upload/scp/admin.php:290
 msgid "Unknown command"
@@ -366,7 +366,7 @@ msgstr "Ismeretlen művelet %s"
 
 #: upload/scp/admin.php:168
 msgid "Please enter a valid email."
-msgstr "Kérlek addjál meg egy érvényes email címet."
+msgstr "Kérjük addjon meg egy érvényes email címet."
 
 #: upload/scp/admin.php:170
 msgid "Email already banned"
@@ -378,11 +378,11 @@ msgstr "Az email cím hozzá lett adva a tiltólistához"
 
 #: upload/scp/admin.php:175
 msgid "Unable to add email to banlist. Try again"
-msgstr "Nem lehet hozzáadni az email címet a tiltólistához. Próbálkozz újra"
+msgstr "Nem lehet hozzáadni az email címet a tiltólistához. Próbálkozzon újra"
 
 #: upload/scp/admin.php:180
 msgid "You must select at least one email"
-msgstr "Ki kell választanod legalább egy email címet"
+msgstr "Ki kell választania legalább egy email címet"
 
 #: upload/scp/admin.php:185
 #, php-format
@@ -391,7 +391,7 @@ msgstr "A kiválasztott email címek közül %s / %s törölve lettek a tiltóli
 
 #: upload/scp/admin.php:187
 msgid "Unable to make remove selected emails. Try again."
-msgstr "Nem lehet törölni a kiválasztott email címeket. Próbálkozz újra."
+msgstr "Nem lehet törölni a kiválasztott email címeket. Próbálkozzon újra."
 
 #: upload/scp/admin.php:191
 msgid "Uknown banlist command!"
@@ -420,11 +420,11 @@ msgstr "Nem lehet hozzáadni az email címet. Rendszerhiba"
 
 #: upload/scp/admin.php:217
 msgid "You must select at least one email to process"
-msgstr "Ki kell választanod legalább egy email címet a feldolgozáshoz"
+msgstr "Ki kell választania legalább egy email címet a feldolgozáshoz"
 
 #: upload/scp/admin.php:224
 msgid "One or more of the selected emails is being used by a Dept. Remove association first."
-msgstr "Egy vagy több kiválasztott email címet egy Részleg használja. Szüntesd meg a hozzárendelést először."
+msgstr "Egy vagy több kiválasztott email címet egy Részleg használja. Szüntesse meg a hozzárendelést először."
 
 #: upload/scp/admin.php:232
 #, php-format
@@ -445,7 +445,7 @@ msgstr "Sablon sikeresen létrehozva"
 
 #: upload/scp/admin.php:254
 msgid "Error creating the template - try again"
-msgstr "Hiba a sablon létrehozása közben - próbáld újra"
+msgstr "Hiba a sablon létrehozása közben - próbálja újra"
 
 #: upload/scp/admin.php:263 upload/include/class.msgtpl.php:179
 msgid "Unknown template"
@@ -457,19 +457,19 @@ msgstr "Sablon sikeresen módosítva"
 
 #: upload/scp/admin.php:267
 msgid "Error updating the template. Try again"
-msgstr "Hiba a sablon frissítése közben. Próbálkozz újra"
+msgstr "Hiba a sablon frissítése közben. Próbálkozzon újra"
 
 #: upload/scp/admin.php:273
 msgid "You must select at least one template"
-msgstr "Ki kell választanod legalább egy sablont"
+msgstr "Ki kell választania legalább egy sablont"
 
 #: upload/scp/admin.php:275
 msgid "You can not delete default template"
-msgstr "Nem törölheted az alapértelmezett sablont"
+msgstr "Nem törölheti az alapértelmezett sablont"
 
 #: upload/scp/admin.php:282
 msgid "One or more of the selected templates is being used by a Dept. Remove association first."
-msgstr "Egy vagy több kiválasztott sablont egy Részleg használja. Szüntesd meg a hozzárendelést először."
+msgstr "Egy vagy több kiválasztott sablont egy Részleg használja. Szüntesse meg a hozzárendelést először."
 
 #: upload/scp/admin.php:286
 #, php-format
@@ -502,7 +502,7 @@ msgstr "Nem lehet létrehozni a kategóriát. Rendszerhiba"
 
 #: upload/scp/admin.php:322
 msgid "You must select at least one topic"
-msgstr "Ki kell választanod legalább egy kategóriát"
+msgstr "Ki kell választania legalább egy kategóriát"
 
 #: upload/scp/admin.php:329
 #, php-format
@@ -538,7 +538,7 @@ msgstr "%s csoport sikeresen módosítva"
 
 #: upload/scp/admin.php:359 upload/scp/admin.php:366
 msgid "Error(s) occured. Try again."
-msgstr "Hiba történt. Próbálkozz újra."
+msgstr "Hiba történt. Próbálkozzon újra."
 
 #: upload/scp/admin.php:364
 #, php-format
@@ -551,7 +551,7 @@ msgstr "A kiválasztott csoportok közül %s / %s engedélyezve lett"
 
 #: upload/scp/admin.php:379
 msgid "Trying to 'Disable' or 'Delete' your group? Doesn't make any sense!"
-msgstr "A saját csoportodat akarod 'Letiltani' vagy 'Törölni'? Ennek nincs semmi értelme!"
+msgstr "A saját csoportját akarja 'Letiltani' vagy 'Törölni'? Ennek nincs semmi értelme!"
 
 #: upload/scp/admin.php:383
 msgid "%s of %s selected groups Disabled"
@@ -599,7 +599,7 @@ msgstr "A kiválasztott felhasználók közül %s / %s engedélyezve lett"
 
 #: upload/scp/admin.php:432
 msgid "You can not lock or delete yourself!"
-msgstr "Nem tudod zárolni vagy törölni saját magad!"
+msgstr "Nem tudja zárolni vagy törölni saját magát!"
 
 #: upload/scp/admin.php:437
 #, php-format
@@ -629,11 +629,11 @@ msgstr "Nem lehet hozzáadni a részleget. Rendszerhiba"
 
 #: upload/scp/admin.php:480
 msgid "You must select at least one department"
-msgstr "Ki kell választanod legalább egy részleget"
+msgstr "Ki kell választania legalább egy részleget"
 
 #: upload/scp/admin.php:482
 msgid "You can not disable/delete a default department. Remove default Dept and try again."
-msgstr "Nem lehet letiltani/törölni az alapértelmezett részleget. Szüntesd meg az alapértelmezettséget és próbáld újra."
+msgstr "Nem lehet letiltani/törölni az alapértelmezett részleget. Szüntesse meg az alapértelmezettséget és próbálja újra."
 
 #: upload/scp/admin.php:489
 #, php-format
@@ -655,11 +655,11 @@ msgstr "Nem lehet a kiválasztott részlegeket priváttá alakítani. Lehetsége
 
 #: upload/scp/admin.php:505
 msgid "Can not delete Dept. with members. Move staff first."
-msgstr "Nem lehet törölni a Részleget, ha vannak tagjai. Először mozgatsd át a személyzetet."
+msgstr "Nem lehet törölni a Részleget, ha vannak tagjai. Először mozgatssa át a személyzetet."
 
 #: upload/scp/admin.php:507
 msgid "Can not delete Dept. associated with a help topics. Remove association first."
-msgstr "Nem lehet törölni a Részleget, ha hozzá vannak rendelve támogatási kategóriák. Először töröld a hozzárendelést."
+msgstr "Nem lehet törölni a Részleget, ha hozzá vannak rendelve támogatási kategóriák. Először törölje a hozzárendelést."
 
 #: upload/scp/admin.php:518
 #, php-format
@@ -787,7 +787,7 @@ msgstr "Probléma a kért adminisztrátori oldal betöltése közben."
 
 #: upload/scp/admin.php:706
 msgid "Possibly access denied, if you believe this is in error please get technical support."
-msgstr "Lehetséges, hogy a hozzáférés nincs engedélyezve, ha úgy gondolod, hogy ez egy hiba miatt van, akkor kérj technikai segítséget."
+msgstr "Lehetséges, hogy a hozzáférés nincs engedélyezve, ha úgy gondolja, hogy ez egy hiba miatt van, akkor kérjen technikai segítséget."
 
 #: upload/scp/ajax.php:24
 msgid "config error"
@@ -846,7 +846,7 @@ msgstr "Előkészített válasz módosítva"
 
 #: upload/scp/kb.php:65
 msgid "Internal update error occured. Try again"
-msgstr "Rendszerhiba a módosítás közben. Próbálkozz újra"
+msgstr "Rendszerhiba a módosítás közben. Próbálkozzon újra"
 
 #: upload/scp/kb.php:68
 msgid "Title already exists!"
@@ -854,11 +854,11 @@ msgstr "Cím már létezik!"
 
 #: upload/scp/kb.php:70
 msgid "Error(s) occured. Try again"
-msgstr "Hiba történt. Próbálkozz újra"
+msgstr "Hiba történt. Próbálkozzon újra"
 
 #: upload/scp/kb.php:75
 msgid "You must select at least one item"
-msgstr "Ki kell választanod legalább egyet"
+msgstr "Ki kell választania legalább egyet"
 
 #: upload/scp/kb.php:82
 msgid "%s of %s selected replies enabled"
@@ -874,7 +874,7 @@ msgstr "A kiválasztott válaszok közül %s / %s törölve lett"
 
 #: upload/scp/kb.php:92
 msgid "Error occured. Try again"
-msgstr "Hiba történt. Próbálkozz újra."
+msgstr "Hiba történt. Próbálkozzon újra."
 
 #: upload/scp/kb.php:106
 msgid "Premade Replies"
@@ -917,7 +917,7 @@ msgstr "Mobil"
 
 #: upload/scp/directory.php:106
 msgid "Problems displaying directory"
-msgstr "Könyvtár megjelenítési problémák"
+msgstr "Címtár megjelenítési problémák"
 
 #: upload/scp/autocron.php:39
 #, php-format
@@ -992,7 +992,7 @@ msgstr "Érvényes email szükséges"
 
 #: upload/scp/profile.php:90 upload/scp/profile.php:93
 msgid "Enter a valid number"
-msgstr "Addj meg egy érvényes számot"
+msgstr "Addjon meg egy érvényes számot"
 
 #: upload/scp/profile.php:97
 msgid "Invalid ext."
@@ -1008,7 +1008,7 @@ msgstr "Hiba történt. A profil NEM módosult"
 
 #: upload/scp/profile.php:117
 msgid "Error(s) below occured. Try again"
-msgstr "Hiba történt. Próbálkozz újra"
+msgstr "Hiba történt. Próbálkozzon újra"
 
 #: upload/scp/profile.php:121 upload/tickets.php:76
 msgid "Uknown action"
@@ -1024,11 +1024,11 @@ msgstr "Jelszó Változtatása"
 
 #: upload/scp/profile.php:138
 msgid "Welcome back! You are listed as 'on vacation' Please let admin or your manager know that you are back."
-msgstr "Üdvözöllek! Az állaptodra 'szabadságon' volt beállítva. Kérlek engedd meg hogy az adminisztrátort vagy a vezetődet tudassuk, hogy visszajöttél."
+msgstr "Üdvözöljük! Az állaptára 'szabadságon' volt beállítva. Kérjük engedje meg hogy az adminisztrátort vagy a vezetőt tudassuk, hogy visszajött."
 
 #: upload/scp/profile.php:158
 msgid "You must change your password to continue."
-msgstr "Meg kell változtatnod a jelszavad a folytatáshoz."
+msgstr "Meg kell változtatnia a jelszavát a folytatáshoz."
 
 #: upload/scp/tickets.php:26
 msgid "Unknown ticket ID#"
@@ -1036,11 +1036,11 @@ msgstr "Ismeretlen hibajegy ID#"
 
 #: upload/scp/tickets.php:28
 msgid "Access denied. Contact admin if you believe this is in error"
-msgstr "Hozzáférés Megtagadva. Vedd fel a kapcsolatot az adminisztrátorral, ha úgy gondolod, hogy ez egy hiba miatt van"
+msgstr "Hozzáférés Megtagadva. Vegye fel a kapcsolatot az adminisztrátorral, ha úgy gondolja, hogy ez egy hiba miatt van"
 
 #: upload/scp/tickets.php:37
 msgid "Access denied. You are not allowed to edit this ticket. Contact admin if you believe this is in error"
-msgstr "Hozzáférés Megtagadva. Nincs engedélyezve, hogy módosítsd ezt a hibajegyet. Vedd fel a kapcsolatot az adminisztrátorral, ha úgy gondolod, hogy ez egy hiba miatt van"
+msgstr "Hozzáférés Megtagadva. Nincs engedélyezve, hogy módosítsa ezt a hibajegyet. Vegye fel a kapcsolatot az adminisztrátorral, ha úgy gondolja, hogy ez egy hiba miatt van"
 
 #: upload/scp/tickets.php:54
 msgid "Missing message ID"
@@ -1060,7 +1060,7 @@ msgstr "Érvénytelen melléklet"
 
 #: upload/scp/tickets.php:69
 msgid "upload dir invalid. Contact admin."
-msgstr "feltöltési könyvtár érvénytelen. Vedd fel a kapcsolatot az adminisztrátorral."
+msgstr "feltöltési könyvtár érvénytelen. Vegye fel a kapcsolatot az adminisztrátorral."
 
 #: upload/scp/tickets.php:71 upload/include/class.ticket.php:1216
 msgid "Invalid file type"
@@ -1068,7 +1068,7 @@ msgstr "Érvénytelen fájl típus"
 
 #: upload/scp/tickets.php:76
 msgid "Email is in banlist. Must be removed to reply"
-msgstr "Az email tiltólistán van. El kell onnan távolítanod, hogy válaszolni tudjál"
+msgstr "Az email cím tiltólistán van. El kell onnan távolítani, hogy válaszolni lehessen az email-re"
 
 #: upload/scp/tickets.php:80
 msgid "Response Posted Successfully"
@@ -1121,7 +1121,7 @@ msgstr "A hibajegy már a Részleghez van rendelve"
 
 #: upload/scp/tickets.php:117
 msgid "Action Denied. You are not allowed to transfer tickets."
-msgstr "Művelet Megtagadva. Nincs engedélyezve, hogy áthelyezd a hibajegyeket."
+msgstr "Művelet Megtagadva. Nincs engedélyezve, hogy áthelyezze a hibajegyeket."
 
 #: upload/scp/tickets.php:123
 #, php-format
@@ -1139,7 +1139,7 @@ msgstr "Nem lehet végrehajtani az áthelyezést"
 
 #: upload/scp/tickets.php:137
 msgid "Select assignee"
-msgstr "Válassz hozzárendelést"
+msgstr "Válasszon hozzárendelést"
 
 #: upload/scp/tickets.php:138 upload/tickets.php:50
 #: upload/include/class.ticket.php:1168
@@ -1152,7 +1152,7 @@ msgstr "A hibajegy már hozzá van rendelve valakihez."
 
 #: upload/scp/tickets.php:154
 msgid "Ticket already assigned. You do not have permission to re-assign assigned tickets"
-msgstr "A hibajegy már hozzá van rendelve valakihez. Nincs jogosultságod, hogy megváltosztasd."
+msgstr "A hibajegy már hozzá van rendelve valakihez. Nincs jogosultsága, hogy megváltosztassa."
 
 #: upload/scp/tickets.php:158
 msgid "Ticket Assigned to"
@@ -1193,7 +1193,7 @@ msgstr "Hiba történt. Nem lehet elküldeni a megjegyzést."
 
 #: upload/scp/tickets.php:192
 msgid "Perm. Denied. You are not allowed to edit tickets"
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy módosítsd a hibajegyeket"
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy módosítsa a hibajegyeket"
 
 #: upload/scp/tickets.php:194
 msgid "Ticket updated successfully"
@@ -1201,15 +1201,15 @@ msgstr "Hibajegy sikeresen módosítva"
 
 #: upload/scp/tickets.php:197
 msgid "Error(s) occured! Try again."
-msgstr "Hiba történt! Próbálkozz újra."
+msgstr "Hiba történt! Próbálkozzon újra."
 
 #: upload/scp/tickets.php:205
 msgid "Perm. Denied. You are not allowed to change ticket's priority"
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy módosítsd a hibajegyek prioritását"
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy módosítsa a hibajegyek prioritását"
 
 #: upload/scp/tickets.php:207
 msgid "You must select priority"
-msgstr "Ki kell választanod egy prioritást"
+msgstr "Ki kell választania egy prioritást"
 
 #: upload/scp/tickets.php:211
 msgid "Priority Changed Successfully"
@@ -1226,11 +1226,11 @@ msgstr "Prioritás Megváltoztatva"
 
 #: upload/scp/tickets.php:216
 msgid "Problems changing priority. Try again"
-msgstr "Problémák a prioritás megváltoztatása közben. Próbálkozz újra"
+msgstr "Problémák a prioritás megváltoztatása közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:222
 msgid "Perm. Denied. You are not allowed to close tickets."
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy lezárd a hibajegyeket."
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy lezárja a hibajegyeket."
 
 #: upload/scp/tickets.php:225
 #, php-format
@@ -1249,11 +1249,11 @@ msgstr "Hibajegy Lezárva"
 
 #: upload/scp/tickets.php:230
 msgid "Problems closing the ticket. Try again"
-msgstr "Problémák a hibajegy lezárása közben. Próbálkozz újra"
+msgstr "Problémák a hibajegy lezárása közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:237
 msgid "Perm. Denied. You are not allowed to reopen tickets."
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy újranyiss hibajegyeket."
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy újranyissa a hibajegyeket."
 
 #: upload/scp/tickets.php:240
 msgid "Ticket status set to OPEN"
@@ -1273,7 +1273,7 @@ msgstr "Hibajegy Újra megnyitva"
 
 #: upload/scp/tickets.php:250
 msgid "Problems reopening the ticket. Try again"
-msgstr "Problémák a hibajegy újra megynyitása közben. Próbálkozz újra"
+msgstr "Problémák a hibajegy újranyitása közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:256
 msgid "Ticket is not assigned!"
@@ -1290,11 +1290,11 @@ msgstr "Hibajegy hozzárendelése törölve"
 
 #: upload/scp/tickets.php:262
 msgid "Problems releasing the ticket. Try again"
-msgstr "Problémák a hibajegy hozzárendelésének törlése közben. Próbálkozz újra"
+msgstr "Problémák a hibajegy hozzárendelésének törlése közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:267
 msgid "Perm. Denied. You are not allowed to flag tickets overdue"
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy megváltoztasd a hibajegyek megjelőlését megkésettre"
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy megváltoztassa a hibajegyek megjelőlését megkésettre"
 
 #: upload/scp/tickets.php:270
 msgid "Ticket flagged as overdue"
@@ -1307,11 +1307,11 @@ msgstr "Hibajegy Megjelölve Megkésett ügyre"
 
 #: upload/scp/tickets.php:280
 msgid "Problems marking the the ticket overdue. Try again"
-msgstr "Problémák a hibajegy megkésettre jelőlése közben. Próbálkozz újra"
+msgstr "Problémák a hibajegy megkésettre jelőlése közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:286
 msgid "Perm. Denied. You are not allowed to ban emails"
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy tiltsál email címeket."
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy tiltson email címeket."
 
 #: upload/scp/tickets.php:288
 #, php-format
@@ -1320,7 +1320,7 @@ msgstr "Email (%s) hozzáadva a tiltólistához"
 
 #: upload/scp/tickets.php:290
 msgid "& ticket status set to closed"
-msgstr "és a hibajegy állapotát lezárt lett"
+msgstr "és a hibajegy állapota lezárt lett"
 
 #: upload/scp/tickets.php:295
 msgid "Unable to add the email to banlist"
@@ -1328,7 +1328,7 @@ msgstr "Nem lehet az email címet a tiltólistához hozzáadni"
 
 #: upload/scp/tickets.php:300
 msgid "Perm. Denied. You are not allowed to remove emails from banlist."
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy törölj email címeket a tiltólistáról."
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy töröljön email címeket a tiltólistáról."
 
 #: upload/scp/tickets.php:302
 msgid "Email removed from banlist"
@@ -1336,11 +1336,11 @@ msgstr "Email cím eltávolítva a tiltólistáról"
 
 #: upload/scp/tickets.php:304
 msgid "Unable to remove the email from banlist. Try again."
-msgstr "Nem lehet az email címet törölni a tiltólistáról. Próbálkozz újra."
+msgstr "Nem lehet az email címet törölni a tiltólistáról. Próbálkozzon újra."
 
 #: upload/scp/tickets.php:309
 msgid "Perm. Denied. You are not allowed to DELETE tickets!!"
-msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy TÖRÖLJ hibajegyeket!"
+msgstr "Engedély Megtagadva. Nincs engedélyezve, hogy TÖRÖLJÖN hibajegyeket!"
 
 #: upload/scp/tickets.php:313
 msgid "Ticket Deleted Forever"
@@ -1348,31 +1348,31 @@ msgstr "Hibajegy Véglegesen Törölve"
 
 #: upload/scp/tickets.php:316
 msgid "Problems deleting the ticket. Try again"
-msgstr "Problémák a hibajegy törlése közben. Próbálkozz újra"
+msgstr "Problémák a hibajegy törlése közben. Próbálkozzon újra"
 
 #: upload/scp/tickets.php:321
 msgid "You must select action to perform"
-msgstr "Ki kell választanod egy műveletet a végrehajtáshoz"
+msgstr "Ki kell választania egy műveletet a végrehajtáshoz"
 
 #: upload/scp/tickets.php:334
 msgid "You do not have permission to mass manage tickets. Contact admin for such access"
-msgstr "Nincs jogosultságod a hibajegyek tömeges kezelésére. Kérj hozzáférési engedélyt az adminisztrátortól"
+msgstr "Nincs jogosultsága a hibajegyek tömeges kezelésére. Kérjen hozzáférési engedélyt az adminisztrátortól"
 
 #: upload/scp/tickets.php:336
 msgid "No tickets selected. You must select at least one ticket."
-msgstr "Nincs hibajegy kiválasztva. Ki kell választanod legalább egy hibajegyet."
+msgstr "Nincs hibajegy kiválasztva. Ki kell választania legalább egy hibajegyet."
 
 #: upload/scp/tickets.php:338
 msgid "You do not have permission to close/reopen tickets"
-msgstr "Nincs jogosultságod, hogy lezáj/újra nyiss hibajegyeket"
+msgstr "Nincs jogosultsága, hogy lezájon/újranyisson hibajegyeket"
 
 #: upload/scp/tickets.php:340
 msgid "You do not have permission to delete tickets"
-msgstr "Nincs jogosultságod, hogy törölj hibajegyeket"
+msgstr "Nincs jogosultsága, hogy töröljön hibajegyeket"
 
 #: upload/scp/tickets.php:342
 msgid "You must select at least one ticket"
-msgstr "Ki kell választanod legalább egy hibajegyet"
+msgstr "Ki kell választania legalább egy hibajegyet"
 
 #: upload/scp/tickets.php:348
 msgid "Ticket reopened by"
@@ -1413,7 +1413,7 @@ msgstr "Hibajegy sikeresen létrehozva"
 
 #: upload/scp/tickets.php:406 upload/include/class.ticket.php:1526
 msgid "Unable to create the ticket. Correct the error(s) and try again"
-msgstr "Nem lehet létrehozni a hibajegyet. Javítsd a hibákat és próbáld újra"
+msgstr "Nem lehet létrehozni a hibajegyet. Javítsa a hibákat és próbálja újra"
 
 #: upload/scp/tickets.php:433
 #, php-format
@@ -1441,7 +1441,7 @@ msgstr "Megválaszolt Hibajegyek"
 
 #: upload/scp/tickets.php:446
 msgid "assigned to you!"
-msgstr "hozzád lett rendelve!"
+msgstr "önhöz lett rendelve!"
 
 #: upload/scp/tickets.php:448
 #, php-format
@@ -1488,7 +1488,7 @@ msgstr "Rendszer Üzemen kívül"
 
 #: upload/scp/staff.inc.php:74
 msgid "Access Denied. Contact Admin"
-msgstr "Hozzáférés Megtagadva. Lépj kapcsolatba az Adminisztrátorral"
+msgstr "Hozzáférés Megtagadva. Lépjen kapcsolatba az Adminisztrátorral"
 
 #: upload/scp/staff.inc.php:94
 #, php-format
@@ -1524,7 +1524,7 @@ msgstr "Érvénytelen fájl"
 
 #: upload/scp/attachment.php:30
 msgid "You do not have access to the ticket"
-msgstr "Nincs hozzáférési jogod a hibajegyhez"
+msgstr "Nincs hozzáférési joga a hibajegyhez"
 
 #: upload/scp/attachment.php:41
 msgid "No such file"
@@ -1536,7 +1536,7 @@ msgstr "Hozzáférés Megtagadva. Lehetséges hogy érvénytelen hibajegy ID"
 
 #: upload/tickets.php:32
 msgid "Security violation. Repeated violations will result in your account being locked."
-msgstr "Biztonsági figyelmeztetés. Ha tovább folytatod ezt a tevékenységet a fiókod zárolva lesz."
+msgstr "Biztonsági figyelmeztetés. Ha tovább folytatja ezt a tevékenységet a profilja zárolva lesz."
 
 #: upload/tickets.php:54
 msgid "File [ %s ] rejected"
@@ -1553,11 +1553,11 @@ msgstr "Üzenet Sikeresen Elküldve"
 
 #: upload/tickets.php:69
 msgid "Unable to post the message. Try again"
-msgstr "Nem lehet elküldeni az üzenetet. Próbálkozz újra"
+msgstr "Nem lehet elküldeni az üzenetet. Próbálkozzon újra"
 
 #: upload/tickets.php:72
 msgid "Error(s) occured. Please try again"
-msgstr "Hiba történt. Próbálkozz újra."
+msgstr "Hiba történt. Próbálkozzon újra."
 
 #: upload/include/class.staff.php:259
 msgid "First and last name required"
@@ -1656,7 +1656,7 @@ msgstr "Kategória:"
 
 #: upload/include/staff/reply.inc.php:42
 msgid "Department under which the 'answer' will be made available."
-msgstr "Válaszd ki azt a Részleget, ahol ez a 'válasz' elérhető legyen."
+msgstr "Válassza ki azt a Részleget, ahol ez a 'válasz' elérhető legyen."
 
 #: upload/include/staff/reply.inc.php:44
 #: upload/include/staff/tickets.inc.php:281
@@ -2017,7 +2017,7 @@ msgstr "Alapértelmezett Email Sablonok:"
 
 #: upload/include/staff/preference.inc.php:57
 msgid "Select Default Template"
-msgstr "Válassz Alapértelmezett Sablont"
+msgstr "Válasszon Alapértelmezett Sablont"
 
 #: upload/include/staff/preference.inc.php:67
 msgid "Default Department:"
@@ -2025,7 +2025,7 @@ msgstr "Alapértelmezett Részleg:"
 
 #: upload/include/staff/preference.inc.php:70
 msgid "Select Default Dept"
-msgstr "Válassz Alapértelmezett Részleget"
+msgstr "Válasszon Alapértelmezett Részleget"
 
 #: upload/include/staff/preference.inc.php:80
 msgid "Default Page Size:"
@@ -2136,7 +2136,7 @@ msgstr "Dátum és Idő"
 
 #: upload/include/staff/preference.inc.php:189
 msgid "Please refer to <a href=\"http://php.net/date\" target=\"_blank\">PHP Manual</a> for supported parameters."
-msgstr "Kérlek nézd meg a <a href=\"http://php.net/date\" target=\"_blank\">PHP Kézikönyvet</a>, hogy melyek a támogatott paraméterek."
+msgstr "Kérjük nézze meg a <a href=\"http://php.net/date\" target=\"_blank\">PHP Kézikönyvet</a>, hogy melyek a támogatott paraméterek."
 
 #: upload/include/staff/preference.inc.php:191
 msgid "Time Format:"
@@ -2304,7 +2304,7 @@ msgstr "Email piping engedélyezése"
 
 #: upload/include/staff/preference.inc.php:335
 msgid "You pipe we accept policy"
-msgstr "Te küldöd mi elfogadjuk stratégia"
+msgstr "Ön küldi mi elfogadjuk stratégia"
 
 #: upload/include/staff/preference.inc.php:337
 msgid "Strip quoted reply (<i>depends on the tag below</i>)"
@@ -2332,7 +2332,7 @@ msgstr "Csak SMTP beállítások nélkül vonatkozik a kimenő levelekre."
 #: upload/include/staff/newticket.inc.php:154
 #: upload/include/staff/dept.inc.php:40 upload/include/staff/dept.inc.php:133
 msgid "Select One"
-msgstr "Válassz Egyet"
+msgstr "Válasszon Egyet"
 
 #: upload/include/staff/preference.inc.php:348
 msgid "None: Use PHP mail function"
@@ -2432,7 +2432,7 @@ msgstr "Riasztások és Értesítések"
 
 #: upload/include/staff/preference.inc.php:439
 msgid "Notices sent to user use 'No Reply Email' whereas alerts to staff use 'Alert Email' set above as FROM address respectively."
-msgstr "Értesítések küldése: a felhasználónak a fent beállított 'noreply email-t', míg a személyzetnek a riasztásokat 'alerts email-t' használva FELADÓ címként."
+msgstr "Értesítések küldése: a felhasználónak a fent beállított 'noreply email-t', míg a személyzetnek a riasztásokhoz 'alerts email-t' fogja használni a FELADÓ címeként."
 
 #: upload/include/staff/preference.inc.php:441
 msgid "New Ticket Alert:"
@@ -2442,7 +2442,7 @@ msgstr "Új Hibajegy Riasztás:"
 #: upload/include/staff/preference.inc.php:455
 #: upload/include/staff/preference.inc.php:465
 msgid "Select recipients"
-msgstr "Válassz címzetteket"
+msgstr "Válasszon címzetteket"
 
 #: upload/include/staff/preference.inc.php:446
 msgid "Admin Email"
@@ -2488,7 +2488,7 @@ msgstr "Megkésett Hibajegy Riasztás:"
 
 #: upload/include/staff/preference.inc.php:475
 msgid "Admin Email gets an alert by default. Select additional recipients below"
-msgstr "Admin email címére alapértelmezetten elküldi a riasztást. Választhatsz, hogy még ki kapja meg."
+msgstr "Admin email címére alapértelmezetten elküldi a riasztást. Választhat, hogy még ki kapja meg."
 
 #: upload/include/staff/preference.inc.php:481
 msgid "System Errors:"
@@ -2514,7 +2514,7 @@ msgstr "Túlzott Bejelentkezési próbálkozások"
 #: upload/include/staff/premade.inc.php:12
 #: upload/include/staff/banlist.inc.php:10
 msgid "Search term must be more than 3 chars"
-msgstr "A kereséshez több mint 3 karaktert be kell írnod"
+msgstr "A kereséshez több mint 3 karaktert be kell írni"
 
 #: upload/include/staff/tickets.inc.php:38
 msgid "Overdue Tickets"
@@ -2676,7 +2676,7 @@ msgstr "A lekérdezés 0 eredménnyel tért vissza."
 #: upload/include/staff/staffmembers.inc.php:73
 #: upload/include/staff/groups.inc.php:58
 msgid "Select:"
-msgstr "Válassz:"
+msgstr "Válasszon:"
 
 #: upload/include/staff/tickets.inc.php:456
 #: upload/include/staff/depts.inc.php:72
@@ -2735,11 +2735,11 @@ msgstr "Újranyit"
 #: upload/include/staff/tickets.inc.php:472
 #: upload/include/staff/tickets.inc.php:490
 msgid "Are you sure you want to reopen selected tickets?"
-msgstr "Biztos vagy benne, hogy újra megakarod nyitni a kiválasztott hibajegyeket?"
+msgstr "Biztos benne, hogy újra megakarja nyitni a kiválasztott hibajegyeket?"
 
 #: upload/include/staff/tickets.inc.php:480
 msgid "Are you sure you want to mark selected tickets overdue/stale?"
-msgstr "Biztos vagy benne, hogy megakarod jelölni megkésettre/lejártra a kiválasztott hibajegyeket?"
+msgstr "Biztos benne, hogy megakarja jelölni megkésettre/lejártra a kiválasztott hibajegyeket?"
 
 #: upload/include/staff/tickets.inc.php:481
 #: upload/include/staff/tickets.inc.php:487
@@ -2750,7 +2750,7 @@ msgstr "Lezár"
 #: upload/include/staff/tickets.inc.php:482
 #: upload/include/staff/tickets.inc.php:488
 msgid "Are you sure you want to close selected tickets?"
-msgstr "Biztos vagy benne, hogy le akarod zárni a kiválasztott hibajegyeket?"
+msgstr "Biztos benne, hogy le akarja zárni a kiválasztott hibajegyeket?"
 
 #: upload/include/staff/tickets.inc.php:494
 #: upload/include/staff/premade.inc.php:149
@@ -2763,7 +2763,7 @@ msgstr "Töröl"
 
 #: upload/include/staff/tickets.inc.php:495
 msgid "Are you sure you want to DELETE selected tickets?"
-msgstr "Biztos vagy benne, hogy TÖRÖLNI akarod a kiválasztott hibajegyeket?"
+msgstr "Biztos benne, hogy TÖRÖLNI akarja a kiválasztott hibajegyeket?"
 
 #: upload/include/staff/group.inc.php:6
 #, php-format
@@ -2796,7 +2796,7 @@ msgstr "Részleg Hozzáférés"
 
 #: upload/include/staff/group.inc.php:43
 msgid "Select departments group members are allowed to access in addition to thier own department."
-msgstr "Válaszd ki azokat a részlegeket, melyekhez a csoport tagjai hozzáférhetnek a sajátjukon kívül."
+msgstr "Válassza ki azokat a részlegeket, melyekhez a csoport tagjai hozzáférhetnek a sajátjukon kívül."
 
 #: upload/include/staff/group.inc.php:54
 msgid "Select All"
@@ -2897,7 +2897,7 @@ msgstr "Email Info"
 
 #: upload/include/staff/email.inc.php:36
 msgid "Settings are mainly for emailed tickets. For online/web tickets see help topics."
-msgstr "Ezek a beállítások főként az email-ben elküldött hibajegyekre vonatkozik. Az online/web alapu hibajegyekhez nézd meg a kategóriákat."
+msgstr "Ezek a beállítások főként az email-ben elküldött hibajegyekre vonatkoznak. Az online/web alapu hibajegyekhez nézze meg a kategóriákat."
 
 #: upload/include/staff/email.inc.php:38 upload/include/staff/smtp.inc.php:55
 #: upload/include/staff/emails.inc.php:19
@@ -2950,7 +2950,7 @@ msgstr "Beállítások a bejövő levelek letöltéséhez. A letöltéshez enged
 
 #: upload/include/staff/email.inc.php:98
 msgid "Please be patient, the system will try to login to mail server to validate the entered login info."
-msgstr "Kérlek légy türelmes, a rendszer megkisérli a bejelentkezést a mail szerverre, hogy ellenőrízze az adatok helyességét."
+msgstr "Kérjük legyen türelmes, a rendszer megkisérli a bejelentkezést a mail szerverre, hogy ellenőrízze az adatok helyességét."
 
 #: upload/include/staff/email.inc.php:100
 #: upload/include/staff/email.inc.php:161
@@ -2976,7 +2976,7 @@ msgstr "Protokoll"
 
 #: upload/include/staff/email.inc.php:120
 msgid "Select"
-msgstr "Válassz"
+msgstr "Válasszon"
 
 #: upload/include/staff/email.inc.php:121
 msgid "POP"
@@ -3025,11 +3025,11 @@ msgstr "SMTP Beállítások (Opcionális)"
 
 #: upload/include/staff/email.inc.php:158
 msgid "When enabled the <b>email account</b> will use SMTP server instead of internal PHP mail() function for outgoing emails.<br>"
-msgstr "Ha a <b>levelezési fiók</b> engedélyezve van, akkor használd az SMTP szervert a kimenő levelek elküldésére, a belső PHP mail() függvény helyett.<br>"
+msgstr "Ha a <b>levelezési fiók</b> engedélyezve van, akkor használja az SMTP szervert a kimenő levelek elküldésére, a belső PHP mail() függvény helyett.<br>"
 
 #: upload/include/staff/email.inc.php:159 upload/include/staff/smtp.inc.php:18
 msgid "Please be patient, the system will try to login to SMTP server to validate the entered login info."
-msgstr "Kérlek légy türelmes, a rendszer megkisérli a bejelentkezést az SMTP szerverre, hogy ellenőrízze az adatok helyességét."
+msgstr "Kérjük legyen türelmes, a rendszer megkisérli a bejelentkezést az SMTP szerverre, hogy ellenőrízze az adatok helyességét."
 
 #: upload/include/staff/email.inc.php:168 upload/include/staff/smtp.inc.php:26
 msgid "SMTP Host"
@@ -3102,7 +3102,7 @@ msgstr "Mellékletek Beállításai"
 
 #: upload/include/staff/attachment.inc.php:17
 msgid "Before enabling attachments make sure you understand the security settings and issues related to file uploads."
-msgstr "Mielőtt engedélyezed a mellékletek csatolását bizonyosodj meg róla, hogy megértetted a biztonsági beállításokat és következményeket a fájlfeltöltéssel kapcsolatban."
+msgstr "Mielőtt engedélyezi a mellékletek csatolását bizonyosodjon meg róla, hogy megértette a biztonsági beállításokat és következményeket a fájlfeltöltéssel kapcsolatban."
 
 #: upload/include/staff/attachment.inc.php:20
 #: upload/include/staff/attachment.inc.php:22
@@ -3119,7 +3119,7 @@ msgstr "Emailben Elküldött Mellékletek:"
 
 #: upload/include/staff/attachment.inc.php:30
 msgid "Accept emailed files"
-msgstr "Az email-ben elkülsött fájlok elfogadása"
+msgstr "Az email-ben elküldött fájlok elfogadása"
 
 #: upload/include/staff/attachment.inc.php:35
 msgid "Online Attachments:"
@@ -3167,7 +3167,7 @@ msgstr "Elfogadott Fájltípusok:"
 
 #: upload/include/staff/attachment.inc.php:70
 msgid "Enter file extensions allowed separated by a comma. e.g <i>.doc, .pdf, </i>"
-msgstr "Írd be az elfogadott kiterjesztéseket vesszővel elválasztva. pl. <i>.doc, .pdf, </i>"
+msgstr "Írja be az elfogadott kiterjesztéseket vesszővel elválasztva. pl. <i>.doc, .pdf, </i>"
 
 #: upload/include/staff/attachment.inc.php:71
 msgid "To accept all files enter wildcard <b><i>.*</i></b>&nbsp;&nbsp;i.e dotStar (NOT recommended)."
@@ -3216,7 +3216,7 @@ msgstr "Részleg:"
 #: upload/include/staff/newticket.inc.php:17
 #: upload/include/client/open.inc.php:15
 msgid "Please fill in the form below to open a new ticket."
-msgstr "Egy új hibajegy nyitásához töltsd ki az alábbi űrlapot."
+msgstr "Egy új hibajegy nyitásához töltse ki az alábbi űrlapot."
 
 #: upload/include/staff/newticket.inc.php:25
 msgid "Send alert to user."
@@ -3240,7 +3240,7 @@ msgstr "Hibajegy Forrása:"
 
 #: upload/include/staff/newticket.inc.php:47
 msgid "Select Source"
-msgstr "Válassz Forrást"
+msgstr "Válasszon Forrást"
 
 #: upload/include/staff/newticket.inc.php:50
 msgid "Other"
@@ -3276,7 +3276,7 @@ msgstr "Előkészített válasz:"
 
 #: upload/include/staff/newticket.inc.php:90
 msgid "Select a premade reply/issue"
-msgstr "Válassz egy előkészített választ/ügyet"
+msgstr "Válasszon egy előkészített választ/ügyet"
 
 #: upload/include/staff/newticket.inc.php:94
 #: upload/include/staff/viewticket.inc.php:303
@@ -3348,7 +3348,7 @@ msgstr "Hibajegy Beküldése"
 
 #: upload/include/staff/editticket.inc.php:4
 msgid "Access Denied. Perm error."
-msgstr "Hozzáférés Megtagadva. Nincs engedélyed."
+msgstr "Hozzáférés Megtagadva. Nincs engedélye."
 
 #: upload/include/staff/editticket.inc.php:38
 msgid "Update Ticket #"
@@ -3437,7 +3437,7 @@ msgstr "Legyen Publikus"
 
 #: upload/include/staff/depts.inc.php:80
 msgid "Are you sure you want to make selected depts(s) public?"
-msgstr "Biztos vagy benne, hogy publikusak legyenek a kiválasztott részlegek?"
+msgstr "Biztos benne, hogy publikusak legyenek a kiválasztott részlegek?"
 
 #: upload/include/staff/depts.inc.php:81
 msgid "Make Private"
@@ -3445,7 +3445,7 @@ msgstr "Legyen Privát"
 
 #: upload/include/staff/depts.inc.php:82
 msgid "Are you sure you want to make selected depts(s) private?"
-msgstr "Biztos vagy benne, hogy privát állapotúak legyenek a kiválasztott részlegek?"
+msgstr "Biztos benne, hogy privát állapotúak legyenek a kiválasztott részlegek?"
 
 #: upload/include/staff/depts.inc.php:83
 msgid "Delete Dept(s)"
@@ -3453,7 +3453,7 @@ msgstr "Részlegek Törlése"
 
 #: upload/include/staff/depts.inc.php:84
 msgid "Are you sure you want to DELETE selected depts(s)?"
-msgstr "Biztos vagy benne, hogy TÖRÖLNI akarod a kiválasztott részlegeket?"
+msgstr "Biztos benne, hogy TÖRÖLNI akarja a kiválasztott részlegeket?"
 
 #: upload/include/staff/smtp.inc.php:14
 msgid "SMTP Server Setting (Optional)"
@@ -3461,11 +3461,11 @@ msgstr "SMTP Szerver Beállításai (Opcionális)"
 
 #: upload/include/staff/smtp.inc.php:16
 msgid "When enabled the system will use an SMTP server rather than the internal PHP mail() function for outgoing emails."
-msgstr "Ha engedélyezed, akkor a rendszer a beállított SMTP szervert fogja használni a belső PHP mail() függvény helyett, a kimenő levelek küldésére."
+msgstr "Ha engedélyezi, akkor a rendszer a beállított SMTP szervert fogja használni a belső PHP mail() függvény helyett, a kimenő levelek küldésére."
 
 #: upload/include/staff/smtp.inc.php:17
 msgid "Leave the username and password empty of the SMTP server doesn't require authentication"
-msgstr "Hagyd a felhasználónevet és a jelszót üresen, ha az SMTP szerver nem igényel azonosítást."
+msgstr "Hagyja a felhasználónevet és a jelszót üresen, ha az SMTP szerver nem igényel azonosítást."
 
 #: upload/include/staff/smtp.inc.php:19
 msgid "Enable SMTP"
@@ -3534,7 +3534,7 @@ msgstr "(Keres)"
 #: upload/include/staff/filters.inc.php:87
 #: upload/include/staff/banlist.inc.php:87
 msgid "Sort by email"
-msgstr "Emailek Szerinti Rendezés"
+msgstr "Email címek Szerinti Rendezés"
 
 #: upload/include/staff/filters.inc.php:88
 #: upload/include/staff/banlist.inc.php:88
@@ -3574,7 +3574,7 @@ msgstr "Ez a hibajegy jelenleg zárolva van!"
 
 #: upload/include/staff/viewticket.inc.php:23
 msgid "Email is in banlist! Must be removed before any reply/response"
-msgstr "Az email a tiltólistán van! El kell távolítanod onnan mielőtt bármilyen választ küldesz rá"
+msgstr "Az email cím a tiltólistán van! El kell távolítani onnan mielőtt bármilyen választ küld rá"
 
 #: upload/include/staff/viewticket.inc.php:25
 msgid "Marked overdue!"
@@ -3639,7 +3639,7 @@ msgstr "Művelet:"
 
 #: upload/include/staff/viewticket.inc.php:157
 msgid "Select Action"
-msgstr "Válassz egy Műveletet"
+msgstr "Válasszon egy Műveletet"
 
 #: upload/include/staff/viewticket.inc.php:158
 msgid "Change Priority"
@@ -3709,7 +3709,7 @@ msgstr "Előkészített Válasz:"
 
 #: upload/include/staff/viewticket.inc.php:299
 msgid "Select a premade reply"
-msgstr "Válassz egy előkészített választ"
+msgstr "Válasszon egy előkészített választ"
 
 #: upload/include/staff/viewticket.inc.php:309
 msgid "Attach File:"
@@ -3747,7 +3747,7 @@ msgstr "Megjegyzés Fejléce:"
 
 #: upload/include/staff/viewticket.inc.php:362
 msgid "Enter note content."
-msgstr "Írd ide a megjegyzést."
+msgstr "Írja ide a megjegyzést."
 
 #: upload/include/staff/viewticket.inc.php:396
 msgid "Dept. Transfer"
@@ -3755,7 +3755,7 @@ msgstr "Részleghez Áthelyezés"
 
 #: upload/include/staff/viewticket.inc.php:405
 msgid "-Select Target Dept.-"
-msgstr "-Válassz Részleget-"
+msgstr "-Válasszon Részleget-"
 
 #: upload/include/staff/viewticket.inc.php:416
 msgid "Comments/Reasons for the transfer. &nbsp;(<i>Internal note</i>)"
@@ -3779,7 +3779,7 @@ msgstr "Személyzet Tagja:"
 
 #: upload/include/staff/viewticket.inc.php:445
 msgid "-Select Staff Member.-"
-msgstr "-Válassz Személyzeti Tagot-"
+msgstr "-Válasszon Személyzeti Tagot-"
 
 #: upload/include/staff/viewticket.inc.php:462
 msgid "Comments/message for assignee. &nbsp;(<i>Saved as internal note</i>)"
@@ -3826,15 +3826,15 @@ msgstr "Utolsó Módosítás"
 
 #: upload/include/staff/premade.inc.php:146
 msgid "Are you sure you want to ENABLE selected entries?"
-msgstr "Biztos vagy benne, hogy ENGEDÉLYEZNI akarod a kiválasztott válaszokat?"
+msgstr "Biztos benne, hogy ENGEDÉLYEZNI akarja a kiválasztott válaszokat?"
 
 #: upload/include/staff/premade.inc.php:148
 msgid "Are you sure you want to DISABLE selected entries?"
-msgstr "Biztos vagy benne, hogy TILTANI akarod a kiválasztott válaszokat?"
+msgstr "Biztos benne, hogy TILTANI akarja a kiválasztott válaszokat?"
 
 #: upload/include/staff/premade.inc.php:150
 msgid "Are you sure you want to DELETE selected entries?"
-msgstr "Biztos vagy benne, hogy TÖRÖLNI akarod a kiválasztott válaszokat?"
+msgstr "Biztos benne, hogy TÖRÖLNI akarja a kiválasztott válaszokat?"
 
 #: upload/include/staff/templates.inc.php:47
 msgid "Sort by name"
@@ -3860,7 +3860,7 @@ msgstr "Sablonok Törlése"
 
 #: upload/include/staff/templates.inc.php:96
 msgid "Are you sure you want to DELETE selected template(s)?"
-msgstr "Biztos vagy benne, hogy TÖRÖLNI akarod a kiválasztott sablonokat?"
+msgstr "Biztos benne, hogy TÖRÖLNI akarja a kiválasztott sablonokat?"
 
 #: upload/include/staff/templates.inc.php:105
 msgid "Add New Template"
@@ -3868,11 +3868,11 @@ msgstr "Új Sablon Hozzáadása"
 
 #: upload/include/staff/templates.inc.php:108
 msgid "To add a new template - select existing template and edit it thereafter."
-msgstr "Egy új sablon hozzáadása - válassz ki egy már létező sablont és módosítsd."
+msgstr "Egy új sablon hozzáadása - válasszon ki egy már létező sablont és módosítsa."
 
 #: upload/include/staff/templates.inc.php:117
 msgid "Select Template to Copy"
-msgstr "Válassz Sablont a Másoláshoz"
+msgstr "Válasszon Sablont a Másoláshoz"
 
 #: upload/include/staff/templates.inc.php:129
 msgid "Variables"
@@ -3960,7 +3960,7 @@ msgstr "osTicket alap url (FQDN)"
 
 #: upload/include/staff/header.inc.php:34
 msgid "Welcome back"
-msgstr "Üdvözöllek újra"
+msgstr "Üdvözöljük újra"
 
 #: upload/include/staff/header.inc.php:37
 msgid "Admin Panel"
@@ -3982,7 +3982,7 @@ msgstr "Kijelentkez"
 
 #: upload/include/staff/header.inc.php:51 upload/include/class.nav.php:42
 msgid "My Account"
-msgstr "Fiókom"
+msgstr "Profilom"
 
 #: upload/include/staff/banlist.inc.php:136
 msgid "Remove From List"
@@ -3990,7 +3990,7 @@ msgstr "Törlés A Listáról"
 
 #: upload/include/staff/banlist.inc.php:137
 msgid "Are you sure you want to REMOVE selected email from ban list?"
-msgstr "Biztos vagy benne, hogy ELTÁVOLÍTOD a kiválasztott email címet a tiltolistáról?"
+msgstr "Biztos benne, hogy ELTÁVOLÍTJA a kiválasztott email címet a tiltolistáról?"
 
 #: upload/include/staff/helptopics.inc.php:19
 msgid "Help Topic"
@@ -4011,15 +4011,15 @@ msgstr "<b>Igen</b>"
 
 #: upload/include/staff/helptopics.inc.php:71
 msgid "Are you sure you want to make selected services active?"
-msgstr "Biztos vagy benne, hogy aktiválod a kiválasztott szolgáltatásokat?"
+msgstr "Biztos benne, hogy aktiválja a kiválasztott szolgáltatásokat?"
 
 #: upload/include/staff/helptopics.inc.php:73
 msgid "Are you sure you want to DISABLE selected services?"
-msgstr "Biztos vagy benne, hogy LETILTOD a kiválasztott szolgáltatásokat?"
+msgstr "Biztos benne, hogy LETILTJA a kiválasztott szolgáltatásokat?"
 
 #: upload/include/staff/helptopics.inc.php:75
 msgid "Are you sure you want to DELETE selected services?"
-msgstr "Biztos vagy benne, hogy TÖRLÖD a kiválasztott szolgáltatásokat?"
+msgstr "Biztos benne, hogy TÖRLI a kiválasztott szolgáltatásokat?"
 
 #: upload/include/staff/api.inc.php:35
 msgid "API Keys"
@@ -4039,15 +4039,15 @@ msgstr "Új IP:"
 
 #: upload/include/staff/api.inc.php:99
 msgid "Are you sure you want to ENABLE selected keys?"
-msgstr "Biztos vagy benne, hogy ENGEDÉLYEZED a kiválasztott kulcsokat?"
+msgstr "Biztos benne, hogy ENGEDÉLYEZI a kiválasztott kulcsokat?"
 
 #: upload/include/staff/api.inc.php:105
 msgid "Are you sure you want to DISABLE selected keys?"
-msgstr "Biztos vagy benne, hogy LETILTOD a kiválasztott kulcsokat?"
+msgstr "Biztos benne, hogy LETILTJA a kiválasztott kulcsokat?"
 
 #: upload/include/staff/api.inc.php:109
 msgid "Are you sure you want to DELETE selected keys?"
-msgstr "Biztos vagy benne, hogy TÖRLÖD a kiválasztott kulcsokat?"
+msgstr "Biztos benne, hogy TÖRLI a kiválasztott kulcsokat?"
 
 #: upload/include/staff/api.inc.php:118
 msgid "Add New IP"
@@ -4055,7 +4055,7 @@ msgstr "Új IP Hozzáadása"
 
 #: upload/include/staff/api.inc.php:121
 msgid "Add a new IP address."
-msgstr "Írj be egy új IP címet."
+msgstr "Írjon be egy új IP címet."
 
 #: upload/include/staff/api.inc.php:132
 msgid "API Passphrase"
@@ -4071,7 +4071,7 @@ msgstr "Szavak:"
 
 #: upload/include/staff/api.inc.php:145
 msgid "Please note that changing the passprase does NOT invalidate existing keys. To regerate a key you need to delete and readd it."
-msgstr "A titkos klucsok változtatása nem érvényteleníti a létező kulcsokat. Újragenerálás esetén törölnöd kell az adott kulcsot és újra hozzáadnod."
+msgstr "A titkos klucsok változtatása nem érvényteleníti a létező kulcsokat. Újragenerálás esetén törölni kell az adott kulcsot és újra hozzáadi."
 
 #: upload/include/staff/staff.inc.php:8
 #, php-format
@@ -4080,7 +4080,7 @@ msgstr "Módosítás: %s %s"
 
 #: upload/include/staff/staff.inc.php:10
 msgid "To reset the password enter a new one below"
-msgstr "A jelszó megváltoztatásához írj be egy új jelszót"
+msgstr "A jelszó megváltoztatásához írjon be egy új jelszót"
 
 #: upload/include/staff/staff.inc.php:13
 msgid "New Staff Member"
@@ -4100,7 +4100,7 @@ msgstr "Felhasználói Csoport:"
 
 #: upload/include/staff/staff.inc.php:62
 msgid "Select Group"
-msgstr "Válassz Csoportot"
+msgstr "Válasszon Csoportot"
 
 #: upload/include/staff/staff.inc.php:73
 msgid "Name (First,Last):"
@@ -4152,7 +4152,7 @@ msgstr "Admin"
 
 #: upload/include/staff/staff.inc.php:136
 msgid "Directory Listing"
-msgstr "Könyvtár Listázás"
+msgstr "Címtár Listázás"
 
 #: upload/include/staff/staff.inc.php:138
 msgid "Show the user on staff's directory"
@@ -4209,11 +4209,11 @@ msgstr "-------Nincs-------"
 
 #: upload/include/staff/dept.inc.php:64
 msgid "Select Manager (optional)"
-msgstr "Válassz Vezetőt (opciónális)"
+msgstr "Válasszon Vezetőt (opciónális)"
 
 #: upload/include/staff/dept.inc.php:72
 msgid "No Users (Add Users)"
-msgstr "Nincsenek Felhasználók (Addj Hozzá Felhasználókat)"
+msgstr "Nincsenek Felhasználók (Addjon Hozzá Felhasználókat)"
 
 #: upload/include/staff/dept.inc.php:79
 msgid "Dept Type"
@@ -4261,7 +4261,7 @@ msgstr "Autoválaszok"
 
 #: upload/include/staff/dept.inc.php:114
 msgid "Global auto-response settings in preference section must be enabled for Dept 'Enable' setting to take effect."
-msgstr "A globális autoválaszokat a Beállítások menüben is engedélyezned kell, hogy az itt lévő beállítások érvényesek legyenek"
+msgstr "A globális autoválaszokat a Beállítások menüben is engedélyeznie kell, hogy az itt lévő beállítások érvényesek legyenek"
 
 #: upload/include/staff/dept.inc.php:130
 msgid "Auto Response Email:"
@@ -4277,7 +4277,7 @@ msgstr "Ezt az email címet fogja használni az autoválaszok elküldésére, ha
 
 #: upload/include/staff/emails.inc.php:10 upload/include/class.nav.php:32
 msgid "Emails"
-msgstr "Email Címek"
+msgstr "Email"
 
 #: upload/include/staff/emails.inc.php:73
 msgid "Delete Selected Emails"
@@ -4285,7 +4285,7 @@ msgstr "Kiválasztott Email Címek Törlése"
 
 #: upload/include/staff/emails.inc.php:74
 msgid "Are you sure you want to DELETE selected emails?"
-msgstr "Biztos vagy benne, hogy TÖRLÖD a kiválasztott email címeket?"
+msgstr "Biztos benne, hogy TÖRLI a kiválasztott email címeket?"
 
 #: upload/include/staff/staffmembers.inc.php:16
 #, php-format
@@ -4310,7 +4310,7 @@ msgstr "(<i>szabadság</i>)"
 
 #: upload/include/staff/staffmembers.inc.php:81
 msgid "Are you sure you want to ENABLE selected user(s)?"
-msgstr "Biztos vagy benne, hogy ENGEDÉLYEZED a kiválasztott felhasználókat?"
+msgstr "Biztos benne, hogy ENGEDÉLYEZI a kiválasztott felhasználókat?"
 
 #: upload/include/staff/staffmembers.inc.php:82
 msgid "Lock"
@@ -4318,11 +4318,11 @@ msgstr "Zárol"
 
 #: upload/include/staff/staffmembers.inc.php:83
 msgid "Are you sure you want to LOCK selected user(s)?"
-msgstr "Biztos vagy benne, hogy ZÁROLOD a kiválasztott felhasználókat?"
+msgstr "Biztos benne, hogy ZÁROLJA a kiválasztott felhasználókat?"
 
 #: upload/include/staff/staffmembers.inc.php:85
 msgid "Are you sure you want to DELETE selected user(s)?"
-msgstr "Biztos vagy benne, hogy TÖRLÖD a kiválasztott felhasználókat?"
+msgstr "Biztos benne, hogy TÖRLI a kiválasztott felhasználókat?"
 
 #: upload/include/staff/groups.inc.php:8
 msgid "No groups??"
@@ -4347,15 +4347,15 @@ msgstr "Létrehozva"
 
 #: upload/include/staff/groups.inc.php:67
 msgid "Are you sure you want to ENABLE selected group(s)"
-msgstr "Biztos vagy benne, hogy ENGEDÉLYEZED a kiválasztott csoportokat?"
+msgstr "Biztos benne, hogy ENGEDÉLYEZI a kiválasztott csoportokat?"
 
 #: upload/include/staff/groups.inc.php:69
 msgid "Are you sure you want to DISABLE selected group(s)"
-msgstr "Biztos vagy benne, hogy LETILTOD a kiválasztott csoportokat?"
+msgstr "Biztos benne, hogy LETILTJA a kiválasztott csoportokat?"
 
 #: upload/include/staff/groups.inc.php:71
 msgid "Are you sure you want to DELETE selected group(s)"
-msgstr "Biztos vagy benne, hogy TÖRLÖD a kiválasztott csoportokat?"
+msgstr "Biztos benne, hogy TÖRLI a kiválasztott csoportokat?"
 
 #: upload/include/mysql.php:64
 msgid "DB Error #"
@@ -4363,7 +4363,7 @@ msgstr "Adatbázis Hiba #"
 
 #: upload/include/client/login.inc.php:16
 msgid "To view the status of a ticket, provide us with your login details below.<br/>If this is your first time contacting us or you've lost the ticket ID, please <a href='open.php'>click here</a> to open a new ticket."
-msgstr "Ahhoz hogy megtudd nézni egy hibajegy állapotát, alul töltsd ki a kért adatokat. Ha ez az első alkalom, hogy itt jársz, vagy elvesztetted a hibajegy azonosítóját, kérlek <a href='open.php'>kattints ide</a> és nyiss egy új hibajegyet."
+msgstr "Ahhoz hogy megtudja nézni egy hibajegy állapotát, alul töltse ki a kért adatokat. Ha ez az első alkalom, hogy itt jár, vagy elvesztette a hibajegy azonosítóját, kérjük <a href='open.php'>kattintson ide</a> és nyisson egy új hibajegyet."
 
 #: upload/include/client/login.inc.php:22
 msgid "E-Mail:"
@@ -4387,7 +4387,7 @@ msgstr "Üzenet:"
 
 #: upload/include/client/open.inc.php:114
 msgid "Please re-enter the text again"
-msgstr "Kérlek írd be újra szöveget"
+msgstr "Kérjük írja be újra szöveget"
 
 #: upload/include/client/open.inc.php:117
 msgid "Captcha Text:"
@@ -4395,7 +4395,7 @@ msgstr "Captcha:"
 
 #: upload/include/client/open.inc.php:119
 msgid "Enter the text shown on the image."
-msgstr "Írd be a szöveget, amit a képen látsz."
+msgstr "Írja be a képen látható szöveget."
 
 #: upload/include/client/tickets.inc.php:80
 msgid "View Open"
@@ -4415,7 +4415,7 @@ msgstr "NINCSENEK hibajegyek"
 
 #: upload/include/client/thankyou.inc.php:18
 msgid "Thank you for contacting us.<br>A support ticket request has been created and a representative will be getting back to you shortly if necessary."
-msgstr "Köszönjük, hogy felvette velünk a kapcsolatot. <br>A hibabejelenést rögzítettük. Hamarosan valaki felveszi a kapcsolatot veled, ha szükséges."
+msgstr "Köszönjük, hogy felvette velünk a kapcsolatot. <br>A hibabejelenést rögzítettük. Hamarosan valaki felveszi a kapcsolatot önnel, ha szükséges."
 
 #: upload/include/client/thankyou.inc.php:22
 #, php-format
@@ -4424,7 +4424,7 @@ msgstr "A hibajegy számát elküldtük egy email-ben a <b>%s</b> címre. Online
 
 #: upload/include/client/thankyou.inc.php:25
 msgid "If you wish to send additional comments or information regarding same issue, please follow the instructions on the email."
-msgstr "Ha további megjegyzéseket szeretnél hozzáfűzni a hibajegyhez, vagy információkat adni egy hasonló üggyel kapcsolatban, kérlek követsd az email-ben kapott instrukciókat."
+msgstr "Ha további megjegyzéseket szerete hozzáfűzni a hibajegyhez, vagy információkat adni egy hasonló üggyel kapcsolatban, kérjük kövesse az email-ben kapott instrukciókat."
 
 #: upload/include/client/thankyou.inc.php:28
 msgid "Support Team"
@@ -4436,7 +4436,7 @@ msgstr "A hibajegy újra nyitott lesz az üzenet elküldése után"
 
 #: upload/include/client/viewticket.inc.php:127
 msgid "Enter Message"
-msgstr "Írd be az Üzenetet"
+msgstr "Írja be az Üzenetet"
 
 #: upload/include/client/viewticket.inc.php:132
 msgid "Attach File"
@@ -4534,7 +4534,7 @@ msgstr "(típus nincs beállítva)"
 
 #: upload/include/class.topic.php:111
 msgid "Internal error. Try again"
-msgstr "Rendszerhiba. Próbálkozz újra"
+msgstr "Rendszerhiba. Próbálkozzon újra"
 
 #: upload/include/class.topic.php:114
 msgid "Help topic required"
@@ -4550,11 +4550,11 @@ msgstr "A kategória már létezik"
 
 #: upload/include/class.topic.php:126
 msgid "You must select a department"
-msgstr "Ki kell választanod egy részleget"
+msgstr "Ki kell választania egy részleget"
 
 #: upload/include/class.topic.php:129 upload/include/class.email.php:281
 msgid "You must select a priority"
-msgstr "Ki kell választanod egy prioritást"
+msgstr "Ki kell választania egy prioritást"
 
 #: upload/include/class.topic.php:140
 msgid "Unable to update topic. Internal error occured"
@@ -4578,11 +4578,11 @@ msgstr "Alapértelmezett email megadása szükséges"
 
 #: upload/include/class.config.php:462
 msgid "You must select template."
-msgstr "Ki kell választanod a használni kívánt sablont."
+msgstr "Ki kell választania a használni kívánt sablont."
 
 #: upload/include/class.config.php:463 upload/include/class.config.php:464
 msgid "Enter idle time in minutes"
-msgstr "Írd be a tétlenségi időt percben"
+msgstr "Írja be a tétlenségi időt percben"
 
 #: upload/include/class.config.php:465
 msgid "Time format required"
@@ -4598,11 +4598,11 @@ msgstr "Dátum- és időformátum megadása szükséges"
 
 #: upload/include/class.config.php:468
 msgid "Day, Datetime format required"
-msgstr "Nap, Dátum- és időformátum format required"
+msgstr "Nap, Dátum- és időformátum megadása szükséges"
 
 #: upload/include/class.config.php:470
 msgid "Enter lock time in minutes"
-msgstr "Írd be a zárolási időt percben"
+msgstr "Írja be a zárolási időt percben"
 
 #: upload/include/class.config.php:484 upload/include/class.config.php:490
 #: upload/include/class.config.php:497
@@ -4611,7 +4611,7 @@ msgstr "Nincsenek cél címzettek kiválasztva"
 
 #: upload/include/class.config.php:501
 msgid "Reply separator required (?)"
-msgstr "A választ elhatároló megadása szükséges (?)"
+msgstr "A válasz elhatárolójel megadása szükséges (?)"
 
 #: upload/include/class.config.php:505
 msgid "The GD extension required"
@@ -4671,7 +4671,7 @@ msgstr "Megjelenítés"
 
 #: upload/include/ost-config.sample.php:25
 msgid "Error: Contact system admin."
-msgstr "Hiba: Lépj kapcsolatba a rendszer adminisztrátorral."
+msgstr "Hiba: Lépjen kapcsolatba a rendszer adminisztrátorral."
 
 #: upload/include/class.email.php:198
 msgid "Unable to email via %s:%d [%s]\n\n%s\n"
@@ -4711,7 +4711,7 @@ msgstr "Jelszó megadása szükséges"
 
 #: upload/include/class.email.php:294
 msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
-msgstr "Nincs IMAP támogatás. A PHP-t IMAP támogatással kell lefordítanod."
+msgstr "Nincs IMAP támogatás. A PHP-t IMAP támogatással kell lefordítani."
 
 #: upload/include/class.email.php:296 upload/include/class.email.php:310
 msgid "Host name required"
@@ -4723,7 +4723,7 @@ msgstr "Port megadása szükséges"
 
 #: upload/include/class.email.php:300
 msgid "Select protocol"
-msgstr "Válassz protokollt"
+msgstr "Válasszon protokollt"
 
 #: upload/include/class.email.php:302
 msgid "Fetch interval required"
@@ -4740,11 +4740,11 @@ msgstr "Egy másik részleg használja ezt a kiszolgáló/felhasználónév beá
 #: upload/include/class.email.php:330
 #, php-format
 msgid "Invalid login. Check %s settings"
-msgstr "Érvénytelen bejelentkezés. Ellenőrízd %s beállításokat"
+msgstr "Érvénytelen bejelentkezés. Ellenőrízze %s beállításokat"
 
 #: upload/include/class.email.php:348
 msgid "Unable to login. Check SMTP settings."
-msgstr "Nem lehet bejelentkezni. Ellenőrízd az SMTP beállításokat."
+msgstr "Nem lehet bejelentkezni. Ellenőrízze az SMTP beállításokat."
 
 #: upload/include/class.email.php:380
 msgid "Unable to update email. Internal error occured"
@@ -4752,7 +4752,7 @@ msgstr "Nem lehet módosítani az email-t. Rendszerhiba történt"
 
 #: upload/include/class.email.php:390
 msgid "Error(s) Occured. Try again"
-msgstr "Hiba történt. Próbálkozz újra."
+msgstr "Hiba történt. Próbálkozzon újra."
 
 #: upload/include/class.dept.php:208
 msgid "Missing or invalid Dept ID"
@@ -4896,7 +4896,7 @@ msgstr "A lezárt hibajegyen NEM lehet lejárati dátumot beállítani"
 
 #: upload/include/class.ticket.php:1097 upload/include/class.ticket.php:1206
 msgid "Select time"
-msgstr "Válassz időt"
+msgstr "Válasszon időt"
 
 #: upload/include/class.ticket.php:1099 upload/include/class.ticket.php:1208
 msgid "Invalid duedate"
@@ -4956,7 +4956,7 @@ msgstr "byte engedélyezett"
 
 #: upload/include/class.ticket.php:1226
 msgid "You've reached the maximum open tickets allowed."
-msgstr "Elérted a megengedett nyitott hibajegyek maximális számát."
+msgstr "Elérte a megengedett nyitott hibajegyek maximális számát."
 
 #: upload/include/class.ticket.php:1252
 #, php-format
@@ -5017,7 +5017,7 @@ msgstr "A hibajegy meg lett jelölve a rendszer által, mint megkésett"
 
 #: upload/include/class.mailfetch.php:329
 msgid "PHP must be compiled with IMAP extension enabled for IMAP/POP3 fetch to work!"
-msgstr "A PHP-t IMAP támogatással kell lefordítanod, hogy az IMAP/POP3 letöltés működjön!"
+msgstr "A PHP-t IMAP támogatással kell lefordítani, hogy az IMAP/POP3 letöltés működjön!"
 
 #: upload/include/class.mailfetch.php:330
 msgid "Mail Fetch Error"
@@ -5053,7 +5053,7 @@ msgstr "Idő"
 
 #: upload/main.inc.php:78
 msgid "Error loading settings. Contact admin."
-msgstr "Hiba a beállítások betöltése közben. Lépj kapcsolatba az adminisztrátorral."
+msgstr "Hiba a beállítások betöltése közben. Lépjen kapcsolatba az adminisztrátorral."
 
 #: upload/main.inc.php:146
 msgid "Unable to connect to the database"
@@ -5061,7 +5061,7 @@ msgstr "Nem lehet kapcsolódni az adatbázishoz"
 
 #: upload/main.inc.php:148
 msgid "Unable to load config info from DB. Get tech support."
-msgstr "Nem lehet betölteni a beállításokat az adatbázisból. Kérj technikai segítséget."
+msgstr "Nem lehet betölteni a beállításokat az adatbázisból. Kérjen technikai segítséget."
 
 #: upload/main.inc.php:150
 msgid "Short open tag disabled! - osTicket requires it turned ON."
@@ -5073,7 +5073,7 @@ msgstr "Végzetes Hiba:"
 
 #: upload/main.inc.php:155
 msgid "Contact system adminstrator."
-msgstr "Lépj kapcsolatba a rendszer adminisztrátorral."
+msgstr "Lépjen kapcsolatba a rendszer adminisztrátorral."
 
 msgid "All Tickets"
 msgstr "Összes Hibajegy"
