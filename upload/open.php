@@ -20,10 +20,10 @@ $inc='open.inc.php';    //default include.
 $errors=array();
 if($_POST):
     $_POST['deptId']=$_POST['emailId']=0; //Just Making sure we don't accept crap...only topicId is expected.
-    if(!$thisuser && $cfg->enableCaptcha()){
+    if(!$thisclient && $cfg->enableCaptcha()){
         if(!$_POST['captcha'])
             $errors['captcha']=_('Enter text shown on the image');
-        elseif(strcmp($_SESSION['captcha'],md5($_POST['captcha'])))
+        elseif(strcmp($_SESSION['captcha'],md5(strtoupper($_POST['captcha']))))
             $errors['captcha']=_('Invalid - try again!');
     }
     //Ticket::create...checks for errors..
