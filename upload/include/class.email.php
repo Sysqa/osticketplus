@@ -176,7 +176,8 @@ class Email {
                        'text_encoding' => 'quoted-printable',
                        'html_encoding' => 'base64',
                        'html_charset'  => 'utf-8',
-                       'text_charset'  => 'utf-8');
+                       'text_charset'  => 'utf-8',
+		       'head_charset'  => 'utf-8');
         //encode the body
         $body = $mime->get($options);
         //encode the headers.
@@ -230,7 +231,8 @@ class Email {
                        'text_encoding' => 'quoted-printable',
                        'html_encoding' => 'base64',
                        'html_charset'  => 'utf-8',
-                       'text_charset'  => 'utf-8');
+                       'text_charset'  => 'utf-8',
+		       'head_charset'  => 'utf-8');
         //encode the body
         $body = $mime->get($options);
         //headers

@@ -25,7 +25,7 @@ if($answer && $_REQUEST['a']!='add'){
     <form action="kb.php" method="POST" name="group">
     <input type="hidden" name="a" value="<?=$action?>">
     <input type="hidden" name="id" value="<?=$info['premade_id']?>">
-    <tr><td width=80px>Title:</td>
+    <tr><td width=80px><?=_('Title')?>:</td>
         <td><input type="text" size=45 name="title" value="<?=$info['title']?>">
             &nbsp;<font class="error">*&nbsp;<?=$errors['title']?></font>
         </td>
